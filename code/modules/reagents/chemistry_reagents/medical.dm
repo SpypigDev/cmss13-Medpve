@@ -424,3 +424,15 @@
 	custom_metabolism = AMOUNT_PER_TIME(1, 200 SECONDS)
 	data = 0
 	properties = list(PROPERTY_CURING = 2)
+
+/datum/reagent/medical/quickclot
+	name = "Quick-Clot"
+	id = "quickclot"
+	description = "Vastly improves the blood's natural ability to coagulate and stop bleeding by hightening platelet production and effectiveness. Overdosing will cause extreme blood clotting, resulting in severe tissue damage."
+	reagent_state = LIQUID
+	color = "#CC00FF"
+	overdose = REAGENTS_OVERDOSE
+	overdose_critical = REAGENTS_OVERDOSE_CRITICAL
+	custom_metabolism = AMOUNT_PER_TIME(1, 40 SECONDS)
+	chemclass = CHEM_CLASS_COMMON
+	properties = list(PROPERTY_HEMOSTATIC = 1)

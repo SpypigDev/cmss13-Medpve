@@ -138,6 +138,11 @@
 		list("Roll of Gauze", round(scale * 7), /obj/item/stack/medical/bruise_pack, VENDOR_ITEM_REGULAR),
 		list("Splints", round(scale * 7), /obj/item/stack/medical/splint, VENDOR_ITEM_REGULAR),
 
+		list("ADVANCED FIELD SUPPLIES", -1, null, null),
+		list("Upgraded Burn Kit", round(scale * 2), /obj/item/stack/medical/advanced/ointment/upgraded, VENDOR_ITEM_REGULAR),
+		list("Upgraded Trauma Kit", round(scale * 2), /obj/item/stack/medical/advanced/bruise_pack/upgraded, VENDOR_ITEM_REGULAR),
+		list("Nano Splints", round(scale * 2), /obj/item/stack/medical/splint/nano, VENDOR_ITEM_REGULAR),
+
 		list("AUTOINJECTORS", -1, null, null),
 		list("Autoinjector (Bicaridine)", round(scale * 5), /obj/item/reagent_container/hypospray/autoinjector/bicaridine, VENDOR_ITEM_REGULAR),
 		list("Autoinjector (Dexalin+)", round(scale * 5), /obj/item/reagent_container/hypospray/autoinjector/dexalinp, VENDOR_ITEM_REGULAR),
@@ -166,6 +171,14 @@
 		list("Pill Bottle (Peridaxon)", round(scale * 2), /obj/item/storage/pill_bottle/peridaxon, VENDOR_ITEM_REGULAR),
 		list("Pill Bottle (Tramadol)", round(scale * 3), /obj/item/storage/pill_bottle/tramadol, VENDOR_ITEM_REGULAR),
 		list("Pill Bottle (Tricordazine)", round(scale * 3), /obj/item/storage/pill_bottle/tricord, VENDOR_ITEM_REGULAR),
+
+		list("RESTRICTED", -1, null, null),
+		list("Pill Bottle (MB)", round(scale * 3), /obj/item/storage/pill_bottle/merabica, VENDOR_ITEM_REGULAR),
+		list("Pill Bottle (KD)", round(scale * 3), /obj/item/storage/pill_bottle/keloderm, VENDOR_ITEM_REGULAR),
+		list("Pill Bottle (IA)", round(scale * 3), /obj/item/storage/pill_bottle/imialk, VENDOR_ITEM_REGULAR),
+		list("Pill Bottle (ATD)", round(scale * 1), /obj/item/storage/pill_bottle/atd, VENDOR_ITEM_REGULAR),
+		list("Pill Bottle (NW)", round(scale * 3), /obj/item/storage/pill_bottle/nitrogenwater, VENDOR_ITEM_REGULAR),
+		list("Pill Packet (QC)", round(scale * 1), /obj/item/storage/pill_bottle/packet/quickclot, VENDOR_ITEM_REGULAR),
 
 		list("MEDICAL UTILITIES", -1, null, null),
 		list("Surgical Line", round(scale * 2), /obj/item/tool/surgery/surgical_line, VENDOR_ITEM_REGULAR),

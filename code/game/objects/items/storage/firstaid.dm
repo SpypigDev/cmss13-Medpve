@@ -762,6 +762,12 @@
 	pill_type_to_fill = /obj/item/reagent_container/pill/tricordrazine
 	maptext_label = "Ti"
 
+/obj/item/storage/pill_bottle/atd
+	name = "\improper AriTricaDylo pill bottle"
+	icon_state = "pill_canister"
+	pill_type_to_fill = /obj/item/reagent_container/pill/atd
+	maptext_label = "ATD"
+
 //---------PILL PACKETS---------
 /obj/item/storage/pill_bottle/packet
 	name = "\improper pill packet"
@@ -804,3 +810,9 @@
 	icon_state = "oxycodone_packet"
 	desc = "This packet contains oxycodone pills. A highly effective painkiller. Once you take them out, they don't go back in. Don't take more than 1 pill in a short period."
 	pill_type_to_fill = /obj/item/reagent_container/pill/oxycodone
+
+/obj/item/storage/pill_bottle/packet/quickclot
+	name = "quick-clot pill packet"
+	icon_state = "bicaridine_packet"
+	desc = "This packet contains quick-clot pills. Halts blood flow from most types of wounds. Once you take them out, they don't go back in. Don't take more than 2 pills in a short period."
+	pill_type_to_fill = /obj/item/reagent_container/pill/quickclot

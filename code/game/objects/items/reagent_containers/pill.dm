@@ -299,3 +299,13 @@
 	pill_desc = "A pill containing nitrogen and water. Used to treat Tramadol overdoses."
 	pill_initial_reagents = list("nitrogen" = 15, "water" = 15)
 	pill_icon_class = "spac"
+
+/obj/item/reagent_container/pill/quickclot
+	pill_desc = "A Quick-Clot pill. Used to treat burns."
+	pill_initial_reagents = list("quickclot" = 15)
+	pill_icon_class = "qc"
+
+/obj/item/reagent_container/pill/atd
+	pill_desc = "A AriTricaDylo mixed pill. Used to quickly treat toxin damage."
+	pill_initial_reagents = list("dylovene" = 5, "arithrazine" = 5, "tricordazine" = 5)
+	pill_icon_class = "qc"
