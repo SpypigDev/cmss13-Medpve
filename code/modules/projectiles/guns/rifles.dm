@@ -1974,6 +1974,7 @@
 	reload_sound = 'sound/weapons/handling/l42_reload.ogg'
 	unload_sound = 'sound/weapons/handling/l42_unload.ogg'
 	current_mag = /obj/item/ammo_magazine/rifle/m14
+	// M14 mags need to be added to code
 	attachable_allowed = list(
 		/obj/item/attachable/suppressor,
 		/obj/item/attachable/bayonet,
@@ -1990,7 +1991,6 @@
 		/obj/item/attachable/lasersight,
 		/obj/item/attachable/scope,
 		/obj/item/attachable/scope/mini,
-		/obj/item/attachable/scope/mini_iff,
 		/obj/item/attachable/flashlight/grip,
 	)
 
@@ -2005,14 +2005,16 @@
 
 /obj/item/weapon/gun/rifle/m14/set_gun_config_values()
 	..()
-	set_fire_delay(FIRE_DELAY_TIER_9)
-	set_burst_amount(0)
-	accuracy_mult = BASE_ACCURACY_MULT + HIT_ACCURACY_MULT_TIER_5
-	accuracy_mult_unwielded = BASE_ACCURACY_MULT - HIT_ACCURACY_MULT_TIER_4
+	set_burst_amount(BURST_AMOUNT_TIER_3)
+	set_fire_delay(FIRE_DELAY_TIER_4)
+	accuracy_mult = BASE_ACCURACY_MULT + HIT_ACCURACY_MULT_TIER_3
+	accuracy_mult_unwielded = BASE_ACCURACY_MULT - HIT_ACCURACY_MULT_TIER_10
+	scatter = SCATTER_AMOUNT_TIER_6
+	burst_scatter_mult = SCATTER_AMOUNT_TIER_6
+	scatter_unwielded = SCATTER_AMOUNT_TIER_2
 	damage_mult = BASE_BULLET_DAMAGE_MULT + BULLET_DAMAGE_MULT_TIER_8
-	recoil_unwielded = RECOIL_AMOUNT_TIER_4
-	damage_falloff_mult = 0
-	scatter = SCATTER_AMOUNT_TIER_8
+	recoil = RECOIL_AMOUNT_TIER_4
+	recoil_unwielded = RECOIL_AMOUNT_TIER_2
 
 /obj/item/weapon/gun/rifle/m14/handle_starting_attachment()
 	..()
@@ -2020,66 +2022,3 @@
 	integrated.flags_attach_features &= ~ATTACH_REMOVABLE
 	integrated.Attach(src)
 	update_attachable(integrated.slot)
-
-/obj/item/weapon/gun/rifle/m14/training
-	current_mag = /obj/item/ammo_magazine/rifle/m14/rubber
-
-// pve - kinda weird icon usage, uses urban M4RA sprite w/ custom attachie sprite
-/obj/item/weapon/gun/rifle/m14/pve
-	name = "\improper M4RA-R2 battle rifle"
-	desc = "The M4RA-R2 is a souped-up M4RA, the result of an ARMAT upgrade program that didn't pan out in huge numbers. Its main attraction is the ability to chamber and fire devastating <b>A19 depleted uranium rounds,</b> infamous for their overpenetration abilities and toxic effects on anyone unfortunate enough to survive a hit. The thicker barrel, of course, also has no issue with non-HV ammo."
-	desc_lore = "The USCMC was not terribly enthusiastic about unproven hand-held plasma weaponry. Before the XM99A was eventually adopted into use, the USCMC instead sought out a traditional squad-portable, precision, armor-piercing weapon, and contracted ARMAT to upgrade their M4RA platform to be capable of firing advanced AP rounds. They succeeded- sort of. <BR> <BR>  The R2 was rejected for several reasons. It's a killer, but also a piece of junk. It kicks hard enough that precision sights simply don't stay zeroed, and its oversized muzzle-device extends an already long barrel-length. Additionally, A19 ammo, already expensive, was driven to absurd highs by the ammunition's specs. Depleted uranium is expensive...and cutting the service life of the M4RA's barrel in half is even more expensive. <BR> <BR> Those that were made, however, are still service-ready and were issued where the XM99A was unavailable due to its production only just starting."
-	icon = 'icons/obj/items/weapons/guns/guns_by_map/urban/guns_obj.dmi'
-	icon_state = "m4ra"
-	item_state = "m4ra"
-	fire_sound = 'sound/weapons/gun_m4ra.ogg'
-	reload_sound = 'sound/weapons/handling/l42_reload.ogg'
-	unload_sound = 'sound/weapons/handling/l42_unload.ogg'
-
-	current_mag = /obj/item/ammo_magazine/rifle/m14/pve
-	attachable_allowed = list(
-		/obj/item/attachable/reddot,
-		/obj/item/attachable/reflex,
-		/obj/item/attachable/flashlight,
-		/obj/item/attachable/extended_barrel,
-		/obj/item/attachable/magnetic_harness,
-		/obj/item/attachable/bipod,
-		/obj/item/attachable/verticalgrip,
-		/obj/item/attachable/angledgrip,
-		/obj/item/attachable/lasersight,
-		/obj/item/attachable/scope,
-		/obj/item/attachable/scope/mini,
-		/obj/item/attachable/scope/mini_iff,
-		/obj/item/attachable/flashlight/grip,
-	)
-
-	flags_gun_features = GUN_AUTO_EJECTOR|GUN_CAN_POINTBLANK|GUN_AMMO_COUNTER
-	wield_delay = WIELD_DELAY_VERY_FAST
-	aim_slowdown = SLOWDOWN_ADS_QUICK
-	map_specific_decoration = FALSE
-
-/obj/item/weapon/gun/rifle/m14/pve/set_gun_config_values()
-	..()
-	set_fire_delay(FIRE_DELAY_TIER_4)
-	recoil_unwielded = RECOIL_AMOUNT_TIER_1
-	recoil = RECOIL_AMOUNT_TIER_3
-
-
-// obnoxiously enough, need to do this manually...
-	item_icons = list(
-		WEAR_L_HAND = 'icons/obj/items/weapons/guns/guns_by_map/urban/guns_lefthand.dmi',
-		WEAR_R_HAND = 'icons/obj/items/weapons/guns/guns_by_map/urban/guns_righthand.dmi',
-		WEAR_BACK = 'icons/obj/items/weapons/guns/guns_by_map/urban/back.dmi'
-	)
-
-/obj/item/weapon/gun/rifle/m14/pve/handle_starting_attachment()
-	..()
-	var/obj/item/attachable/m4ra_barrel/pve/integrated = new(src)
-	integrated.flags_attach_features &= ~ATTACH_REMOVABLE
-	var/obj/item/attachable/old_barrel = attachments[integrated.slot]
-	if(old_barrel)
-		old_barrel.Detach(detaching_gub = src, drop_attachment = FALSE)
-		qdel(old_barrel)
-	integrated.Attach(src)
-	update_attachable(integrated.slot)
-
