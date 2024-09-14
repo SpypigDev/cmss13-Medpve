@@ -1963,18 +1963,18 @@
 	update_attachable(f90_shotgun.slot)
 	update_attachable(f90_shotgun_barrel.slot)
 
-//M14 Modular Rifle
+//m5ra Rifle
 
-/obj/item/weapon/gun/rifle/m14
-	name = "\improper M14 modular rifle"
-	desc = "The M14 modular rifle is a designated marksman rifle in service with the USCM. Sporting a bullpup configuration, the M4RA battle rifle is perfect for reconnaissance and fire support teams.\nTakes *only* non-high-velocity M14 magazines."
+/obj/item/weapon/gun/rifle/m5ra
+	name = "\improper m5ra rifle"
+	desc = "The m5ra rifle is a next gen designated marksman rifle in trial service with the USCM. The M4RA battle rifle is perfect for reconnaissance and fire support teams.\nTakes *only* m5ra magazines."
 	icon_state = "m4ra"
 	item_state = "m4ra"
 	fire_sound = 'sound/weapons/gun_m4ra.ogg'
 	reload_sound = 'sound/weapons/handling/l42_reload.ogg'
 	unload_sound = 'sound/weapons/handling/l42_unload.ogg'
-	current_mag = /obj/item/ammo_magazine/rifle/m14
-	// M14 mags need to be added to code
+	current_mag = /obj/item/ammo_magazine/rifle/m5ra
+	// m5ra mags need to be added to code
 	attachable_allowed = list(
 		/obj/item/attachable/suppressor,
 		/obj/item/attachable/bayonet,
@@ -2000,10 +2000,10 @@
 	map_specific_decoration = TRUE
 
 // Sprite offsets need to be configured - murphy
-/obj/item/weapon/gun/rifle/m14/set_gun_attachment_offsets()
+/obj/item/weapon/gun/rifle/m5ra/set_gun_attachment_offsets()
 	attachable_offset = list("muzzle_x" = 43, "muzzle_y" = 17,"rail_x" = 22, "rail_y" = 21, "under_x" = 30, "under_y" = 13, "stock_x" = 24, "stock_y" = 13, "special_x" = 37, "special_y" = 16)
 
-/obj/item/weapon/gun/rifle/m14/set_gun_config_values()
+/obj/item/weapon/gun/rifle/m5ra/set_gun_config_values()
 	..()
 	set_burst_amount(BURST_AMOUNT_TIER_3)
 	set_fire_delay(FIRE_DELAY_TIER_4)
@@ -2016,7 +2016,7 @@
 	recoil = RECOIL_AMOUNT_TIER_4
 	recoil_unwielded = RECOIL_AMOUNT_TIER_2
 
-/obj/item/weapon/gun/rifle/m14/handle_starting_attachment()
+/obj/item/weapon/gun/rifle/m5ra/handle_starting_attachment()
 	..()
 	var/obj/item/attachable/m4ra_barrel/integrated = new(src)
 	integrated.flags_attach_features &= ~ATTACH_REMOVABLE
