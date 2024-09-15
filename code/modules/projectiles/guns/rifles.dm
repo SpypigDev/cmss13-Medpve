@@ -1968,8 +1968,9 @@
 /obj/item/weapon/gun/rifle/m14
 	name = "\improper M14 modular rifle"
 	desc = "The M14 modular rifle is a designated marksman rifle in service with the USCM. Sporting a bullpup configuration, the M4RA battle rifle is perfect for reconnaissance and fire support teams.\nTakes *only* non-high-velocity M14 magazines."
-	icon_state = "m4ra"
-	item_state = "m4ra"
+	icon = 'icons/obj/items/weapons/guns/guns_by_faction/uscm.dmi'
+	icon_state = "m14"
+	item_state = "m14"
 	fire_sound = 'sound/weapons/gun_m4ra.ogg'
 	reload_sound = 'sound/weapons/handling/l42_reload.ogg'
 	unload_sound = 'sound/weapons/handling/l42_unload.ogg'
@@ -1996,11 +1997,10 @@
 	flags_gun_features = GUN_AUTO_EJECTOR|GUN_CAN_POINTBLANK|GUN_AMMO_COUNTER
 	wield_delay = WIELD_DELAY_VERY_FAST
 	aim_slowdown = SLOWDOWN_ADS_QUICK
-	map_specific_decoration = TRUE
+	map_specific_decoration = FALSE
 
-// Sprite offsets need to be configured - murphy
 /obj/item/weapon/gun/rifle/m14/set_gun_attachment_offsets()
-	attachable_offset = list("muzzle_x" = 43, "muzzle_y" = 17,"rail_x" = 22, "rail_y" = 21, "under_x" = 30, "under_y" = 13, "stock_x" = 24, "stock_y" = 13, "special_x" = 37, "special_y" = 16)
+	attachable_offset = list("muzzle_x" = 32, "muzzle_y" = 17,"rail_x" = 13, "rail_y" = 19, "under_x" = 26, "under_y" = 14, "stock_x" = 24, "stock_y" = 13, "special_x" = 39, "special_y" = 18)
 
 /obj/item/weapon/gun/rifle/m14/set_gun_config_values()
 	..()
@@ -2021,3 +2021,4 @@
 	integrated.flags_attach_features &= ~ATTACH_REMOVABLE
 	integrated.Attach(src)
 	update_attachable(integrated.slot)
+
