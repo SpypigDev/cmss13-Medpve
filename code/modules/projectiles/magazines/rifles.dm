@@ -287,29 +287,40 @@
 	name = "\improper M14 magazine (10x24mm)"
 	desc = "A magazine for the M14 modular rifle."
 	caliber = "10x24mm"
-	icon = 'icons/obj/items/weapons/guns/ammo_by_faction/uscm.dmi'
-	icon_state = "vulture"
+	icon = 'icons/obj/items/weapons/guns/ammo_by_faction/twe_ammo.dmi'
+	icon_state = "aug"
 	default_ammo = /datum/ammo/bullet/rifle
 	max_rounds = 25
 	gun_type = /obj/item/weapon/gun/rifle/m14
-	ammo_band_icon = "+m4ra_band"
-	ammo_band_icon_empty = "+m4ra_band_e"
+	ammo_band_icon = "+aug_band"
+	ammo_band_icon_empty = "+aug_band_e"
 	w_class = SIZE_SMALL
 
 /obj/item/ammo_magazine/rifle/m14/holo_target
-	name = "\improper M14 Hollow-Point magazine (10x24mm)"
-	desc = "A hollow-point magazine for the M14 modular rifle."
-	icon = 'icons/obj/items/weapons/guns/ammo_by_faction/uscm.dmi'
-	icon_state = "vulture"
+	name = "\improper M14 Holo-Targeting magazine (10x24mm)"
+	desc = "A holo-targeting magazine for the M14 modular rifle."
+	icon = 'icons/obj/items/weapons/guns/ammo_by_faction/twe_ammo.dmi'
+	icon_state = "aug"
 	default_ammo = /datum/ammo/bullet/rifle/holo_target
+	ammo_band_color = AMMO_BAND_COLOR_HOLOTARGETING
+	max_rounds = 25
+
+/obj/item/ammo_magazine/rifle/m14/hollowpoint
+	name = "\improper M14 Hollowpoint magazine (10x24mm)"
+	desc = "A hollow-point magazine for the M14 modular rifle."
+	icon = 'icons/obj/items/weapons/guns/ammo_by_faction/twe_ammo.dmi'
+	icon_state = "aug"
+	default_ammo = /datum/ammo/bullet/rifle/holo_target
+	ammo_band_color = AMMO_BAND_COLOR_HOLLOWPOINT
 	max_rounds = 25
 
 /obj/item/ammo_magazine/rifle/m14/ap
 	name = "\improper M14 APFSDS prototype ammo magazine (10x24mm)"
 	desc = "A Armour-piercing fin-stabilized discarding sabot prototype magazine for the M14 modular rifle."
-	icon = 'icons/obj/items/weapons/guns/ammo_by_faction/uscm.dmi'
-	icon_state = "vulture"
+	icon = 'icons/obj/items/weapons/guns/ammo_by_faction/twe_ammo.dmi'
+	icon_state = "aug"
 	default_ammo = /datum/ammo/bullet/rifle/m14/apfsds
+	ammo_band_color = AMMO_BAND_COLOR_AP
 	max_rounds = 25
 
 //-------------------------------------------------------

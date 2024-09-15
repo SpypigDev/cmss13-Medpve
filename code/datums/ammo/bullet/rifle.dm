@@ -91,6 +91,13 @@
 		BULLET_TRAIT_ENTRY(/datum/element/bullet_trait_penetrating)
 	))
 
+/datum/ammo/bullet/rifle/hollowpoint
+	name = "hollowpoint rifle bullet"
+
+	damage = 45 //hollowpoint is strong
+	penetration = 0 //hollowpoint can't pierce armor!
+	shrapnel_chance = SHRAPNEL_CHANCE_TIER_3 //hollowpoint causes shrapnel
+
 /datum/ammo/bullet/rifle/le
 	name = "armor-shredding rifle bullet"
 
