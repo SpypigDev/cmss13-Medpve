@@ -419,3 +419,19 @@
 	new /obj/item/ammo_magazine/pistol(src)
 	new /obj/item/ammo_magazine/pistol(src)
 	new /obj/item/ammo_magazine/pistol(src)
+
+//------------
+/obj/item/storage/box/guncase/m14
+	name = "\improper M14 Modular Rifle case"
+	desc = "A gun case containing a M14 Modular Rifle."
+	storage_slots = 8
+	can_hold = list(/obj/item/weapon/gun/rifle/m41a, /obj/item/ammo_magazine/rifle)
+
+/obj/item/storage/box/guncase/m14/fill_preset_inventory()
+	new /obj/item/weapon/gun/rifle/m14(src)
+	new /obj/item/attachable/scope/m14_adv(src)
+	new /obj/item/attachable/angledgrip(src)
+	for(var/i = 1 to 3)
+		new /obj/item/ammo_magazine/rifle/m14(src)
+	for(var/z = 1 to 2)
+		new /obj/item/ammo_magazine/rifle/m14/hollowpoint(src)
