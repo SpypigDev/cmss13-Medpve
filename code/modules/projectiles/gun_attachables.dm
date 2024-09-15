@@ -1222,11 +1222,10 @@ Defined in conflicts.dm of the #defines folder.
 
 /obj/item/attachable/scope/m14_adv/New()
 	..()
-	damage_mod = -BULLET_DAMAGE_MULT_TIER_4
 	movement_onehanded_acc_penalty_mod = MOVEMENT_ACCURACY_PENALTY_MULT_TIER_6
 	accuracy_unwielded_mod = 0
 
-	accuracy_scoped_buff = HIT_ACCURACY_MULT_TIER_1
+	accuracy_scoped_buff = HIT_ACCURACY_MULT_TIER_8
 	delay_scoped_nerf = 0
 	damage_falloff_scoped_buff = 0
 

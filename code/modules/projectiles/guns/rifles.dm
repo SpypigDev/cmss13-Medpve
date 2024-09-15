@@ -2006,19 +2006,18 @@
 /obj/item/weapon/gun/rifle/m14/set_gun_config_values()
 	..()
 	set_burst_amount(BURST_AMOUNT_TIER_3)
-	set_fire_delay(FIRE_DELAY_TIER_4)
+	set_fire_delay(FIRE_DELAY_TIER_2)
 	accuracy_mult = BASE_ACCURACY_MULT + HIT_ACCURACY_MULT_TIER_3
 	accuracy_mult_unwielded = BASE_ACCURACY_MULT - HIT_ACCURACY_MULT_TIER_10
-	scatter = SCATTER_AMOUNT_TIER_6
+	scatter = SCATTER_AMOUNT_TIER_3
 	burst_scatter_mult = SCATTER_AMOUNT_TIER_1
-	scatter_unwielded = SCATTER_AMOUNT_TIER_2
+	scatter_unwielded = SCATTER_AMOUNT_TIER_1
 	damage_mult = BASE_BULLET_DAMAGE_MULT + BULLET_DAMAGE_MULT_TIER_8
 	recoil = RECOIL_AMOUNT_TIER_4
 	recoil_unwielded = RECOIL_AMOUNT_TIER_2
 
 /obj/item/weapon/gun/rifle/m14/handle_starting_attachment()
 	..()
-	starting_attachment_types = list(/obj/item/attachable/scope/m14_adv)
 	var/obj/item/attachable/m14intbarrel = new /obj/item/attachable/m14_barrel(src)
 	m14intbarrel.flags_attach_features &= ~ATTACH_REMOVABLE
 	m14intbarrel.Attach(src)
