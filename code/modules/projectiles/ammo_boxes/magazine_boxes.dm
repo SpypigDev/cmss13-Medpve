@@ -430,35 +430,3 @@
 
 /obj/item/ammo_box/magazine/nailgun/empty
 	empty = TRUE
-
-//-----------------------M14 Modular Rifle Mag Boxes-----------------------
-
-/obj/item/ammo_box/magazine/m14
-	name = "\improper magazine box (m14 x 16)"
-	icon_state = "base_m4ra"
-	flags_equip_slot = SLOT_BACK
-	overlay_gun_type = "_m14"
-	num_of_magazines = 16
-	magazine_type = /obj/item/ammo_magazine/rifle/m14
-
-/obj/item/ammo_box/magazine/m14/empty
-	empty = TRUE
-
-/obj/item/ammo_box/magazine/m14/ap
-	name = "\improper magazine box (APFSDS m14 x 16)"
-	overlay_ammo_type = "_ap"
-	overlay_content = "_ap"
-	magazine_type = /obj/item/ammo_magazine/rifle/m14/ap
-
-/obj/item/ammo_box/magazine/m14/ap/empty
-	empty = TRUE
-
-/obj/item/ammo_box/magazine/m14/hp
-	name = "\improper magazine box (HP m14 x 16)"
-	overlay_ammo_type = "_hp"
-	overlay_content = "_hp"
-	magazine_type = /obj/item/ammo_magazine/rifle/m14/hollowpoint
-
-/obj/item/ammo_box/magazine/m14/hp/empty
-	empty = TRUE
-
