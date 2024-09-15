@@ -306,10 +306,10 @@
 
 /obj/item/ammo_magazine/rifle/m14/ap
 	name = "\improper M14 APFSDS prototype ammo magazine (10x24mm)"
-	desc = "A APFSDS prototype, heavy AP magazine for the M14 modular rifle."
+	desc = "A Armour-piercing fin-stabilized discarding sabot prototype magazine for the M14 modular rifle."
 	icon = 'icons/obj/items/weapons/guns/ammo_by_faction/uscm.dmi'
 	icon_state = "vulture"
-	default_ammo = /datum/ammo/bullet/rifle/le
+	default_ammo = /datum/ammo/bullet/rifle/m14/apfsds
 	max_rounds = 25
 
 //-------------------------------------------------------
