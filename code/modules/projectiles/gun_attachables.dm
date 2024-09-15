@@ -2329,6 +2329,18 @@ Defined in conflicts.dm of the #defines folder.
 	melee_mod = 0
 	size_mod = 0
 
+/obj/item/attachable/m14_barrel
+	name = "M14 Barrel"
+	desc = "This isn't supposed to be separated from the gun, how'd this happen?"
+	icon = 'icons/obj/items/weapons/guns/attachments/barrel.dmi'
+	icon_state = "m14_barrel"
+	attach_icon = "m14_barrel"
+	slot = "special"
+	wield_delay_mod = WIELD_DELAY_NONE
+	flags_attach_features = NO_FLAGS
+	melee_mod = 0
+	size_mod = 0
+
 /obj/item/attachable/type73suppressor
 	name = "Type 73 Integrated Suppressor"
 	desc = "This isn't supposed to be separated from the gun, how'd this happen?"

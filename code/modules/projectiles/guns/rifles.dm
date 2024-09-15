@@ -2017,8 +2017,9 @@
 
 /obj/item/weapon/gun/rifle/m14/handle_starting_attachment()
 	..()
-	var/obj/item/attachable/m4ra_barrel/integrated = new(src)
-	integrated.flags_attach_features &= ~ATTACH_REMOVABLE
-	integrated.Attach(src)
-	update_attachable(integrated.slot)
+	var/obj/item/attachable/attachie = new /obj/item/attachable/m14_barrel(src)
+	attachie.flags_attach_features &= ~ATTACH_REMOVABLE
+	attachie.Attach(src)
+	update_attachable(attachie.slot)
+
 
