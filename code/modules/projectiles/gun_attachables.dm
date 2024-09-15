@@ -1217,7 +1217,7 @@ Defined in conflicts.dm of the #defines folder.
 	slot = "rail"
 	zoom_offset = 6
 	zoom_viewsize = 7
-	//pixel_shift_y = 15
+	pixel_shift_y = 15
 	var/dynamic_aim_slowdown = SLOWDOWN_ADS_MINISCOPE_DYNAMIC
 
 /obj/item/attachable/scope/m14_adv/New()

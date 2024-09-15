@@ -2001,7 +2001,7 @@
 	map_specific_decoration = FALSE
 
 /obj/item/weapon/gun/rifle/m14/set_gun_attachment_offsets()
-	attachable_offset = list("muzzle_x" = 50, "muzzle_y" = 17,"rail_x" = 13, "rail_y" = 19, "under_x" = 26, "under_y" = 13, "stock_x" = 24, "stock_y" = 13, "special_x" = 37, "special_y" = 15)
+	attachable_offset = list("muzzle_x" = 44, "muzzle_y" = 16,"rail_x" = 13, "rail_y" = 17, "under_x" = 26, "under_y" = 14, "stock_x" = 24, "stock_y" = 13, "special_x" = 37, "special_y" = 15)
 
 /obj/item/weapon/gun/rifle/m14/set_gun_config_values()
 	..()
