@@ -1991,6 +1991,7 @@
 		/obj/item/attachable/lasersight,
 		/obj/item/attachable/scope,
 		/obj/item/attachable/scope/mini,
+		/obj/item/attachable/scope/m14_adv,
 		/obj/item/attachable/flashlight/grip,
 	)
 
@@ -2000,7 +2001,7 @@
 	map_specific_decoration = FALSE
 
 /obj/item/weapon/gun/rifle/m14/set_gun_attachment_offsets()
-	attachable_offset = list("muzzle_x" = 32, "muzzle_y" = 17,"rail_x" = 13, "rail_y" = 19, "under_x" = 26, "under_y" = 14, "stock_x" = 24, "stock_y" = 13, "special_x" = 39, "special_y" = 18)
+	attachable_offset = list("muzzle_x" = 50, "muzzle_y" = 17,"rail_x" = 13, "rail_y" = 19, "under_x" = 26, "under_y" = 13, "stock_x" = 24, "stock_y" = 13, "special_x" = 37, "special_y" = 15)
 
 /obj/item/weapon/gun/rifle/m14/set_gun_config_values()
 	..()
@@ -2017,9 +2018,11 @@
 
 /obj/item/weapon/gun/rifle/m14/handle_starting_attachment()
 	..()
-	var/obj/item/attachable/attachie = new /obj/item/attachable/m14_barrel(src)
-	attachie.flags_attach_features &= ~ATTACH_REMOVABLE
-	attachie.Attach(src)
-	update_attachable(attachie.slot)
+	starting_attachment_types = list(/obj/item/attachable/scope/m14_adv)
+	var/obj/item/attachable/m14intbarrel = new /obj/item/attachable/m14_barrel(src)
+	m14intbarrel.flags_attach_features &= ~ATTACH_REMOVABLE
+	m14intbarrel.Attach(src)
+	update_attachable(m14intbarrel.slot)
+
 
 

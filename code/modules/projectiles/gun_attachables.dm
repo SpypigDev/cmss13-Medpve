@@ -649,6 +649,22 @@ Defined in conflicts.dm of the #defines folder.
 	name = "PK-12 Reflex Sight"
 	desc = "Reflector type gunsight compatible with most standard issue UPP firearms. Durable but the power supply is notoriously unreliable. Reduces scatter significantly and boosts accuracy slightly."
 
+/obj/item/attachable/reflex
+	name = "S6 reflex sight"
+	desc = "An ARMAT S6 reflex sight, type designated as the AN/PVG-72 Reflex. Zero-magnification alternative to irons, decreases scatter during burst fire. Can link with mil-HUDs for a limited CCIP."
+	icon = 'icons/obj/items/weapons/guns/attachments/rail.dmi'
+	icon_state = "reflex"
+	attach_icon = "reflex_a"
+	slot = "rail"
+
+/obj/item/attachable/reflex/New()
+	..()
+	accuracy_mod = HIT_ACCURACY_MULT_TIER_3
+	accuracy_unwielded_mod = HIT_ACCURACY_MULT_TIER_1
+	scatter_mod = -SCATTER_AMOUNT_TIER_10
+	burst_scatter_mod = -1
+	movement_onehanded_acc_penalty_mod = MOVEMENT_ACCURACY_PENALTY_MULT_TIER_5
+
 /obj/item/attachable/flashlight
 	name = "rail flashlight"
 	desc = "Railmounted flashlight. Pretty generic. Surprisingly high intensity, as it's a better light source than the suit lamps of most armor systems."
@@ -1190,6 +1206,46 @@ Defined in conflicts.dm of the #defines folder.
 		G.slowdown += dynamic_aim_slowdown
 
 /obj/item/attachable/scope/mini_iff/remove_scoped_buff(mob/living/carbon/user, obj/item/weapon/gun/G)
+	G.slowdown -= dynamic_aim_slowdown
+	..()
+
+/obj/item/attachable/scope/m14_adv
+	name = "M14 Advanced Composite Scope"
+	icon_state = "reflex"
+	attach_icon = "reflex_a"
+	desc = "An experimental M14 Advanced Composite Smart-Scope, type designation XLS-51."
+	slot = "rail"
+	zoom_offset = 6
+	zoom_viewsize = 7
+	//pixel_shift_y = 15
+	var/dynamic_aim_slowdown = SLOWDOWN_ADS_MINISCOPE_DYNAMIC
+
+/obj/item/attachable/scope/m14_adv/New()
+	..()
+	damage_mod = -BULLET_DAMAGE_MULT_TIER_4
+	movement_onehanded_acc_penalty_mod = MOVEMENT_ACCURACY_PENALTY_MULT_TIER_6
+	accuracy_unwielded_mod = 0
+
+	accuracy_scoped_buff = HIT_ACCURACY_MULT_TIER_1
+	delay_scoped_nerf = 0
+	damage_falloff_scoped_buff = 0
+
+/obj/item/attachable/scope/m14_adv/set_bullet_traits()
+	LAZYADD(traits_to_give, list(
+		BULLET_TRAIT_ENTRY(/datum/element/bullet_trait_iff)
+	))
+
+/obj/item/attachable/scope/m14_adv/activate_attachment(obj/item/weapon/gun/G, mob/living/carbon/user, turn_off)
+	if(do_after(user, 8, INTERRUPT_ALL, BUSY_ICON_HOSTILE))
+		allows_movement = 1
+		. = ..()
+
+/obj/item/attachable/scope/m14_adv/apply_scoped_buff(obj/item/weapon/gun/G, mob/living/carbon/user)
+	. = ..()
+	if(G.zoom)
+		G.slowdown += dynamic_aim_slowdown
+
+/obj/item/attachable/scope/m14_adv/remove_scoped_buff(mob/living/carbon/user, obj/item/weapon/gun/G)
 	G.slowdown -= dynamic_aim_slowdown
 	..()
 
