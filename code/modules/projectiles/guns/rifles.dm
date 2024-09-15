@@ -1971,9 +1971,10 @@
 	icon = 'icons/obj/items/weapons/guns/guns_by_faction/uscm.dmi'
 	icon_state = "m14"
 	item_state = "m14"
-	fire_sound = 'sound/weapons/gun_m4ra.ogg'
-	reload_sound = 'sound/weapons/handling/l42_reload.ogg'
-	unload_sound = 'sound/weapons/handling/l42_unload.ogg'
+	fire_sound = 'sound/weapons/gun_m14.ogg'
+	reload_sound = 'sound/weapons/gun_m14_reload.ogg'
+	unload_sound = 'sound/weapons/gun_m14_unload.ogg'
+	cocked_sound = 'sound/weapons/gun_m14_cocked.ogg'
 	current_mag = /obj/item/ammo_magazine/rifle/m14
 	attachable_allowed = list(
 		/obj/item/attachable/suppressor,
