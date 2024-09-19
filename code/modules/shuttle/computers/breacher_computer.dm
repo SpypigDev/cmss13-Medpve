@@ -1,9 +1,9 @@
-#define STATE_IDLE 4 //Pod is idle, not ready to launch.
-#define STATE_BROKEN 5 //Pod failed to launch, is now broken.
-#define STATE_READY 6 //Pod is armed and ready to go.
-#define STATE_DELAYED 7 //Pod is being delayed from launching automatically.
-#define STATE_LAUNCHING 8 //Pod is about to launch.
-#define STATE_LAUNCHED 9 //Pod has successfully launched.
+#define STATE_IDLEB 4 //Pod is idle, not ready to launch.
+#define STATE_BROKENB 5 //Pod failed to launch, is now broken.
+#define STATE_READYB 6 //Pod is armed and ready to go.
+#define STATE_DELAYEDB 7 //Pod is being delayed from launching automatically.
+#define STATE_LAUNCHINGB 8 //Pod is about to launch.
+#define STATE_LAUNCHEDB 9 //Pod has successfully launched.
 
 /obj/structure/machinery/computer/shuttle/breacher_pod_panel
 	name = "breacher shuttle controller"
@@ -11,7 +11,7 @@
 	icon_state = "airlock_control_standby"
 	unslashable = TRUE
 	unacidable = TRUE
-	var/pod_state = STATE_IDLE
+	var/pod_state = STATE_IDLEB
 	var/launch_without_evac = FALSE
 
 /obj/structure/machinery/computer/shuttle/breacher_pod_panel/ex_act(severity)
@@ -42,17 +42,17 @@
 	. = list()
 	var/obj/docking_port/mobile/crashable/breacher/shuttle = SSshuttle.getShuttle(shuttleId)
 
-	if(pod_state == STATE_IDLE && shuttle.evac_set)
-		pod_state = STATE_READY
+	if(pod_state == STATE_IDLEB && shuttle.evac_set)
+		pod_state = STATE_READYB
 
 	.["docking_status"] = pod_state
 	switch(shuttle.mode)
 		if(SHUTTLE_CRASHED)
-			.["docking_status"] = STATE_BROKEN
+			.["docking_status"] = STATE_BROKENB
 		if(SHUTTLE_IGNITING)
-			.["docking_status"] = STATE_LAUNCHING
+			.["docking_status"] = STATE_LAUNCHINGB
 		if(SHUTTLE_CALL)
-			.["docking_status"] = STATE_LAUNCHED
+			.["docking_status"] = STATE_LAUNCHEDB
 	var/obj/structure/machinery/door/door = shuttle.door_handler.doors[1]
 	.["door_state"] = door.density
 	.["door_lock"] = shuttle.door_handler.status == SHUTTLE_DOOR_LOCKED
@@ -68,14 +68,14 @@
 	var/obj/docking_port/mobile/crashable/breacher/shuttle = SSshuttle.getShuttle(shuttleId)
 	switch(action)
 		if("force_launch")
-			if(!launch_without_evac && pod_state != STATE_READY && pod_state != STATE_DELAYED)
+			if(!launch_without_evac && pod_state != STATE_READYB && pod_state != STATE_DELAYEDB)
 				return
 
 			shuttle.evac_launch()
-			pod_state = STATE_LAUNCHING
+			pod_state = STATE_LAUNCHINGB
 			. = TRUE
 		if("delay_launch")
-			pod_state = pod_state == STATE_DELAYED ? STATE_READY : STATE_DELAYED
+			pod_state = pod_state == STATE_DELAYEDB ? STATE_READYB : STATE_DELAYEDB
 			. = TRUE
 		if("lock_door")
 			var/obj/structure/machinery/door/target_door = shuttle.door_handler.doors[1]
@@ -105,7 +105,7 @@
 			to_chat(user, SPAN_WARNING("There is someone in there already!"))
 			return FALSE
 
-		if(dock_state < STATE_READY)
+		if(dock_state < STATE_READYB)
 			to_chat(user, SPAN_WARNING("The cryo pod is not responding to commands!"))
 			return FALSE
 
@@ -159,7 +159,7 @@
 		to_chat(user, SPAN_WARNING("The cryogenic pod is already in use! You will need to find another."))
 		return FALSE
 
-	if(dock_state < STATE_READY)
+	if(dock_state < STATE_READYB)
 		to_chat(user, SPAN_WARNING("The cryo pod is not responding to commands!"))
 		return FALSE
 

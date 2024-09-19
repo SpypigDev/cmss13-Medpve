@@ -7,7 +7,7 @@
 "gH" = (/turf/closed/shuttle/midway/transparent{icon_state = "39"},/area/shuttle/breach)
 "ht" = (/obj/structure/shuttle/part/midway{icon_state = "15"},/turf/template_noop,/area/shuttle/breach)
 "jK" = (/obj/structure/shuttle/part/midway{icon_state = "106"},/turf/open/space/basic,/area/shuttle/breach)
-"kF" = (/obj/structure/machinery/door/airlock/evacuation,/turf/open/floor/almayer{icon_state = "test_floor4"},/area/shuttle/breach)
+"kF" = (/obj/structure/machinery/door/airlock/evacuation{name = "\improper Evacuation Airlock SU-1"},/turf/open/floor/almayer{icon_state = "test_floor4"},/area/shuttle/breach)
 "mk" = (/turf/closed/shuttle/midway/transparent{icon_state = "113"},/area/shuttle/breach)
 "mI" = (/obj/structure/shuttle/part/midway{icon_state = "48"},/turf/open/space/basic,/area/shuttle/breach)
 "mZ" = (/turf/closed/shuttle/midway/transparent{icon_state = "29"},/area/shuttle/breach)
