@@ -23,6 +23,9 @@ map palisade
 	default
 endmap
 
+map amongusstation
+endmap
+
 map chapaev
 endmap
 

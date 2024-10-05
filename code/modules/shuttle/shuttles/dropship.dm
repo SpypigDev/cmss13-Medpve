@@ -193,6 +193,21 @@
 /obj/docking_port/mobile/marine_dropship/tripoli/get_transit_path_type()
 	return /turf/open/space/transit/dropship/tripoli
 
+/obj/docking_port/mobile/marine_dropship/amongus
+	name = "Amongus"
+	id = DROPSHIP_AMONGUS
+	width = 22
+	height = 6
+
+	dwidth = 9
+	dheight = 3
+
+/obj/docking_port/mobile/marine_dropship/amongus/get_transit_path_type()
+	return /turf/open/space/transit/dropship/amongus
+
+/obj/docking_port/mobile/marine_dropship/cyclone/get_transit_path_type()
+	return /turf/open/space/transit/dropship/cyclone
+
 /obj/docking_port/mobile/marine_dropship/alamo
 	name = "Alamo"
 	id = DROPSHIP_ALAMO
@@ -357,6 +372,12 @@
 	auto_open = TRUE
 	roundstart_template = /datum/map_template/shuttle/normandy
 
+/obj/docking_port/stationary/marine_dropship/amongus_hangar
+	name = "USS Amongus Hangar Bay"
+	id = AMONGUS_LZ
+	dir = EAST
+	auto_open = TRUE
+
 /obj/docking_port/stationary/marine_dropship/golden_arrow_hangar
 	name = "Hangar Bay"
 	id = GOLDEN_ARROW_LZ
@@ -419,3 +440,7 @@
 /datum/map_template/shuttle/tripoli
 	name = "Tripoli"
 	shuttle_id = DROPSHIP_TRIPOLI
+
+/datum/map_template/shuttle/amongus
+	name = "Amongus"
+	shuttle_id = DROPSHIP_AMONGUS
