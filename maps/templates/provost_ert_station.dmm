@@ -1,0 +1,1450 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"al" = (
+/turf/open/floor/prison{
+	icon_state = "catwalk"
+	},
+/area/adminlevel/ert_station/weyland_station)
+"au" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "S"
+	},
+/obj/structure/pipes/standard/simple/hidden/green{
+	dir = 4
+	},
+/turf/open/floor/prison{
+	icon_state = "darkred2"
+	},
+/area/adminlevel/ert_station/weyland_station)
+"bk" = (
+/obj/structure/surface/table/woodentable/fancy,
+/obj/structure/machinery/faxmachine/uscm/command{
+	department = "USCM Provost Office"
+	},
+/turf/open/floor/carpet/edge,
+/area/adminlevel/ert_station/weyland_station)
+"bG" = (
+/turf/open/floor/prison{
+	icon_state = "darkredfull2"
+	},
+/area/adminlevel/ert_station/weyland_station)
+"cZ" = (
+/obj/structure/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/carpet/edge{
+	dir = 8
+	},
+/area/adminlevel/ert_station/weyland_station)
+"dc" = (
+/obj/structure/machinery/light/double{
+	dir = 8;
+	pixel_x = -10;
+	pixel_y = 1
+	},
+/turf/open/floor/prison,
+/area/adminlevel/ert_station/weyland_station)
+"dx" = (
+/turf/open/floor/prison{
+	icon_state = "darkred2";
+	dir = 6
+	},
+/area/adminlevel/ert_station/weyland_station)
+"dC" = (
+/obj/structure/machinery/cryopod/right,
+/turf/open/floor/prison{
+	icon_state = "darkred2";
+	dir = 4
+	},
+/area/adminlevel/ert_station/weyland_station)
+"el" = (
+/turf/open/floor/prison{
+	dir = 1;
+	icon_state = "darkred2"
+	},
+/area/adminlevel/ert_station/weyland_station)
+"eX" = (
+/obj/structure/machinery/cm_vending/sorted/marine_food{
+	density = 0;
+	pixel_y = 16
+	},
+/turf/open/floor/prison{
+	dir = 10;
+	icon_state = "bright_clean_marked"
+	},
+/area/adminlevel/ert_station/weyland_station)
+"fl" = (
+/obj/structure/flora/pottedplant{
+	icon_state = "pottedplant_10"
+	},
+/turf/open/floor/wood/ship,
+/area/adminlevel/ert_station/weyland_station)
+"fX" = (
+/obj/structure/pipes/standard/simple/hidden/green{
+	dir = 4
+	},
+/turf/closed/wall/r_wall/prison_unmeltable,
+/area/adminlevel/ert_station/weyland_station)
+"hC" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "N"
+	},
+/obj/structure/pipes/standard/manifold/hidden/green{
+	dir = 1
+	},
+/turf/open/floor/prison{
+	icon_state = "darkred2";
+	dir = 1
+	},
+/area/adminlevel/ert_station/weyland_station)
+"hG" = (
+/turf/closed/wall/r_wall/prison,
+/area/adminlevel/ert_station/weyland_station)
+"jK" = (
+/turf/closed/wall/r_wall/prison_unmeltable,
+/area/adminlevel/ert_station/weyland_station)
+"jY" = (
+/obj/structure/machinery/disposal,
+/turf/open/floor/carpet/edge{
+	dir = 10
+	},
+/area/adminlevel/ert_station/weyland_station)
+"kn" = (
+/turf/open/floor/prison{
+	dir = 10;
+	icon_state = "darkred2"
+	},
+/area/adminlevel/ert_station/weyland_station)
+"kA" = (
+/obj/structure/machinery/light/double,
+/turf/open/floor/prison{
+	icon_state = "darkred2"
+	},
+/area/adminlevel/ert_station/weyland_station)
+"kM" = (
+/obj/structure/machinery/light/double{
+	dir = 4;
+	pixel_x = 10;
+	pixel_y = 1
+	},
+/turf/open/floor/prison,
+/area/adminlevel/ert_station/weyland_station)
+"kW" = (
+/turf/open/floor/carpet/edge,
+/area/adminlevel/ert_station/weyland_station)
+"lI" = (
+/obj/structure/foamed_metal,
+/turf/open/space/basic,
+/area/adminlevel/ert_station/weyland_station)
+"lU" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "E"
+	},
+/obj/structure/pipes/standard/simple/hidden/green,
+/turf/open/floor/prison{
+	icon_state = "darkred2";
+	dir = 4
+	},
+/area/adminlevel/ert_station/weyland_station)
+"lY" = (
+/obj/structure/pipes/standard/simple/hidden/green,
+/obj/structure/window/framed/prison/reinforced/hull,
+/turf/open/floor/prison{
+	dir = 1;
+	icon_state = "cell_stripe"
+	},
+/area/adminlevel/ert_station/weyland_station)
+"mh" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "W"
+	},
+/obj/structure/closet/medical_wall{
+	pixel_x = 30
+	},
+/obj/structure/pipes/standard/simple/hidden/green,
+/turf/open/floor/prison{
+	icon_state = "darkred2";
+	dir = 8
+	},
+/area/adminlevel/ert_station/weyland_station)
+"mn" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "W"
+	},
+/obj/structure/pipes/standard/simple/hidden/green,
+/turf/open/floor/prison{
+	icon_state = "darkred2";
+	dir = 8
+	},
+/area/adminlevel/ert_station/weyland_station)
+"mI" = (
+/turf/open/floor/prison{
+	icon_state = "darkred2";
+	dir = 5
+	},
+/area/adminlevel/ert_station/weyland_station)
+"nb" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "W"
+	},
+/obj/structure/machinery/light/double{
+	dir = 4;
+	pixel_x = 10;
+	pixel_y = 1
+	},
+/obj/structure/pipes/standard/simple/hidden/green,
+/turf/open/floor/prison{
+	icon_state = "darkred2";
+	dir = 8
+	},
+/area/adminlevel/ert_station/weyland_station)
+"nq" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "SE-out"
+	},
+/obj/structure/closet/emcloset{
+	density = 0;
+	pixel_x = 8;
+	pixel_y = 15
+	},
+/obj/structure/closet/firecloset/full{
+	density = 0;
+	pixel_x = -8;
+	pixel_y = 15
+	},
+/obj/structure/machinery/light/double{
+	dir = 8;
+	pixel_x = -10;
+	pixel_y = 1
+	},
+/obj/structure/pipes/standard/simple/hidden/green{
+	dir = 6
+	},
+/turf/open/floor/prison{
+	icon_state = "darkredcorners2"
+	},
+/area/adminlevel/ert_station/weyland_station)
+"nS" = (
+/obj/structure/surface/table/reinforced/black,
+/obj/item/device/flashlight/lamp/green{
+	on = 1
+	},
+/turf/open/floor/prison{
+	icon_state = "floor_plate"
+	},
+/area/adminlevel/ert_station/weyland_station)
+"oM" = (
+/obj/structure/bed/chair/comfy,
+/turf/open/floor/carpet/edge{
+	dir = 1
+	},
+/area/adminlevel/ert_station/weyland_station)
+"oQ" = (
+/obj/structure/window/framed/prison/reinforced,
+/obj/structure/machinery/door/poddoor/shutters/almayer/open{
+	id = "WY_meeting";
+	name = "\improper Meeting Room Shutters"
+	},
+/turf/open/floor/prison{
+	icon_state = "floor_plate"
+	},
+/area/adminlevel/ert_station/weyland_station)
+"pq" = (
+/obj/structure/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/carpet/edge{
+	dir = 4
+	},
+/area/adminlevel/ert_station/weyland_station)
+"qF" = (
+/obj/structure/surface/table/woodentable/fancy,
+/turf/open/floor/carpet/edge,
+/area/adminlevel/ert_station/weyland_station)
+"qL" = (
+/obj/structure/machinery/door/airlock/almayer/security/glass/reinforced,
+/turf/open/floor/prison{
+	dir = 8;
+	icon_state = "cell_stripe"
+	},
+/area/adminlevel/ert_station/weyland_station)
+"sX" = (
+/obj/structure/machinery/cm_vending/sorted/marine_food{
+	density = 0;
+	pixel_y = 16
+	},
+/turf/open/floor/prison,
+/area/adminlevel/ert_station/weyland_station)
+"ts" = (
+/obj/structure/pipes/standard/simple/hidden/green,
+/obj/structure/window/framed/prison/reinforced/hull,
+/turf/open/floor/prison{
+	icon_state = "floor_plate"
+	},
+/area/adminlevel/ert_station/weyland_station)
+"va" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "E"
+	},
+/obj/structure/pipes/standard/manifold/hidden/green{
+	dir = 8
+	},
+/turf/open/floor/prison{
+	icon_state = "darkred2";
+	dir = 4
+	},
+/area/adminlevel/ert_station/weyland_station)
+"vh" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "N"
+	},
+/obj/structure/closet/hydrant{
+	pixel_y = -30
+	},
+/obj/structure/pipes/standard/simple/hidden/green{
+	dir = 4
+	},
+/turf/open/floor/prison{
+	icon_state = "darkred2";
+	dir = 1
+	},
+/area/adminlevel/ert_station/weyland_station)
+"vz" = (
+/obj/structure/pipes/vents/pump{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/adminlevel/ert_station/weyland_station)
+"vN" = (
+/obj/structure/machinery/door/airlock/almayer/security/glass/reinforced{
+	dir = 1
+	},
+/obj/structure/machinery/door/poddoor/shutters/almayer/open{
+	id = "WY_meeting";
+	name = "\improper Meeting Room Shutters"
+	},
+/turf/open/floor/prison{
+	icon_state = "floor_plate"
+	},
+/area/adminlevel/ert_station/weyland_station)
+"xk" = (
+/obj/structure/window/framed/prison/reinforced/hull,
+/turf/open/floor/prison{
+	dir = 1;
+	icon_state = "cell_stripe"
+	},
+/area/adminlevel/ert_station/weyland_station)
+"xN" = (
+/obj/structure/machinery/vending/cigarette/colony{
+	pixel_y = 18;
+	density = 0
+	},
+/turf/open/floor/wood/ship,
+/area/adminlevel/ert_station/weyland_station)
+"yp" = (
+/turf/open/floor/carpet/edge{
+	dir = 1
+	},
+/area/adminlevel/ert_station/weyland_station)
+"zS" = (
+/obj/structure/machinery/light/double{
+	dir = 1;
+	pixel_y = 16
+	},
+/turf/open/floor/prison{
+	dir = 1;
+	icon_state = "darkred2"
+	},
+/area/adminlevel/ert_station/weyland_station)
+"AD" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "S"
+	},
+/obj/structure/closet/hydrant{
+	pixel_y = 30
+	},
+/obj/structure/pipes/standard/simple/hidden/green{
+	dir = 4
+	},
+/turf/open/floor/prison{
+	icon_state = "darkred2"
+	},
+/area/adminlevel/ert_station/weyland_station)
+"AH" = (
+/turf/open/floor/prison{
+	icon_state = "darkred2"
+	},
+/area/adminlevel/ert_station/weyland_station)
+"AU" = (
+/obj/structure/window/framed/prison/reinforced,
+/turf/open/floor/prison{
+	icon_state = "floor_plate"
+	},
+/area/adminlevel/ert_station/weyland_station)
+"Bx" = (
+/obj/structure/machinery/door/airlock/multi_tile/almayer/secdoor/autoname{
+	locked = 1;
+	no_panel = 1
+	},
+/turf/open/floor/prison{
+	icon_state = "floor_plate"
+	},
+/area/adminlevel/ert_station/weyland_station)
+"Cw" = (
+/obj/structure/window/framed/prison/reinforced/hull,
+/turf/open/floor/prison{
+	icon_state = "floor_plate"
+	},
+/area/adminlevel/ert_station/weyland_station)
+"Dn" = (
+/turf/open/floor/prison{
+	icon_state = "darkred2";
+	dir = 9
+	},
+/area/adminlevel/ert_station/weyland_station)
+"Dr" = (
+/turf/open/floor/prison{
+	dir = 8;
+	icon_state = "darkred2"
+	},
+/area/adminlevel/ert_station/weyland_station)
+"DT" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "SW-out";
+	layer = 2.5
+	},
+/obj/structure/closet/emcloset{
+	density = 0;
+	pixel_x = 8;
+	pixel_y = 15
+	},
+/obj/structure/closet/firecloset/full{
+	density = 0;
+	pixel_x = -8;
+	pixel_y = 15
+	},
+/obj/structure/machinery/light/double{
+	dir = 4;
+	pixel_x = 10;
+	pixel_y = 1
+	},
+/obj/structure/pipes/standard/simple/hidden/green{
+	dir = 10
+	},
+/turf/open/floor/prison{
+	icon_state = "darkredcorners2";
+	dir = 8
+	},
+/area/adminlevel/ert_station/weyland_station)
+"ES" = (
+/obj/docking_port/stationary/emergency_response/idle_port2,
+/turf/open/floor/plating,
+/area/adminlevel/ert_station/weyland_station)
+"FE" = (
+/obj/structure/flora/pottedplant{
+	icon_state = "pottedplant_10"
+	},
+/turf/open/floor/carpet/edge,
+/area/adminlevel/ert_station/weyland_station)
+"Gd" = (
+/obj/structure/pipes/vents/pump{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/adminlevel/ert_station/weyland_station)
+"Gz" = (
+/obj/structure/surface/table/woodentable/fancy,
+/obj/structure/machinery/computer/emails,
+/turf/open/floor/carpet{
+	desc = "Plush, waterproof carpet. Apparently it's fire resistant while remaining quite soft.";
+	name = "\improper carpet"
+	},
+/area/adminlevel/ert_station/weyland_station)
+"He" = (
+/turf/open/floor/wood/ship,
+/area/adminlevel/ert_station/weyland_station)
+"IQ" = (
+/turf/open/floor/carpet/edge{
+	dir = 4
+	},
+/area/adminlevel/ert_station/weyland_station)
+"Jc" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "W"
+	},
+/obj/structure/pipes/standard/manifold/fourway/hidden/green,
+/turf/open/floor/prison{
+	icon_state = "darkred2";
+	dir = 8
+	},
+/area/adminlevel/ert_station/weyland_station)
+"Jd" = (
+/turf/open/floor/carpet/edge{
+	dir = 6
+	},
+/area/adminlevel/ert_station/weyland_station)
+"Ju" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "E"
+	},
+/obj/structure/machinery/light/double{
+	dir = 8;
+	pixel_x = -10;
+	pixel_y = 1
+	},
+/obj/structure/pipes/standard/simple/hidden/green,
+/turf/open/floor/prison{
+	icon_state = "darkred2";
+	dir = 4
+	},
+/area/adminlevel/ert_station/weyland_station)
+"Kg" = (
+/obj/structure/machinery/door/airlock/almayer/security/reinforced{
+	locked = 1;
+	no_panel = 1
+	},
+/turf/open/floor/prison{
+	icon_state = "floor_plate"
+	},
+/area/adminlevel/ert_station/weyland_station)
+"KP" = (
+/obj/structure/machinery/cryopod/right{
+	dir = 2
+	},
+/turf/open/floor/prison{
+	icon_state = "darkred2";
+	dir = 8
+	},
+/area/adminlevel/ert_station/weyland_station)
+"Ls" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "NW-out"
+	},
+/obj/structure/pipes/standard/simple/hidden/green{
+	dir = 9
+	},
+/turf/open/floor/prison{
+	icon_state = "darkredcorners2";
+	dir = 4
+	},
+/area/adminlevel/ert_station/weyland_station)
+"LP" = (
+/obj/structure/machinery/light/double{
+	dir = 4;
+	pixel_x = 10;
+	pixel_y = 1
+	},
+/turf/open/floor/prison{
+	dir = 4;
+	icon_state = "darkred2"
+	},
+/area/adminlevel/ert_station/weyland_station)
+"Mn" = (
+/turf/open/floor/carpet/edge{
+	dir = 5
+	},
+/area/adminlevel/ert_station/weyland_station)
+"MQ" = (
+/obj/structure/surface/table/woodentable/fancy,
+/obj/item/device/flashlight/lamp/green,
+/obj/structure/machinery/door_control{
+	id = "WY_meeting";
+	name = "Meeting Room Shutters";
+	pixel_x = -7;
+	pixel_y = 2;
+	req_access_txt = "1"
+	},
+/turf/open/floor/carpet{
+	desc = "Plush, waterproof carpet. Apparently it's fire resistant while remaining quite soft.";
+	name = "\improper carpet"
+	},
+/area/adminlevel/ert_station/weyland_station)
+"Nr" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "S"
+	},
+/obj/structure/pipes/standard/manifold/hidden/green,
+/turf/open/floor/prison{
+	icon_state = "darkred2"
+	},
+/area/adminlevel/ert_station/weyland_station)
+"NC" = (
+/obj/structure/bed/chair/comfy{
+	icon_state = "comfychair_alpha";
+	dir = 1
+	},
+/turf/open/floor/carpet{
+	desc = "Plush, waterproof carpet. Apparently it's fire resistant while remaining quite soft.";
+	name = "\improper carpet"
+	},
+/area/adminlevel/ert_station/weyland_station)
+"NK" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "W"
+	},
+/obj/structure/pipes/standard/simple/hidden/green,
+/obj/structure/closet/medical_wall{
+	pixel_x = 30
+	},
+/turf/open/floor/prison{
+	icon_state = "darkred2";
+	dir = 8
+	},
+/area/adminlevel/ert_station/weyland_station)
+"QQ" = (
+/obj/structure/surface/table/woodentable/fancy,
+/turf/open/floor/carpet{
+	desc = "Plush, waterproof carpet. Apparently it's fire resistant while remaining quite soft.";
+	name = "\improper carpet"
+	},
+/area/adminlevel/ert_station/weyland_station)
+"QR" = (
+/obj/structure/machinery/door/airlock/almayer/security/glass/reinforced,
+/turf/open/floor/prison{
+	icon_state = "floor_plate"
+	},
+/area/adminlevel/ert_station/weyland_station)
+"QT" = (
+/obj/structure/window/framed/prison/reinforced/hull,
+/turf/open/floor/plating,
+/area/adminlevel/ert_station/weyland_station)
+"QV" = (
+/obj/structure/filingcabinet{
+	density = 0;
+	pixel_x = -8;
+	pixel_y = 18
+	},
+/obj/structure/filingcabinet{
+	density = 0;
+	pixel_x = 8;
+	pixel_y = 18
+	},
+/turf/open/floor/wood/ship,
+/area/adminlevel/ert_station/weyland_station)
+"QZ" = (
+/turf/open/floor/plating,
+/area/adminlevel/ert_station/weyland_station)
+"RQ" = (
+/turf/open/floor/carpet/edge{
+	dir = 9
+	},
+/area/adminlevel/ert_station/weyland_station)
+"Sw" = (
+/obj/structure/surface/table/woodentable/fancy,
+/obj/item/paper_bin/uscm,
+/obj/item/tool/pen,
+/turf/open/floor/carpet{
+	desc = "Plush, waterproof carpet. Apparently it's fire resistant while remaining quite soft.";
+	name = "\improper carpet"
+	},
+/area/adminlevel/ert_station/weyland_station)
+"Tx" = (
+/turf/open/floor/prison,
+/area/adminlevel/ert_station/weyland_station)
+"Us" = (
+/obj/structure/pipes/standard/simple/hidden/green{
+	dir = 4
+	},
+/obj/structure/window/framed/prison/reinforced,
+/turf/open/floor/prison{
+	dir = 8;
+	icon_state = "cell_stripe"
+	},
+/area/adminlevel/ert_station/weyland_station)
+"Ux" = (
+/turf/open/space/basic,
+/area/space)
+"UV" = (
+/turf/open/floor/prison{
+	icon_state = "floor_plate"
+	},
+/area/adminlevel/ert_station/weyland_station)
+"WU" = (
+/obj/structure/machinery/door/airlock/almayer/security/glass/reinforced{
+	dir = 1
+	},
+/turf/open/floor/prison{
+	icon_state = "floor_plate"
+	},
+/area/adminlevel/ert_station/weyland_station)
+"Xi" = (
+/obj/structure/surface/table/woodentable/fancy,
+/obj/structure/phone_base/rotary{
+	do_not_disturb = 2;
+	name = "Weyland-Yutani Station CiC";
+	phone_category = "W-Y";
+	phone_id = "W-Y Station CiC"
+	},
+/turf/open/floor/carpet{
+	desc = "Plush, waterproof carpet. Apparently it's fire resistant while remaining quite soft.";
+	name = "\improper carpet"
+	},
+/area/adminlevel/ert_station/weyland_station)
+"Xn" = (
+/turf/open/floor/carpet/edge{
+	dir = 8
+	},
+/area/adminlevel/ert_station/weyland_station)
+"Xt" = (
+/obj/structure/window/framed/prison/reinforced/hull,
+/turf/open/floor/prison,
+/area/adminlevel/ert_station/weyland_station)
+"Xw" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "N"
+	},
+/obj/structure/machinery/light/double,
+/obj/structure/pipes/standard/simple/hidden/green{
+	dir = 4
+	},
+/turf/open/floor/prison{
+	icon_state = "darkred2";
+	dir = 1
+	},
+/area/adminlevel/ert_station/weyland_station)
+"Yb" = (
+/obj/structure/surface/table/woodentable/fancy,
+/turf/open/floor/wood/ship,
+/area/adminlevel/ert_station/weyland_station)
+"Yj" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "N"
+	},
+/obj/structure/pipes/standard/simple/hidden/green{
+	dir = 4
+	},
+/turf/open/floor/prison{
+	icon_state = "darkred2";
+	dir = 1
+	},
+/area/adminlevel/ert_station/weyland_station)
+"YB" = (
+/obj/structure/machinery/photocopier{
+	density = 0;
+	pixel_y = 16
+	},
+/turf/open/floor/wood/ship,
+/area/adminlevel/ert_station/weyland_station)
+"YC" = (
+/turf/open/floor/carpet{
+	desc = "Plush, waterproof carpet. Apparently it's fire resistant while remaining quite soft.";
+	name = "\improper carpet"
+	},
+/area/adminlevel/ert_station/weyland_station)
+"YN" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "NE-out"
+	},
+/obj/structure/machinery/light/double{
+	dir = 8;
+	pixel_x = -10;
+	pixel_y = 1
+	},
+/obj/structure/pipes/standard/simple/hidden/green{
+	dir = 5
+	},
+/turf/open/floor/prison{
+	icon_state = "darkredcorners2";
+	dir = 1
+	},
+/area/adminlevel/ert_station/weyland_station)
+
+(1,1,1) = {"
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+"}
+(2,1,1) = {"
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+"}
+(3,1,1) = {"
+Ux
+Ux
+jK
+jK
+QT
+QT
+QT
+jK
+jK
+jK
+QT
+QT
+QT
+jK
+jK
+jK
+QT
+QT
+QT
+jK
+jK
+Ux
+Ux
+"}
+(4,1,1) = {"
+Ux
+Ux
+jK
+nq
+va
+lU
+lU
+lU
+Ju
+lU
+lU
+lU
+lU
+lU
+Ju
+lU
+lU
+lU
+va
+YN
+jK
+Ux
+Ux
+"}
+(5,1,1) = {"
+Ux
+Ux
+jK
+au
+vz
+QZ
+QZ
+QZ
+QZ
+QZ
+QZ
+QZ
+QZ
+QZ
+QZ
+QZ
+QZ
+QZ
+vz
+Yj
+jK
+Ux
+Ux
+"}
+(6,1,1) = {"
+Ux
+Ux
+Cw
+au
+QZ
+QZ
+QZ
+QZ
+QZ
+QZ
+QZ
+QZ
+QZ
+QZ
+QZ
+QZ
+QZ
+ES
+QZ
+Yj
+xk
+Ux
+Ux
+"}
+(7,1,1) = {"
+Ux
+Ux
+Cw
+au
+QZ
+QZ
+QZ
+QZ
+QZ
+QZ
+QZ
+QZ
+QZ
+QZ
+QZ
+QZ
+QZ
+QZ
+QZ
+hC
+lY
+Ux
+Ux
+"}
+(8,1,1) = {"
+Ux
+Ux
+jK
+au
+QZ
+QZ
+QZ
+QZ
+QZ
+QZ
+QZ
+QZ
+QZ
+QZ
+QZ
+QZ
+QZ
+QZ
+QZ
+Xw
+jK
+Ux
+Ux
+"}
+(9,1,1) = {"
+Ux
+Ux
+jK
+AD
+QZ
+QZ
+QZ
+QZ
+QZ
+QZ
+QZ
+QZ
+QZ
+QZ
+QZ
+QZ
+QZ
+QZ
+QZ
+vh
+jK
+Ux
+Ux
+"}
+(10,1,1) = {"
+Ux
+Ux
+jK
+au
+QZ
+QZ
+QZ
+QZ
+QZ
+QZ
+QZ
+QZ
+QZ
+QZ
+QZ
+QZ
+QZ
+QZ
+QZ
+Xw
+jK
+Ux
+Ux
+"}
+(11,1,1) = {"
+Ux
+Ux
+Cw
+au
+QZ
+QZ
+QZ
+QZ
+QZ
+QZ
+QZ
+QZ
+QZ
+QZ
+QZ
+QZ
+QZ
+QZ
+QZ
+Yj
+xk
+Ux
+Ux
+"}
+(12,1,1) = {"
+Ux
+Ux
+ts
+Nr
+QZ
+QZ
+QZ
+QZ
+QZ
+QZ
+QZ
+QZ
+QZ
+QZ
+QZ
+QZ
+QZ
+QZ
+QZ
+hC
+lY
+Ux
+Ux
+"}
+(13,1,1) = {"
+Ux
+Ux
+jK
+au
+Gd
+QZ
+QZ
+QZ
+QZ
+QZ
+QZ
+QZ
+QZ
+QZ
+QZ
+QZ
+QZ
+QZ
+Gd
+Yj
+jK
+Ux
+Ux
+"}
+(14,1,1) = {"
+Ux
+Ux
+jK
+DT
+Jc
+mn
+mn
+mn
+mn
+NK
+mn
+nb
+mn
+mn
+mn
+mh
+nb
+mn
+Jc
+Ls
+jK
+Ux
+Ux
+"}
+(15,1,1) = {"
+Ux
+Ux
+jK
+jK
+fX
+jK
+AU
+QR
+AU
+jK
+jK
+jK
+jK
+jK
+jK
+jK
+jK
+qL
+Us
+qL
+jK
+Ux
+Ux
+"}
+(16,1,1) = {"
+Ux
+Ux
+jK
+KP
+KP
+hG
+Dn
+UV
+kn
+oQ
+QV
+RQ
+cZ
+Xn
+Xn
+jY
+hG
+Dn
+Dr
+kn
+jK
+Ux
+Ux
+"}
+(17,1,1) = {"
+Ux
+Ux
+jK
+bG
+al
+WU
+UV
+Tx
+AH
+oQ
+QV
+yp
+QQ
+Sw
+YC
+FE
+AU
+el
+al
+AH
+Xt
+Ux
+Ux
+"}
+(18,1,1) = {"
+Ux
+Ux
+jK
+nS
+Tx
+AU
+el
+al
+kA
+hG
+xN
+oM
+Xi
+YC
+YC
+kW
+vN
+UV
+al
+AH
+Xt
+Ux
+Ux
+"}
+(19,1,1) = {"
+Ux
+Ux
+jK
+bG
+al
+WU
+UV
+al
+UV
+vN
+He
+yp
+Gz
+NC
+YC
+bk
+hG
+zS
+Tx
+AH
+Xt
+Ux
+Ux
+"}
+(20,1,1) = {"
+Ux
+Ux
+jK
+dC
+dC
+hG
+el
+Tx
+AH
+hG
+YB
+oM
+MQ
+YC
+YC
+qF
+hG
+el
+al
+AH
+Xt
+Ux
+Ux
+"}
+(21,1,1) = {"
+Ux
+Ux
+jK
+jK
+jK
+jK
+el
+al
+AH
+oQ
+Yb
+yp
+QQ
+QQ
+YC
+qF
+hG
+el
+al
+AH
+Xt
+Ux
+Ux
+"}
+(22,1,1) = {"
+Ux
+Ux
+jK
+hG
+sX
+dc
+el
+al
+AH
+oQ
+fl
+Mn
+pq
+IQ
+IQ
+Jd
+hG
+mI
+LP
+dx
+jK
+Ux
+Ux
+"}
+(23,1,1) = {"
+Ux
+Ux
+jK
+hG
+eX
+Tx
+el
+Tx
+AH
+hG
+hG
+hG
+hG
+hG
+hG
+hG
+hG
+Kg
+hG
+Kg
+jK
+Ux
+Ux
+"}
+(24,1,1) = {"
+Ux
+Ux
+jK
+hG
+eX
+Tx
+el
+al
+UV
+Bx
+lI
+lI
+lI
+lI
+lI
+lI
+lI
+lI
+lI
+lI
+jK
+Ux
+Ux
+"}
+(25,1,1) = {"
+Ux
+Ux
+jK
+hG
+sX
+kM
+mI
+al
+UV
+UV
+lI
+lI
+lI
+lI
+lI
+lI
+lI
+lI
+lI
+lI
+jK
+Ux
+Ux
+"}
+(26,1,1) = {"
+Ux
+Ux
+jK
+hG
+hG
+hG
+hG
+hG
+hG
+hG
+jK
+jK
+jK
+jK
+jK
+jK
+jK
+jK
+jK
+jK
+jK
+Ux
+Ux
+"}
+(27,1,1) = {"
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+"}
+(28,1,1) = {"
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+"}

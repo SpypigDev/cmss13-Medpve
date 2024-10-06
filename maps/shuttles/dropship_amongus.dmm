@@ -148,7 +148,9 @@
 /turf/open/floor/kutjevo/colors/red/tile,
 /area/shuttle/amongus)
 "Ey" = (
-/obj/docking_port/mobile/marine_dropship/amongus,
+/obj/docking_port/mobile/marine_dropship/amongus{
+	dir = 4
+	},
 /turf/open/floor/kutjevo/colors,
 /area/shuttle/amongus)
 "EG" = (

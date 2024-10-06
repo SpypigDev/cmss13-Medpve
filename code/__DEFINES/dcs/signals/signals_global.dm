@@ -70,6 +70,10 @@
 #define COMSIG_GLOB_RESEARCH_LOCKDOWN "!research_lockdown_closed"
 #define COMSIG_GLOB_RESEARCH_LIFT "!research_lockdown_opened"
 
+/// From /proc/emergency_meeting()
+#define COMSIG_GLOB_MEETING "!emergency_meeting_closed"
+#define COMSIG_GLOB_MEETING_LIFT "!emergency_meeting_opened"
+
 /// From /obj/structure/machinery/power/fusion_engine/proc/set_overloading() : (set_overloading)
 #define COMSIG_GLOB_GENERATOR_SET_OVERLOADING "!generator_set_overloading"
 

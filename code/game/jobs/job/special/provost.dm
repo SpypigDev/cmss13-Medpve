@@ -17,6 +17,15 @@
 //Provost Marshal
 /datum/job/special/provost/marshal
 	title = JOB_PROVOST_MARSHAL
+	flags_startup_parameters = ROLE_ADD_TO_DEFAULT|ROLE_ADMIN_NOTIFY
+	gear_preset = /datum/equipment_preset/uscm_event/provost/marshal
+	total_positions = 1
+	spawn_positions = 0
+
+/obj/effect/landmark/start/marshal
+	name = JOB_PROVOST_MARSHAL
+	icon_state = "co_spawn"
+	job = /datum/job/special/provost/marshal
 
 //Provost Sector
 /datum/job/special/provost/marshal/sector
