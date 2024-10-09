@@ -121,6 +121,10 @@
 	name = "Weyland-Yutani Station"
 	icon_state = "red"
 
+/area/adminlevel/ert_station/provost_station
+	name = "Provost Station"
+	icon_state = "red"
+
 /area/adminlevel/ert_station/freelancer_station
 	name = "Freelancer Station"
 	icon_state = "yellow"
