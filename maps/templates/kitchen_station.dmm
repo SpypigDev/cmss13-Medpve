@@ -1,0 +1,5689 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"aK" = (
+/turf/open/floor/kutjevo/tiles,
+/area/amongus/kitchen)
+"aU" = (
+/obj/structure/platform/kutjevo{
+	dir = 8
+	},
+/turf/open/floor/wood,
+/area/amongus/kitchen)
+"aW" = (
+/obj/structure/machinery/cm_vending/clothing/synth/snowflake,
+/turf/open/floor/kutjevo/plate,
+/area/amongus/kitchen)
+"bh" = (
+/obj/structure/window/reinforced,
+/obj/structure/surface/table/woodentable/fancy,
+/obj/item/clothing/head/beret/marine/commander/councilchief,
+/turf/open/floor/kutjevo/plate,
+/area/amongus/kitchen)
+"bP" = (
+/turf/open/floor/kutjevo/plate,
+/area/amongus/kitchen)
+"cg" = (
+/obj/structure/platform/kutjevo{
+	dir = 4
+	},
+/obj/structure/platform/kutjevo{
+	dir = 4;
+	icon_state = "kutjevo_platform_sm"
+	},
+/turf/open/floor/kutjevo/tan,
+/area/amongus/kitchen)
+"ck" = (
+/obj/structure/bed/chair/comfy{
+	dir = 4
+	},
+/obj/structure/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/carpet/edge{
+	dir = 8
+	},
+/area/amongus/kitchen)
+"cl" = (
+/obj/structure/machinery/chem_master/condimaster,
+/turf/open/floor/kutjevo/tan/alt_edge{
+	dir = 1
+	},
+/area/amongus/kitchen)
+"cO" = (
+/obj/structure/platform/kutjevo{
+	dir = 4
+	},
+/turf/open/floor/wood,
+/area/amongus/kitchen)
+"db" = (
+/obj/structure/platform/kutjevo{
+	dir = 4
+	},
+/obj/structure/platform/kutjevo{
+	dir = 4;
+	icon_state = "kutjevo_platform_sm"
+	},
+/obj/structure/bed/chair/comfy{
+	buckling_y = 2;
+	dir = 8;
+	pixel_y = 2
+	},
+/turf/open/floor/carpet/edge{
+	dir = 6
+	},
+/area/amongus/kitchen)
+"dx" = (
+/turf/open/floor/carpet/edge{
+	dir = 8
+	},
+/area/amongus/kitchen)
+"dC" = (
+/obj/structure/machinery/light{
+	dir = 1
+	},
+/turf/closed/wall/kutjevo/colony/reinforced,
+/area/amongus/kitchen)
+"dG" = (
+/turf/open/floor/almayer{
+	dir = 9;
+	icon_state = "silver"
+	},
+/area/amongus/cryo_cells)
+"dK" = (
+/turf/closed/wall/kutjevo/colony/reinforced/hull,
+/area/amongus/kitchen)
+"ej" = (
+/obj/structure/machinery/light{
+	dir = 1
+	},
+/obj/structure/machinery/vending/cola,
+/turf/open/floor/kutjevo/tan/alt_edge{
+	dir = 1
+	},
+/area/amongus/kitchen)
+"em" = (
+/obj/structure/machinery/cryopod/right,
+/turf/open/floor/almayer{
+	icon_state = "cargo"
+	},
+/area/amongus/cryo_cells)
+"es" = (
+/obj/structure/platform/kutjevo{
+	dir = 1
+	},
+/turf/open/floor/kutjevo/plate,
+/area/amongus/kitchen)
+"eZ" = (
+/obj/structure/window/framed/kutjevo/reinforced/hull,
+/turf/open/floor/kutjevo/plate,
+/area/amongus/kitchen)
+"fn" = (
+/obj/structure/surface/table/reinforced,
+/obj/structure/machinery/gibber,
+/turf/open/floor/kutjevo/tan/alt_edge,
+/area/amongus/kitchen)
+"fC" = (
+/obj/effect/landmark/start/reporter,
+/turf/open/floor/plating/plating_catwalk,
+/area/amongus/cryo_cells)
+"fP" = (
+/obj/structure/closet/secure_closet/fridge/meat,
+/turf/open/floor/kutjevo/tan,
+/area/amongus/kitchen)
+"fU" = (
+/obj/structure/machinery/cryopod/right{
+	pixel_y = 6
+	},
+/turf/open/floor/almayer{
+	icon_state = "cargo"
+	},
+/area/amongus/cryo_cells)
+"fX" = (
+/turf/open/floor/kutjevo/tan/alt_edge{
+	dir = 8
+	},
+/area/amongus/kitchen)
+"gi" = (
+/obj/structure/surface/table/reinforced,
+/turf/open/floor/kutjevo/tan,
+/area/amongus/kitchen)
+"gu" = (
+/obj/structure/machinery/cryopod/right,
+/obj/structure/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/kutjevo/tiles,
+/area/amongus/kitchen)
+"gE" = (
+/obj/structure/machinery/door/airlock/multi_tile/almayer/generic/autoname{
+	dir = 1
+	},
+/turf/open/floor/kutjevo/plate,
+/area/amongus/kitchen)
+"gW" = (
+/obj/structure/machinery/light{
+	dir = 4
+	},
+/obj/structure/closet/secure_closet/fridge/fish/stock,
+/turf/open/floor/kutjevo/tan/alt_inner_edge{
+	dir = 1
+	},
+/area/amongus/kitchen)
+"ha" = (
+/obj/structure/bed/chair/comfy{
+	buckling_y = 2;
+	dir = 8;
+	pixel_y = 2
+	},
+/obj/structure/platform_decoration/kutjevo,
+/turf/open/floor/carpet/edge{
+	dir = 4
+	},
+/area/amongus/kitchen)
+"hc" = (
+/obj/structure/platform/kutjevo,
+/obj/structure/platform/kutjevo{
+	dir = 1
+	},
+/obj/structure/platform/kutjevo{
+	dir = 8
+	},
+/turf/open/floor/kutjevo/plate,
+/area/amongus/kitchen)
+"hC" = (
+/obj/structure/machinery/floodlight/landing/floor{
+	on_light_range = 15;
+	invisibility = 35
+	},
+/turf/open/floor/kutjevo/colors,
+/area/amongus/kitchen)
+"hG" = (
+/obj/structure/machinery/floodlight/landing/floor{
+	invisibility = 35
+	},
+/turf/open/floor/kutjevo/plate,
+/area/amongus/kitchen)
+"hI" = (
+/obj/effect/landmark/late_join,
+/turf/open/floor/kutjevo/tiles,
+/area/amongus/kitchen)
+"ic" = (
+/obj/structure/machinery/light{
+	dir = 4
+	},
+/obj/structure/surface/table/reinforced,
+/obj/structure/machinery/processor,
+/turf/open/floor/kutjevo/tan/alt_inner_edge{
+	dir = 8
+	},
+/area/amongus/kitchen)
+"is" = (
+/obj/structure/surface/table/woodentable/fancy,
+/obj/item/reagent_container/food/drinks/bottle/whiskey{
+	pixel_x = -5;
+	pixel_y = 16
+	},
+/obj/item/reagent_container/food/drinks/bottle/whiskey{
+	desc = "A premium double-malt whiskey, this bottle was gifted to the Captain of the USS Almayer after the completion of the ship's space trials by the VADM. himself.";
+	pixel_x = 3;
+	pixel_y = 16
+	},
+/obj/item/reagent_container/food/drinks/bottle/whiskey{
+	pixel_x = 11;
+	pixel_y = 16
+	},
+/obj/item/tool/lighter/zippo/gold{
+	pixel_y = 2;
+	layer = 3.05;
+	pixel_x = 6
+	},
+/obj/item/storage/fancy/cigar{
+	pixel_y = 2;
+	layer = 3.04;
+	pixel_x = -2
+	},
+/turf/open/floor/carpet,
+/area/amongus/kitchen)
+"js" = (
+/obj/structure/bed/chair/comfy,
+/obj/structure/machinery/floodlight/landing/floor{
+	on_light_range = 15;
+	invisibility = 35
+	},
+/turf/open/floor/kutjevo/colors,
+/area/amongus/kitchen)
+"jw" = (
+/obj/structure/window/reinforced,
+/obj/structure/window/reinforced{
+	dir = 8;
+	health = 80
+	},
+/obj/structure/surface/table/woodentable/fancy,
+/obj/item/spacecash/c1{
+	name = "1 BookerBuck";
+	desc = "A single US Government minted one dollar bill. It has a picture of George Washington printed on it. Makes most people of English origin cry, but isn't worth very much. Could probably get you half a company in some fleets. "
+	},
+/obj/item/spacecash/c1{
+	name = "1 BookerBuck";
+	desc = "A single US Government minted one dollar bill. It has a picture of George Washington printed on it. Makes most people of English origin cry, but isn't worth very much. Could probably get you half a company in some fleets. "
+	},
+/obj/item/spacecash/c1{
+	name = "1 BookerBuck";
+	desc = "A single US Government minted one dollar bill. It has a picture of George Washington printed on it. Makes most people of English origin cry, but isn't worth very much. Could probably get you half a company in some fleets. "
+	},
+/obj/item/spacecash/c1{
+	name = "1 BookerBuck";
+	desc = "A single US Government minted one dollar bill. It has a picture of George Washington printed on it. Makes most people of English origin cry, but isn't worth very much. Could probably get you half a company in some fleets. "
+	},
+/obj/item/spacecash/c1{
+	name = "1 BookerBuck";
+	desc = "A single US Government minted one dollar bill. It has a picture of George Washington printed on it. Makes most people of English origin cry, but isn't worth very much. Could probably get you half a company in some fleets. "
+	},
+/obj/item/spacecash/c1{
+	name = "1 BookerBuck";
+	desc = "A single US Government minted one dollar bill. It has a picture of George Washington printed on it. Makes most people of English origin cry, but isn't worth very much. Could probably get you half a company in some fleets. "
+	},
+/obj/item/spacecash/c1{
+	name = "1 BookerBuck";
+	desc = "A single US Government minted one dollar bill. It has a picture of George Washington printed on it. Makes most people of English origin cry, but isn't worth very much. Could probably get you half a company in some fleets. "
+	},
+/obj/item/spacecash/c1000{
+	name = "1000 BookerBucks";
+	desc = "Ten 7th battalion minted hundred-booker bucks. Every single damn one of them has Booker Fucking Peralta on them. The council of Bookers sit impatiently, as if each one thought they alone belonged to you. This regiment of angry Bookers have all since learned about your relations with the other Battle-Group-Buddies, and they want answers."
+	},
+/turf/open/floor/kutjevo/plate,
+/area/amongus/kitchen)
+"jT" = (
+/obj/structure/stairs/perspective/kutjevo{
+	dir = 8
+	},
+/turf/open/floor/kutjevo/colors,
+/area/amongus/kitchen)
+"jU" = (
+/obj/structure/bed/chair/comfy{
+	dir = 4
+	},
+/obj/structure/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/carpet/edge{
+	dir = 10
+	},
+/area/amongus/kitchen)
+"kj" = (
+/obj/structure/platform/kutjevo{
+	dir = 4
+	},
+/obj/structure/platform/kutjevo{
+	dir = 4;
+	icon_state = "kutjevo_platform_sm"
+	},
+/turf/open/floor/kutjevo/tan/alt_edge{
+	dir = 1
+	},
+/area/amongus/kitchen)
+"kn" = (
+/obj/structure/surface/table/reinforced,
+/obj/item/clothing/head/chefhat,
+/obj/item/reagent_container/food/condiment/sugar{
+	pixel_x = 10
+	},
+/turf/open/floor/kutjevo/tan/alt_edge,
+/area/amongus/kitchen)
+"kC" = (
+/obj/structure/bed/chair/comfy{
+	dir = 4
+	},
+/turf/open/floor/carpet/edge{
+	dir = 9
+	},
+/area/amongus/kitchen)
+"kV" = (
+/obj/structure/window/reinforced,
+/obj/structure/surface/table/woodentable/fancy,
+/obj/item/reagent_container/food/snacks/grown/goldapple,
+/obj/item/reagent_container/food/snacks/grown/goldapple,
+/obj/item/reagent_container/food/snacks/grown/goldapple,
+/obj/item/reagent_container/food/snacks/grown/goldapple,
+/obj/item/reagent_container/food/snacks/grown/goldapple,
+/obj/item/reagent_container/food/snacks/grown/goldapple,
+/obj/item/reagent_container/food/snacks/grown/goldapple,
+/obj/item/reagent_container/food/snacks/grown/goldapple,
+/obj/item/reagent_container/food/snacks/grown/goldapple,
+/turf/open/floor/kutjevo/plate,
+/area/amongus/kitchen)
+"kW" = (
+/turf/open/floor/carpet{
+	desc = "Plush, waterproof carpet. Apparently it's fire resistant while remaining quite soft.";
+	name = "\improper carpet"
+	},
+/area/amongus/kitchen)
+"li" = (
+/obj/structure/surface/table/woodentable/fancy,
+/turf/open/floor/carpet/edge,
+/area/amongus/kitchen)
+"ll" = (
+/obj/effect/landmark/start/liaison,
+/turf/open/floor/plating/plating_catwalk,
+/area/amongus/cryo_cells)
+"lU" = (
+/obj/structure/closet/secure_closet/fridge/groceries,
+/turf/open/floor/kutjevo/tan/alt_edge{
+	dir = 8
+	},
+/area/amongus/kitchen)
+"md" = (
+/obj/structure/bed/chair/comfy,
+/turf/open/floor/carpet{
+	desc = "Plush, waterproof carpet. Apparently it's fire resistant while remaining quite soft.";
+	name = "\improper carpet"
+	},
+/area/amongus/kitchen)
+"mf" = (
+/obj/structure/bed/chair/comfy/alpha{
+	dir = 1
+	},
+/turf/open/floor/kutjevo/plate,
+/area/amongus/kitchen)
+"mg" = (
+/obj/structure/bed/chair/comfy{
+	buckling_y = 2;
+	dir = 8;
+	pixel_y = 2
+	},
+/turf/open/floor/carpet/edge{
+	dir = 4
+	},
+/area/amongus/kitchen)
+"mj" = (
+/turf/open/floor/carpet,
+/area/amongus/kitchen)
+"mk" = (
+/obj/structure/machinery/cm_vending/clothing/super_snowflake/gloves,
+/turf/open/floor/kutjevo/plate,
+/area/amongus/kitchen)
+"mn" = (
+/obj/structure/platform/kutjevo{
+	dir = 4
+	},
+/turf/open/floor/kutjevo,
+/area/amongus/kitchen)
+"mI" = (
+/turf/open/floor/kutjevo/tan/plate,
+/area/amongus/kitchen)
+"mW" = (
+/obj/structure/machinery/light,
+/obj/structure/surface/table/reinforced,
+/turf/open/floor/kutjevo/tan/alt_edge,
+/area/amongus/kitchen)
+"mZ" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "S"
+	},
+/obj/structure/machinery/door/airlock/multi_tile/almayer/generic{
+	name = "\improper Cryo Bay"
+	},
+/turf/open/floor/almayer{
+	dir = 1;
+	icon_state = "cargo_arrow"
+	},
+/area/amongus/cryo_cells)
+"nb" = (
+/turf/open/floor/kutjevo/tan,
+/area/amongus/kitchen)
+"ni" = (
+/turf/open/floor/almayer{
+	dir = 10;
+	icon_state = "silver"
+	},
+/area/amongus/cryo_cells)
+"nr" = (
+/obj/structure/machinery/power/apc/super{
+	dir = 8;
+	invisibility = 35
+	},
+/turf/open/floor/kutjevo/plate,
+/area/amongus/kitchen)
+"nS" = (
+/turf/open/floor/almayer{
+	dir = 1;
+	icon_state = "silver"
+	},
+/area/amongus/cryo_cells)
+"oj" = (
+/obj/structure/bed/chair/comfy{
+	dir = 4
+	},
+/obj/structure/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/carpet/edge{
+	dir = 9
+	},
+/area/amongus/kitchen)
+"oq" = (
+/obj/structure/machinery/door/airlock/external/colony{
+	req_one_access = null
+	},
+/turf/open/floor/kutjevo/plate,
+/area/amongus/kitchen)
+"ot" = (
+/obj/structure/machinery/cryopod{
+	layer = 3.1;
+	pixel_y = 13
+	},
+/turf/open/floor/kutjevo/tiles,
+/area/amongus/kitchen)
+"oH" = (
+/obj/structure/bed/chair/comfy{
+	dir = 1
+	},
+/turf/open/floor/kutjevo/colors,
+/area/amongus/kitchen)
+"oM" = (
+/obj/structure/machinery/chem_dispenser/soda,
+/obj/structure/surface/table/reinforced,
+/turf/open/floor/kutjevo/tan/alt_edge{
+	dir = 1
+	},
+/area/amongus/kitchen)
+"pb" = (
+/obj/structure/surface/table/woodentable/fancy,
+/turf/open/floor/carpet,
+/area/amongus/kitchen)
+"pU" = (
+/obj/effect/landmark/start/chef,
+/turf/open/floor/plating/plating_catwalk,
+/area/amongus/cryo_cells)
+"qc" = (
+/obj/structure/machinery/cm_vending/clothing/super_snowflake/suit,
+/turf/open/floor/kutjevo/plate,
+/area/amongus/kitchen)
+"qj" = (
+/obj/structure/bed/chair/comfy{
+	dir = 4
+	},
+/turf/open/floor/carpet/edge{
+	dir = 8
+	},
+/area/amongus/kitchen)
+"qm" = (
+/obj/structure/surface/table/woodentable/fancy,
+/obj/item/device/flashlight/lamp/green{
+	on = 1
+	},
+/turf/open/floor/kutjevo/colors,
+/area/amongus/kitchen)
+"qr" = (
+/obj/structure/closet/secure_closet/fridge/dry/stock,
+/turf/open/floor/kutjevo/tan/alt_edge{
+	dir = 1
+	},
+/area/amongus/kitchen)
+"qB" = (
+/obj/structure/surface/table/woodentable/fancy,
+/obj/item/device/flashlight/lamp/green{
+	on = 1
+	},
+/turf/open/floor/carpet,
+/area/amongus/kitchen)
+"qH" = (
+/turf/open/floor/almayer,
+/area/amongus/cryo_cells)
+"ri" = (
+/obj/structure/prop/invuln{
+	desc = "An inflated membrane. This one is puncture proof. Wow!";
+	icon = 'icons/obj/items/inflatable.dmi';
+	icon_state = "wall";
+	name = "umbilical wall"
+	},
+/obj/structure/blocker/invisible_wall,
+/turf/open/floor/almayer_hull{
+	dir = 4;
+	icon_state = "outerhull_dir"
+	},
+/area/amongus/cryo_cells)
+"rj" = (
+/obj/effect/landmark/late_join/alpha,
+/turf/open/floor/kutjevo/tiles,
+/area/amongus/kitchen)
+"rD" = (
+/obj/structure/machinery/vending/dinnerware,
+/turf/open/floor/kutjevo/tan,
+/area/amongus/kitchen)
+"rK" = (
+/obj/structure/platform_decoration/kutjevo{
+	dir = 8
+	},
+/turf/open/floor/kutjevo,
+/area/amongus/kitchen)
+"rQ" = (
+/obj/structure/platform_decoration/kutjevo{
+	dir = 8
+	},
+/turf/open/floor/wood,
+/area/amongus/kitchen)
+"sb" = (
+/obj/structure/machinery/chem_dispenser/soda/beer,
+/obj/structure/surface/table/reinforced,
+/turf/open/floor/kutjevo/tan/alt_edge{
+	dir = 1
+	},
+/area/amongus/kitchen)
+"se" = (
+/obj/structure/machinery/door/airlock/external/colony{
+	req_one_access = null
+	},
+/turf/open/floor/kutjevo/colors/red/tile,
+/area/amongus/cryo_cells)
+"sH" = (
+/obj/structure/machinery/cm_vending/clothing/super_snowflake/helmet,
+/turf/open/floor/kutjevo/plate,
+/area/amongus/kitchen)
+"tc" = (
+/obj/structure/surface/table/woodentable/fancy,
+/obj/item/device/flashlight/lamp/green{
+	on = 1
+	},
+/turf/open/floor/carpet{
+	desc = "Plush, waterproof carpet. Apparently it's fire resistant while remaining quite soft.";
+	name = "\improper carpet"
+	},
+/area/amongus/kitchen)
+"ts" = (
+/obj/structure/platform/kutjevo{
+	dir = 4
+	},
+/obj/structure/platform/kutjevo{
+	dir = 4;
+	icon_state = "kutjevo_platform_sm"
+	},
+/turf/open/floor/kutjevo/tan/alt_edge,
+/area/amongus/kitchen)
+"tA" = (
+/turf/open/floor/plating/plating_catwalk,
+/area/amongus/cryo_cells)
+"tI" = (
+/obj/structure/machinery/cm_vending/clothing/super_snowflake/mask,
+/turf/open/floor/kutjevo/plate,
+/area/amongus/kitchen)
+"tU" = (
+/obj/structure/window/framed/kutjevo/reinforced,
+/turf/open/floor/kutjevo/plate,
+/area/amongus/kitchen)
+"ua" = (
+/turf/open/floor/almayer{
+	icon_state = "cargo_arrow"
+	},
+/area/amongus/cryo_cells)
+"uz" = (
+/obj/structure/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/kutjevo/plate,
+/area/amongus/kitchen)
+"uD" = (
+/obj/structure/machinery/cryopod/right{
+	layer = 3.1;
+	pixel_y = 13
+	},
+/turf/open/floor/kutjevo/tiles,
+/area/amongus/kitchen)
+"uP" = (
+/obj/structure/stairs/perspective/kutjevo{
+	dir = 2
+	},
+/obj/structure/platform/kutjevo{
+	dir = 8
+	},
+/turf/open/floor/kutjevo/multi_tiles,
+/area/amongus/kitchen)
+"va" = (
+/obj/structure/surface/table/woodentable/fancy,
+/turf/open/floor/carpet{
+	desc = "Plush, waterproof carpet. Apparently it's fire resistant while remaining quite soft.";
+	name = "\improper carpet"
+	},
+/area/amongus/kitchen)
+"vb" = (
+/obj/structure/bed/chair/comfy{
+	dir = 4
+	},
+/turf/open/floor/carpet/edge{
+	dir = 1
+	},
+/area/amongus/kitchen)
+"vf" = (
+/obj/structure/surface/table/woodentable/fancy,
+/obj/item/device/flashlight/lamp/green{
+	on = 1
+	},
+/turf/open/floor/carpet/edge{
+	dir = 1
+	},
+/area/amongus/kitchen)
+"vv" = (
+/obj/structure/surface/table/reinforced,
+/obj/item/reagent_container/food/snacks/sliceable/cheesewheel/mature,
+/obj/item/reagent_container/food/snacks/sliceable/cheesewheel/mature,
+/obj/item/reagent_container/food/snacks/sliceable/cheesewheel/mature,
+/obj/item/reagent_container/food/snacks/sliceable/cheesewheel/mature,
+/obj/item/reagent_container/food/snacks/sliceable/cheesewheel/mature,
+/turf/open/floor/kutjevo/tan/alt_edge,
+/area/amongus/kitchen)
+"vI" = (
+/obj/structure/machinery/door/airlock/gold,
+/turf/open/floor/kutjevo/plate,
+/area/amongus/kitchen)
+"wj" = (
+/obj/structure/bed/chair/comfy{
+	buckling_y = 2;
+	dir = 8;
+	pixel_y = 2
+	},
+/obj/structure/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/carpet/edge{
+	dir = 4
+	},
+/area/amongus/kitchen)
+"wP" = (
+/obj/structure/platform_decoration/kutjevo{
+	dir = 1
+	},
+/obj/structure/bed/chair/comfy{
+	dir = 4
+	},
+/turf/open/floor/carpet/edge{
+	dir = 8
+	},
+/area/amongus/kitchen)
+"xa" = (
+/turf/open/floor/wood,
+/area/amongus/kitchen)
+"xj" = (
+/obj/structure/bed/chair/comfy{
+	buckling_y = 2;
+	dir = 8;
+	pixel_y = 2
+	},
+/obj/structure/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/carpet/edge{
+	dir = 5
+	},
+/area/amongus/kitchen)
+"xu" = (
+/obj/structure/machinery/power/smes/magical,
+/turf/open/floor/kutjevo/plate,
+/area/amongus/kitchen)
+"xy" = (
+/obj/structure/machinery/power/apc/super{
+	dir = 4
+	},
+/turf/open/floor/almayer{
+	dir = 5;
+	icon_state = "silver"
+	},
+/area/amongus/cryo_cells)
+"xz" = (
+/obj/structure/stairs/perspective/kutjevo{
+	dir = 4
+	},
+/turf/open/floor/kutjevo/colors,
+/area/amongus/kitchen)
+"xH" = (
+/obj/structure/bed/chair/comfy{
+	dir = 4
+	},
+/turf/open/floor/carpet,
+/area/amongus/kitchen)
+"yv" = (
+/obj/structure/window/reinforced,
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/structure/surface/table/woodentable/fancy,
+/obj/item/clothing/head/helmet/marine/fluff/goldtrimberet,
+/turf/open/floor/kutjevo/plate,
+/area/amongus/kitchen)
+"yx" = (
+/obj/effect/landmark/observer_start,
+/turf/open/floor/kutjevo/tiles,
+/area/amongus/kitchen)
+"yH" = (
+/obj/effect/landmark/start/reporter,
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/amongus/cryo_cells)
+"yY" = (
+/obj/structure/machinery/vending/dinnerware,
+/turf/open/floor/wood,
+/area/amongus/kitchen)
+"zl" = (
+/obj/structure/platform/kutjevo{
+	dir = 8
+	},
+/turf/open/floor/kutjevo,
+/area/amongus/kitchen)
+"zC" = (
+/turf/open/floor/almayer{
+	dir = 6;
+	icon_state = "silver"
+	},
+/area/amongus/cryo_cells)
+"Al" = (
+/obj/structure/stairs/perspective/kutjevo{
+	dir = 2
+	},
+/obj/structure/platform/kutjevo{
+	dir = 4
+	},
+/turf/open/floor/kutjevo/multi_tiles,
+/area/amongus/kitchen)
+"AD" = (
+/turf/open/floor/kutjevo/colors,
+/area/amongus/kitchen)
+"Bm" = (
+/obj/structure/platform/kutjevo{
+	dir = 8
+	},
+/obj/structure/platform/kutjevo/smooth{
+	dir = 8
+	},
+/obj/structure/bed/chair/comfy{
+	dir = 4
+	},
+/turf/open/floor/carpet/edge{
+	dir = 8
+	},
+/area/amongus/kitchen)
+"Cj" = (
+/obj/structure/machinery/floodlight/landing/floor{
+	on_light_range = 15;
+	invisibility = 35
+	},
+/turf/open/floor/kutjevo/tiles,
+/area/amongus/kitchen)
+"Cp" = (
+/obj/structure/surface/table/woodentable/fancy,
+/turf/open/floor/kutjevo/colors,
+/area/amongus/kitchen)
+"Cw" = (
+/obj/structure/platform_decoration/kutjevo{
+	dir = 1
+	},
+/obj/structure/platform/kutjevo{
+	dir = 1
+	},
+/turf/open/floor/kutjevo/plate,
+/area/amongus/kitchen)
+"Dg" = (
+/obj/structure/surface/table/woodentable/fancy,
+/obj/item/reagent_container/food/drinks/bottle/whiskey{
+	pixel_x = -5;
+	pixel_y = 16
+	},
+/obj/item/reagent_container/food/drinks/bottle/whiskey{
+	desc = "A premium double-malt whiskey, this bottle was gifted to the Captain of the USS Almayer after the completion of the ship's space trials by the VADM. himself.";
+	pixel_x = 3;
+	pixel_y = 16
+	},
+/obj/item/reagent_container/food/drinks/bottle/whiskey{
+	pixel_x = 11;
+	pixel_y = 16
+	},
+/obj/item/tool/lighter/zippo/gold{
+	pixel_y = 2;
+	layer = 3.05;
+	pixel_x = 6
+	},
+/obj/item/storage/fancy/cigar{
+	pixel_y = 2;
+	layer = 3.04;
+	pixel_x = -2
+	},
+/turf/open/floor/carpet/edge{
+	dir = 1
+	},
+/area/amongus/kitchen)
+"Dn" = (
+/obj/structure/machinery/cryopod/right,
+/obj/structure/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/almayer{
+	icon_state = "cargo"
+	},
+/area/amongus/cryo_cells)
+"Dr" = (
+/obj/structure/bed/chair/comfy{
+	buckling_y = 2;
+	dir = 8;
+	pixel_y = 2
+	},
+/obj/structure/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/carpet/edge{
+	dir = 6
+	},
+/area/amongus/kitchen)
+"DC" = (
+/obj/structure/bed/chair/comfy{
+	dir = 4
+	},
+/turf/open/floor/carpet/edge,
+/area/amongus/kitchen)
+"DT" = (
+/obj/structure/machinery/cryopod{
+	layer = 3.1;
+	pixel_y = 13
+	},
+/turf/open/floor/almayer{
+	icon_state = "cargo"
+	},
+/area/amongus/cryo_cells)
+"DU" = (
+/obj/structure/platform/kutjevo{
+	dir = 4
+	},
+/obj/structure/platform/kutjevo,
+/turf/open/floor/wood,
+/area/amongus/kitchen)
+"Es" = (
+/obj/structure/bed/chair/comfy,
+/turf/open/floor/kutjevo/colors,
+/area/amongus/kitchen)
+"EI" = (
+/obj/effect/landmark/start/chef,
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/amongus/cryo_cells)
+"ES" = (
+/obj/structure/closet/crate/freezer,
+/turf/open/floor/kutjevo/tan/alt_edge,
+/area/amongus/kitchen)
+"FE" = (
+/obj/structure/platform_decoration/kutjevo,
+/obj/structure/platform/kutjevo{
+	dir = 1
+	},
+/turf/open/floor/kutjevo/plate,
+/area/amongus/kitchen)
+"FU" = (
+/obj/docking_port/stationary/emergency_response/external/hangar_starboard{
+	dwidth = 2;
+	name = "Amongus hanger starboard external airlock";
+	id = "amongus-hangar-south"
+	},
+/turf/open/space/basic,
+/area/space)
+"Gn" = (
+/obj/structure/platform/kutjevo{
+	dir = 8
+	},
+/obj/structure/platform/kutjevo/smooth{
+	dir = 8
+	},
+/turf/open/floor/kutjevo/tan/alt_edge{
+	dir = 1
+	},
+/area/amongus/kitchen)
+"Gz" = (
+/turf/open/floor/kutjevo/tan/multi_tiles,
+/area/amongus/kitchen)
+"GK" = (
+/obj/structure/surface/table/reinforced,
+/turf/open/floor/kutjevo/tan/alt_edge,
+/area/amongus/kitchen)
+"GL" = (
+/obj/structure/machinery/vending/cola,
+/obj/structure/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/kutjevo/tan/alt_edge{
+	dir = 1
+	},
+/area/amongus/kitchen)
+"HA" = (
+/obj/effect/landmark/start/captain,
+/turf/open/floor/plating/plating_catwalk,
+/area/amongus/cryo_cells)
+"HN" = (
+/obj/structure/platform/kutjevo{
+	dir = 4
+	},
+/obj/structure/platform/kutjevo{
+	dir = 4;
+	icon_state = "kutjevo_platform_sm"
+	},
+/turf/open/floor/wood,
+/area/amongus/kitchen)
+"IK" = (
+/turf/open/floor/kutjevo/tan/alt_edge{
+	dir = 4
+	},
+/area/amongus/kitchen)
+"IQ" = (
+/obj/structure/platform_decoration{
+	icon_state = "kutjevo_platform_deco";
+	dir = 4
+	},
+/turf/open/floor/kutjevo,
+/area/amongus/kitchen)
+"Jp" = (
+/obj/structure/platform/kutjevo{
+	dir = 1
+	},
+/turf/open/floor/kutjevo,
+/area/amongus/kitchen)
+"Ju" = (
+/obj/structure/platform/kutjevo{
+	dir = 4
+	},
+/obj/structure/platform/kutjevo{
+	dir = 4;
+	icon_state = "kutjevo_platform_sm"
+	},
+/obj/structure/bed/chair/comfy{
+	buckling_y = 2;
+	dir = 8;
+	pixel_y = 2
+	},
+/turf/open/floor/carpet/edge{
+	dir = 4
+	},
+/area/amongus/kitchen)
+"Kk" = (
+/obj/structure/closet/secure_closet/fridge/meat/stock,
+/turf/open/floor/kutjevo/tan/alt_edge{
+	dir = 1
+	},
+/area/amongus/kitchen)
+"Ku" = (
+/turf/open/floor/almayer{
+	icon_state = "silver"
+	},
+/area/amongus/cryo_cells)
+"KK" = (
+/obj/structure/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/kutjevo/plate,
+/area/amongus/kitchen)
+"KN" = (
+/obj/effect/landmark/start/executive,
+/turf/open/floor/plating/plating_catwalk,
+/area/amongus/cryo_cells)
+"KS" = (
+/obj/structure/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/almayer{
+	dir = 1;
+	icon_state = "silver"
+	},
+/area/amongus/cryo_cells)
+"Ls" = (
+/obj/structure/machinery/light{
+	dir = 8
+	},
+/obj/structure/closet/secure_closet/fridge/fish/stock,
+/turf/open/floor/kutjevo/tan/alt_inner_edge,
+/area/amongus/kitchen)
+"Lu" = (
+/obj/structure/surface/table/reinforced,
+/obj/item/tool/kitchen/knife,
+/obj/item/tool/kitchen/rollingpin,
+/turf/open/floor/kutjevo/tan/alt_edge,
+/area/amongus/kitchen)
+"Mb" = (
+/turf/open/floor/carpet/edge{
+	dir = 4
+	},
+/area/amongus/kitchen)
+"Mt" = (
+/obj/structure/surface/table/woodentable/fancy,
+/obj/item/device/flashlight/lamp/green{
+	on = 1
+	},
+/turf/open/floor/carpet/edge,
+/area/amongus/kitchen)
+"MB" = (
+/obj/structure/platform_decoration{
+	icon_state = "kutjevo_platform_deco";
+	dir = 4
+	},
+/turf/open/floor/wood,
+/area/amongus/kitchen)
+"Nr" = (
+/turf/closed/wall/kutjevo/colony/reinforced,
+/area/amongus/kitchen)
+"Nx" = (
+/obj/structure/machinery/door/airlock/multi_tile/almayer/generic/solid{
+	locked = 1;
+	no_panel = 1;
+	name = "\improper Cryo Bay Airlock"
+	},
+/turf/closed/wall/almayer/outer,
+/area/amongus/cryo_cells)
+"Of" = (
+/obj/structure/platform/kutjevo{
+	dir = 8
+	},
+/obj/structure/platform/kutjevo/smooth{
+	dir = 8
+	},
+/turf/open/floor/kutjevo/tan/alt_edge,
+/area/amongus/kitchen)
+"Ot" = (
+/obj/structure/window/framed/almayer/hull,
+/turf/open/floor/kutjevo/colors/red/tile,
+/area/amongus/cryo_cells)
+"Ou" = (
+/obj/structure/window/framed/kutjevo/reinforced/hull,
+/obj/structure/machinery/door/poddoor/almayer{
+	id = "kitchen"
+	},
+/turf/open/floor/kutjevo/plate,
+/area/amongus/kitchen)
+"Pw" = (
+/obj/structure/window/reinforced,
+/obj/structure/surface/table/woodentable/fancy,
+/obj/item/reagent_container/food/drinks/golden_cup,
+/turf/open/floor/kutjevo/plate,
+/area/amongus/kitchen)
+"PP" = (
+/obj/structure/bed/chair/comfy{
+	buckling_y = 2;
+	dir = 8;
+	pixel_y = 2
+	},
+/turf/open/floor/carpet,
+/area/amongus/kitchen)
+"PS" = (
+/obj/structure/bed/chair/comfy{
+	buckling_y = 2;
+	dir = 8;
+	pixel_y = 2
+	},
+/turf/open/floor/carpet/edge,
+/area/amongus/kitchen)
+"PZ" = (
+/obj/structure/machinery/vending/dinnerware,
+/turf/open/floor/kutjevo/plate,
+/area/amongus/kitchen)
+"QC" = (
+/turf/open/floor/kutjevo{
+	icon_state = "catwalk";
+	dir = 1
+	},
+/area/amongus/kitchen)
+"QR" = (
+/obj/structure/platform/kutjevo{
+	dir = 8
+	},
+/obj/structure/platform/kutjevo/smooth{
+	dir = 8
+	},
+/turf/open/floor/kutjevo/tan,
+/area/amongus/kitchen)
+"QV" = (
+/turf/closed/wall/almayer/outer,
+/area/amongus/cryo_cells)
+"QZ" = (
+/obj/item/trash/plate{
+	pixel_x = 1;
+	pixel_y = 3
+	},
+/obj/item/trash/plate{
+	pixel_x = 1;
+	pixel_y = 6
+	},
+/obj/item/reagent_container/food/condiment/peppermill{
+	pixel_x = 4
+	},
+/obj/item/reagent_container/food/condiment/saltshaker{
+	pixel_x = -4
+	},
+/obj/structure/surface/table/reinforced,
+/turf/open/floor/kutjevo/tan/alt_edge,
+/area/amongus/kitchen)
+"Rw" = (
+/obj/structure/platform/kutjevo{
+	dir = 8
+	},
+/obj/structure/platform/kutjevo,
+/turf/open/floor/wood,
+/area/amongus/kitchen)
+"RH" = (
+/obj/structure/closet/secure_closet/fridge/organic,
+/turf/open/floor/kutjevo/tan,
+/area/amongus/kitchen)
+"Sq" = (
+/obj/structure/platform/kutjevo,
+/obj/structure/platform/kutjevo{
+	dir = 1
+	},
+/obj/structure/platform/kutjevo{
+	dir = 4
+	},
+/turf/open/floor/kutjevo/plate,
+/area/amongus/kitchen)
+"St" = (
+/turf/closed/wall/almayer,
+/area/amongus/cryo_cells)
+"Sw" = (
+/obj/structure/surface/table/reinforced,
+/obj/structure/machinery/microwave{
+	density = 0;
+	pixel_y = 9
+	},
+/turf/open/floor/kutjevo/tan,
+/area/amongus/kitchen)
+"Sx" = (
+/obj/structure/machinery/cryopod,
+/turf/open/floor/almayer{
+	icon_state = "cargo"
+	},
+/area/amongus/cryo_cells)
+"ST" = (
+/obj/structure/bed/chair/comfy{
+	buckling_y = 2;
+	dir = 8;
+	pixel_y = 2
+	},
+/turf/open/floor/carpet/edge{
+	dir = 5
+	},
+/area/amongus/kitchen)
+"Tr" = (
+/obj/structure/bed/chair/comfy{
+	buckling_y = 2;
+	dir = 8;
+	pixel_y = 2
+	},
+/turf/open/floor/carpet/edge{
+	dir = 1
+	},
+/area/amongus/kitchen)
+"Tx" = (
+/obj/structure/surface/table/woodentable/fancy,
+/obj/structure/machinery/door_control/brbutton/alt{
+	id = "kitchen";
+	req_access_txt = "31"
+	},
+/turf/open/floor/kutjevo/plate,
+/area/amongus/kitchen)
+"TP" = (
+/obj/structure/platform/kutjevo{
+	dir = 8
+	},
+/obj/structure/platform/kutjevo/smooth{
+	dir = 8
+	},
+/turf/open/floor/wood,
+/area/amongus/kitchen)
+"TV" = (
+/obj/structure/prop/invuln{
+	desc = "An inflated membrane. This one is puncture proof. Wow!";
+	icon = 'icons/obj/items/inflatable.dmi';
+	icon_state = "wall";
+	name = "umbilical wall"
+	},
+/obj/structure/blocker/invisible_wall,
+/turf/open/floor/almayer_hull{
+	dir = 4;
+	icon_state = "outerhull_dir"
+	},
+/area/amongus/kitchen)
+"Us" = (
+/obj/structure/machinery/floodlight/landing/floor,
+/turf/open/floor/kutjevo/colors,
+/area/amongus/kitchen)
+"Ux" = (
+/turf/open/space/basic,
+/area/space)
+"Vh" = (
+/obj/structure/machinery/cm_vending/clothing/super_snowflake/shoes,
+/turf/open/floor/kutjevo/plate,
+/area/amongus/kitchen)
+"VK" = (
+/obj/structure/machinery/cryopod,
+/obj/structure/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/almayer{
+	icon_state = "cargo"
+	},
+/area/amongus/cryo_cells)
+"VV" = (
+/obj/structure/platform/kutjevo{
+	dir = 8
+	},
+/obj/structure/platform/kutjevo/smooth{
+	dir = 8
+	},
+/obj/structure/bed/chair/comfy{
+	dir = 4
+	},
+/turf/open/floor/carpet/edge{
+	dir = 10
+	},
+/area/amongus/kitchen)
+"We" = (
+/obj/effect/landmark/start/bridge,
+/turf/open/floor/plating/plating_catwalk,
+/area/amongus/cryo_cells)
+"Wx" = (
+/obj/structure/machinery/light{
+	dir = 8
+	},
+/obj/structure/surface/table/reinforced,
+/obj/structure/machinery/processor,
+/turf/open/floor/kutjevo/tan/alt_inner_edge{
+	dir = 4
+	},
+/area/amongus/kitchen)
+"WG" = (
+/obj/structure/machinery/door/airlock/gold,
+/obj/structure/machinery/door/poddoor/almayer{
+	id = "kitchen"
+	},
+/turf/open/floor/kutjevo/plate,
+/area/amongus/kitchen)
+"WK" = (
+/obj/structure/machinery/cryopod,
+/turf/open/floor/kutjevo/tiles,
+/area/amongus/kitchen)
+"WY" = (
+/obj/structure/machinery/cryopod{
+	pixel_y = 6
+	},
+/turf/open/floor/almayer{
+	icon_state = "cargo"
+	},
+/area/amongus/cryo_cells)
+"Xj" = (
+/obj/structure/window/framed/almayer/hull,
+/turf/open/floor/kutjevo/tan,
+/area/amongus/cryo_cells)
+"Xn" = (
+/obj/structure/window/reinforced,
+/obj/structure/surface/table/woodentable/fancy,
+/obj/item/weapon/gun/pistol/heavy/co/gold,
+/turf/open/floor/kutjevo/plate,
+/area/amongus/kitchen)
+"Xo" = (
+/obj/structure/closet/secure_closet/fridge/dry,
+/turf/open/floor/kutjevo/tan,
+/area/amongus/kitchen)
+"Xq" = (
+/obj/structure/machinery/cryopod/right{
+	layer = 3.1;
+	pixel_y = 13
+	},
+/turf/open/floor/almayer{
+	icon_state = "cargo"
+	},
+/area/amongus/cryo_cells)
+"Xs" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "S"
+	},
+/turf/open/floor/almayer{
+	dir = 1;
+	icon_state = "cargo_arrow"
+	},
+/area/amongus/cryo_cells)
+"XX" = (
+/obj/structure/platform/kutjevo{
+	dir = 4
+	},
+/obj/structure/stairs/perspective/kutjevo,
+/turf/open/floor/kutjevo,
+/area/amongus/kitchen)
+"Yo" = (
+/obj/structure/closet/secure_closet/fridge/groceries,
+/turf/open/floor/kutjevo/tan/alt_edge{
+	dir = 4
+	},
+/area/amongus/kitchen)
+"YA" = (
+/obj/structure/machinery/door/airlock/almayer/generic{
+	locked = 1;
+	no_panel = 1
+	},
+/turf/open/floor/almayer,
+/area/amongus/cryo_cells)
+"YP" = (
+/obj/structure/machinery/cm_vending/clothing/super_snowflake/accessory,
+/turf/open/floor/kutjevo/plate,
+/area/amongus/kitchen)
+"YR" = (
+/obj/structure/closet/secure_closet/fridge/organic/stock,
+/turf/open/floor/kutjevo/tan/alt_edge{
+	dir = 1
+	},
+/area/amongus/kitchen)
+"Zd" = (
+/obj/structure/surface/table/reinforced,
+/obj/structure/machinery/reagentgrinder{
+	pixel_y = 10
+	},
+/obj/item/storage/box/drinkingglasses,
+/turf/open/floor/kutjevo/tan/alt_edge{
+	dir = 1
+	},
+/area/amongus/kitchen)
+"Zf" = (
+/obj/structure/machinery/cm_vending/clothing/super_snowflake/uniform,
+/turf/open/floor/kutjevo/plate,
+/area/amongus/kitchen)
+"Zj" = (
+/obj/structure/stairs/perspective/kutjevo,
+/obj/structure/platform/kutjevo{
+	dir = 8
+	},
+/turf/open/floor/kutjevo,
+/area/amongus/kitchen)
+"ZM" = (
+/obj/structure/window/framed/kutjevo/reinforced,
+/obj/structure/machinery/door/poddoor/almayer{
+	id = "kitchen"
+	},
+/turf/open/floor/kutjevo/plate,
+/area/amongus/kitchen)
+
+(1,1,1) = {"
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+"}
+(2,1,1) = {"
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+"}
+(3,1,1) = {"
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+"}
+(4,1,1) = {"
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+"}
+(5,1,1) = {"
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+"}
+(6,1,1) = {"
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+"}
+(7,1,1) = {"
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+"}
+(8,1,1) = {"
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+"}
+(9,1,1) = {"
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+dK
+dK
+eZ
+eZ
+eZ
+dK
+dK
+dK
+eZ
+eZ
+eZ
+dK
+dK
+dK
+eZ
+eZ
+eZ
+dK
+dK
+dK
+eZ
+eZ
+eZ
+dK
+dK
+dK
+eZ
+eZ
+dK
+dK
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+"}
+(10,1,1) = {"
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+dK
+eZ
+eZ
+dK
+eZ
+eZ
+dK
+eZ
+eZ
+dK
+dK
+Ls
+fX
+lU
+fX
+Wx
+tU
+Ls
+fX
+lU
+fX
+Wx
+tU
+Ls
+fX
+lU
+fX
+Wx
+tU
+Ls
+fX
+lU
+fX
+Wx
+Ou
+Vh
+aK
+aK
+YP
+eZ
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+"}
+(11,1,1) = {"
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+eZ
+yY
+xa
+oj
+qj
+dx
+ck
+qj
+dx
+jU
+tU
+YR
+Gz
+RH
+Gz
+fn
+tU
+YR
+Gz
+RH
+Gz
+fn
+tU
+YR
+Gz
+RH
+Gz
+fn
+tU
+YR
+Gz
+RH
+Gz
+fn
+Ou
+tI
+aK
+aK
+qc
+eZ
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+"}
+(12,1,1) = {"
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+eZ
+xa
+xa
+Dg
+pb
+mj
+is
+pb
+mj
+li
+tU
+Kk
+Gz
+fP
+Gz
+vv
+tU
+Kk
+Gz
+fP
+Gz
+vv
+tU
+Kk
+Gz
+fP
+Gz
+vv
+tU
+Kk
+Gz
+fP
+Gz
+vv
+Ou
+sH
+aK
+aK
+Zf
+eZ
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+"}
+(13,1,1) = {"
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+eZ
+xa
+xa
+vf
+pb
+mj
+qB
+pb
+mj
+Mt
+tU
+qr
+Gz
+Xo
+Gz
+kn
+tU
+qr
+Gz
+Xo
+Gz
+kn
+tU
+qr
+Gz
+Xo
+Gz
+kn
+tU
+qr
+Gz
+Xo
+Gz
+kn
+Ou
+mk
+bP
+bP
+aW
+eZ
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+"}
+(14,1,1) = {"
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+dK
+dK
+dK
+eZ
+eZ
+dK
+dK
+xa
+xa
+Tr
+PP
+mj
+PP
+PP
+mj
+PS
+Nr
+ej
+nb
+nb
+nb
+mW
+Nr
+GL
+nb
+nb
+nb
+mW
+Nr
+ej
+nb
+nb
+nb
+mW
+dC
+ej
+nb
+nb
+nb
+mW
+dK
+dK
+bP
+gE
+dK
+dK
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+"}
+(15,1,1) = {"
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+dK
+Pw
+uz
+bP
+bP
+nr
+Jp
+xa
+xa
+vb
+xH
+mj
+xH
+xH
+mj
+DC
+tU
+Zd
+Gz
+gi
+Gz
+GK
+tU
+Zd
+Gz
+gi
+Gz
+GK
+tU
+Zd
+Gz
+gi
+Gz
+GK
+tU
+Zd
+Gz
+gi
+Gz
+GK
+ZM
+bP
+bP
+aK
+aK
+dK
+TV
+Ux
+Ux
+FU
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+"}
+(16,1,1) = {"
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+dK
+kV
+AD
+kW
+uP
+Zj
+IQ
+xa
+xa
+Dg
+pb
+mj
+is
+pb
+mj
+li
+tU
+sb
+Gz
+Sw
+Gz
+QZ
+tU
+sb
+Gz
+Sw
+Gz
+QZ
+tU
+sb
+Gz
+Sw
+Gz
+QZ
+tU
+sb
+Gz
+Sw
+Gz
+QZ
+ZM
+bP
+aK
+aK
+bP
+oq
+QC
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+"}
+(17,1,1) = {"
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+dK
+yv
+AD
+kW
+Al
+XX
+mn
+cO
+rQ
+vf
+pb
+mj
+qB
+pb
+mj
+Mt
+tU
+oM
+Gz
+Sw
+Gz
+Lu
+tU
+oM
+Gz
+Sw
+Gz
+Lu
+tU
+oM
+Gz
+Sw
+Gz
+Lu
+tU
+oM
+Gz
+Sw
+Gz
+Lu
+ZM
+bP
+aK
+Cj
+QC
+eZ
+QC
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+"}
+(18,1,1) = {"
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+eZ
+PZ
+kW
+kW
+AD
+kW
+tc
+va
+es
+ST
+mg
+Mb
+ha
+Ju
+Mb
+db
+tU
+cl
+Gz
+rD
+Gz
+ES
+tU
+cl
+Gz
+rD
+Gz
+ES
+tU
+cl
+Gz
+rD
+Gz
+ES
+tU
+cl
+Gz
+rD
+Gz
+ES
+ZM
+bP
+aK
+aK
+bP
+oq
+QC
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+"}
+(19,1,1) = {"
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+eZ
+Es
+tc
+va
+oH
+kW
+md
+va
+FE
+HN
+HN
+HN
+DU
+AD
+jT
+hC
+tU
+kj
+mI
+cg
+mI
+ts
+tU
+kj
+mI
+cg
+mI
+ts
+tU
+kj
+mI
+cg
+mI
+ts
+tU
+kj
+mI
+cg
+mI
+ts
+ZM
+Tx
+aK
+aK
+aK
+dK
+TV
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+"}
+(20,1,1) = {"
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+eZ
+Es
+va
+va
+oH
+bP
+kW
+va
+Sq
+Cp
+Cp
+AD
+bP
+AD
+AD
+AD
+bP
+AD
+jT
+Us
+jT
+AD
+bP
+AD
+jT
+Us
+jT
+AD
+bP
+AD
+jT
+Us
+jT
+AD
+bP
+AD
+jT
+Us
+jT
+AD
+WG
+bP
+aK
+aK
+bP
+eZ
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+"}
+(21,1,1) = {"
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+eZ
+js
+va
+tc
+oH
+bP
+md
+va
+hG
+Cp
+mf
+AD
+bP
+QC
+bP
+QC
+bP
+QC
+bP
+QC
+bP
+QC
+bP
+QC
+bP
+QC
+bP
+QC
+bP
+QC
+bP
+QC
+bP
+QC
+bP
+QC
+bP
+QC
+bP
+QC
+ZM
+aK
+yx
+aK
+bP
+eZ
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+"}
+(22,1,1) = {"
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+eZ
+Es
+va
+va
+oH
+bP
+kW
+va
+hc
+qm
+Cp
+AD
+bP
+AD
+AD
+AD
+bP
+AD
+xz
+Us
+xz
+AD
+bP
+AD
+xz
+Us
+xz
+AD
+bP
+AD
+xz
+Us
+xz
+AD
+bP
+AD
+xz
+Us
+xz
+AD
+WG
+bP
+aK
+aK
+bP
+eZ
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+"}
+(23,1,1) = {"
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+eZ
+Es
+tc
+va
+oH
+kW
+md
+va
+Cw
+TP
+TP
+TP
+Rw
+AD
+xz
+hC
+tU
+Gn
+nb
+QR
+nb
+Of
+tU
+Gn
+nb
+QR
+nb
+Of
+tU
+Gn
+nb
+QR
+nb
+Of
+tU
+Gn
+nb
+QR
+nb
+Of
+ZM
+bP
+aK
+aK
+aK
+dK
+TV
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+"}
+(24,1,1) = {"
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+eZ
+PZ
+kW
+kW
+AD
+kW
+tc
+va
+es
+kC
+qj
+dx
+wP
+Bm
+dx
+VV
+tU
+cl
+Gz
+rD
+Gz
+ES
+tU
+cl
+Gz
+rD
+Gz
+ES
+tU
+cl
+Gz
+rD
+Gz
+ES
+tU
+cl
+Gz
+rD
+Gz
+ES
+ZM
+bP
+aK
+aK
+bP
+oq
+QC
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+"}
+(25,1,1) = {"
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+dK
+jw
+AD
+kW
+uP
+Zj
+zl
+aU
+MB
+Dg
+pb
+mj
+is
+pb
+mj
+li
+tU
+oM
+Gz
+Sw
+Gz
+Lu
+tU
+oM
+Gz
+Sw
+Gz
+Lu
+tU
+oM
+Gz
+Sw
+Gz
+Lu
+tU
+oM
+Gz
+Sw
+Gz
+Lu
+ZM
+bP
+aK
+Cj
+QC
+eZ
+QC
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+"}
+(26,1,1) = {"
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+dK
+Xn
+AD
+kW
+Al
+XX
+rK
+xa
+xa
+vf
+pb
+mj
+qB
+pb
+mj
+Mt
+tU
+sb
+Gz
+Sw
+Gz
+QZ
+tU
+sb
+Gz
+Sw
+Gz
+QZ
+tU
+sb
+Gz
+Sw
+Gz
+QZ
+tU
+sb
+Gz
+Sw
+Gz
+QZ
+ZM
+bP
+aK
+aK
+bP
+oq
+QC
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+"}
+(27,1,1) = {"
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+dK
+bh
+KK
+bP
+bP
+bP
+Jp
+xa
+xa
+Tr
+PP
+mj
+PP
+PP
+mj
+PS
+tU
+Zd
+Gz
+gi
+Gz
+GK
+tU
+Zd
+Gz
+gi
+Gz
+GK
+tU
+Zd
+Gz
+gi
+Gz
+GK
+tU
+Zd
+Gz
+gi
+Gz
+GK
+ZM
+bP
+aK
+bP
+aK
+dK
+TV
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+"}
+(28,1,1) = {"
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+dK
+dK
+dK
+eZ
+eZ
+dK
+dK
+xa
+xa
+vb
+xH
+mj
+xH
+xH
+mj
+DC
+Nr
+ej
+nb
+nb
+nb
+mW
+Nr
+ej
+nb
+nb
+nb
+mW
+Nr
+ej
+nb
+nb
+nb
+mW
+Nr
+ej
+nb
+nb
+nb
+mW
+dK
+tU
+tU
+vI
+tU
+dK
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+"}
+(29,1,1) = {"
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+bP
+xu
+Ux
+Ux
+Ux
+Ux
+eZ
+xa
+xa
+Dg
+pb
+mj
+is
+pb
+mj
+li
+tU
+qr
+Gz
+Xo
+Gz
+kn
+tU
+qr
+Gz
+Xo
+Gz
+kn
+tU
+qr
+Gz
+Xo
+Gz
+kn
+tU
+qr
+Gz
+Xo
+Gz
+kn
+Ou
+WK
+ot
+bP
+WK
+eZ
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+"}
+(30,1,1) = {"
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+eZ
+xa
+xa
+vf
+pb
+mj
+qB
+pb
+mj
+Mt
+tU
+Kk
+Gz
+fP
+Gz
+vv
+tU
+Kk
+Gz
+fP
+Gz
+vv
+tU
+Kk
+Gz
+fP
+Gz
+vv
+tU
+Kk
+Gz
+fP
+Gz
+vv
+Ou
+hI
+hI
+bP
+rj
+eZ
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+"}
+(31,1,1) = {"
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+eZ
+yY
+xa
+xj
+mg
+Mb
+wj
+mg
+Mb
+Dr
+tU
+YR
+Gz
+RH
+Gz
+fn
+tU
+YR
+Gz
+RH
+Gz
+fn
+tU
+YR
+Gz
+RH
+Gz
+fn
+tU
+YR
+Gz
+RH
+Gz
+fn
+Ou
+hI
+hI
+bP
+rj
+eZ
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+"}
+(32,1,1) = {"
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+dK
+eZ
+eZ
+dK
+eZ
+eZ
+dK
+eZ
+eZ
+dK
+dK
+gW
+IK
+Yo
+IK
+ic
+tU
+gW
+IK
+Yo
+IK
+ic
+tU
+gW
+IK
+Yo
+IK
+ic
+tU
+gW
+IK
+Yo
+IK
+ic
+Ou
+gu
+uD
+bP
+gu
+eZ
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+"}
+(33,1,1) = {"
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+dK
+dK
+eZ
+eZ
+eZ
+dK
+dK
+dK
+eZ
+eZ
+eZ
+dK
+dK
+dK
+eZ
+eZ
+eZ
+dK
+dK
+dK
+eZ
+eZ
+eZ
+dK
+dK
+dK
+eZ
+eZ
+dK
+dK
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+"}
+(34,1,1) = {"
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+"}
+(35,1,1) = {"
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+"}
+(36,1,1) = {"
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+"}
+(37,1,1) = {"
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+"}
+(38,1,1) = {"
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+"}
+(39,1,1) = {"
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+"}
+(40,1,1) = {"
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+"}
+(41,1,1) = {"
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+"}
+(42,1,1) = {"
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+"}
+(43,1,1) = {"
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+"}
+(44,1,1) = {"
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+"}
+(45,1,1) = {"
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+"}
+(46,1,1) = {"
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+QV
+QV
+YA
+QV
+QV
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+"}
+(47,1,1) = {"
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+QV
+dG
+qH
+ni
+QV
+ri
+Ux
+Ux
+FU
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+"}
+(48,1,1) = {"
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+QV
+QV
+QV
+QV
+QV
+QV
+QV
+KS
+tA
+ua
+se
+tA
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+"}
+(49,1,1) = {"
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+QV
+Sx
+DT
+VK
+DT
+WY
+St
+nS
+tA
+Ku
+Ot
+tA
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+"}
+(50,1,1) = {"
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Nx
+ll
+ll
+yH
+fC
+pU
+mZ
+ua
+qH
+ua
+se
+tA
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+"}
+(51,1,1) = {"
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+QV
+HA
+ll
+yH
+fC
+pU
+Xs
+ua
+tA
+Ku
+QV
+ri
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+"}
+(52,1,1) = {"
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+QV
+Dn
+Xq
+em
+Xq
+fU
+St
+nS
+tA
+Ku
+Xj
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+"}
+(53,1,1) = {"
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+QV
+St
+St
+St
+St
+St
+St
+KS
+qH
+Ku
+Xj
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+"}
+(54,1,1) = {"
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+QV
+VK
+DT
+Sx
+DT
+WY
+St
+nS
+tA
+Ku
+Xj
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+"}
+(55,1,1) = {"
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Nx
+We
+KN
+EI
+pU
+pU
+mZ
+ua
+tA
+Ku
+QV
+ri
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+"}
+(56,1,1) = {"
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+QV
+We
+KN
+EI
+pU
+pU
+Xs
+ua
+qH
+ua
+se
+tA
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+"}
+(57,1,1) = {"
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+QV
+em
+Xq
+Dn
+Xq
+fU
+St
+nS
+tA
+Ku
+Ot
+tA
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+"}
+(58,1,1) = {"
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+QV
+QV
+QV
+QV
+QV
+QV
+QV
+KS
+tA
+ua
+se
+tA
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+"}
+(59,1,1) = {"
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+QV
+xy
+qH
+zC
+QV
+ri
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+"}
+(60,1,1) = {"
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+QV
+QV
+YA
+QV
+QV
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+"}
+(61,1,1) = {"
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+"}
+(62,1,1) = {"
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+"}
+(63,1,1) = {"
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+"}
+(64,1,1) = {"
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+"}
+(65,1,1) = {"
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+"}
+(66,1,1) = {"
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+"}
+(67,1,1) = {"
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+Ux
+"}

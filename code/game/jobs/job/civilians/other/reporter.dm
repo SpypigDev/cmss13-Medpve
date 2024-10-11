@@ -3,8 +3,9 @@
 
 /datum/job/civilian/reporter
 	title = JOB_COMBAT_REPORTER
-	total_positions = 1
-	spawn_positions = 1
+	total_positions = 3
+	spawn_positions = 3
+	late_joinable = FALSE
 	selection_class = "job_cl"
 	supervisors = "the acting commanding officer"
 	gear_preset = /datum/equipment_preset/uscm_ship/reporter

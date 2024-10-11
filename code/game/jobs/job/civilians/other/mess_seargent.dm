@@ -1,9 +1,10 @@
 /datum/job/civilian/chef
 	title = JOB_MESS_SERGEANT
-	total_positions = 2
-	spawn_positions = 1
-	allow_additional = TRUE
-	scaled = TRUE
+	total_positions = 8
+	spawn_positions = 8
+	allow_additional = FALSE
+	late_joinable = FALSE
+	scaled = FALSE
 	selection_class = "job_ot"
 	flags_startup_parameters = ROLE_ADD_TO_DEFAULT
 	supervisors = "the auxiliary support officer"

@@ -3128,8 +3128,8 @@
 	},
 /area/amongus/cryo_cells)
 "nm" = (
+/obj/effect/landmark/start/marine/alpha,
 /obj/effect/landmark/late_join/alpha,
-/obj/structure/pipes/standard/simple/hidden/supply,
 /turf/open/floor/almayer{
 	icon_state = "plate"
 	},
@@ -3421,10 +3421,6 @@
 	icon_state = "sterile_green"
 	},
 /area/amongus/medical)
-"oq" = (
-/obj/effect/landmark/late_join/alpha,
-/turf/open/floor/plating/plating_catwalk,
-/area/amongus/cryo_cells)
 "or" = (
 /obj/structure/largecrate/supply,
 /obj/structure/platform{
@@ -4064,9 +4060,7 @@
 /turf/open/floor/almayer,
 /area/almayer/command/cichallway)
 "qW" = (
-/obj/structure/machinery/door/airlock/almayer/command{
-	name = "\improper Dining Hall"
-	},
+/obj/structure/machinery/door/airlock/almayer/generic,
 /turf/open/floor/strata{
 	desc = "Faux wooden floor boards, certified fire resistant. Begrudgingly put in place of actual wood due to concerns about 'fire safety'. Whatever that means.";
 	icon = 'icons/turf/floors/floors.dmi';
@@ -5118,7 +5112,7 @@
 	},
 /area/amongus/engineering)
 "vv" = (
-/obj/structure/machinery/door/airlock/multi_tile/almayer,
+/obj/structure/machinery/door/airlock/almayer/generic,
 /turf/open/floor/almayer{
 	icon_state = "mono"
 	},
@@ -8536,9 +8530,7 @@
 /turf/open/floor/prison,
 /area/amongus/cryo_cells)
 "IT" = (
-/obj/structure/machinery/door/airlock/multi_tile/almayer/comdoor{
-	name = "\improper Dining Hall"
-	},
+/obj/structure/machinery/door/airlock/multi_tile/almayer/generic/autoname,
 /turf/open/floor/almayer,
 /area/amongus/billiardsroom)
 "IU" = (
@@ -8701,11 +8693,12 @@
 /turf/open/floor/almayer,
 /area/amongus/cryo_cells)
 "JD" = (
-/obj/effect/landmark/late_join/alpha,
+/obj/effect/landmark/observer_start,
 /turf/open/floor/almayer{
-	icon_state = "plate"
+	dir = 1;
+	icon_state = "black"
 	},
-/area/amongus/cryo_cells)
+/area/amongus/briefing)
 "JF" = (
 /turf/open/floor/kutjevo/tan,
 /area/amongus/billiardsroom)
@@ -8714,13 +8707,6 @@
 	icon_state = "test_floor4"
 	},
 /area/amongus/lower_cargo)
-"JL" = (
-/obj/effect/landmark/observer_start,
-/turf/open/floor/almayer{
-	dir = 1;
-	icon_state = "black"
-	},
-/area/amongus/briefing)
 "JN" = (
 /obj/structure/bed/chair,
 /turf/open/floor/almayer,
@@ -11616,8 +11602,8 @@
 	},
 /area/amongus/arrivals)
 "VG" = (
-/obj/effect/landmark/late_join/alpha,
-/obj/structure/pipes/standard/simple/hidden/supply,
+/obj/effect/landmark/start/marine/alpha,
+/obj/effect/landmark/late_join,
 /turf/open/floor/plating/plating_catwalk,
 /area/amongus/cryo_cells)
 "VH" = (
@@ -11958,9 +11944,7 @@
 	},
 /area/amongus/cryo_cells)
 "Xb" = (
-/obj/structure/machinery/door/airlock/multi_tile/almayer/comdoor{
-	name = "\improper Awards Stage"
-	},
+/obj/structure/machinery/door/airlock/multi_tile/almayer/generic/autoname,
 /turf/open/floor/carpet{
 	desc = "Plush, waterproof carpet. Apparently it's fire resistant while remaining quite soft.";
 	name = "\improper carpet"
@@ -18173,7 +18157,7 @@ Ud
 Ia
 wb
 zj
-JL
+JD
 Qg
 jL
 NI
@@ -24046,7 +24030,7 @@ KE
 cp
 Jc
 JW
-nF
+Bx
 bb
 Bx
 bb
@@ -24174,7 +24158,7 @@ cV
 Wq
 bv
 Ne
-VG
+nm
 VG
 nm
 VG
@@ -24302,14 +24286,14 @@ cV
 lE
 Jc
 ot
-oq
-oq
-JD
-oq
-JD
-oq
-JD
-oq
+nm
+VG
+nm
+VG
+nm
+VG
+nm
+VG
 zp
 zE
 Kp
@@ -24430,7 +24414,7 @@ pQ
 cp
 XP
 JW
-rY
+pB
 Ps
 pB
 Ps

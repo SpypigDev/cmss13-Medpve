@@ -26,14 +26,14 @@
 /turf/open/floor/kutjevo/colors/red/tile,
 /area/shuttle/ert)
 "eD" = (
-/obj/structure/window/framed/kutjevo/reinforced,
-/turf/open/floor/kutjevo/colors,
+/obj/structure/window/framed/kutjevo/reinforced/hull,
+/turf/open/floor/kutjevo,
 /area/shuttle/ert)
 "fq" = (
 /obj/structure/machinery/door/airlock/external/colony{
 	req_one_access = null
 	},
-/turf/open/floor/kutjevo/colors,
+/turf/open/floor/kutjevo,
 /area/shuttle/ert)
 "hx" = (
 /obj/structure/surface/table/woodentable/fancy,
@@ -145,10 +145,6 @@
 	},
 /turf/open/floor/kutjevo/colors/red/tile,
 /area/shuttle/ert)
-"EG" = (
-/obj/structure/window/framed/kutjevo/reinforced,
-/turf/open/floor/kutjevo/multi_tiles,
-/area/shuttle/ert)
 "Ly" = (
 /turf/open/floor/kutjevo/colors/red/tile,
 /area/shuttle/ert)
@@ -245,30 +241,30 @@ xx
 xx
 "}
 (14,1,1) = {"
-EG
+eD
 vJ
 vl
 vJ
-EG
+eD
 "}
 (15,1,1) = {"
-EG
+eD
 dN
 lj
 ma
-EG
+eD
 "}
 (16,1,1) = {"
-EG
+eD
 mm
 hx
 wN
-EG
+eD
 "}
 (17,1,1) = {"
 yB
-EG
-EG
-EG
+eD
+eD
+eD
 yB
 "}
