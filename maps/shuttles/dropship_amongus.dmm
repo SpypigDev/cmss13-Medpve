@@ -4,7 +4,7 @@
 	dir = 8
 	},
 /turf/open/floor/kutjevo/multi_tiles,
-/area/shuttle/ert)
+/area/shuttle/amongus)
 "dN" = (
 /obj/item/device/flashlight/lamp/green{
 	on = 1
@@ -13,7 +13,7 @@
 /turf/open/floor/kutjevo/colors/red{
 	icon_state = "red3"
 	},
-/area/shuttle/ert)
+/area/shuttle/amongus)
 "ed" = (
 /obj/structure/bed/chair/vehicle{
 	dir = 1;
@@ -24,17 +24,17 @@
 	pixel_x = -8
 	},
 /turf/open/floor/kutjevo/colors/red/tile,
-/area/shuttle/ert)
+/area/shuttle/amongus)
 "eD" = (
 /obj/structure/window/framed/kutjevo/reinforced/hull,
 /turf/open/floor/kutjevo,
-/area/shuttle/ert)
+/area/shuttle/amongus)
 "fq" = (
 /obj/structure/machinery/door/airlock/external/colony{
 	req_one_access = null
 	},
 /turf/open/floor/kutjevo,
-/area/shuttle/ert)
+/area/shuttle/amongus)
 "hx" = (
 /obj/structure/surface/table/woodentable/fancy,
 /obj/structure/machinery/computer/shuttle/ert/big{
@@ -43,13 +43,13 @@
 /turf/open/floor/kutjevo/colors/red{
 	icon_state = "red2"
 	},
-/area/shuttle/ert)
+/area/shuttle/amongus)
 "jC" = (
 /turf/open/floor/kutjevo/plate,
-/area/shuttle/ert)
+/area/shuttle/amongus)
 "kS" = (
 /turf/open/floor/kutjevo/colors/red/edge,
-/area/shuttle/ert)
+/area/shuttle/amongus)
 "lj" = (
 /obj/structure/bed/chair/comfy{
 	dir = 4;
@@ -58,7 +58,7 @@
 /turf/open/floor/kutjevo/colors/red{
 	icon_state = "red2"
 	},
-/area/shuttle/ert)
+/area/shuttle/amongus)
 "ma" = (
 /obj/item/device/flashlight/lamp/green{
 	on = 1
@@ -68,14 +68,14 @@
 	icon_state = "red3";
 	dir = 1
 	},
-/area/shuttle/ert)
+/area/shuttle/amongus)
 "mm" = (
 /obj/structure/surface/table/woodentable/fancy,
 /turf/open/floor/kutjevo/colors/red{
 	icon_state = "red4";
 	dir = 1
 	},
-/area/shuttle/ert)
+/area/shuttle/amongus)
 "oF" = (
 /obj/docking_port/mobile/emergency_response/big{
 	dir = 4;
@@ -87,37 +87,37 @@
 /turf/closed/wall/kutjevo/colony/reinforced{
 	icon_state = "colonyh"
 	},
-/area/shuttle/ert)
+/area/shuttle/amongus)
 "qH" = (
 /turf/open/floor/kutjevo/colors,
-/area/shuttle/ert)
+/area/shuttle/amongus)
 "vl" = (
 /turf/open/floor/kutjevo/multi_tiles,
-/area/shuttle/ert)
+/area/shuttle/amongus)
 "vJ" = (
 /turf/open/floor/kutjevo/colors/red{
 	icon_state = "red2"
 	},
-/area/shuttle/ert)
+/area/shuttle/amongus)
 "wi" = (
 /obj/structure/machinery/door/airlock/almayer/secure/autoname,
 /turf/open/floor/kutjevo/colors/red/tile,
-/area/shuttle/ert)
+/area/shuttle/amongus)
 "wN" = (
 /obj/structure/surface/table/woodentable/fancy,
 /turf/open/floor/kutjevo/colors/red{
 	icon_state = "red4";
 	dir = 8
 	},
-/area/shuttle/ert)
+/area/shuttle/amongus)
 "xx" = (
 /turf/closed/wall/kutjevo/colony/reinforced{
 	icon_state = "colonyh"
 	},
-/area/shuttle/ert)
+/area/shuttle/amongus)
 "yB" = (
 /turf/closed/wall/kutjevo/colony/reinforced/hull,
-/area/shuttle/ert)
+/area/shuttle/amongus)
 "zZ" = (
 /obj/item/storage/fancy/cigar,
 /obj/item/device/flashlight/lamp/green{
@@ -125,7 +125,7 @@
 	},
 /obj/structure/surface/table/woodentable/fancy,
 /turf/open/floor/kutjevo/colors/red/tile,
-/area/shuttle/ert)
+/area/shuttle/amongus)
 "Cf" = (
 /obj/item/device/flashlight/lamp/green{
 	on = 1
@@ -133,7 +133,7 @@
 /obj/item/tool/lighter/zippo/gold,
 /obj/structure/surface/table/woodentable/fancy,
 /turf/open/floor/kutjevo/colors/red/tile,
-/area/shuttle/ert)
+/area/shuttle/amongus)
 "Ey" = (
 /obj/structure/bed/chair/vehicle{
 	pixel_x = -8;
@@ -144,10 +144,10 @@
 	pixel_y = 16
 	},
 /turf/open/floor/kutjevo/colors/red/tile,
-/area/shuttle/ert)
+/area/shuttle/amongus)
 "Ly" = (
 /turf/open/floor/kutjevo/colors/red/tile,
-/area/shuttle/ert)
+/area/shuttle/amongus)
 
 (1,1,1) = {"
 xx
