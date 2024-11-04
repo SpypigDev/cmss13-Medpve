@@ -187,7 +187,7 @@
 	},
 /obj/structure/machinery/light/double{
 	dir = 1;
-	light_color = #FF0000
+	light_color = "#FF0000"
 	},
 /turf/open/shuttle/dropship{
 	icon_state = "rasputin3"
@@ -204,7 +204,7 @@
 	},
 /obj/structure/machinery/light/double{
 	dir = 1;
-	light_color = #FF0000
+	light_color = "#FF0000"
 	},
 /turf/open/shuttle/dropship{
 	icon_state = "rasputin3"
