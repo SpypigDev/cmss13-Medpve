@@ -4253,10 +4253,6 @@
 	icon_state = "sterile_green"
 	},
 /area/amongus/medical)
-"rO" = (
-/turf/closed/wall/almayer/reinforced,
-/turf/closed/wall/almayer/reinforced,
-/area/amongus/lower_cargo)
 "rQ" = (
 /obj/structure/surface/table/reinforced/black,
 /obj/item/reagent_container/food/drinks/drinkingglass{
@@ -17676,7 +17672,7 @@ kg
 xV
 vO
 aW
-rO
+gH
 Lm
 Lm
 Lm
@@ -17804,7 +17800,7 @@ zo
 gH
 gH
 gH
-rO
+gH
 Lm
 Lm
 MH
