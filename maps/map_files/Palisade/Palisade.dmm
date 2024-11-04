@@ -884,10 +884,6 @@
 /obj/effect/landmark/late_join/alpha,
 /turf/open/floor/plating/plating_catwalk,
 /area/golden_arrow/cryo_cells)
-"dE" = (
-/obj/structure/window/framed/almayer/hull,
-/turf/closed/wall/almayer/outer,
-/area/golden_arrow/dorms)
 "dF" = (
 /turf/open/floor/almayer{
 	icon_state = "sterile_green_corner"
@@ -1084,12 +1080,6 @@
 	icon_state = "cargo"
 	},
 /area/golden_arrow/medical)
-"el" = (
-/obj/structure/pipes/standard/simple/hidden/supply{
-	dir = 8
-	},
-/turf/closed/wall/almayer/reinforced,
-/area/golden_arrow/supply)
 "em" = (
 /obj/structure/machinery/door/poddoor/railing{
 	dir = 2
@@ -1323,13 +1313,6 @@
 	icon_state = "silver"
 	},
 /area/golden_arrow/platoon_commander_rooms)
-"eU" = (
-/obj/structure/machinery/door/firedoor/border_only/almayer{
-	layer = 1.9
-	},
-/obj/structure/window/framed/almayer/hull,
-/turf/closed/wall/almayer/outer,
-/area/golden_arrow/dorms)
 "eV" = (
 /obj/structure/pipes/standard/simple/hidden/supply{
 	dir = 8
@@ -1406,8 +1389,11 @@
 	},
 /area/golden_arrow/platoonprep)
 "fk" = (
+/obj/structure/machinery/door/firedoor/border_only/almayer{
+	layer = 1.9
+	},
 /obj/structure/window/framed/almayer/hull,
-/turf/closed/wall/almayer,
+/turf/open/floor/almayer,
 /area/golden_arrow/dorms)
 "fm" = (
 /obj/structure/machinery/door/poddoor/almayer{
@@ -4899,15 +4885,6 @@
 	icon_state = "mono"
 	},
 /area/golden_arrow/dorms)
-"ri" = (
-/obj/structure/window/framed/almayer,
-/obj/structure/machinery/door/firedoor/border_only/almayer{
-	dir = 1
-	},
-/turf/open/floor/almayer{
-	icon_state = "plate"
-	},
-/area/golden_arrow/supply)
 "rj" = (
 /obj/structure/disposalpipe/segment,
 /obj/structure/pipes/standard/simple/hidden/supply{
@@ -5026,10 +5003,6 @@
 	icon_state = "plate"
 	},
 /area/golden_arrow/briefing)
-"rB" = (
-/turf/closed/wall/almayer/reinforced,
-/turf/closed/wall/almayer/reinforced,
-/area/golden_arrow/supply)
 "rC" = (
 /obj/structure/surface/table/almayer,
 /obj/structure/machinery/reagentgrinder/industrial{
@@ -6997,18 +6970,6 @@
 	name = "\improper carpet"
 	},
 /area/golden_arrow/shared_office)
-"yD" = (
-/obj/structure/pipes/standard/simple/hidden/supply{
-	dir = 4
-	},
-/obj/structure/pipes/standard/simple/hidden/supply{
-	dir = 4
-	},
-/obj/structure/window/framed/almayer,
-/turf/open/floor/almayer{
-	icon_state = "plate"
-	},
-/area/golden_arrow/supply)
 "yE" = (
 /obj/structure/machinery/door_display/research_cell{
 	dir = 8;
@@ -8926,16 +8887,6 @@
 	icon_state = "test_floor4"
 	},
 /area/golden_arrow/supply)
-"Fh" = (
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
-/obj/structure/machinery/door/firedoor/border_only/almayer{
-	layer = 1.9
-	},
-/obj/structure/window/framed/almayer/hull,
-/turf/closed/wall/almayer/outer,
-/area/golden_arrow/dorms)
 "Fi" = (
 /obj/structure/pipes/vents/pump,
 /obj/structure/machinery/light{
@@ -10356,10 +10307,6 @@
 	icon_state = "test_floor4"
 	},
 /area/golden_arrow/briefing)
-"Kj" = (
-/obj/structure/window/framed/almayer,
-/turf/closed/wall/almayer/reinforced,
-/area/golden_arrow/supply)
 "Kl" = (
 /obj/structure/surface/rack,
 /obj/effect/spawner/random/technology_scanner,
@@ -11756,12 +11703,6 @@
 /obj/structure/foamed_metal,
 /turf/open/space/basic,
 /area/golden_arrow/cryo_cells)
-"Pt" = (
-/obj/structure/window/framed/almayer,
-/obj/structure/window/framed/almayer/hull,
-/obj/structure/window/framed/almayer/hull,
-/turf/open/floor/plating,
-/area/golden_arrow/dorms)
 "Pv" = (
 /obj/structure/machinery/power/monitor{
 	name = "Core Power Monitoring"
@@ -13187,11 +13128,6 @@
 "UY" = (
 /turf/closed/wall/almayer/research/containment/wall/north,
 /area/golden_arrow/medical)
-"Vb" = (
-/obj/structure/window/framed/almayer,
-/turf/closed/wall/almayer/reinforced,
-/turf/closed/wall/almayer/reinforced,
-/area/golden_arrow/supply)
 "Vc" = (
 /turf/closed/wall/almayer/research/containment/wall/divide,
 /area/golden_arrow/medical)
@@ -19448,23 +19384,23 @@ sU
 yj
 hq
 hq
-Xr
-Xr
-Xr
+ZH
+ZH
+ZH
 hq
 hq
 ZH
 Fd
 Oe
 Fd
-Xr
+ZH
 hq
 hq
 hq
-Xr
-Xr
-el
-rB
+ZH
+ZH
+hq
+hq
 Dg
 ou
 Vp
@@ -19626,7 +19562,7 @@ hV
 Tr
 BI
 oc
-rB
+hq
 ql
 bL
 Vp
@@ -19788,7 +19724,7 @@ VT
 BH
 BU
 Sa
-rB
+hq
 ql
 Lj
 UJ
@@ -19950,7 +19886,7 @@ kJ
 BU
 BU
 pn
-rB
+hq
 ql
 Tw
 Vp
@@ -20112,7 +20048,7 @@ TC
 kJ
 pZ
 is
-rB
+hq
 WM
 fn
 fD
@@ -20258,9 +20194,9 @@ LC
 Ec
 hq
 Oe
-mK
+ZH
 YB
-mK
+ZH
 Oe
 xQ
 rO
@@ -20274,7 +20210,7 @@ mK
 xk
 mK
 hq
-rB
+hq
 Cm
 lr
 nc
@@ -20418,7 +20354,7 @@ LC
 LC
 LC
 Ww
-ri
+ZH
 pe
 IP
 kJ
@@ -20436,7 +20372,7 @@ EF
 dg
 Wb
 CU
-ri
+ZH
 Nm
 NN
 Vp
@@ -20760,7 +20696,7 @@ PD
 If
 BU
 Ex
-ri
+ZH
 ql
 Lj
 UJ
@@ -20922,7 +20858,7 @@ TV
 iN
 mS
 fv
-rB
+hq
 ql
 bL
 Vp
@@ -21084,7 +21020,7 @@ TV
 Hq
 tj
 NP
-Kj
+ZH
 yj
 dK
 Vp
@@ -21246,7 +21182,7 @@ TV
 ze
 LC
 RN
-Kj
+ZH
 Cm
 lr
 Uq
@@ -21408,7 +21344,7 @@ TV
 LG
 Ht
 xf
-rB
+hq
 Dg
 NN
 fD
@@ -21570,7 +21506,7 @@ kK
 jr
 LC
 yJ
-Vb
+ZH
 ql
 bL
 Vp
@@ -21732,7 +21668,7 @@ TV
 bK
 LC
 SP
-Vb
+ZH
 ql
 Lj
 UJ
@@ -21894,7 +21830,7 @@ TV
 oN
 Ht
 dG
-rB
+hq
 ql
 Tw
 Vp
@@ -22040,15 +21976,15 @@ Ct
 Bw
 hq
 hq
-Xr
+ZH
 oO
-Xr
+ZH
 hq
 hq
 hq
-Xr
-yD
-Xr
+ZH
+ZH
+ZH
 hq
 hq
 zI
@@ -22056,7 +21992,7 @@ gv
 hq
 hq
 hq
-rB
+hq
 Bd
 fn
 Vp
@@ -29332,13 +29268,13 @@ Wh
 vb
 vb
 vb
-dE
-Fh
-eU
+fk
+fk
+fk
 bx
 bx
 fk
-Pt
+fk
 fk
 vb
 EG

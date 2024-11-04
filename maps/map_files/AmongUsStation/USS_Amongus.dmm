@@ -2322,7 +2322,9 @@
 	dir = 4;
 	autoclose = 1
 	},
-/turf/closed/wall/almayer/white/hull,
+/turf/open/floor/almayer{
+	icon_state = "dark_sterile"
+	},
 /area/amongus/medical)
 "jB" = (
 /turf/open/floor/almayer{
@@ -15754,7 +15756,7 @@ gH
 vC
 vC
 aC
-rO
+gH
 Yi
 QF
 QF
@@ -15882,7 +15884,7 @@ On
 Xr
 TA
 AQ
-rO
+gH
 Yi
 QF
 QF
@@ -16010,7 +16012,7 @@ fK
 jk
 NA
 ma
-rO
+gH
 Yi
 QF
 QF
@@ -16138,7 +16140,7 @@ Ip
 NA
 NA
 KT
-rO
+gH
 Yi
 QF
 QF
@@ -16266,7 +16268,7 @@ VQ
 Ip
 ga
 bf
-rO
+gH
 Yi
 QF
 QF
@@ -16394,7 +16396,7 @@ Me
 VC
 Me
 gH
-rO
+gH
 Yi
 QF
 QF
@@ -16906,7 +16908,7 @@ kg
 fR
 mJ
 aW
-rO
+gH
 Yi
 QF
 QF
