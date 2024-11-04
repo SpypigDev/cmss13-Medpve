@@ -193,18 +193,6 @@
 /obj/docking_port/mobile/marine_dropship/tripoli/get_transit_path_type()
 	return /turf/open/space/transit/dropship/tripoli
 
-/obj/docking_port/mobile/marine_dropship/amongus
-	name = "Amongus"
-	id = DROPSHIP_AMONGUS
-	width = 22
-	height = 6
-
-	dwidth = 9
-	dheight = 3
-
-/obj/docking_port/mobile/marine_dropship/amongus/get_transit_path_type()
-	return /turf/open/space/transit/dropship/amongus
-
 /obj/docking_port/mobile/marine_dropship/cyclone/get_transit_path_type()
 	return /turf/open/space/transit/dropship/cyclone
 
@@ -440,7 +428,3 @@
 /datum/map_template/shuttle/tripoli
 	name = "Tripoli"
 	shuttle_id = DROPSHIP_TRIPOLI
-
-/datum/map_template/shuttle/amongus
-	name = "Amongus"
-	shuttle_id = DROPSHIP_AMONGUS

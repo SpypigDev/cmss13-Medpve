@@ -265,10 +265,6 @@
 	shuttle_tag = DROPSHIP_UPP
 	dir = SOUTH
 
-/turf/open/space/transit/dropship/amongus
-	shuttle_tag = DROPSHIP_AMONGUS
-	dir = EAST
-
 /turf/open/space/transit/south
 	dir = SOUTH
 
