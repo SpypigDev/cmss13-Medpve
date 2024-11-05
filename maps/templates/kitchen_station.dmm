@@ -16,7 +16,8 @@
 /obj/structure/surface/table/woodentable/fancy,
 /obj/item/clothing/head/beret/marine/commander/councilchief,
 /obj/structure/window/reinforced{
-	indestructible = 1
+	indestructible = 1;
+	not_damageable = 1
 	},
 /turf/open/floor/kutjevo/plate,
 /area/amongus/kitchen)
@@ -361,7 +362,8 @@
 /obj/structure/window/reinforced{
 	dir = 8;
 	health = 80;
-	indestructible = 1
+	indestructible = 1;
+	not_damageable = 1
 	},
 /obj/structure/surface/table/woodentable/fancy,
 /obj/item/spacecash/c1{
@@ -397,7 +399,8 @@
 	desc = "Ten 7th battalion minted hundred-booker bucks. Every single damn one of them has Booker Fucking Peralta on them. The council of Bookers sit impatiently, as if each one thought they alone belonged to you. This regiment of angry Bookers have all since learned about your relations with the other Battle-Group-Buddies, and they want answers."
 	},
 /obj/structure/window/reinforced{
-	indestructible = 1
+	indestructible = 1;
+	not_damageable = 1
 	},
 /turf/open/floor/kutjevo/plate,
 /area/amongus/kitchen)
@@ -469,7 +472,8 @@
 /obj/item/reagent_container/food/snacks/grown/goldapple,
 /obj/item/reagent_container/food/snacks/grown/goldapple,
 /obj/structure/window/reinforced{
-	indestructible = 1
+	indestructible = 1;
+	not_damageable = 1
 	},
 /turf/open/floor/kutjevo/plate,
 /area/amongus/kitchen)
@@ -487,14 +491,6 @@
 /obj/effect/landmark/start/liaison,
 /turf/open/floor/plating/plating_catwalk,
 /area/amongus/cryo_cells)
-"lO" = (
-/obj/structure/surface/table/woodentable/fancy,
-/obj/structure/machinery/floodlight/landing/floor{
-	on_light_range = 15;
-	invisibility = 35
-	},
-/turf/open/floor/kutjevo/plate,
-/area/amongus/kitchen)
 "lU" = (
 /obj/structure/closet/secure_closet/fridge/groceries,
 /turf/open/floor/kutjevo/tan/alt_edge{
@@ -588,6 +584,10 @@
 /obj/structure/machinery/floodlight/landing/floor{
 	on_light_range = 15;
 	invisibility = 35
+	},
+/obj/structure/window/reinforced{
+	indestructible = 1;
+	not_damageable = 1
 	},
 /turf/open/floor/kutjevo/plate,
 /area/amongus/kitchen)
@@ -796,6 +796,10 @@
 /area/amongus/kitchen)
 "sT" = (
 /obj/structure/surface/table/woodentable/fancy,
+/obj/structure/window/reinforced{
+	indestructible = 1;
+	not_damageable = 1
+	},
 /turf/open/floor/kutjevo/plate,
 /area/amongus/kitchen)
 "tc" = (
@@ -1010,12 +1014,14 @@
 "yv" = (
 /obj/structure/window/reinforced{
 	dir = 4;
-	indestructible = 1
+	indestructible = 1;
+	not_damageable = 1
 	},
 /obj/structure/surface/table/woodentable/fancy,
 /obj/item/clothing/head/helmet/marine/fluff/goldtrimberet,
 /obj/structure/window/reinforced{
-	indestructible = 1
+	indestructible = 1;
+	not_damageable = 1
 	},
 /turf/open/floor/kutjevo/plate,
 /area/amongus/kitchen)
@@ -1473,11 +1479,12 @@
 	},
 /area/amongus/arrivals)
 "Pw" = (
-/obj/structure/window/reinforced{
-	indestructible = 1
-	},
 /obj/structure/surface/table/woodentable/fancy,
 /obj/item/reagent_container/food/drinks/golden_cup,
+/obj/structure/window/reinforced{
+	indestructible = 1;
+	not_damageable = 1
+	},
 /turf/open/floor/kutjevo/plate,
 /area/amongus/kitchen)
 "PP" = (
@@ -1497,7 +1504,15 @@
 /turf/open/floor/carpet/edge,
 /area/amongus/kitchen)
 "PZ" = (
-/obj/structure/machinery/vending/dinnerware,
+/obj/structure/surface/table/woodentable/fancy,
+/obj/structure/machinery/floodlight/landing/floor{
+	on_light_range = 15;
+	invisibility = 35
+	},
+/obj/structure/window/reinforced{
+	indestructible = 1;
+	not_damageable = 1
+	},
 /turf/open/floor/kutjevo/plate,
 /area/amongus/kitchen)
 "Qj" = (
@@ -1806,7 +1821,8 @@
 /obj/structure/surface/table/woodentable/fancy,
 /obj/item/weapon/gun/pistol/heavy/co/gold,
 /obj/structure/window/reinforced{
-	indestructible = 1
+	indestructible = 1;
+	not_damageable = 1
 	},
 /turf/open/floor/kutjevo/plate,
 /area/amongus/kitchen)
@@ -2933,8 +2949,8 @@ Ux
 Ux
 Ux
 Ux
+Ux
 dK
-eZ
 dK
 yv
 AD
@@ -2997,10 +3013,10 @@ Ux
 Ux
 Ux
 Ux
+Ux
 eZ
 of
-eZ
-PZ
+bP
 kW
 kW
 AD
@@ -3061,9 +3077,9 @@ Ux
 Ux
 Ux
 Ux
+Ux
 eZ
 sT
-eZ
 Es
 tc
 va
@@ -3125,9 +3141,9 @@ Ux
 Ux
 Ux
 Ux
+Ux
 eZ
 sT
-eZ
 Es
 va
 va
@@ -3189,9 +3205,9 @@ Ux
 Ux
 Ux
 Ux
+Ux
 eZ
 sT
-eZ
 js
 va
 tc
@@ -3253,9 +3269,9 @@ Ux
 Ux
 Ux
 Ux
+Ux
 eZ
 sT
-eZ
 Es
 va
 va
@@ -3317,9 +3333,9 @@ Ux
 Ux
 Ux
 Ux
+Ux
 eZ
 sT
-eZ
 Es
 tc
 va
@@ -3381,10 +3397,10 @@ Ux
 Ux
 Ux
 Ux
-eZ
-lO
+Ux
 eZ
 PZ
+bP
 kW
 kW
 AD
@@ -3445,8 +3461,8 @@ Ux
 Ux
 Ux
 Ux
+Ux
 dK
-eZ
 dK
 jw
 AD
