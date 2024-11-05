@@ -3,7 +3,7 @@
 	total_positions = 8
 	spawn_positions = 8
 	allow_additional = FALSE
-	late_joinable = FALSE
+	late_joinable = TRUE
 	scaled = FALSE
 	selection_class = "job_ot"
 	flags_startup_parameters = ROLE_ADD_TO_DEFAULT

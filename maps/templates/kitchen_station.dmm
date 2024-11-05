@@ -48,6 +48,21 @@
 	dir = 1
 	},
 /area/amongus/kitchen)
+"cn" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/machinery/landinglight/ds1{
+	dir = 8
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/amongus/arrivals)
+"cv" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "W"
+	},
+/turf/open/floor/almayer,
+/area/amongus/arrivals)
 "cO" = (
 /obj/structure/platform/kutjevo{
 	dir = 4
@@ -76,6 +91,13 @@
 	dir = 8
 	},
 /area/amongus/kitchen)
+"dA" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/machinery/landinglight/ds1,
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/amongus/arrivals)
 "dC" = (
 /obj/structure/machinery/light{
 	dir = 1
@@ -91,6 +113,16 @@
 "dK" = (
 /turf/closed/wall/kutjevo/colony/reinforced/hull,
 /area/amongus/kitchen)
+"ea" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "E";
+	pixel_x = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/amongus/arrivals)
 "ej" = (
 /obj/structure/machinery/light{
 	dir = 1
@@ -106,6 +138,13 @@
 	icon_state = "cargo"
 	},
 /area/amongus/cryo_cells)
+"eo" = (
+/obj/structure/machinery/floodlight/landing/floor,
+/obj/structure/machinery/landinglight/ds1,
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/amongus/arrivals)
 "es" = (
 /obj/structure/platform/kutjevo{
 	dir = 1
@@ -116,17 +155,68 @@
 /obj/structure/window/framed/kutjevo/reinforced/hull,
 /turf/open/floor/kutjevo/plate,
 /area/amongus/kitchen)
+"fj" = (
+/obj/structure/machinery/landinglight/ds1/delayone,
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/amongus/arrivals)
 "fn" = (
 /obj/structure/surface/table/reinforced,
 /obj/structure/machinery/gibber,
 /turf/open/floor/kutjevo/tan/alt_edge,
 /area/amongus/kitchen)
+"fp" = (
+/obj/item/stack/catwalk{
+	pixel_x = 4
+	},
+/obj/item/stack/catwalk{
+	pixel_x = -3;
+	pixel_y = 6
+	},
+/obj/structure/machinery/landinglight/ds1{
+	dir = 8
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/amongus/arrivals)
+"fq" = (
+/obj/structure/machinery/landinglight/ds1/delaythree{
+	dir = 4
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/amongus/arrivals)
+"fA" = (
+/obj/structure/machinery/power/fusion_engine{
+	name = "\improper S-52 fusion reactor 17"
+	},
+/turf/open/floor/almayer,
+/area/amongus/engineering)
 "fC" = (
 /obj/effect/landmark/start/reporter,
 /turf/open/floor/plating/plating_catwalk,
 /area/amongus/cryo_cells)
+"fJ" = (
+/obj/structure/machinery/landinglight/ds1,
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/amongus/arrivals)
+"fK" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "S"
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "E";
+	pixel_x = 1
+	},
+/turf/open/floor/almayer,
+/area/amongus/arrivals)
 "fP" = (
-/obj/structure/closet/secure_closet/fridge/meat,
+/obj/structure/closet/secure_closet/freezer/meat,
 /turf/open/floor/kutjevo/tan,
 /area/amongus/kitchen)
 "fU" = (
@@ -159,6 +249,20 @@
 	},
 /turf/open/floor/kutjevo/plate,
 /area/amongus/kitchen)
+"gL" = (
+/obj/structure/machinery/landinglight/ds1/delaythree,
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/amongus/arrivals)
+"gR" = (
+/obj/structure/machinery/landinglight/ds1/delayone{
+	dir = 1
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/amongus/arrivals)
 "gW" = (
 /obj/structure/machinery/light{
 	dir = 4
@@ -189,6 +293,12 @@
 	},
 /turf/open/floor/kutjevo/plate,
 /area/amongus/kitchen)
+"hm" = (
+/turf/open/floor/kutjevo{
+	icon_state = "catwalk";
+	dir = 1
+	},
+/area/space/almayer/lifeboat_dock)
 "hC" = (
 /obj/structure/machinery/floodlight/landing/floor{
 	on_light_range = 15;
@@ -309,6 +419,17 @@
 	dir = 10
 	},
 /area/amongus/kitchen)
+"ki" = (
+/obj/structure/machinery/floodlight/landing/floor{
+	pixel_x = 3
+	},
+/obj/structure/machinery/landinglight/ds1{
+	dir = 8
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/amongus/arrivals)
 "kj" = (
 /obj/structure/platform/kutjevo{
 	dir = 4
@@ -473,6 +594,21 @@
 	},
 /turf/open/floor/kutjevo/tiles,
 /area/amongus/kitchen)
+"ov" = (
+/obj/structure/machinery/landinglight/ds1/delaytwo{
+	dir = 1
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/amongus/arrivals)
+"oC" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "W"
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer,
+/area/amongus/arrivals)
 "oH" = (
 /obj/structure/bed/chair/comfy{
 	dir = 1
@@ -486,10 +622,25 @@
 	dir = 1
 	},
 /area/amongus/kitchen)
+"oX" = (
+/obj/structure/machinery/landinglight/ds1{
+	dir = 4
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/amongus/arrivals)
 "pb" = (
 /obj/structure/surface/table/woodentable/fancy,
 /turf/open/floor/carpet,
 /area/amongus/kitchen)
+"pH" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "E";
+	pixel_x = 1
+	},
+/turf/open/floor/almayer,
+/area/amongus/arrivals)
 "pU" = (
 /obj/effect/landmark/start/chef,
 /turf/open/floor/plating/plating_catwalk,
@@ -526,26 +677,44 @@
 	},
 /turf/open/floor/carpet,
 /area/amongus/kitchen)
+"qD" = (
+/obj/structure/machinery/door/airlock/almayer/generic,
+/turf/open/floor/almayer,
+/area/amongus/cryo_cells)
 "qH" = (
 /turf/open/floor/almayer,
 /area/amongus/cryo_cells)
+"rd" = (
+/obj/structure/machinery/floodlight/landing/floor{
+	pixel_x = -2
+	},
+/obj/structure/machinery/landinglight/ds1{
+	dir = 4
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/amongus/arrivals)
 "ri" = (
-/obj/structure/prop/invuln{
-	desc = "An inflated membrane. This one is puncture proof. Wow!";
-	icon = 'icons/obj/items/inflatable.dmi';
-	icon_state = "wall";
-	name = "umbilical wall"
-	},
-/obj/structure/blocker/invisible_wall,
-/turf/open/floor/almayer_hull{
-	dir = 4;
-	icon_state = "outerhull_dir"
-	},
-/area/amongus/cryo_cells)
+/turf/closed/wall/almayer/outer,
+/area/amongus/arrivals)
 "rj" = (
 /obj/effect/landmark/late_join/alpha,
 /turf/open/floor/kutjevo/tiles,
 /area/amongus/kitchen)
+"rk" = (
+/obj/structure/foamed_metal,
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/amongus/cryo_cells)
+"rx" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/machinery/landinglight/ds1/delaythree,
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/amongus/arrivals)
 "rD" = (
 /obj/structure/machinery/vending/dinnerware,
 /turf/open/floor/kutjevo/tan,
@@ -556,6 +725,15 @@
 	},
 /turf/open/floor/kutjevo,
 /area/amongus/kitchen)
+"rO" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/machinery/landinglight/ds1/delaythree{
+	dir = 8
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/amongus/arrivals)
 "rQ" = (
 /obj/structure/platform_decoration/kutjevo{
 	dir = 8
@@ -570,11 +748,27 @@
 	},
 /area/amongus/kitchen)
 "se" = (
-/obj/structure/machinery/door/airlock/external/colony{
-	req_one_access = null
+/obj/structure/machinery/landinglight/ds1{
+	dir = 1
 	},
-/turf/open/floor/kutjevo/colors/red/tile,
-/area/amongus/cryo_cells)
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/amongus/arrivals)
+"sn" = (
+/obj/structure/machinery/door/airlock/almayer/generic,
+/turf/open/floor/almayer,
+/area/amongus/arrivals)
+"sr" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "E";
+	pixel_x = 1
+	},
+/obj/structure/machinery/door/poddoor/railing{
+	dir = 8
+	},
+/turf/open/floor/almayer,
+/area/amongus/arrivals)
 "sH" = (
 /obj/structure/machinery/cm_vending/clothing/super_snowflake/helmet,
 /turf/open/floor/kutjevo/plate,
@@ -606,6 +800,23 @@
 /obj/structure/machinery/cm_vending/clothing/super_snowflake/mask,
 /turf/open/floor/kutjevo/plate,
 /area/amongus/kitchen)
+"tM" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "E";
+	pixel_x = 1
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	pixel_y = 1
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "SW-out"
+	},
+/obj/structure/machinery/gear{
+	id = "supply_elevator_gear"
+	},
+/turf/open/floor/almayer,
+/area/amongus/arrivals)
 "tU" = (
 /obj/structure/window/framed/kutjevo/reinforced,
 /turf/open/floor/kutjevo/plate,
@@ -615,6 +826,16 @@
 	icon_state = "cargo_arrow"
 	},
 /area/amongus/cryo_cells)
+"ur" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "SE-out";
+	pixel_x = 1
+	},
+/obj/structure/machinery/floodlight/landing/floor,
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/amongus/arrivals)
 "uz" = (
 /obj/structure/machinery/light{
 	dir = 8
@@ -687,6 +908,15 @@
 	dir = 4
 	},
 /area/amongus/kitchen)
+"wv" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/machinery/landinglight/ds1/delayone{
+	dir = 4
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/amongus/arrivals)
 "wP" = (
 /obj/structure/platform_decoration/kutjevo{
 	dir = 1
@@ -698,6 +928,15 @@
 	dir = 8
 	},
 /area/amongus/kitchen)
+"wQ" = (
+/obj/structure/machinery/landinglight/ds1/delaytwo,
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/amongus/arrivals)
+"wT" = (
+/turf/open/space/basic,
+/area/amongus/cryo_cells)
 "xa" = (
 /turf/open/floor/wood,
 /area/amongus/kitchen)
@@ -714,6 +953,10 @@
 	dir = 5
 	},
 /area/amongus/kitchen)
+"xk" = (
+/obj/docking_port/stationary/marine_dropship/almayer_hangar_1,
+/turf/open/floor/plating,
+/area/amongus/arrivals)
 "xu" = (
 /obj/structure/machinery/power/smes/magical,
 /turf/open/floor/kutjevo/plate,
@@ -762,12 +1005,31 @@
 /obj/structure/machinery/vending/dinnerware,
 /turf/open/floor/wood,
 /area/amongus/kitchen)
+"zg" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "NE-out";
+	pixel_x = 1;
+	pixel_y = 1
+	},
+/obj/structure/machinery/floodlight/landing/floor,
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/amongus/arrivals)
 "zl" = (
 /obj/structure/platform/kutjevo{
 	dir = 8
 	},
 /turf/open/floor/kutjevo,
 /area/amongus/kitchen)
+"zr" = (
+/obj/structure/machinery/landinglight/ds1/delaythree{
+	dir = 1
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/amongus/arrivals)
 "zC" = (
 /turf/open/floor/almayer{
 	dir = 6;
@@ -783,6 +1045,14 @@
 	},
 /turf/open/floor/kutjevo/multi_tiles,
 /area/amongus/kitchen)
+"Ap" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "SE-out";
+	pixel_x = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer,
+/area/amongus/arrivals)
 "AD" = (
 /turf/open/floor/kutjevo/colors,
 /area/amongus/kitchen)
@@ -800,6 +1070,15 @@
 	dir = 8
 	},
 /area/amongus/kitchen)
+"BB" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/machinery/landinglight/ds1/delaytwo{
+	dir = 4
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/amongus/arrivals)
 "Cj" = (
 /obj/structure/machinery/floodlight/landing/floor{
 	on_light_range = 15;
@@ -849,6 +1128,12 @@
 	dir = 1
 	},
 /area/amongus/kitchen)
+"Dl" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "S"
+	},
+/turf/open/floor/almayer,
+/area/amongus/arrivals)
 "Dn" = (
 /obj/structure/machinery/cryopod/right,
 /obj/structure/machinery/light{
@@ -893,6 +1178,15 @@
 /obj/structure/platform/kutjevo,
 /turf/open/floor/wood,
 /area/amongus/kitchen)
+"Eq" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/machinery/landinglight/ds1/delaythree{
+	dir = 4
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/amongus/arrivals)
 "Es" = (
 /obj/structure/bed/chair/comfy,
 /turf/open/floor/kutjevo/colors,
@@ -915,13 +1209,8 @@
 /turf/open/floor/kutjevo/plate,
 /area/amongus/kitchen)
 "FU" = (
-/obj/docking_port/stationary/emergency_response/external/hangar_starboard{
-	dwidth = 2;
-	name = "Amongus hanger starboard external airlock";
-	id = "amongus-hangar-south"
-	},
 /turf/open/space/basic,
-/area/space)
+/area/space/almayer/lifeboat_dock)
 "Gn" = (
 /obj/structure/platform/kutjevo{
 	dir = 8
@@ -936,6 +1225,14 @@
 "Gz" = (
 /turf/open/floor/kutjevo/tan/multi_tiles,
 /area/amongus/kitchen)
+"GH" = (
+/obj/structure/machinery/landinglight/ds1/delayone{
+	dir = 8
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/amongus/arrivals)
 "GK" = (
 /obj/structure/surface/table/reinforced,
 /turf/open/floor/kutjevo/tan/alt_edge,
@@ -949,6 +1246,19 @@
 	dir = 1
 	},
 /area/amongus/kitchen)
+"Hq" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/item/stack/catwalk{
+	pixel_x = 2;
+	pixel_y = -9
+	},
+/obj/structure/machinery/landinglight/ds1/delayone{
+	dir = 8
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/amongus/arrivals)
 "HA" = (
 /obj/effect/landmark/start/captain,
 /turf/open/floor/plating/plating_catwalk,
@@ -963,6 +1273,20 @@
 	},
 /turf/open/floor/wood,
 /area/amongus/kitchen)
+"IJ" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "E";
+	pixel_x = 1
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "NW-out";
+	pixel_y = 1
+	},
+/obj/structure/machinery/gear{
+	id = "supply_elevator_gear"
+	},
+/turf/open/floor/almayer,
+/area/amongus/arrivals)
 "IK" = (
 /turf/open/floor/kutjevo/tan/alt_edge{
 	dir = 4
@@ -1009,6 +1333,15 @@
 	icon_state = "silver"
 	},
 /area/amongus/cryo_cells)
+"KE" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/machinery/landinglight/ds1/delaytwo{
+	dir = 8
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/amongus/arrivals)
 "KK" = (
 /obj/structure/machinery/light{
 	dir = 4
@@ -1041,6 +1374,14 @@
 /obj/item/tool/kitchen/rollingpin,
 /turf/open/floor/kutjevo/tan/alt_edge,
 /area/amongus/kitchen)
+"LE" = (
+/obj/structure/machinery/landinglight/ds1/delaytwo{
+	dir = 4
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/amongus/arrivals)
 "Mb" = (
 /turf/open/floor/carpet/edge{
 	dir = 4
@@ -1071,6 +1412,10 @@
 	},
 /turf/closed/wall/almayer/outer,
 /area/amongus/cryo_cells)
+"NS" = (
+/obj/structure/machinery/telecomms/relay/preset/tower,
+/turf/open/floor/almayer,
+/area/amongus/engineering)
 "Of" = (
 /obj/structure/platform/kutjevo{
 	dir = 8
@@ -1091,6 +1436,14 @@
 	},
 /turf/open/floor/kutjevo/plate,
 /area/amongus/kitchen)
+"Pr" = (
+/obj/structure/machinery/landinglight/ds1/delaythree{
+	dir = 8
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/amongus/arrivals)
 "Pw" = (
 /obj/structure/window/reinforced,
 /obj/structure/surface/table/woodentable/fancy,
@@ -1117,6 +1470,22 @@
 /obj/structure/machinery/vending/dinnerware,
 /turf/open/floor/kutjevo/plate,
 /area/amongus/kitchen)
+"Qj" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/machinery/landinglight/ds1/delayone,
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/amongus/arrivals)
+"Qk" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/machinery/landinglight/ds1{
+	dir = 1
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/amongus/arrivals)
 "QC" = (
 /turf/open/floor/kutjevo{
 	icon_state = "catwalk";
@@ -1132,6 +1501,20 @@
 	},
 /turf/open/floor/kutjevo/tan,
 /area/amongus/kitchen)
+"QS" = (
+/obj/structure/machinery/landinglight/ds1/delaytwo{
+	dir = 8
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/amongus/arrivals)
+"QT" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "SW-out"
+	},
+/turf/open/floor/almayer,
+/area/amongus/arrivals)
 "QV" = (
 /turf/closed/wall/almayer/outer,
 /area/amongus/cryo_cells)
@@ -1191,6 +1574,23 @@
 	icon_state = "cargo"
 	},
 /area/amongus/cryo_cells)
+"SQ" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/machinery/landinglight/ds1/delayone{
+	dir = 8
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/amongus/arrivals)
+"SR" = (
+/obj/structure/machinery/landinglight/ds1{
+	dir = 8
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/amongus/arrivals)
 "ST" = (
 /obj/structure/bed/chair/comfy{
 	buckling_y = 2;
@@ -1201,6 +1601,14 @@
 	dir = 5
 	},
 /area/amongus/kitchen)
+"SX" = (
+/obj/structure/machinery/landinglight/ds1/delayone{
+	dir = 4
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/amongus/arrivals)
 "Tr" = (
 /obj/structure/bed/chair/comfy{
 	buckling_y = 2;
@@ -1240,7 +1648,7 @@
 	dir = 4;
 	icon_state = "outerhull_dir"
 	},
-/area/amongus/kitchen)
+/area/space/almayer/lifeboat_dock)
 "Us" = (
 /obj/structure/machinery/floodlight/landing/floor,
 /turf/open/floor/kutjevo/colors,
@@ -1261,6 +1669,16 @@
 	icon_state = "cargo"
 	},
 /area/amongus/cryo_cells)
+"VT" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "NW-out";
+	pixel_y = 1
+	},
+/obj/structure/machinery/floodlight/landing/floor,
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/amongus/arrivals)
 "VV" = (
 /obj/structure/platform/kutjevo{
 	dir = 8
@@ -1279,6 +1697,15 @@
 /obj/effect/landmark/start/bridge,
 /turf/open/floor/plating/plating_catwalk,
 /area/amongus/cryo_cells)
+"Wn" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/machinery/landinglight/ds1/delaythree{
+	dir = 1
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/amongus/arrivals)
 "Wx" = (
 /obj/structure/machinery/light{
 	dir = 8
@@ -1300,6 +1727,28 @@
 /obj/structure/machinery/cryopod,
 /turf/open/floor/kutjevo/tiles,
 /area/amongus/kitchen)
+"WO" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "E";
+	pixel_x = 1
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/amongus/arrivals)
+"WR" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "W"
+	},
+/obj/structure/machinery/power/apc/super{
+	dir = 4
+	},
+/turf/open/floor/almayer,
+/area/amongus/arrivals)
+"WW" = (
+/obj/docking_port/stationary/lifeboat_dock/compact,
+/turf/open/space/basic,
+/area/space/almayer/lifeboat_dock)
 "WY" = (
 /obj/structure/machinery/cryopod{
 	pixel_y = 6
@@ -1308,6 +1757,15 @@
 	icon_state = "cargo"
 	},
 /area/amongus/cryo_cells)
+"Xb" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/machinery/landinglight/ds1{
+	dir = 4
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/amongus/arrivals)
 "Xj" = (
 /obj/structure/window/framed/almayer/hull,
 /turf/open/floor/kutjevo/tan,
@@ -1340,6 +1798,23 @@
 	icon_state = "cargo_arrow"
 	},
 /area/amongus/cryo_cells)
+"Xv" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "SW-out"
+	},
+/obj/structure/machinery/floodlight/landing/floor,
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/amongus/arrivals)
+"XR" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "E";
+	pixel_x = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer,
+/area/amongus/arrivals)
 "XX" = (
 /obj/structure/platform/kutjevo{
 	dir = 4
@@ -1354,12 +1829,8 @@
 	},
 /area/amongus/kitchen)
 "YA" = (
-/obj/structure/machinery/door/airlock/almayer/generic{
-	locked = 1;
-	no_panel = 1
-	},
-/turf/open/floor/almayer,
-/area/amongus/cryo_cells)
+/turf/open/floor/plating,
+/area/amongus/arrivals)
 "YP" = (
 /obj/structure/machinery/cm_vending/clothing/super_snowflake/accessory,
 /turf/open/floor/kutjevo/plate,
@@ -1964,15 +2435,15 @@ eZ
 eZ
 dK
 dK
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
+FU
+FU
+FU
+FU
+FU
+FU
+FU
+FU
+FU
 Ux
 "}
 (10,1,1) = {"
@@ -2028,15 +2499,15 @@ aK
 aK
 YP
 eZ
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
+FU
+FU
+FU
+FU
+FU
+FU
+FU
+FU
+FU
 Ux
 "}
 (11,1,1) = {"
@@ -2092,15 +2563,15 @@ aK
 aK
 qc
 eZ
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
+FU
+FU
+FU
+FU
+FU
+FU
+FU
+FU
+FU
 Ux
 "}
 (12,1,1) = {"
@@ -2156,15 +2627,15 @@ aK
 aK
 Zf
 eZ
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
+FU
+FU
+FU
+FU
+FU
+FU
+FU
+WW
+FU
 Ux
 "}
 (13,1,1) = {"
@@ -2220,15 +2691,15 @@ bP
 bP
 aW
 eZ
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
+FU
+FU
+FU
+FU
+FU
+FU
+FU
+FU
+FU
 Ux
 "}
 (14,1,1) = {"
@@ -2284,15 +2755,15 @@ bP
 gE
 dK
 dK
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
+FU
+FU
+FU
+FU
+FU
+FU
+FU
+FU
+FU
 Ux
 "}
 (15,1,1) = {"
@@ -2348,15 +2819,15 @@ bP
 aK
 aK
 dK
-TV
-Ux
-Ux
 FU
-Ux
-Ux
-Ux
-Ux
-Ux
+FU
+FU
+FU
+FU
+FU
+FU
+FU
+FU
 Ux
 "}
 (16,1,1) = {"
@@ -2411,16 +2882,16 @@ bP
 aK
 aK
 bP
-oq
-QC
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
+eZ
+FU
+FU
+FU
+FU
+FU
+FU
+FU
+FU
+FU
 Ux
 "}
 (17,1,1) = {"
@@ -2476,15 +2947,15 @@ aK
 Cj
 QC
 eZ
-QC
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
+FU
+FU
+FU
+FU
+FU
+FU
+FU
+FU
+FU
 Ux
 "}
 (18,1,1) = {"
@@ -2539,16 +3010,16 @@ bP
 aK
 aK
 bP
-oq
-QC
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
+eZ
+FU
+FU
+FU
+FU
+FU
+FU
+FU
+FU
+FU
 Ux
 "}
 (19,1,1) = {"
@@ -2605,14 +3076,14 @@ aK
 aK
 dK
 TV
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
+FU
+FU
+FU
+FU
+FU
+FU
+FU
+FU
 Ux
 "}
 (20,1,1) = {"
@@ -2667,16 +3138,16 @@ bP
 aK
 aK
 bP
-eZ
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
+oq
+hm
+FU
+FU
+FU
+FU
+FU
+FU
+FU
+FU
 Ux
 "}
 (21,1,1) = {"
@@ -2732,15 +3203,15 @@ yx
 aK
 bP
 eZ
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
+hm
+FU
+FU
+FU
+FU
+FU
+FU
+FU
+FU
 Ux
 "}
 (22,1,1) = {"
@@ -2795,16 +3266,16 @@ bP
 aK
 aK
 bP
-eZ
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
+oq
+hm
+FU
+FU
+FU
+FU
+FU
+FU
+FU
+FU
 Ux
 "}
 (23,1,1) = {"
@@ -2861,14 +3332,14 @@ aK
 aK
 dK
 TV
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
+FU
+FU
+FU
+FU
+FU
+FU
+FU
+FU
 Ux
 "}
 (24,1,1) = {"
@@ -2923,16 +3394,16 @@ bP
 aK
 aK
 bP
-oq
-QC
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
+eZ
+FU
+FU
+FU
+FU
+FU
+FU
+FU
+FU
+FU
 Ux
 "}
 (25,1,1) = {"
@@ -2988,15 +3459,15 @@ aK
 Cj
 QC
 eZ
-QC
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
+FU
+FU
+FU
+FU
+FU
+FU
+FU
+FU
+FU
 Ux
 "}
 (26,1,1) = {"
@@ -3051,16 +3522,16 @@ bP
 aK
 aK
 bP
-oq
-QC
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
+eZ
+FU
+FU
+FU
+FU
+FU
+FU
+FU
+FU
+FU
 Ux
 "}
 (27,1,1) = {"
@@ -3116,15 +3587,15 @@ aK
 bP
 aK
 dK
-TV
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
+FU
+FU
+FU
+FU
+FU
+FU
+FU
+FU
+FU
 Ux
 "}
 (28,1,1) = {"
@@ -3180,15 +3651,15 @@ tU
 vI
 tU
 dK
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
+FU
+FU
+FU
+FU
+FU
+FU
+FU
+FU
+FU
 Ux
 "}
 (29,1,1) = {"
@@ -3244,15 +3715,15 @@ ot
 bP
 WK
 eZ
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
+FU
+FU
+FU
+FU
+FU
+FU
+FU
+FU
+FU
 Ux
 "}
 (30,1,1) = {"
@@ -3308,15 +3779,15 @@ hI
 bP
 rj
 eZ
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
+FU
+FU
+FU
+FU
+FU
+FU
+FU
+FU
+FU
 Ux
 "}
 (31,1,1) = {"
@@ -3372,15 +3843,15 @@ hI
 bP
 rj
 eZ
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
+FU
+FU
+FU
+FU
+FU
+FU
+FU
+FU
+FU
 Ux
 "}
 (32,1,1) = {"
@@ -3436,15 +3907,15 @@ uD
 bP
 gu
 eZ
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
+FU
+FU
+FU
+FU
+FU
+FU
+FU
+FU
+FU
 Ux
 "}
 (33,1,1) = {"
@@ -3490,25 +3961,25 @@ eZ
 dK
 dK
 dK
-eZ
-eZ
-eZ
 dK
 dK
 dK
-eZ
-eZ
 dK
 dK
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
+QV
+QV
+qD
+QV
+QV
+FU
+FU
+FU
+FU
+FU
+FU
+FU
+FU
+FU
 Ux
 "}
 (34,1,1) = {"
@@ -3552,19 +4023,19 @@ Ux
 Ux
 Ux
 Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
+QV
+QV
+rk
+rk
+rk
+rk
+rk
+QV
+dG
+qH
+ni
+QV
+wT
 Ux
 Ux
 Ux
@@ -3616,19 +4087,19 @@ Ux
 Ux
 Ux
 Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
+QV
+QV
+QV
+QV
+QV
+QV
+QV
+QV
+KS
+tA
+ua
+Ot
+wT
 Ux
 Ux
 Ux
@@ -3680,19 +4151,19 @@ Ux
 Ux
 Ux
 Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
+QV
+QV
+Sx
+DT
+VK
+DT
+WY
+St
+nS
+tA
+Ku
+Ot
+wT
 Ux
 Ux
 Ux
@@ -3744,19 +4215,19 @@ Ux
 Ux
 Ux
 Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
+QV
+Nx
+ll
+ll
+yH
+fC
+pU
+mZ
+ua
+qH
+ua
+Ot
+wT
 Ux
 Ux
 Ux
@@ -3808,19 +4279,19 @@ Ux
 Ux
 Ux
 Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
+QV
+QV
+HA
+ll
+yH
+fC
+pU
+Xs
+ua
+tA
+Ku
+QV
+wT
 Ux
 Ux
 Ux
@@ -3872,18 +4343,18 @@ Ux
 Ux
 Ux
 Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
+QV
+QV
+Dn
+Xq
+em
+Xq
+fU
+St
+nS
+tA
+Ku
+Xj
 Ux
 Ux
 Ux
@@ -3936,18 +4407,18 @@ Ux
 Ux
 Ux
 Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
+QV
+QV
+St
+St
+St
+St
+St
+St
+KS
+qH
+Ku
+Xj
 Ux
 Ux
 Ux
@@ -4000,18 +4471,18 @@ Ux
 Ux
 Ux
 Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
+QV
+QV
+VK
+DT
+Sx
+DT
+WY
+St
+nS
+tA
+Ku
+Xj
 Ux
 Ux
 Ux
@@ -4064,19 +4535,19 @@ Ux
 Ux
 Ux
 Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
+QV
+Nx
+We
+KN
+EI
+pU
+pU
+mZ
+ua
+tA
+Ku
+QV
+wT
 Ux
 Ux
 Ux
@@ -4128,19 +4599,19 @@ Ux
 Ux
 Ux
 Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
+QV
+QV
+We
+KN
+EI
+pU
+pU
+Xs
+ua
+qH
+ua
+Ot
+wT
 Ux
 Ux
 Ux
@@ -4192,19 +4663,19 @@ Ux
 Ux
 Ux
 Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
+QV
+QV
+em
+Xq
+Dn
+Xq
+fU
+St
+nS
+tA
+Ku
+Ot
+wT
 Ux
 Ux
 Ux
@@ -4256,19 +4727,19 @@ Ux
 Ux
 Ux
 Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
+QV
+QV
+QV
+QV
+QV
+QV
+QV
+QV
+KS
+tA
+ua
+Ot
+wT
 Ux
 Ux
 Ux
@@ -4320,19 +4791,19 @@ Ux
 Ux
 Ux
 Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
 QV
 QV
-YA
+rk
+rk
+rk
+rk
+rk
 QV
+xy
+qH
+zC
 QV
-Ux
-Ux
+wT
 Ux
 Ux
 Ux
@@ -4370,35 +4841,35 @@ Ux
 Ux
 Ux
 Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-QV
-dG
-qH
-ni
-QV
+ri
+ri
+ri
+ri
+ri
+ri
+ri
+ri
+ri
+ri
+ri
+ri
+ri
+ri
+ri
+ri
+ri
+ri
+ri
+ri
+ri
+ri
+ri
+sn
+ri
 ri
 Ux
 Ux
-FU
+Ux
 Ux
 Ux
 Ux
@@ -4434,32 +4905,32 @@ Ux
 Ux
 Ux
 Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-QV
-QV
-QV
-QV
-QV
-QV
-QV
-KS
-tA
-ua
-se
-tA
+ri
+Ap
+fK
+WO
+ea
+ea
+tM
+sr
+sr
+sr
+IJ
+pH
+XR
+XR
+pH
+pH
+pH
+pH
+pH
+XR
+XR
+pH
+pH
+pH
+pH
+ri
 Ux
 Ux
 Ux
@@ -4498,32 +4969,32 @@ Ux
 Ux
 Ux
 Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-QV
-Sx
-DT
-VK
-DT
-WY
-St
-nS
-tA
-Ku
-Ot
-tA
+ri
+Dl
+ur
+LE
+fq
+Xb
+wv
+BB
+fq
+oX
+wv
+BB
+Eq
+rd
+SX
+BB
+fq
+oX
+wv
+LE
+fq
+oX
+SX
+LE
+zg
+ri
 Ux
 Ux
 Ux
@@ -4562,32 +5033,32 @@ Ux
 Ux
 Ux
 Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Nx
-ll
-ll
-yH
-fC
-pU
-mZ
-ua
-qH
-ua
+ri
+Dl
+fj
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
 se
-tA
+ri
 Ux
 Ux
 Ux
@@ -4626,31 +5097,31 @@ Ux
 Ux
 Ux
 Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-QV
-HA
-ll
-yH
-fC
-pU
-Xs
-ua
-tA
-Ku
-QV
+ri
+Dl
+fJ
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+gR
 ri
 Ux
 Ux
@@ -4690,32 +5161,32 @@ Ux
 Ux
 Ux
 Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-QV
-Dn
-Xq
-em
-Xq
-fU
-St
-nS
-tA
-Ku
-Xj
-Ux
+ri
+Dl
+rx
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+ov
+ri
 Ux
 Ux
 Ux
@@ -4754,32 +5225,32 @@ Ux
 Ux
 Ux
 Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-QV
-St
-St
-St
-St
-St
-St
-KS
-qH
-Ku
-Xj
-Ux
+ri
+Dl
+wQ
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+Wn
+ri
 Ux
 Ux
 Ux
@@ -4812,38 +5283,38 @@ Ux
 Ux
 Ux
 Ux
+fA
+fA
+fA
+fA
+fA
 Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-QV
-VK
-DT
-Sx
-DT
-WY
-St
-nS
-tA
-Ku
-Xj
-Ux
+ri
+Dl
+fj
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+Qk
+ri
 Ux
 Ux
 Ux
@@ -4876,37 +5347,37 @@ Ux
 Ux
 Ux
 Ux
+fA
+NS
+fA
+fA
+fA
 Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Nx
-We
-KN
-EI
-pU
-pU
-mZ
-ua
-tA
-Ku
-QV
+ri
+Dl
+eo
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+xk
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+gR
 ri
 Ux
 Ux
@@ -4940,38 +5411,38 @@ Ux
 Ux
 Ux
 Ux
+fA
+fA
+fA
+fA
+fA
 Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-QV
-We
-KN
-EI
-pU
-pU
-Xs
-ua
-qH
-ua
-se
-tA
+ri
+Dl
+gL
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+ov
+ri
 Ux
 Ux
 Ux
@@ -5010,32 +5481,32 @@ Ux
 Ux
 Ux
 Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-QV
-em
-Xq
-Dn
-Xq
-fU
-St
-nS
-tA
-Ku
-Ot
-tA
+ri
+Dl
+wQ
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+zr
+ri
 Ux
 Ux
 Ux
@@ -5074,32 +5545,32 @@ Ux
 Ux
 Ux
 Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-QV
-QV
-QV
-QV
-QV
-QV
-QV
-KS
-tA
-ua
+ri
+Dl
+Qj
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
 se
-tA
+ri
 Ux
 Ux
 Ux
@@ -5138,31 +5609,31 @@ Ux
 Ux
 Ux
 Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-QV
-xy
-qH
-zC
-QV
+ri
+Dl
+dA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+se
 ri
 Ux
 Ux
@@ -5202,32 +5673,32 @@ Ux
 Ux
 Ux
 Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-QV
-QV
+ri
+Dl
+gL
 YA
-QV
-QV
-Ux
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+YA
+gR
+ri
 Ux
 Ux
 Ux
@@ -5266,32 +5737,32 @@ Ux
 Ux
 Ux
 Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
+ri
+Dl
+Xv
+QS
+GH
+cn
+rO
+QS
+Hq
+fp
+rO
+QS
+GH
+ki
+Pr
+KE
+SQ
+SR
+Pr
+KE
+GH
+SR
+Pr
+QS
+VT
+ri
 Ux
 Ux
 Ux
@@ -5330,32 +5801,32 @@ Ux
 Ux
 Ux
 Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
+ri
+QT
+cv
+cv
+oC
+cv
+cv
+cv
+cv
+cv
+cv
+oC
+oC
+oC
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+oC
+cv
+WR
+cv
+ri
 Ux
 Ux
 Ux
@@ -5394,32 +5865,32 @@ Ux
 Ux
 Ux
 Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
-Ux
+ri
+ri
+ri
+ri
+ri
+ri
+ri
+ri
+ri
+ri
+ri
+ri
+ri
+ri
+ri
+ri
+ri
+ri
+ri
+ri
+ri
+ri
+ri
+ri
+ri
+ri
 Ux
 Ux
 Ux
