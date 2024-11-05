@@ -124,3 +124,6 @@
 /area/amongus/vehicle_shuttle/two/upper
 	name = "\improper Vehicle Elevator Two Upper"
 
+/area/amongus/command/cichallway
+	name = "\improper Secure Command Hallway"
+	icon_state = "airoom"

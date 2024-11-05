@@ -293,12 +293,6 @@
 	},
 /turf/open/floor/kutjevo/plate,
 /area/amongus/kitchen)
-"hm" = (
-/turf/open/floor/kutjevo{
-	icon_state = "catwalk";
-	dir = 1
-	},
-/area/space/almayer/lifeboat_dock)
 "hC" = (
 /obj/structure/machinery/floodlight/landing/floor{
 	on_light_range = 15;
@@ -1648,7 +1642,7 @@
 	dir = 4;
 	icon_state = "outerhull_dir"
 	},
-/area/space/almayer/lifeboat_dock)
+/area/amongus/kitchen)
 "Us" = (
 /obj/structure/machinery/floodlight/landing/floor,
 /turf/open/floor/kutjevo/colors,
@@ -1746,7 +1740,9 @@
 /turf/open/floor/almayer,
 /area/amongus/arrivals)
 "WW" = (
-/obj/docking_port/stationary/lifeboat_dock/compact,
+/obj/docking_port/stationary/lifeboat_dock/compact{
+	roundstart_template = null
+	},
 /turf/open/space/basic,
 /area/space/almayer/lifeboat_dock)
 "WY" = (
@@ -3139,7 +3135,7 @@ aK
 aK
 bP
 oq
-hm
+QC
 FU
 FU
 FU
@@ -3203,7 +3199,7 @@ yx
 aK
 bP
 eZ
-hm
+QC
 FU
 FU
 FU
@@ -3267,7 +3263,7 @@ aK
 aK
 bP
 oq
-hm
+QC
 FU
 FU
 FU

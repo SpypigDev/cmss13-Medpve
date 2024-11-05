@@ -140,7 +140,7 @@
 	dir = 1
 	},
 /turf/open/floor/plating/plating_catwalk,
-/area/almayer/command/cichallway)
+/area/amongus/command/cichallway)
 "aH" = (
 /obj/structure/machinery/photocopier,
 /turf/open/floor/carpet{
@@ -670,7 +670,7 @@
 /turf/open/floor/almayer{
 	icon_state = "silverfull"
 	},
-/area/almayer/command/cichallway)
+/area/amongus/command/cichallway)
 "df" = (
 /obj/item/tool/lighter/zippo{
 	pixel_x = 5;
@@ -706,7 +706,7 @@
 /turf/open/floor/almayer{
 	icon_state = "blue"
 	},
-/area/almayer/command/cichallway)
+/area/amongus/command/cichallway)
 "do" = (
 /obj/structure/pipes/standard/simple/hidden/supply{
 	dir = 6
@@ -845,7 +845,7 @@
 /turf/open/floor/almayer{
 	icon_state = "plate"
 	},
-/area/almayer/command/cichallway)
+/area/amongus/command/cichallway)
 "dV" = (
 /turf/open/floor/kutjevo/tan/alt_edge{
 	dir = 8
@@ -1016,7 +1016,7 @@
 /turf/open/floor/prison{
 	icon_state = "kitchen"
 	},
-/area/almayer/living/captain_mess)
+/area/amongus/shared_office)
 "eI" = (
 /obj/structure/window/framed/almayer,
 /turf/open/floor/plating,
@@ -1094,7 +1094,7 @@
 	name = "\improper Commanding Officer's Mess"
 	},
 /turf/open/floor/plating/plating_catwalk,
-/area/almayer/living/captain_mess)
+/area/amongus/shared_office)
 "eV" = (
 /obj/structure/surface/table/reinforced/prison,
 /obj/structure/machinery/door/window/eastright{
@@ -1119,7 +1119,7 @@
 /turf/open/floor/almayer{
 	icon_state = "plate"
 	},
-/area/almayer/command/cichallway)
+/area/amongus/command/cichallway)
 "fa" = (
 /turf/open/floor/strata{
 	desc = "Faux wooden floor boards, certified fire resistant. Begrudgingly put in place of actual wood due to concerns about 'fire safety'. Whatever that means.";
@@ -1179,7 +1179,7 @@
 /area/amongus/platoonarmory)
 "fk" = (
 /turf/open/floor/plating/plating_catwalk,
-/area/almayer/command/cichallway)
+/area/amongus/command/cichallway)
 "fo" = (
 /obj/item/storage/firstaid/toxin{
 	pixel_x = 6;
@@ -1512,7 +1512,7 @@
 	dir = 9;
 	icon_state = "blue"
 	},
-/area/almayer/command/cichallway)
+/area/amongus/command/cichallway)
 "gx" = (
 /obj/structure/bed/chair/office/light{
 	dir = 8
@@ -1572,7 +1572,7 @@
 "gC" = (
 /obj/structure/window/framed/almayer/hull,
 /turf/open/floor/wood,
-/area/almayer/living/captain_mess)
+/area/amongus/shared_office)
 "gD" = (
 /obj/structure/surface/table/reinforced/almayer_B,
 /obj/item/ashtray/glass,
@@ -1613,7 +1613,7 @@
 	dir = 4
 	},
 /turf/open/floor/wood,
-/area/almayer/living/captain_mess)
+/area/amongus/shared_office)
 "gL" = (
 /obj/structure/surface/table/almayer,
 /obj/structure/largecrate/random/case{
@@ -1898,14 +1898,14 @@
 "hO" = (
 /obj/structure/barricade/handrail/kutjevo,
 /turf/open/floor/prison/chapel_carpet,
-/area/almayer/living/captain_mess)
+/area/amongus/shared_office)
 "hQ" = (
 /obj/structure/flora/pottedplant/random,
 /turf/open/floor/almayer{
 	dir = 10;
 	icon_state = "silver"
 	},
-/area/almayer/command/cichallway)
+/area/amongus/command/cichallway)
 "hR" = (
 /turf/open/floor/kutjevo/tan/alt_edge,
 /area/amongus/billiardsroom)
@@ -2036,13 +2036,13 @@
 	dir = 10;
 	icon_state = "silver"
 	},
-/area/almayer/command/cichallway)
+/area/amongus/command/cichallway)
 "im" = (
 /obj/structure/pipes/standard/simple/hidden/supply{
 	dir = 8
 	},
 /turf/open/floor/plating/plating_catwalk,
-/area/almayer/command/cichallway)
+/area/amongus/command/cichallway)
 "in" = (
 /turf/open/floor/almayer/uscm{
 	dir = 4;
@@ -2125,13 +2125,13 @@
 /turf/open/floor/carpet/edge{
 	dir = 1
 	},
-/area/almayer/living/captain_mess)
+/area/amongus/shared_office)
 "iA" = (
 /obj/structure/machinery/light,
 /turf/open/floor/almayer{
 	icon_state = "silver"
 	},
-/area/almayer/command/cichallway)
+/area/amongus/command/cichallway)
 "iC" = (
 /turf/open/floor/almayer{
 	icon_state = "dark_sterile"
@@ -2143,12 +2143,12 @@
 	dir = 10;
 	icon_state = "blue"
 	},
-/area/almayer/command/cichallway)
+/area/amongus/command/cichallway)
 "iH" = (
 /turf/open/floor/carpet/edge{
 	dir = 6
 	},
-/area/almayer/living/captain_mess)
+/area/amongus/shared_office)
 "iK" = (
 /obj/structure/machinery/cm_vending/sorted/medical/wall_med{
 	pixel_y = 25
@@ -2207,7 +2207,7 @@
 /turf/open/floor/almayer{
 	icon_state = "silver"
 	},
-/area/almayer/command/cichallway)
+/area/amongus/command/cichallway)
 "iU" = (
 /obj/structure/pipes/standard/simple/hidden/supply{
 	dir = 8
@@ -2380,7 +2380,7 @@
 /turf/open/floor/almayer{
 	icon_state = "silver"
 	},
-/area/almayer/command/cichallway)
+/area/amongus/command/cichallway)
 "jO" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "S"
@@ -2532,7 +2532,7 @@
 /turf/open/floor/prison{
 	icon_state = "kitchen"
 	},
-/area/almayer/living/captain_mess)
+/area/amongus/shared_office)
 "kr" = (
 /obj/structure/barricade/handrail{
 	dir = 4
@@ -2569,10 +2569,10 @@
 	icon_state = "alm_rwindow12"
 	},
 /turf/open/floor/almayer,
-/area/almayer/command/cichallway)
+/area/amongus/command/cichallway)
 "kz" = (
 /turf/open/floor/wood,
-/area/almayer/living/captain_mess)
+/area/amongus/shared_office)
 "kA" = (
 /obj/structure/machinery/recharge_station,
 /obj/structure/machinery/light{
@@ -2699,7 +2699,7 @@
 	on = 1
 	},
 /turf/open/floor/carpet,
-/area/almayer/living/captain_mess)
+/area/amongus/shared_office)
 "kZ" = (
 /obj/structure/toilet{
 	dir = 4
@@ -2975,7 +2975,7 @@
 	dir = 9
 	},
 /turf/open/floor/plating/plating_catwalk,
-/area/almayer/command/cichallway)
+/area/amongus/command/cichallway)
 "mv" = (
 /obj/structure/machinery/light,
 /turf/open/floor/kutjevo,
@@ -3031,7 +3031,7 @@
 	dir = 8;
 	icon_state = "blue"
 	},
-/area/almayer/command/cichallway)
+/area/amongus/command/cichallway)
 "mI" = (
 /obj/structure/sign/prop1{
 	pixel_y = 32
@@ -3062,7 +3062,7 @@
 /area/amongus/lower_cargo)
 "mQ" = (
 /turf/open/floor/prison/chapel_carpet,
-/area/almayer/living/captain_mess)
+/area/amongus/shared_office)
 "mS" = (
 /obj/structure/bed/sofa/south/grey/left,
 /turf/open/floor/kutjevo/tan,
@@ -3072,7 +3072,7 @@
 	dir = 5;
 	icon_state = "blue"
 	},
-/area/almayer/command/cichallway)
+/area/amongus/command/cichallway)
 "mX" = (
 /obj/item/storage/box/drinkingglasses,
 /obj/structure/surface/table/reinforced/black,
@@ -3083,13 +3083,13 @@
 	dir = 4
 	},
 /turf/open/floor/plating/plating_catwalk,
-/area/almayer/command/cichallway)
+/area/amongus/command/cichallway)
 "nb" = (
 /obj/structure/machinery/light,
 /turf/open/floor/almayer{
 	icon_state = "blue"
 	},
-/area/almayer/command/cichallway)
+/area/amongus/command/cichallway)
 "nd" = (
 /obj/structure/surface/rack,
 /obj/item/storage/firstaid/adv/empty,
@@ -3122,7 +3122,7 @@
 	desc = "Ten 7th battalion minted hundred-booker bucks. Every single damn one of them has Booker Fucking Peralta on them. The council of Bookers sit impatiently, as if each one thought they alone belonged to you. This regiment of angry Bookers have all since learned about your relations with the other Battle-Group-Buddies, and they want answers."
 	},
 /turf/open/floor/prison/chapel_carpet,
-/area/almayer/living/captain_mess)
+/area/amongus/shared_office)
 "nl" = (
 /obj/structure/machinery/cm_vending/clothing/super_snowflake/suit,
 /turf/open/floor/almayer{
@@ -3183,7 +3183,7 @@
 /area/amongus/lower_cargo)
 "ny" = (
 /turf/closed/wall/almayer/reinforced,
-/area/almayer/command/cichallway)
+/area/amongus/command/cichallway)
 "nA" = (
 /obj/structure/surface/table/woodentable/fancy,
 /obj/item/paper_bin/uscm,
@@ -3197,7 +3197,7 @@
 /turf/open/floor/almayer{
 	icon_state = "silvercorner"
 	},
-/area/almayer/command/cichallway)
+/area/amongus/command/cichallway)
 "nC" = (
 /obj/structure/platform_decoration{
 	dir = 8
@@ -3242,13 +3242,13 @@
 	dir = 8
 	},
 /turf/open/floor/prison/chapel_carpet,
-/area/almayer/living/captain_mess)
+/area/amongus/shared_office)
 "nK" = (
 /turf/open/floor/almayer{
 	dir = 8;
 	icon_state = "silver"
 	},
-/area/almayer/command/cichallway)
+/area/amongus/command/cichallway)
 "nN" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/machinery/light{
@@ -3336,7 +3336,7 @@
 	dir = 8;
 	icon_state = "blue"
 	},
-/area/almayer/command/cichallway)
+/area/amongus/command/cichallway)
 "od" = (
 /obj/structure/machinery/light{
 	dir = 8
@@ -3646,7 +3646,7 @@
 /obj/structure/surface/table/gamblingtable,
 /obj/item/toy/deck,
 /turf/open/floor/prison/chapel_carpet,
-/area/almayer/living/captain_mess)
+/area/amongus/shared_office)
 "pi" = (
 /turf/open/floor/almayer{
 	dir = 8;
@@ -3907,7 +3907,7 @@
 	dir = 4
 	},
 /turf/open/floor/almayer,
-/area/almayer/command/cichallway)
+/area/amongus/command/cichallway)
 "qr" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/plating_catwalk,
@@ -3935,7 +3935,7 @@
 /area/amongus/engineering)
 "qv" = (
 /turf/closed/wall/almayer,
-/area/almayer/living/captain_mess)
+/area/amongus/shared_office)
 "qx" = (
 /obj/structure/pipes/standard/simple/hidden/supply{
 	dir = 8
@@ -4015,7 +4015,7 @@
 	dir = 6
 	},
 /turf/open/floor/plating/plating_catwalk,
-/area/almayer/command/cichallway)
+/area/amongus/command/cichallway)
 "qK" = (
 /obj/structure/pipes/standard/manifold/hidden/supply,
 /turf/open/floor/plating/plating_catwalk,
@@ -4039,7 +4039,7 @@
 	dir = 1;
 	icon_state = "silvercorner"
 	},
-/area/almayer/command/cichallway)
+/area/amongus/command/cichallway)
 "qR" = (
 /obj/structure/curtain/red,
 /turf/open/floor/almayer,
@@ -4060,7 +4060,7 @@
 "qU" = (
 /obj/structure/pipes/standard/simple/hidden/supply,
 /turf/open/floor/almayer,
-/area/almayer/command/cichallway)
+/area/amongus/command/cichallway)
 "qW" = (
 /obj/structure/machinery/door/airlock/almayer/generic,
 /turf/open/floor/strata{
@@ -4105,7 +4105,7 @@
 	dir = 1;
 	icon_state = "silver"
 	},
-/area/almayer/command/cichallway)
+/area/amongus/command/cichallway)
 "rj" = (
 /obj/structure/surface/table/almayer,
 /obj/structure/phone_base/rotary{
@@ -4120,7 +4120,7 @@
 /area/amongus/arrivals)
 "rk" = (
 /turf/open/floor/plating/plating_catwalk,
-/area/almayer/living/captain_mess)
+/area/amongus/shared_office)
 "rl" = (
 /obj/structure/machinery/light,
 /obj/structure/machinery/disposal,
@@ -4166,7 +4166,7 @@
 	},
 /obj/structure/flora/pottedplant/random,
 /turf/open/floor/almayer,
-/area/almayer/command/cichallway)
+/area/amongus/command/cichallway)
 "ru" = (
 /obj/structure/machinery/light{
 	dir = 1
@@ -4180,14 +4180,14 @@
 /turf/open/floor/almayer{
 	icon_state = "silver"
 	},
-/area/almayer/command/cichallway)
+/area/amongus/command/cichallway)
 "rx" = (
 /obj/structure/surface/table/woodentable/fancy,
 /obj/item/device/flashlight/lamp/green{
 	on = 1
 	},
 /turf/open/floor/wood,
-/area/almayer/living/captain_mess)
+/area/amongus/shared_office)
 "rB" = (
 /obj/effect/step_trigger/clone_cleaner,
 /obj/structure/stairs{
@@ -4214,7 +4214,7 @@
 	dir = 4
 	},
 /turf/open/floor/almayer,
-/area/almayer/command/cichallway)
+/area/amongus/command/cichallway)
 "rF" = (
 /obj/effect/step_trigger/clone_cleaner,
 /obj/structure/machinery/door/poddoor/shutters/almayer{
@@ -4242,7 +4242,7 @@
 	dir = 4;
 	icon_state = "silver"
 	},
-/area/almayer/command/cichallway)
+/area/amongus/command/cichallway)
 "rK" = (
 /obj/structure/machinery/telecomms/relay/preset/tower,
 /turf/open/floor/almayer,
@@ -4434,7 +4434,7 @@
 /turf/open/floor/almayer{
 	icon_state = "mono"
 	},
-/area/almayer/command/cichallway)
+/area/amongus/command/cichallway)
 "sJ" = (
 /turf/open/floor/prison{
 	icon_state = "darkredfull2"
@@ -4716,7 +4716,7 @@
 	pixel_y = 2
 	},
 /turf/open/floor/prison/chapel_carpet,
-/area/almayer/living/captain_mess)
+/area/amongus/shared_office)
 "tT" = (
 /obj/effect/step_trigger/clone_cleaner,
 /turf/open/floor/almayer/no_build{
@@ -4767,7 +4767,7 @@
 /turf/open/floor/prison{
 	icon_state = "kitchen"
 	},
-/area/almayer/living/captain_mess)
+/area/amongus/shared_office)
 "ud" = (
 /obj/structure/machinery/cm_vending/sorted/marine_food,
 /turf/open/floor/almayer{
@@ -5054,7 +5054,7 @@
 /turf/open/floor/prison{
 	icon_state = "kitchen"
 	},
-/area/almayer/living/captain_mess)
+/area/amongus/shared_office)
 "vk" = (
 /obj/item/storage/box/pillbottles,
 /obj/item/storage/box/pillbottles,
@@ -5091,7 +5091,7 @@
 	dir = 4;
 	icon_state = "bluecorner"
 	},
-/area/almayer/command/cichallway)
+/area/amongus/command/cichallway)
 "vq" = (
 /obj/structure/bed/chair/comfy{
 	dir = 8
@@ -5445,7 +5445,7 @@
 	randpixel = 0
 	},
 /turf/open/floor/prison/chapel_carpet,
-/area/almayer/living/captain_mess)
+/area/amongus/shared_office)
 "wL" = (
 /obj/structure/machinery/power/terminal{
 	dir = 4
@@ -5476,12 +5476,12 @@
 /area/amongus/engineering)
 "wP" = (
 /turf/open/floor/carpet,
-/area/almayer/living/captain_mess)
+/area/amongus/shared_office)
 "wQ" = (
 /obj/structure/pipes/standard/simple/hidden/supply,
 /obj/structure/window/framed/almayer,
 /turf/open/floor/plating/plating_catwalk,
-/area/almayer/command/cichallway)
+/area/amongus/command/cichallway)
 "wR" = (
 /turf/open/floor/almayer{
 	dir = 4;
@@ -5505,14 +5505,14 @@
 "wZ" = (
 /obj/structure/pipes/standard/manifold/hidden/supply,
 /turf/open/floor/plating/plating_catwalk,
-/area/almayer/command/cichallway)
+/area/amongus/command/cichallway)
 "xa" = (
 /obj/structure/surface/table/woodentable/fancy,
 /obj/item/reagent_container/food/snacks/pastatomato{
 	pixel_y = 3
 	},
 /turf/open/floor/carpet,
-/area/almayer/living/captain_mess)
+/area/amongus/shared_office)
 "xc" = (
 /obj/structure/machinery/door/airlock/multi_tile/almayer/secdoor/glass/reinforced{
 	dir = 2;
@@ -5555,7 +5555,7 @@
 /turf/open/floor/almayer{
 	icon_state = "silverfull"
 	},
-/area/almayer/command/cichallway)
+/area/amongus/command/cichallway)
 "xn" = (
 /obj/structure/platform{
 	dir = 1
@@ -5646,7 +5646,9 @@
 	},
 /area/amongus/kitchen)
 "xv" = (
-/obj/docking_port/stationary/lifeboat_dock/compact,
+/obj/docking_port/stationary/lifeboat_dock/compact{
+	roundstart_template = null
+	},
 /turf/open/space/basic,
 /area/space/almayer/lifeboat_dock)
 "xy" = (
@@ -5660,7 +5662,7 @@
 	dir = 1;
 	icon_state = "blue"
 	},
-/area/almayer/command/cichallway)
+/area/amongus/command/cichallway)
 "xB" = (
 /obj/structure/machinery/light{
 	dir = 4
@@ -5670,7 +5672,7 @@
 	dir = 4;
 	icon_state = "silver"
 	},
-/area/almayer/command/cichallway)
+/area/amongus/command/cichallway)
 "xC" = (
 /turf/open/floor/almayer{
 	dir = 8;
@@ -5729,7 +5731,7 @@
 /area/amongus/medical)
 "xM" = (
 /turf/open/floor/almayer,
-/area/almayer/command/cichallway)
+/area/amongus/command/cichallway)
 "xN" = (
 /obj/structure/surface/table/almayer,
 /obj/item/prop/almayer/chaff_launcher{
@@ -5920,7 +5922,7 @@
 /turf/open/floor/prison{
 	icon_state = "kitchen"
 	},
-/area/almayer/living/captain_mess)
+/area/amongus/shared_office)
 "yB" = (
 /obj/structure/machinery/light,
 /obj/structure/flora/pottedplant{
@@ -6386,7 +6388,7 @@
 	dir = 4;
 	icon_state = "outerhull_dir"
 	},
-/area/space/almayer/lifeboat_dock)
+/area/amongus/arrivals)
 "Ar" = (
 /obj/structure/window/framed/almayer,
 /turf/open/floor/plating,
@@ -6573,7 +6575,7 @@
 	dir = 4
 	},
 /turf/open/floor/almayer,
-/area/almayer/command/cichallway)
+/area/amongus/command/cichallway)
 "Bb" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "NE-out";
@@ -6688,7 +6690,7 @@
 /area/amongus/ai_interface)
 "Bw" = (
 /turf/closed/wall/almayer/outer,
-/area/almayer/living/captain_mess)
+/area/amongus/shared_office)
 "Bx" = (
 /obj/structure/machinery/cryopod,
 /turf/open/floor/almayer{
@@ -6912,7 +6914,7 @@
 /area/amongus/cryo_cells)
 "Cn" = (
 /turf/closed/wall/almayer/outer,
-/area/almayer/command/cichallway)
+/area/amongus/command/cichallway)
 "Cp" = (
 /obj/structure/window/framed/almayer/white,
 /obj/structure/machinery/door/firedoor/border_only/almayer,
@@ -7150,7 +7152,7 @@
 /turf/open/floor/almayer{
 	icon_state = "plate"
 	},
-/area/almayer/living/captain_mess)
+/area/amongus/shared_office)
 "De" = (
 /turf/open/floor/strata{
 	desc = "Faux wooden floor boards, certified fire resistant. Begrudgingly put in place of actual wood due to concerns about 'fire safety'. Whatever that means.";
@@ -7227,11 +7229,11 @@
 /turf/open/floor/almayer{
 	icon_state = "plate"
 	},
-/area/almayer/command/cichallway)
+/area/amongus/command/cichallway)
 "Dw" = (
 /obj/structure/machinery/vending/coffee,
 /turf/open/floor/wood,
-/area/almayer/living/captain_mess)
+/area/amongus/shared_office)
 "Dz" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "N";
@@ -7314,7 +7316,7 @@
 /turf/open/floor/almayer{
 	icon_state = "silver"
 	},
-/area/almayer/command/cichallway)
+/area/amongus/command/cichallway)
 "DQ" = (
 /obj/structure/bed/chair,
 /obj/effect/decal/cleanable/dirt,
@@ -7519,7 +7521,7 @@
 /obj/structure/surface/table/gamblingtable,
 /obj/item/storage/fancy/candle_box,
 /turf/open/floor/prison/chapel_carpet,
-/area/almayer/living/captain_mess)
+/area/amongus/shared_office)
 "EE" = (
 /obj/effect/decal/cleanable/blood/oil,
 /turf/open/floor/almayer,
@@ -7677,7 +7679,7 @@
 /turf/open/floor/almayer{
 	icon_state = "plate"
 	},
-/area/almayer/command/cichallway)
+/area/amongus/command/cichallway)
 "Fd" = (
 /obj/structure/machinery/light,
 /turf/open/floor/almayer{
@@ -7721,7 +7723,7 @@
 	dir = 6;
 	icon_state = "silver"
 	},
-/area/almayer/command/cichallway)
+/area/amongus/command/cichallway)
 "Fl" = (
 /obj/structure/closet/crate,
 /obj/item/storage/backpack/marine,
@@ -7847,7 +7849,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/almayer,
-/area/almayer/command/cichallway)
+/area/amongus/command/cichallway)
 "FV" = (
 /obj/item/tool/pen,
 /obj/item/paper_bin/uscm,
@@ -7944,7 +7946,7 @@
 	dir = 9;
 	icon_state = "silver"
 	},
-/area/almayer/command/cichallway)
+/area/amongus/command/cichallway)
 "Gw" = (
 /obj/structure/surface/table/reinforced/prison,
 /obj/item/tool/hand_labeler{
@@ -8060,7 +8062,7 @@
 	dir = 8;
 	icon_state = "silvercorner"
 	},
-/area/almayer/command/cichallway)
+/area/amongus/command/cichallway)
 "GK" = (
 /turf/closed/wall/almayer/reinforced,
 /area/amongus/detectives_office)
@@ -8093,7 +8095,7 @@
 	dir = 8
 	},
 /turf/open/floor/almayer,
-/area/almayer/command/cichallway)
+/area/amongus/command/cichallway)
 "GU" = (
 /obj/structure/machinery/door/poddoor/railing{
 	dir = 8;
@@ -8147,7 +8149,7 @@
 /turf/open/floor/almayer{
 	icon_state = "mono"
 	},
-/area/almayer/command/cichallway)
+/area/amongus/command/cichallway)
 "Hi" = (
 /obj/structure/surface/table/reinforced/black,
 /obj/item/paper{
@@ -8175,7 +8177,7 @@
 /turf/open/floor/almayer{
 	icon_state = "mono"
 	},
-/area/almayer/command/cichallway)
+/area/amongus/command/cichallway)
 "Hm" = (
 /obj/structure/machinery/light{
 	dir = 8
@@ -8323,7 +8325,7 @@
 	dir = 5;
 	icon_state = "silver"
 	},
-/area/almayer/command/cichallway)
+/area/amongus/command/cichallway)
 "Ie" = (
 /obj/structure/surface/table/reinforced/almayer_B,
 /obj/structure/machinery/recharger,
@@ -8367,7 +8369,7 @@
 	dir = 8
 	},
 /turf/open/floor/prison/chapel_carpet,
-/area/almayer/living/captain_mess)
+/area/amongus/shared_office)
 "Ik" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/almayer{
@@ -8410,7 +8412,7 @@
 	dir = 1;
 	icon_state = "silver"
 	},
-/area/almayer/command/cichallway)
+/area/amongus/command/cichallway)
 "Iy" = (
 /obj/structure/machinery/autolathe,
 /obj/structure/machinery/light{
@@ -8663,7 +8665,7 @@
 /area/amongus/engineering)
 "Jz" = (
 /turf/open/floor/carpet/edge,
-/area/almayer/living/captain_mess)
+/area/amongus/shared_office)
 "JA" = (
 /obj/structure/pipes/standard/simple/hidden/supply,
 /turf/open/floor/almayer,
@@ -8719,7 +8721,7 @@
 /turf/open/floor/prison{
 	icon_state = "kitchen"
 	},
-/area/almayer/living/captain_mess)
+/area/amongus/shared_office)
 "JW" = (
 /turf/closed/wall/almayer,
 /area/amongus/cryo_cells)
@@ -9041,7 +9043,7 @@
 /turf/open/floor/prison{
 	icon_state = "kitchen"
 	},
-/area/almayer/living/captain_mess)
+/area/amongus/shared_office)
 "Lm" = (
 /turf/closed/wall/almayer/outer,
 /area/amongus/ai_interface)
@@ -9071,7 +9073,7 @@
 	on = 1
 	},
 /turf/open/floor/prison/chapel_carpet,
-/area/almayer/living/captain_mess)
+/area/amongus/shared_office)
 "LB" = (
 /obj/structure/closet/secure_closet/engineering_personal,
 /obj/structure/machinery/light,
@@ -9141,7 +9143,7 @@
 "LJ" = (
 /obj/structure/machinery/vending/cola,
 /turf/open/floor/wood,
-/area/almayer/living/captain_mess)
+/area/amongus/shared_office)
 "LK" = (
 /turf/open/floor/kutjevo/tan/alt_inner_edge{
 	dir = 8
@@ -9604,7 +9606,7 @@
 	dir = 4;
 	icon_state = "blue"
 	},
-/area/almayer/command/cichallway)
+/area/amongus/command/cichallway)
 "Np" = (
 /turf/closed/wall/almayer,
 /area/amongus/lower_cargo)
@@ -9652,7 +9654,7 @@
 	dir = 1
 	},
 /turf/open/floor/almayer,
-/area/almayer/command/cichallway)
+/area/amongus/command/cichallway)
 "NI" = (
 /obj/structure/pipes/standard/simple/hidden/supply{
 	dir = 1
@@ -9687,13 +9689,13 @@
 /turf/open/floor/almayer{
 	icon_state = "mono"
 	},
-/area/almayer/command/cichallway)
+/area/amongus/command/cichallway)
 "NS" = (
 /turf/open/floor/almayer{
 	dir = 9;
 	icon_state = "silver"
 	},
-/area/almayer/command/cichallway)
+/area/amongus/command/cichallway)
 "NT" = (
 /obj/structure/surface/table/reinforced/black,
 /turf/open/floor/carpet{
@@ -9802,7 +9804,7 @@
 /turf/open/floor/almayer{
 	icon_state = "mono"
 	},
-/area/almayer/command/cichallway)
+/area/amongus/command/cichallway)
 "OA" = (
 /obj/structure/pipes/standard/manifold/hidden/supply{
 	dir = 1
@@ -9822,7 +9824,7 @@
 	dir = 4
 	},
 /turf/open/floor/prison/chapel_carpet,
-/area/almayer/living/captain_mess)
+/area/amongus/shared_office)
 "OC" = (
 /obj/structure/window/framed/almayer/hull,
 /turf/open/floor/plating,
@@ -9891,7 +9893,7 @@
 	dir = 8
 	},
 /turf/open/floor/almayer,
-/area/almayer/command/cichallway)
+/area/amongus/command/cichallway)
 "ON" = (
 /obj/structure/surface/rack,
 /obj/item/clothing/suit/straight_jacket,
@@ -10032,7 +10034,7 @@
 /turf/open/floor/carpet/edge{
 	dir = 5
 	},
-/area/almayer/living/captain_mess)
+/area/amongus/shared_office)
 "Pn" = (
 /obj/structure/machinery/landinglight/ds1/delaytwo{
 	dir = 4
@@ -10125,7 +10127,7 @@
 	dir = 4;
 	icon_state = "blue"
 	},
-/area/almayer/command/cichallway)
+/area/amongus/command/cichallway)
 "PI" = (
 /obj/structure/surface/table/almayer,
 /obj/structure/machinery/prop/almayer/computer/PC{
@@ -10139,7 +10141,7 @@
 /turf/open/floor/prison{
 	icon_state = "kitchen"
 	},
-/area/almayer/living/captain_mess)
+/area/amongus/shared_office)
 "PM" = (
 /turf/open/floor/almayer{
 	icon_state = "red"
@@ -10225,13 +10227,13 @@
 	dir = 1
 	},
 /turf/open/floor/plating/plating_catwalk,
-/area/almayer/command/cichallway)
+/area/amongus/command/cichallway)
 "Qf" = (
 /obj/structure/bed/chair/comfy{
 	dir = 4
 	},
 /turf/open/floor/carpet,
-/area/almayer/living/captain_mess)
+/area/amongus/shared_office)
 "Qg" = (
 /obj/structure/surface/table/reinforced/black,
 /obj/structure/machinery/emergency_meeting{
@@ -10297,7 +10299,7 @@
 /turf/open/floor/carpet/edge{
 	dir = 4
 	},
-/area/almayer/living/captain_mess)
+/area/amongus/shared_office)
 "Qu" = (
 /obj/structure/surface/table/almayer,
 /obj/item/tool/kitchen/tray{
@@ -10316,7 +10318,7 @@
 	},
 /obj/structure/surface/table/woodentable/fancy,
 /turf/open/floor/wood,
-/area/almayer/living/captain_mess)
+/area/amongus/shared_office)
 "Qy" = (
 /obj/structure/bookcase{
 	icon_state = "book-5";
@@ -10704,14 +10706,14 @@
 /turf/open/floor/carpet/edge{
 	dir = 1
 	},
-/area/almayer/living/captain_mess)
+/area/amongus/shared_office)
 "RX" = (
 /obj/structure/flora/pottedplant/random,
 /turf/open/floor/almayer{
 	dir = 5;
 	icon_state = "blue"
 	},
-/area/almayer/command/cichallway)
+/area/amongus/command/cichallway)
 "RY" = (
 /obj/structure/machinery/light{
 	dir = 4
@@ -10720,7 +10722,7 @@
 	dir = 4;
 	icon_state = "silver"
 	},
-/area/almayer/command/cichallway)
+/area/amongus/command/cichallway)
 "RZ" = (
 /obj/effect/decal/strata_decals/grime/grime2{
 	dir = 8
@@ -10821,7 +10823,7 @@
 /obj/structure/surface/table/gamblingtable,
 /obj/item/toy/dice,
 /turf/open/floor/prison/chapel_carpet,
-/area/almayer/living/captain_mess)
+/area/amongus/shared_office)
 "Sw" = (
 /turf/open/floor/almayer_hull{
 	icon_state = "outerhull_dir"
@@ -11019,7 +11021,7 @@
 	dir = 6;
 	icon_state = "blue"
 	},
-/area/almayer/command/cichallway)
+/area/amongus/command/cichallway)
 "Tm" = (
 /obj/structure/machinery/door/airlock/almayer/medical{
 	dir = 1;
@@ -11298,7 +11300,7 @@
 /turf/open/floor/carpet/edge{
 	dir = 1
 	},
-/area/almayer/living/captain_mess)
+/area/amongus/shared_office)
 "UE" = (
 /obj/structure/window/framed/almayer,
 /obj/structure/machinery/door/firedoor/border_only/almayer{
@@ -11346,7 +11348,7 @@
 /turf/open/floor/prison{
 	icon_state = "kitchen"
 	},
-/area/almayer/living/captain_mess)
+/area/amongus/shared_office)
 "UP" = (
 /obj/structure/cable/heavyduty{
 	icon_state = "4-8"
@@ -11370,7 +11372,7 @@
 "UR" = (
 /obj/structure/window/framed/almayer,
 /turf/open/floor/plating,
-/area/almayer/command/cichallway)
+/area/amongus/command/cichallway)
 "US" = (
 /obj/structure/sign/safety/ladder{
 	pixel_y = 29
@@ -11602,7 +11604,7 @@
 "VI" = (
 /obj/structure/machinery/light,
 /turf/open/floor/wood,
-/area/almayer/living/captain_mess)
+/area/amongus/shared_office)
 "VL" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "E";
@@ -11788,7 +11790,7 @@
 /turf/open/floor/almayer{
 	icon_state = "blue"
 	},
-/area/almayer/command/cichallway)
+/area/amongus/command/cichallway)
 "WC" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/warning_stripes{
@@ -12135,7 +12137,7 @@
 	dir = 4;
 	icon_state = "silvercorner"
 	},
-/area/almayer/command/cichallway)
+/area/amongus/command/cichallway)
 "XP" = (
 /turf/open/floor/almayer{
 	dir = 6;
@@ -12168,7 +12170,7 @@
 	dir = 8;
 	icon_state = "silver"
 	},
-/area/almayer/command/cichallway)
+/area/amongus/command/cichallway)
 "XW" = (
 /obj/structure/machinery/computer/supply_drop_console/limited/alternate{
 	density = 1
@@ -12225,7 +12227,7 @@
 	dir = 8
 	},
 /turf/open/floor/almayer,
-/area/almayer/command/cichallway)
+/area/amongus/command/cichallway)
 "Yh" = (
 /obj/structure/surface/table/reinforced/prison,
 /obj/structure/machinery/computer/med_data/laptop{
@@ -12314,7 +12316,7 @@
 /turf/open/floor/carpet/edge{
 	dir = 4
 	},
-/area/almayer/living/captain_mess)
+/area/amongus/shared_office)
 "YC" = (
 /obj/structure/machinery/door/poddoor/shutters/almayer{
 	id = "ARES Interior";
@@ -12342,7 +12344,7 @@
 "YK" = (
 /obj/structure/pipes/standard/simple/hidden/supply,
 /turf/open/floor/plating/plating_catwalk,
-/area/almayer/command/cichallway)
+/area/amongus/command/cichallway)
 "YL" = (
 /turf/open/floor/carpet{
 	desc = "Plush, waterproof carpet. Apparently it's fire resistant while remaining quite soft.";
@@ -12507,7 +12509,7 @@
 /turf/open/floor/almayer{
 	icon_state = "silverfull"
 	},
-/area/almayer/command/cichallway)
+/area/amongus/command/cichallway)
 "Zr" = (
 /obj/structure/surface/table/reinforced/almayer_B,
 /obj/structure/machinery/computer/cameras/almayer_network{
@@ -12583,8 +12585,18 @@
 /turf/closed/wall/r_wall/prison_unmeltable,
 /area/amongus/cryo_cells)
 "ZD" = (
-/turf/open/floor/plating/plating_catwalk,
-/area/space/almayer/lifeboat_dock)
+/obj/structure/prop/invuln{
+	desc = "An inflated membrane. This one is puncture proof. Wow!";
+	icon = 'icons/obj/items/inflatable.dmi';
+	icon_state = "wall";
+	name = "umbilical wall"
+	},
+/obj/structure/blocker/invisible_wall,
+/turf/open/floor/almayer_hull{
+	dir = 4;
+	icon_state = "outerhull_dir"
+	},
+/area/amongus/cryo_cells)
 "ZE" = (
 /obj/structure/machinery/status_display{
 	pixel_y = 30
@@ -20518,7 +20530,7 @@ wD
 zg
 Jc
 pR
-Aq
+ZD
 rd
 rd
 rd
@@ -20646,7 +20658,7 @@ cV
 zg
 Jc
 Cv
-ZD
+zg
 rd
 rd
 rd
@@ -20774,7 +20786,7 @@ KE
 yp
 Jc
 Ue
-ZD
+zg
 rd
 rd
 rd
@@ -20902,7 +20914,7 @@ cV
 zg
 Jc
 Cv
-ZD
+zg
 rd
 rd
 rd
@@ -21030,7 +21042,7 @@ wD
 zg
 Jc
 pR
-Aq
+ZD
 rd
 rd
 rd
@@ -23165,7 +23177,7 @@ uU
 zE
 Px
 zk
-ZD
+sv
 rd
 rd
 rd
@@ -23293,7 +23305,7 @@ sv
 sv
 Px
 bh
-ZD
+sv
 rd
 rd
 rd
@@ -23421,7 +23433,7 @@ IQ
 zE
 Px
 zk
-ZD
+sv
 rd
 rd
 rd
