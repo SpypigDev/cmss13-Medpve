@@ -491,6 +491,22 @@
 /obj/effect/landmark/start/liaison,
 /turf/open/floor/plating/plating_catwalk,
 /area/amongus/cryo_cells)
+"lO" = (
+/obj/structure/surface/table/woodentable/fancy,
+/obj/item/reagent_container/food/drinks/golden_cup{
+	desc = "A golden cup to celebrate the victor of the first Medicord Masterchef tournament, Eka Aimise!";
+	name = "1st Medicord Masterchef Trophy: Eka Aimise"
+	},
+/obj/structure/machinery/floodlight/landing/floor{
+	on_light_range = 15;
+	invisibility = 35
+	},
+/obj/structure/window/reinforced{
+	indestructible = 1;
+	not_damageable = 1
+	},
+/turf/open/floor/kutjevo/plate,
+/area/amongus/kitchen)
 "lU" = (
 /obj/structure/closet/secure_closet/fridge/groceries,
 /turf/open/floor/kutjevo/tan/alt_edge{
@@ -577,10 +593,6 @@
 /area/amongus/cryo_cells)
 "of" = (
 /obj/structure/surface/table/woodentable/fancy,
-/obj/item/reagent_container/food/drinks/golden_cup{
-	desc = "A golden cup to celebrate the victor of the first Medicord Masterchef tournament, Eka Aimise!";
-	name = "1st Medicord Masterchef Trophy: Eka Aimise"
-	},
 /obj/structure/machinery/floodlight/landing/floor{
 	on_light_range = 15;
 	invisibility = 35
@@ -1480,11 +1492,21 @@
 /area/amongus/arrivals)
 "Pw" = (
 /obj/structure/surface/table/woodentable/fancy,
-/obj/item/reagent_container/food/drinks/golden_cup,
 /obj/structure/window/reinforced{
 	indestructible = 1;
 	not_damageable = 1
 	},
+/obj/item/clothing/accessory/medal/gold/heroism,
+/obj/item/clothing/accessory/medal/gold/heroism,
+/obj/item/clothing/accessory/medal/gold/heroism,
+/obj/item/clothing/accessory/medal/gold/heroism,
+/obj/item/clothing/accessory/medal/gold/heroism,
+/obj/item/clothing/accessory/medal/gold/heroism,
+/obj/item/clothing/accessory/medal/gold/heroism,
+/obj/item/clothing/accessory/medal/gold/heroism,
+/obj/item/clothing/accessory/medal/gold/heroism,
+/obj/item/clothing/accessory/medal/gold/heroism,
+/obj/item/clothing/accessory/medal/gold/heroism,
 /turf/open/floor/kutjevo/plate,
 /area/amongus/kitchen)
 "PP" = (
@@ -1505,14 +1527,12 @@
 /area/amongus/kitchen)
 "PZ" = (
 /obj/structure/surface/table/woodentable/fancy,
-/obj/structure/machinery/floodlight/landing/floor{
-	on_light_range = 15;
-	invisibility = 35
-	},
-/obj/structure/window/reinforced{
+/obj/structure/machinery/door/window{
+	dir = 2;
 	indestructible = 1;
-	not_damageable = 1
+	req_access_txt = "31"
 	},
+/obj/item/reagent_container/food/drinks/golden_cup,
 /turf/open/floor/kutjevo/plate,
 /area/amongus/kitchen)
 "Qj" = (
@@ -3015,7 +3035,7 @@ Ux
 Ux
 Ux
 eZ
-of
+lO
 bP
 kW
 kW
@@ -3207,7 +3227,7 @@ Ux
 Ux
 Ux
 eZ
-sT
+PZ
 js
 va
 tc
@@ -3399,7 +3419,7 @@ Ux
 Ux
 Ux
 eZ
-PZ
+of
 bP
 kW
 kW

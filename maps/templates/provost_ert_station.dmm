@@ -359,6 +359,12 @@
 	},
 /turf/open/floor/plating,
 /area/adminlevel/ert_station/provost_station)
+"vA" = (
+/obj/effect/landmark/start/marshal,
+/turf/open/floor/prison{
+	icon_state = "darkredfull2"
+	},
+/area/adminlevel/ert_station/provost_station)
 "vN" = (
 /obj/structure/machinery/door/airlock/almayer/security/glass/reinforced{
 	dir = 1
@@ -1219,7 +1225,7 @@ Ux
 Ux
 Ux
 jK
-bG
+vA
 oj
 WU
 UV

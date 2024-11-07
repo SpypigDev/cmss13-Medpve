@@ -11,8 +11,8 @@
 	area_type = /area/shuttle/trijent_shuttle/elevator
 
 	// Shuttle timings
-	callTime = 30 SECONDS
-	rechargeTime = 30 SECONDS
+	callTime = 10 SECONDS
+	rechargeTime = 10 SECONDS
 	ignitionTime = 4 SECONDS
 	ambience_flight = 'sound/vehicles/tank_driving.ogg'
 	ignition_sound = 'sound/mecha/powerup.ogg'
