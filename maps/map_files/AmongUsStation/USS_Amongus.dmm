@@ -407,7 +407,8 @@
 	},
 /obj/structure/machinery/computer/shuttle/elevator_controller/elevator_call/trijent{
 	pixel_y = 32;
-	shuttleId = "ice_classic_shuttle"
+	shuttleId = "ice_classic_shuttle";
+	dockId = "Level_One"
 	},
 /turf/open/floor/almayer,
 /area/amongus/arrivals)
@@ -761,7 +762,10 @@
 /area/amongus/briefing)
 "cL" = (
 /obj/structure/foamed_metal,
-/turf/open/space/basic,
+/turf/open/floor/almayer{
+	dir = 5;
+	icon_state = "plating"
+	},
 /area/amongus/squad_one)
 "cM" = (
 /obj/effect/decal/warning_stripes{
@@ -978,7 +982,7 @@
 /area/amongus/platoonprep)
 "dA" = (
 /obj/effect/landmark/start/marine/tl/alpha,
-/obj/effect/landmark/late_join/forecon,
+/obj/effect/landmark/late_join/alpha,
 /turf/open/floor/plating/plating_catwalk,
 /area/amongus/cryo_cells)
 "dC" = (
@@ -1284,7 +1288,6 @@
 /obj/structure/machinery/cm_vending/sorted/cargo_ammo/squad{
 	req_access = null;
 	req_one_access = null;
-	req_one_access_txt = "17;18;21";
 	vend_x_offset = 0
 	},
 /turf/open/floor/almayer{
@@ -1524,7 +1527,7 @@
 /area/amongus/arrivals)
 "fx" = (
 /obj/structure/window/framed/almayer/hull,
-/turf/open/space/basic,
+/turf/open/floor/plating,
 /area/amongus/ai_interface)
 "fy" = (
 /obj/structure/machinery/door/poddoor/railing{
@@ -1637,7 +1640,7 @@
 /area/amongus/squad_two)
 "fU" = (
 /obj/structure/machinery/cm_vending/clothing/medical_crew,
-/turf/open/space/basic,
+/turf/open/floor/plating,
 /area/amongus/medical)
 "fW" = (
 /obj/item/storage/box/gloves{
@@ -1707,11 +1710,7 @@
 	dir = 2
 	},
 /obj/structure/machinery/door/airlock/almayer/medical/glass{
-	access_modified = 1;
-	dir = 2;
-	name = "\improper Nurse Office";
-	req_access_txt = "20";
-	req_one_access = null
+	dir = 1
 	},
 /turf/open/floor/almayer{
 	icon_state = "test_floor4"
@@ -1929,7 +1928,8 @@
 "gP" = (
 /obj/structure/machinery/computer/shuttle/elevator_controller/elevator_call/trijent{
 	pixel_y = 32;
-	shuttleId = "ice_classic_shuttle"
+	shuttleId = "ice_classic_shuttle";
+	dockId = "Level_Three"
 	},
 /turf/open/floor/almayer{
 	icon_state = "plate"
@@ -2192,7 +2192,10 @@
 	},
 /area/amongus/engineering)
 "hL" = (
-/obj/structure/machinery/cm_vending/sorted/medical,
+/obj/structure/machinery/cm_vending/sorted/medical{
+	req_access = null;
+	req_one_access = null
+	},
 /turf/open/floor/almayer{
 	icon_state = "cargo"
 	},
@@ -2280,9 +2283,8 @@
 /area/amongus/command/cichallway)
 "ia" = (
 /obj/structure/machinery/door/airlock/multi_tile/elevator/access/dormatory,
-/turf/open/floor{
-	dir = 9;
-	icon_state = "darkgreen2"
+/turf/open/floor/almayer{
+	icon_state = "plate"
 	},
 /area/amongus/arrivals)
 "id" = (
@@ -2716,9 +2718,8 @@
 	pixel_x = -1
 	},
 /obj/structure/window/framed/almayer/white,
-/obj/structure/machinery/door/poddoor/almayer/biohazard/white{
-	dir = 4;
-	autoclose = 1
+/obj/structure/machinery/door/poddoor/almayer/blended/white{
+	dir = 4
 	},
 /turf/open/floor/almayer{
 	icon_state = "dark_sterile"
@@ -2856,11 +2857,6 @@
 	icon_state = "sterile_green_side"
 	},
 /area/amongus/medical)
-"kd" = (
-/obj/effect/landmark/late_join/alpha,
-/obj/effect/landmark/start/marine/alpha,
-/turf/open/floor/plating/plating_catwalk,
-/area/amongus/cryo_cells)
 "kg" = (
 /obj/structure/platform,
 /turf/open/floor/almayer{
@@ -3159,7 +3155,8 @@
 /obj/structure/machinery/cm_vending/sorted/uniform_supply/squad_prep{
 	req_access = list();
 	req_one_access_txt = "8;12;39;40";
-	pixel_y = 32
+	pixel_y = 32;
+	density = 0
 	},
 /turf/open/floor/almayer{
 	dir = 1;
@@ -3306,13 +3303,10 @@
 	},
 /area/amongus/medical)
 "lT" = (
-/obj/structure/machinery/cm_vending/sorted/uniform_supply/squad_prep{
-	req_access = list();
-	req_one_access_txt = "8;12;39;40"
-	},
-/obj/structure/machinery/cm_vending/sorted/cargo_guns/squad{
-	req_one_access = list();
-	req_one_access_txt = "8;12;39;40"
+/obj/structure/machinery/cm_vending/sorted/cargo_ammo/squad{
+	req_access = null;
+	req_one_access = null;
+	vend_x_offset = 0
 	},
 /turf/open/floor/almayer{
 	dir = 5;
@@ -3717,7 +3711,8 @@
 "no" = (
 /obj/structure/machinery/computer/shuttle/elevator_controller/elevator_call/trijent{
 	pixel_y = 32;
-	shuttleId = "ice_classic_shuttle"
+	shuttleId = "ice_classic_shuttle";
+	dockId = "Level_Two"
 	},
 /turf/open/floor/almayer{
 	dir = 1;
@@ -4054,8 +4049,8 @@
 	},
 /area/amongus/ai_interface)
 "ou" = (
+/obj/effect/landmark/late_join,
 /obj/effect/landmark/start/marine/smartgunner/alpha,
-/obj/effect/landmark/late_join/alpha,
 /turf/open/floor/plating/plating_catwalk,
 /area/amongus/cryo_cells)
 "ov" = (
@@ -4315,7 +4310,7 @@
 /area/amongus/briefing)
 "pq" = (
 /obj/structure/foamed_metal,
-/turf/open/space/basic,
+/turf/open/floor/plating,
 /area/amongus/billiardsroom)
 "pr" = (
 /obj/effect/decal/warning_stripes{
@@ -4450,11 +4445,6 @@
 	icon_state = "bluefull"
 	},
 /area/amongus/command/cichallway)
-"pW" = (
-/obj/effect/landmark/start/marine/alpha,
-/obj/effect/landmark/late_join/forecon,
-/turf/open/floor/plating/plating_catwalk,
-/area/amongus/cryo_cells)
 "qa" = (
 /obj/structure/window/framed/almayer,
 /obj/structure/machinery/door/firedoor/border_only/almayer,
@@ -4506,12 +4496,6 @@
 	icon_state = "sterile_green_side"
 	},
 /area/amongus/medical)
-"qf" = (
-/turf/open/floor{
-	dir = 5;
-	icon_state = "darkgreen2"
-	},
-/area/amongus/arrivals)
 "qk" = (
 /obj/structure/machinery/cm_vending/clothing/synth,
 /obj/effect/decal/cleanable/dirt,
@@ -4980,7 +4964,7 @@
 /area/amongus/engineering)
 "rX" = (
 /obj/structure/window/framed/almayer/hull,
-/turf/open/space/basic,
+/turf/open/floor/plating,
 /area/amongus/lower_cargo)
 "rY" = (
 /obj/structure/machinery/cryopod/right,
@@ -5458,9 +5442,10 @@
 	},
 /area/amongus/platoonprep)
 "tU" = (
-/obj/structure/foamed_metal,
-/turf/open/space/basic,
-/area/amongus/engineering)
+/obj/effect/landmark/late_join,
+/obj/effect/landmark/start/marine/alpha,
+/turf/open/floor/plating/plating_catwalk,
+/area/amongus/cryo_cells)
 "tW" = (
 /obj/structure/machinery/cm_vending/clothing/super_snowflake/accessory,
 /turf/open/floor/almayer{
@@ -5469,11 +5454,10 @@
 	},
 /area/amongus/squad_two)
 "tX" = (
-/turf/open/floor{
-	dir = 1;
-	icon_state = "darkgreen2"
-	},
-/area/amongus/arrivals)
+/obj/effect/landmark/start/bridge,
+/obj/effect/landmark/late_join,
+/turf/open/floor/plating/plating_catwalk,
+/area/amongus/cryo_cells)
 "ua" = (
 /obj/effect/step_trigger/clone_cleaner,
 /obj/structure/machinery/door/poddoor/almayer/open{
@@ -5521,11 +5505,7 @@
 	},
 /area/amongus/ai_interface)
 "ug" = (
-/obj/structure/machinery/door/airlock/almayer/medical/glass{
-	dir = 8;
-	name = "Morgue Waiting Room";
-	req_one_access = null
-	},
+/obj/structure/machinery/door/airlock/almayer/medical/glass,
 /turf/open/floor/almayer{
 	icon_state = "dark_sterile"
 	},
@@ -5611,7 +5591,7 @@
 /area/amongus/engineering)
 "ux" = (
 /obj/structure/window/framed/almayer/white,
-/turf/open/space/basic,
+/turf/open/floor/plating,
 /area/amongus/medical)
 "uy" = (
 /obj/structure/bed/chair/comfy/beige{
@@ -5671,11 +5651,7 @@
 /area/amongus/squad_one)
 "uH" = (
 /obj/structure/machinery/door/airlock/almayer/medical/glass{
-	access_modified = 1;
-	dir = 2;
-	name = "\improper Nurse Office";
-	req_access_txt = "20";
-	req_one_access = null
+	dir = 1
 	},
 /turf/open/floor/almayer{
 	icon_state = "dark_sterile"
@@ -5797,8 +5773,8 @@
 	},
 /area/amongus/platoonarmory)
 "vc" = (
+/obj/effect/landmark/late_join,
 /obj/effect/landmark/start/marine/tl/alpha,
-/obj/effect/landmark/late_join/alpha,
 /turf/open/floor/plating/plating_catwalk,
 /area/amongus/cryo_cells)
 "vd" = (
@@ -7112,10 +7088,6 @@
 	icon_state = "plate"
 	},
 /area/amongus/arrivals)
-"zF" = (
-/obj/structure/foamed_metal,
-/turf/open/space/basic,
-/area/amongus/command/cichallway)
 "zG" = (
 /obj/structure/machinery/light{
 	dir = 1
@@ -7946,7 +7918,7 @@
 /area/amongus/platoonarmory)
 "CP" = (
 /obj/effect/landmark/start/marine/smartgunner/alpha,
-/obj/effect/landmark/late_join/forecon,
+/obj/effect/landmark/late_join/alpha,
 /turf/open/floor/plating/plating_catwalk,
 /area/amongus/cryo_cells)
 "CQ" = (
@@ -8261,7 +8233,8 @@
 /obj/structure/machinery/cm_vending/sorted/uniform_supply/squad_prep{
 	req_access = list();
 	req_one_access_txt = "8;12;39;40";
-	pixel_y = 32
+	pixel_y = 32;
+	density = 0
 	},
 /turf/open/floor/almayer{
 	dir = 8;
@@ -8545,8 +8518,8 @@
 	},
 /area/amongus/platoonarmory)
 "Fb" = (
+/obj/effect/landmark/late_join,
 /obj/effect/landmark/start/marine/leader/alpha,
-/obj/effect/landmark/late_join/alpha,
 /turf/open/floor/plating/plating_catwalk,
 /area/amongus/cryo_cells)
 "Fc" = (
@@ -8813,7 +8786,7 @@
 /area/amongus/squad_one)
 "Gn" = (
 /obj/effect/landmark/start/marine/medic/alpha,
-/obj/effect/landmark/late_join/forecon,
+/obj/effect/landmark/late_join/alpha,
 /turf/open/floor/plating/plating_catwalk,
 /area/amongus/cryo_cells)
 "Go" = (
@@ -9995,7 +9968,10 @@
 /area/amongus/detectives_office)
 "KO" = (
 /obj/structure/machinery/cm_vending/sorted/cargo_guns/squad_prep,
-/turf/open/space/basic,
+/turf/open/floor/almayer{
+	dir = 5;
+	icon_state = "plating"
+	},
 /area/amongus/squad_one)
 "KR" = (
 /obj/structure/machinery/vending/cola,
@@ -12282,9 +12258,8 @@
 	dir = 8;
 	name = "\improper Containment Airlock"
 	},
-/obj/structure/machinery/door/poddoor/almayer/biohazard/white{
-	dir = 4;
-	autoclose = 1
+/obj/structure/machinery/door/poddoor/almayer/blended/white{
+	dir = 4
 	},
 /turf/closed/wall/almayer/white/hull,
 /area/amongus/medical)
@@ -20369,7 +20344,7 @@ id
 id
 id
 ik
-tX
+zE
 pr
 zE
 HU
@@ -20582,7 +20557,7 @@ id
 id
 id
 ik
-tX
+zE
 pr
 zE
 HU
@@ -20667,10 +20642,10 @@ un
 aD
 jB
 Yi
-tU
-tU
-tU
-tU
+RR
+RR
+RR
+RR
 Yi
 pw
 wQ
@@ -20795,7 +20770,7 @@ id
 id
 id
 ik
-qf
+zE
 pr
 IQ
 HU
@@ -21852,7 +21827,7 @@ xM
 rw
 Tz
 Cn
-zF
+bv
 DA
 dO
 aS
@@ -22065,7 +22040,7 @@ rJ
 cW
 Cq
 Cn
-zF
+bv
 DA
 Ai
 aS
@@ -22278,7 +22253,7 @@ OW
 Cn
 Cn
 Cn
-zF
+bv
 DA
 Ai
 aS
@@ -22491,7 +22466,7 @@ pV
 Iq
 Cn
 Cn
-zF
+bv
 DA
 Ai
 aS
@@ -24621,7 +24596,7 @@ ok
 xG
 Cn
 Cn
-zF
+bv
 lI
 dO
 aS
@@ -26326,7 +26301,7 @@ EG
 pR
 eS
 pR
-TN
+tX
 TN
 JG
 TN
@@ -26542,8 +26517,8 @@ pR
 Fb
 TN
 JG
-kd
-kd
+TN
+TN
 My
 yp
 Fz
@@ -27391,10 +27366,10 @@ EG
 pR
 eS
 pR
+tU
 TN
-pW
 JG
-pW
+TN
 TN
 My
 bG
@@ -27607,7 +27582,7 @@ pR
 ou
 CP
 JG
-pW
+TN
 TN
 My
 yp
@@ -28459,7 +28434,7 @@ pR
 vc
 dA
 JG
-pW
+TN
 TN
 My
 bG
@@ -28669,10 +28644,10 @@ EG
 pR
 eS
 pR
-TN
+tU
 Gn
 JG
-pW
+TN
 TN
 My
 yp

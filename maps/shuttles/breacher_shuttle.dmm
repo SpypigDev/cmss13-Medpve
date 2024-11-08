@@ -51,7 +51,9 @@
 /turf/open/space/basic,
 /area/shuttle/breach)
 "kF" = (
-/obj/structure/machinery/door/airlock/evacuation,
+/obj/structure/machinery/door/airlock/evacuation{
+	start_locked = 0
+	},
 /turf/open/floor/almayer{
 	icon_state = "test_floor4"
 	},
