@@ -334,6 +334,40 @@
 		"absinthe",
 	)
 
+/obj/structure/machinery/chem_dispenser/soda/kitchen
+	icon_state = "soda_dispenser"
+	name = "kitchen grade soda fountain"
+	desc = "A drink fabricating machine, capable of producing many drinks with just one touch."
+	ui_title = "Kitchen Dispens-o-matic"
+	hacked_check = DISPENSER_UNHACKABLE
+	dispensable_reagents = list(
+		"water",
+		"ice",
+		"coffee",
+		"cream",
+		"tea",
+		"cola",
+		"spacemountainwind",
+		"dr_gibb",
+		"space_up",
+		"tonic",
+		"sodawater",
+		"lemon_lime",
+		"sugar",
+		"orangejuice",
+		"limejuice",
+		"watermelonjuice",
+		"tomatojuice",
+		"carrotjuice",
+		"berryjuice",
+		"grapejuice",
+		"lemonjuice",
+		"banana",
+		"milk",
+		"soymilk",
+		"soysauce",
+	)
+
 #undef DISPENSER_UNHACKABLE
 #undef DISPENSER_NOT_HACKED
 #undef DISPENSER_HACKED

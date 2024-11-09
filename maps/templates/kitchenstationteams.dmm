@@ -1,0 +1,3245 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"aA" = (
+/obj/structure/closet/secure_closet/fridge/groceries/stock,
+/turf/open/floor/kutjevo/tan/alt_edge{
+	dir = 1
+	},
+/area/amongus/kitchen)
+"aC" = (
+/turf/closed/wall/kutjevo/colony/reinforced/hull,
+/area/amongus/cryo_cells)
+"aG" = (
+/obj/structure/surface/table/reinforced,
+/obj/item/storage/box/drinkingglasses,
+/obj/structure/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/kutjevo/tan/alt_inner_edge{
+	dir = 8
+	},
+/area/amongus/kitchen)
+"aM" = (
+/obj/structure/closet/secure_closet/fridge/dry,
+/turf/open/floor/kutjevo/tan/alt_edge{
+	dir = 1
+	},
+/area/amongus/kitchen)
+"aP" = (
+/obj/structure/platform/kutjevo{
+	dir = 4
+	},
+/obj/structure/platform/kutjevo{
+	dir = 4;
+	icon_state = "kutjevo_platform_sm"
+	},
+/obj/structure/platform/kutjevo,
+/obj/structure/platform/kutjevo/smooth,
+/turf/open/floor/wood,
+/area/amongus/kitchen)
+"aZ" = (
+/obj/structure/machinery/floodlight/landing/floor{
+	on_light_range = 15;
+	invisibility = 35
+	},
+/obj/effect/landmark/observer_start,
+/turf/open/floor/kutjevo/plate,
+/area/amongus/cryo_cells)
+"bj" = (
+/obj/structure/platform/kutjevo{
+	dir = 4
+	},
+/obj/structure/platform/kutjevo{
+	dir = 4;
+	icon_state = "kutjevo_platform_sm"
+	},
+/turf/open/floor/carpet{
+	desc = "Plush, waterproof carpet. Apparently it's fire resistant while remaining quite soft.";
+	name = "\improper carpet"
+	},
+/area/amongus/kitchen)
+"bw" = (
+/obj/structure/bed/chair/comfy{
+	dir = 1
+	},
+/turf/open/floor/carpet{
+	desc = "Plush, waterproof carpet. Apparently it's fire resistant while remaining quite soft.";
+	name = "\improper carpet"
+	},
+/area/amongus/kitchen)
+"bS" = (
+/obj/structure/surface/table/woodentable/fancy,
+/obj/structure/machinery/floodlight/landing/floor{
+	on_light_range = 15;
+	invisibility = 35
+	},
+/obj/structure/window/reinforced{
+	indestructible = 1;
+	not_damageable = 1
+	},
+/turf/open/floor/kutjevo/plate,
+/area/amongus/kitchen)
+"cc" = (
+/obj/structure/window/framed/kutjevo/reinforced/hull,
+/turf/open/floor/kutjevo/plate,
+/area/amongus/cryo_cells)
+"cl" = (
+/turf/open/floor/kutjevo{
+	icon_state = "catwalk";
+	dir = 1
+	},
+/area/amongus/cryo_cells)
+"cJ" = (
+/obj/structure/platform_decoration/kutjevo{
+	dir = 8
+	},
+/turf/open/floor/kutjevo/plate,
+/area/amongus/kitchen)
+"cR" = (
+/turf/open/floor/kutjevo/tan,
+/area/amongus/kitchen)
+"db" = (
+/obj/structure/machinery/door/airlock/multi_tile/almayer/generic/autoname,
+/turf/open/floor/kutjevo,
+/area/amongus/kitchen)
+"dC" = (
+/turf/open/floor/kutjevo/colors,
+/area/amongus/kitchen)
+"eD" = (
+/obj/structure/surface/table/reinforced,
+/turf/open/floor/kutjevo/tan/alt_edge,
+/area/amongus/kitchen)
+"eW" = (
+/obj/structure/window/framed/kutjevo/reinforced/hull,
+/obj/structure/machinery/door/poddoor/almayer{
+	id = "kitchen"
+	},
+/turf/open/floor/wood,
+/area/amongus/kitchen)
+"fy" = (
+/obj/structure/window/framed/kutjevo,
+/turf/open/floor/kutjevo/tan/multi_tiles,
+/area/amongus/kitchen)
+"fP" = (
+/obj/structure/closet/secure_closet/fridge/meat/stock,
+/obj/structure/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/kutjevo/tan/alt_edge{
+	dir = 1
+	},
+/area/amongus/kitchen)
+"fR" = (
+/obj/structure/surface/table/reinforced,
+/obj/item/tool/kitchen/knife,
+/obj/item/tool/kitchen/rollingpin,
+/obj/structure/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/kutjevo/tan/alt_inner_edge{
+	dir = 4
+	},
+/area/amongus/kitchen)
+"fT" = (
+/obj/structure/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/kutjevo/tan/multi_tiles,
+/area/amongus/kitchen)
+"gb" = (
+/obj/structure/platform_decoration/kutjevo,
+/turf/open/floor/carpet{
+	desc = "Plush, waterproof carpet. Apparently it's fire resistant while remaining quite soft.";
+	name = "\improper carpet"
+	},
+/area/amongus/kitchen)
+"gF" = (
+/obj/structure/platform/kutjevo{
+	dir = 8
+	},
+/obj/structure/platform/kutjevo/smooth{
+	dir = 8
+	},
+/obj/structure/platform/kutjevo,
+/obj/structure/platform/kutjevo/smooth,
+/turf/open/floor/wood,
+/area/amongus/kitchen)
+"gK" = (
+/obj/structure/machinery/cm_vending/clothing/super_snowflake/mask,
+/turf/open/floor/kutjevo/plate,
+/area/amongus/cryo_cells)
+"gT" = (
+/obj/structure/machinery/door/poddoor/shutters/almayer/open{
+	id = "compartment"
+	},
+/turf/open/floor/carpet{
+	desc = "Plush, waterproof carpet. Apparently it's fire resistant while remaining quite soft.";
+	name = "\improper carpet"
+	},
+/area/amongus/kitchen)
+"hi" = (
+/obj/structure/platform/kutjevo{
+	dir = 1
+	},
+/obj/structure/platform/kutjevo/smooth{
+	dir = 1
+	},
+/turf/open/floor/kutjevo/plate,
+/area/amongus/kitchen)
+"hx" = (
+/turf/open/floor/kutjevo/tan/alt_edge{
+	dir = 4
+	},
+/area/amongus/kitchen)
+"hA" = (
+/turf/open/space/basic,
+/area/space)
+"hB" = (
+/obj/structure/window/framed/kutjevo/reinforced/hull,
+/turf/open/floor/wood,
+/area/amongus/kitchen)
+"hE" = (
+/turf/open/floor/kutjevo/tan/multi_tiles,
+/area/amongus/kitchen)
+"hR" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 8
+	},
+/turf/open/floor/kutjevo,
+/area/amongus/kitchen)
+"iE" = (
+/obj/structure/machinery/cm_vending/clothing/synth/snowflake,
+/obj/structure/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/kutjevo/plate,
+/area/amongus/cryo_cells)
+"iK" = (
+/obj/structure/closet/secure_closet/fridge/meat/stock,
+/obj/structure/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/kutjevo/tan/alt_edge{
+	dir = 1
+	},
+/area/amongus/kitchen)
+"ja" = (
+/obj/structure/surface/table/woodentable/fancy,
+/turf/open/floor/kutjevo/plate,
+/area/amongus/kitchen)
+"jo" = (
+/obj/structure/machinery/door/airlock/multi_tile/almayer/generic/solid{
+	locked = 1;
+	no_panel = 1;
+	name = "\improper Cryo Bay Airlock"
+	},
+/turf/closed/wall/almayer/outer,
+/area/amongus/cryo_cells)
+"jD" = (
+/obj/structure/machinery/cm_vending/clothing/super_snowflake/shoes,
+/obj/structure/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/kutjevo/plate,
+/area/amongus/cryo_cells)
+"jI" = (
+/obj/structure/surface/table/woodentable/fancy,
+/obj/item/device/flashlight/lamp/green{
+	on = 1
+	},
+/turf/open/floor/kutjevo/plate,
+/area/amongus/kitchen)
+"jQ" = (
+/obj/structure/machinery/light,
+/obj/structure/closet/secure_closet/fridge/dry,
+/turf/open/floor/kutjevo/tan/alt_edge{
+	dir = 1
+	},
+/area/amongus/kitchen)
+"kc" = (
+/obj/structure/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/kutjevo/tan/alt_edge,
+/area/amongus/kitchen)
+"kG" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "S"
+	},
+/obj/structure/machinery/door/airlock/multi_tile/almayer/generic{
+	name = "\improper Cryo Bay"
+	},
+/turf/open/floor/kutjevo/plate,
+/area/amongus/cryo_cells)
+"kO" = (
+/obj/structure/platform_decoration/kutjevo{
+	dir = 4
+	},
+/turf/open/floor/kutjevo/plate,
+/area/amongus/kitchen)
+"kV" = (
+/obj/effect/landmark/start/reporter,
+/obj/effect/landmark/late_join,
+/turf/open/floor/kutjevo/plate,
+/area/amongus/cryo_cells)
+"ls" = (
+/obj/structure/machinery/floodlight/landing/floor{
+	on_light_range = 15;
+	invisibility = 35
+	},
+/obj/structure/machinery/door/poddoor/shutters/almayer/open{
+	id = "compartment"
+	},
+/turf/open/floor/kutjevo,
+/area/amongus/kitchen)
+"lx" = (
+/obj/structure/closet/crate/freezer,
+/obj/structure/machinery/light,
+/turf/open/floor/kutjevo/tan/alt_edge,
+/area/amongus/kitchen)
+"lX" = (
+/obj/structure/platform/kutjevo,
+/turf/open/floor/wood,
+/area/amongus/kitchen)
+"mb" = (
+/obj/structure/surface/table/reinforced,
+/obj/item/tool/kitchen/knife,
+/obj/item/tool/kitchen/rollingpin,
+/turf/open/floor/kutjevo/tan/alt_edge,
+/area/amongus/kitchen)
+"mI" = (
+/obj/structure/closet/secure_closet/fridge/organic/stock,
+/turf/open/floor/kutjevo/tan/alt_edge{
+	dir = 1
+	},
+/area/amongus/kitchen)
+"mM" = (
+/obj/structure/machinery/floodlight/landing/floor{
+	on_light_range = 15;
+	invisibility = 35
+	},
+/turf/open/floor/kutjevo/colors,
+/area/amongus/kitchen)
+"mS" = (
+/obj/structure/machinery/cm_vending/clothing/super_snowflake/uniform,
+/turf/open/floor/kutjevo/plate,
+/area/amongus/cryo_cells)
+"mV" = (
+/obj/structure/machinery/cm_vending/clothing/super_snowflake/suit,
+/turf/open/floor/kutjevo/plate,
+/area/amongus/cryo_cells)
+"na" = (
+/obj/structure/surface/table/reinforced,
+/obj/structure/machinery/microwave{
+	density = 0;
+	pixel_y = 9
+	},
+/turf/open/floor/kutjevo/tan,
+/area/amongus/kitchen)
+"nq" = (
+/obj/structure/lattice,
+/turf/open/space/basic,
+/area/amongus/kitchen)
+"nw" = (
+/obj/structure/machinery/power/apc/super{
+	dir = 8;
+	invisibility = 35
+	},
+/turf/open/floor/carpet{
+	desc = "Plush, waterproof carpet. Apparently it's fire resistant while remaining quite soft.";
+	name = "\improper carpet"
+	},
+/area/amongus/kitchen)
+"nS" = (
+/obj/structure/closet/secure_closet/fridge/dry/stock,
+/turf/open/floor/kutjevo/tan/alt_edge,
+/area/amongus/kitchen)
+"nX" = (
+/obj/structure/machinery/cm_vending/clothing/super_snowflake/gloves,
+/obj/structure/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/kutjevo/plate,
+/area/amongus/cryo_cells)
+"oc" = (
+/obj/structure/machinery/cm_vending/clothing/super_snowflake/accessory,
+/turf/open/floor/kutjevo/plate,
+/area/amongus/cryo_cells)
+"or" = (
+/obj/structure/closet/secure_closet/fridge/groceries/stock,
+/turf/open/floor/kutjevo/tan/alt_edge,
+/area/amongus/kitchen)
+"oy" = (
+/obj/structure/closet/secure_closet/freezer/meat,
+/obj/structure/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/kutjevo/tan/alt_edge,
+/area/amongus/kitchen)
+"oE" = (
+/obj/structure/closet/secure_closet/fridge/groceries,
+/turf/open/floor/kutjevo/tan/alt_edge{
+	dir = 1
+	},
+/area/amongus/kitchen)
+"oH" = (
+/obj/structure/machinery/cryopod/right{
+	layer = 3.1;
+	pixel_y = 13
+	},
+/turf/open/floor/kutjevo/tiles,
+/area/amongus/cryo_cells)
+"oU" = (
+/obj/structure/machinery/door/airlock/gold,
+/obj/structure/machinery/door/poddoor/almayer{
+	id = "kitchen"
+	},
+/turf/open/floor/kutjevo/plate,
+/area/amongus/kitchen)
+"pw" = (
+/obj/structure/surface/table/reinforced,
+/obj/item/storage/box/drinkingglasses,
+/obj/structure/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/kutjevo/tan/alt_inner_edge{
+	dir = 1
+	},
+/area/amongus/kitchen)
+"pz" = (
+/obj/structure/machinery/light,
+/turf/open/floor/kutjevo/plate,
+/area/amongus/cryo_cells)
+"pK" = (
+/obj/structure/machinery/light{
+	dir = 1
+	},
+/obj/structure/closet/secure_closet/fridge/dry,
+/turf/open/floor/kutjevo/tan/alt_edge{
+	dir = 1
+	},
+/area/amongus/kitchen)
+"pL" = (
+/obj/structure/closet/secure_closet/freezer/meat,
+/turf/open/floor/kutjevo/tan/alt_edge{
+	dir = 1
+	},
+/area/amongus/kitchen)
+"pY" = (
+/obj/structure/machinery/light,
+/turf/open/floor/kutjevo/tan/multi_tiles,
+/area/amongus/kitchen)
+"qm" = (
+/obj/structure/machinery/cm_vending/clothing/super_snowflake/accessory,
+/obj/structure/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/kutjevo/plate,
+/area/amongus/cryo_cells)
+"qx" = (
+/obj/structure/platform_decoration/kutjevo{
+	dir = 8
+	},
+/turf/open/floor/carpet{
+	desc = "Plush, waterproof carpet. Apparently it's fire resistant while remaining quite soft.";
+	name = "\improper carpet"
+	},
+/area/amongus/kitchen)
+"rw" = (
+/obj/structure/stairs/perspective/kutjevo{
+	dir = 2
+	},
+/obj/structure/platform/kutjevo/smooth{
+	dir = 4
+	},
+/turf/open/floor/kutjevo/multi_tiles,
+/area/amongus/kitchen)
+"rH" = (
+/obj/effect/landmark/start/liaison,
+/obj/effect/landmark/late_join,
+/turf/open/floor/kutjevo/plate,
+/area/amongus/cryo_cells)
+"rI" = (
+/obj/structure/machinery/cm_vending/clothing/super_snowflake/helmet,
+/turf/open/floor/kutjevo/plate,
+/area/amongus/cryo_cells)
+"rX" = (
+/turf/closed/wall/kutjevo/colony/reinforced,
+/area/amongus/kitchen)
+"sg" = (
+/obj/structure/platform/kutjevo{
+	dir = 4
+	},
+/obj/structure/platform/kutjevo{
+	dir = 1
+	},
+/obj/structure/platform/kutjevo/smooth{
+	dir = 1
+	},
+/obj/structure/platform/kutjevo{
+	dir = 4;
+	icon_state = "kutjevo_platform_sm"
+	},
+/turf/open/floor/wood,
+/area/amongus/kitchen)
+"sp" = (
+/turf/open/floor/kutjevo/tan/alt_edge{
+	dir = 1
+	},
+/area/amongus/kitchen)
+"sE" = (
+/obj/structure/surface/table/reinforced,
+/obj/structure/machinery/chem_dispenser/soda/kitchen,
+/turf/open/floor/kutjevo/tan/alt_edge{
+	dir = 1
+	},
+/area/amongus/kitchen)
+"sP" = (
+/obj/structure/closet/secure_closet/fridge/organic/stock,
+/turf/open/floor/kutjevo/tan/alt_edge,
+/area/amongus/kitchen)
+"ta" = (
+/obj/structure/machinery/light{
+	dir = 8
+	},
+/obj/structure/machinery/door/poddoor/shutters/almayer/open{
+	id = "compartment"
+	},
+/turf/open/floor/kutjevo,
+/area/amongus/kitchen)
+"tj" = (
+/obj/structure/surface/table/woodentable/fancy,
+/obj/item/reagent_container/food/drinks/golden_cup{
+	desc = "A golden cup to celebrate the victor of the first Medicord Masterchef tournament, Eka Aimise!";
+	name = "1st Medicord Masterchef Trophy: Eka Aimise"
+	},
+/obj/structure/machinery/floodlight/landing/floor{
+	on_light_range = 15;
+	invisibility = 35
+	},
+/obj/structure/window/reinforced{
+	indestructible = 1;
+	not_damageable = 1
+	},
+/turf/open/floor/kutjevo/plate,
+/area/amongus/kitchen)
+"tn" = (
+/obj/structure/surface/table/reinforced,
+/obj/structure/machinery/processor,
+/obj/structure/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/kutjevo/tan/alt_edge{
+	dir = 1
+	},
+/area/amongus/kitchen)
+"tx" = (
+/obj/structure/machinery/door/airlock/gold,
+/turf/open/floor/kutjevo/plate,
+/area/amongus/kitchen)
+"tB" = (
+/obj/structure/machinery/cm_vending/clothing/super_snowflake/gloves,
+/turf/open/floor/kutjevo/plate,
+/area/amongus/cryo_cells)
+"uo" = (
+/obj/structure/machinery/light,
+/turf/open/floor/kutjevo/tan,
+/area/amongus/kitchen)
+"us" = (
+/obj/effect/landmark/start/captain,
+/obj/effect/landmark/late_join,
+/turf/open/floor/kutjevo/plate,
+/area/amongus/cryo_cells)
+"ut" = (
+/obj/structure/machinery/floodlight/landing/floor{
+	on_light_range = 15;
+	invisibility = 35
+	},
+/turf/open/floor/kutjevo{
+	icon_state = "catwalk";
+	dir = 1
+	},
+/area/amongus/kitchen)
+"ux" = (
+/obj/structure/closet/secure_closet/fridge/dry,
+/turf/open/floor/kutjevo/tan/alt_edge,
+/area/amongus/kitchen)
+"vg" = (
+/obj/structure/machinery/vending/dinnerware,
+/obj/structure/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/wood,
+/area/amongus/kitchen)
+"vo" = (
+/obj/structure/machinery/chem_master/condimaster,
+/turf/open/floor/kutjevo/tan/alt_edge,
+/area/amongus/kitchen)
+"vy" = (
+/obj/structure/machinery/power/fusion_engine{
+	name = "\improper S-52 fusion reactor 17"
+	},
+/turf/open/floor/almayer,
+/area/amongus/engineering)
+"vz" = (
+/obj/structure/machinery/light,
+/turf/open/floor/wood,
+/area/amongus/kitchen)
+"vG" = (
+/obj/structure/closet/secure_closet/fridge/groceries,
+/turf/open/floor/kutjevo/tan/alt_edge,
+/area/amongus/kitchen)
+"vP" = (
+/obj/structure/machinery/light,
+/obj/structure/machinery/power/apc/super{
+	dir = 8;
+	invisibility = 35
+	},
+/turf/open/floor/kutjevo/plate,
+/area/amongus/cryo_cells)
+"vS" = (
+/obj/structure/machinery/light{
+	dir = 4
+	},
+/obj/structure/machinery/door/poddoor/shutters/almayer/open{
+	id = "compartment"
+	},
+/turf/open/floor/kutjevo,
+/area/amongus/kitchen)
+"vX" = (
+/obj/structure/machinery/chem_dispenser/soda/beer,
+/obj/structure/surface/table/reinforced,
+/turf/open/floor/kutjevo/tan/alt_edge,
+/area/amongus/kitchen)
+"wb" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 4
+	},
+/turf/open/floor/kutjevo,
+/area/amongus/kitchen)
+"wK" = (
+/obj/structure/surface/table/reinforced,
+/obj/structure/machinery/gibber,
+/turf/open/floor/kutjevo/tan/alt_edge{
+	dir = 1
+	},
+/area/amongus/kitchen)
+"ya" = (
+/obj/structure/machinery/cryopod/right,
+/obj/structure/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/kutjevo/tiles,
+/area/amongus/cryo_cells)
+"yq" = (
+/obj/structure/machinery/vending/dinnerware,
+/turf/open/floor/kutjevo/tan,
+/area/amongus/kitchen)
+"yr" = (
+/turf/open/floor/kutjevo{
+	icon_state = "catwalk";
+	dir = 1
+	},
+/area/amongus/kitchen)
+"zb" = (
+/obj/structure/window/framed/kutjevo,
+/obj/structure/machinery/door/poddoor/shutters/almayer/open{
+	id = "compartment"
+	},
+/turf/open/floor/kutjevo/tan/multi_tiles,
+/area/amongus/kitchen)
+"zm" = (
+/obj/structure/machinery/cryopod,
+/obj/structure/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/kutjevo/tiles,
+/area/amongus/cryo_cells)
+"zW" = (
+/obj/structure/window/framed/kutjevo,
+/obj/structure/machinery/door/poddoor/almayer{
+	id = "kitchen"
+	},
+/turf/open/floor/kutjevo/tan/multi_tiles,
+/area/amongus/kitchen)
+"Ax" = (
+/obj/structure/surface/table/reinforced,
+/obj/item/tool/kitchen/knife,
+/obj/item/tool/kitchen/rollingpin,
+/obj/structure/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/kutjevo/tan/alt_inner_edge{
+	dir = 4
+	},
+/area/amongus/kitchen)
+"Bg" = (
+/obj/structure/machinery/door/airlock/almayer/generic/glass{
+	dir = 1
+	},
+/turf/open/floor/kutjevo/tan,
+/area/amongus/kitchen)
+"BA" = (
+/obj/structure/closet/secure_closet/fridge/dry/stock,
+/turf/open/floor/kutjevo/tan/alt_edge{
+	dir = 1
+	},
+/area/amongus/kitchen)
+"BP" = (
+/obj/structure/closet/crate/freezer,
+/turf/open/floor/kutjevo/tan/alt_edge,
+/area/amongus/kitchen)
+"BU" = (
+/obj/structure/surface/table/reinforced,
+/obj/structure/machinery/processor,
+/obj/structure/machinery/light,
+/turf/open/floor/kutjevo/tan/alt_edge{
+	dir = 1
+	},
+/area/amongus/kitchen)
+"BZ" = (
+/obj/structure/stairs/perspective/kutjevo{
+	dir = 8
+	},
+/turf/open/floor/kutjevo/colors,
+/area/amongus/kitchen)
+"Ct" = (
+/obj/structure/bed/chair/comfy,
+/turf/open/floor/carpet{
+	desc = "Plush, waterproof carpet. Apparently it's fire resistant while remaining quite soft.";
+	name = "\improper carpet"
+	},
+/area/amongus/kitchen)
+"Cx" = (
+/obj/structure/machinery/light{
+	dir = 1
+	},
+/obj/structure/machinery/vending/dinnerware,
+/turf/open/floor/wood,
+/area/amongus/kitchen)
+"DQ" = (
+/obj/structure/surface/table/woodentable/fancy,
+/obj/structure/machinery/door/window{
+	dir = 2;
+	indestructible = 1;
+	req_access_txt = "31"
+	},
+/obj/item/reagent_container/food/drinks/golden_cup,
+/turf/open/floor/kutjevo/plate,
+/area/amongus/kitchen)
+"El" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "S"
+	},
+/turf/open/floor/kutjevo/plate,
+/area/amongus/cryo_cells)
+"EF" = (
+/obj/structure/closet/secure_closet/fridge/fish/stock,
+/turf/open/floor/kutjevo/tan/alt_edge,
+/area/amongus/kitchen)
+"EK" = (
+/obj/structure/surface/table/reinforced,
+/obj/item/reagent_container/food/snacks/sliceable/cheesewheel/mature,
+/obj/item/reagent_container/food/snacks/sliceable/cheesewheel/mature,
+/obj/item/reagent_container/food/snacks/sliceable/cheesewheel/mature,
+/obj/item/reagent_container/food/snacks/sliceable/cheesewheel/mature,
+/obj/item/reagent_container/food/snacks/sliceable/cheesewheel/mature,
+/turf/open/floor/kutjevo/tan/alt_edge{
+	dir = 1
+	},
+/area/amongus/kitchen)
+"EX" = (
+/obj/structure/machinery/vending/dinnerware,
+/turf/open/floor/kutjevo/tan/alt_edge{
+	dir = 8
+	},
+/area/amongus/kitchen)
+"Fr" = (
+/obj/structure/surface/table/woodentable/fancy,
+/obj/structure/machinery/door_control/brbutton/alt{
+	id = "compartment";
+	req_access_txt = "31"
+	},
+/turf/open/floor/carpet{
+	desc = "Plush, waterproof carpet. Apparently it's fire resistant while remaining quite soft.";
+	name = "\improper carpet"
+	},
+/area/amongus/kitchen)
+"FI" = (
+/obj/structure/machinery/light,
+/turf/open/floor/kutjevo/tiles,
+/area/amongus/cryo_cells)
+"Gq" = (
+/obj/structure/machinery/light,
+/turf/open/floor/kutjevo/tan/alt_edge,
+/area/amongus/kitchen)
+"GP" = (
+/obj/effect/landmark/start/executive,
+/obj/effect/landmark/late_join,
+/turf/open/floor/kutjevo/plate,
+/area/amongus/cryo_cells)
+"GR" = (
+/obj/structure/surface/table/woodentable/fancy,
+/obj/structure/window/reinforced{
+	indestructible = 1;
+	not_damageable = 1
+	},
+/obj/structure/window/reinforced{
+	dir = 8;
+	health = 80;
+	indestructible = 1;
+	not_damageable = 1
+	},
+/turf/open/floor/kutjevo/plate,
+/area/amongus/kitchen)
+"GV" = (
+/obj/structure/surface/table/reinforced,
+/obj/item/storage/box/drinkingglasses,
+/obj/structure/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/kutjevo/tan/alt_inner_edge{
+	dir = 8
+	},
+/area/amongus/kitchen)
+"GW" = (
+/obj/structure/machinery/cryopod{
+	layer = 3.1;
+	pixel_y = 13
+	},
+/turf/open/floor/kutjevo/tiles,
+/area/amongus/cryo_cells)
+"Hg" = (
+/obj/structure/surface/table/reinforced,
+/obj/structure/machinery/processor,
+/turf/open/floor/kutjevo/tan/alt_edge{
+	dir = 1
+	},
+/area/amongus/kitchen)
+"Hh" = (
+/obj/structure/surface/table/reinforced,
+/obj/item/clothing/head/chefhat,
+/obj/item/reagent_container/food/condiment/sugar{
+	pixel_x = 10
+	},
+/obj/structure/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/kutjevo/tan/alt_inner_edge,
+/area/amongus/kitchen)
+"Hl" = (
+/obj/structure/machinery/chem_dispenser/soda/beer,
+/obj/structure/surface/table/reinforced,
+/turf/open/floor/kutjevo/tan/alt_edge{
+	dir = 1
+	},
+/area/amongus/kitchen)
+"HH" = (
+/turf/closed/wall/almayer/outer,
+/area/amongus/cryo_cells)
+"HZ" = (
+/obj/structure/machinery/vending/cola,
+/turf/open/floor/kutjevo/tan,
+/area/amongus/kitchen)
+"Id" = (
+/obj/structure/surface/table/reinforced,
+/obj/item/storage/box/drinkingglasses,
+/obj/structure/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/kutjevo/tan/alt_inner_edge{
+	dir = 1
+	},
+/area/amongus/kitchen)
+"Ij" = (
+/turf/closed/wall/kutjevo/colony/reinforced/hull,
+/area/amongus/kitchen)
+"Ir" = (
+/turf/open/floor/carpet{
+	desc = "Plush, waterproof carpet. Apparently it's fire resistant while remaining quite soft.";
+	name = "\improper carpet"
+	},
+/area/amongus/kitchen)
+"IN" = (
+/obj/structure/surface/table/woodentable/fancy,
+/obj/structure/window/reinforced{
+	indestructible = 1;
+	not_damageable = 1
+	},
+/turf/open/floor/kutjevo/plate,
+/area/amongus/kitchen)
+"Jy" = (
+/obj/structure/stairs/perspective/kutjevo{
+	dir = 4
+	},
+/turf/open/floor/kutjevo/colors,
+/area/amongus/kitchen)
+"JY" = (
+/obj/structure/stairs/perspective/kutjevo,
+/obj/structure/platform/kutjevo/smooth{
+	dir = 4
+	},
+/turf/open/floor/kutjevo,
+/area/amongus/kitchen)
+"Ke" = (
+/obj/structure/surface/table/woodentable/fancy,
+/obj/structure/machinery/door_control/brbutton/alt{
+	id = "kitchen";
+	req_access_txt = "31"
+	},
+/turf/open/floor/kutjevo/plate,
+/area/amongus/kitchen)
+"Kq" = (
+/turf/open/floor/wood,
+/area/amongus/kitchen)
+"Li" = (
+/obj/structure/surface/table/reinforced,
+/turf/open/floor/kutjevo/tan,
+/area/amongus/kitchen)
+"MG" = (
+/turf/open/floor/kutjevo,
+/area/amongus/kitchen)
+"Nn" = (
+/obj/structure/closet/secure_closet/fridge/fish/stock,
+/turf/open/floor/kutjevo/tan/alt_edge{
+	dir = 1
+	},
+/area/amongus/kitchen)
+"Nq" = (
+/obj/structure/platform/kutjevo{
+	dir = 8
+	},
+/obj/structure/platform/kutjevo/smooth{
+	dir = 8
+	},
+/obj/structure/machinery/vending/dinnerware,
+/turf/open/floor/carpet{
+	desc = "Plush, waterproof carpet. Apparently it's fire resistant while remaining quite soft.";
+	name = "\improper carpet"
+	},
+/area/amongus/kitchen)
+"NK" = (
+/obj/structure/stairs/perspective/kutjevo{
+	dir = 2
+	},
+/obj/structure/platform/kutjevo/smooth{
+	dir = 8
+	},
+/turf/open/floor/kutjevo/multi_tiles,
+/area/amongus/kitchen)
+"NN" = (
+/obj/structure/machinery/door/poddoor/shutters/almayer/open{
+	id = "compartment"
+	},
+/turf/open/floor/kutjevo,
+/area/amongus/kitchen)
+"NU" = (
+/obj/structure/closet/secure_closet/fridge/meat/stock,
+/turf/open/floor/kutjevo/tan/alt_edge,
+/area/amongus/kitchen)
+"OG" = (
+/obj/structure/surface/table/woodentable/fancy,
+/obj/structure/window/reinforced{
+	indestructible = 1;
+	not_damageable = 1
+	},
+/obj/structure/window/reinforced{
+	dir = 4;
+	indestructible = 1;
+	not_damageable = 1
+	},
+/turf/open/floor/kutjevo/plate,
+/area/amongus/kitchen)
+"Pg" = (
+/obj/structure/machinery/chem_master/condimaster,
+/turf/open/floor/kutjevo/tan/alt_edge{
+	dir = 1
+	},
+/area/amongus/kitchen)
+"Qg" = (
+/obj/structure/platform_decoration/kutjevo{
+	dir = 1
+	},
+/turf/open/floor/carpet{
+	desc = "Plush, waterproof carpet. Apparently it's fire resistant while remaining quite soft.";
+	name = "\improper carpet"
+	},
+/area/amongus/kitchen)
+"Qu" = (
+/obj/structure/surface/table/woodentable/fancy,
+/turf/open/floor/kutjevo/colors,
+/area/amongus/kitchen)
+"Rm" = (
+/obj/structure/machinery/cryopod/right{
+	pixel_y = 6
+	},
+/turf/open/floor/kutjevo/tiles,
+/area/amongus/cryo_cells)
+"RA" = (
+/obj/structure/closet/secure_closet/freezer/meat,
+/obj/structure/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/kutjevo/tan/alt_edge,
+/area/amongus/kitchen)
+"RF" = (
+/obj/structure/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/kutjevo/tan,
+/area/amongus/kitchen)
+"RO" = (
+/turf/open/floor/kutjevo/tiles,
+/area/amongus/cryo_cells)
+"St" = (
+/obj/structure/machinery/cm_vending/clothing/synth/snowflake,
+/turf/open/floor/kutjevo/plate,
+/area/amongus/cryo_cells)
+"Su" = (
+/obj/structure/machinery/door/airlock/multi_tile/almayer/generic/autoname{
+	dir = 1
+	},
+/turf/open/floor/kutjevo/plate,
+/area/amongus/cryo_cells)
+"Sv" = (
+/obj/structure/window/framed/kutjevo/reinforced/hull,
+/turf/open/floor/kutjevo/plate,
+/area/amongus/kitchen)
+"TS" = (
+/turf/open/floor/kutjevo/plate,
+/area/amongus/cryo_cells)
+"Uc" = (
+/obj/structure/surface/table/woodentable/fancy,
+/obj/item/device/flashlight/lamp/green{
+	on = 1
+	},
+/turf/open/floor/carpet{
+	desc = "Plush, waterproof carpet. Apparently it's fire resistant while remaining quite soft.";
+	name = "\improper carpet"
+	},
+/area/amongus/kitchen)
+"Ul" = (
+/obj/structure/stairs/perspective/kutjevo,
+/obj/structure/platform/kutjevo/smooth{
+	dir = 8
+	},
+/turf/open/floor/kutjevo,
+/area/amongus/kitchen)
+"Uv" = (
+/obj/structure/machinery/cryopod,
+/turf/open/floor/kutjevo/tiles,
+/area/amongus/cryo_cells)
+"Uw" = (
+/turf/open/floor/kutjevo/plate,
+/area/amongus/kitchen)
+"Uy" = (
+/obj/structure/platform_decoration/kutjevo{
+	dir = 4
+	},
+/turf/open/floor/carpet{
+	desc = "Plush, waterproof carpet. Apparently it's fire resistant while remaining quite soft.";
+	name = "\improper carpet"
+	},
+/area/amongus/kitchen)
+"Vj" = (
+/turf/open/floor/kutjevo/tan/alt_edge{
+	dir = 8
+	},
+/area/amongus/kitchen)
+"Vl" = (
+/obj/structure/surface/table/woodentable/fancy,
+/turf/open/floor/carpet{
+	desc = "Plush, waterproof carpet. Apparently it's fire resistant while remaining quite soft.";
+	name = "\improper carpet"
+	},
+/area/amongus/kitchen)
+"VB" = (
+/obj/effect/landmark/start/chef,
+/obj/effect/landmark/late_join,
+/turf/open/floor/kutjevo/plate,
+/area/amongus/cryo_cells)
+"VK" = (
+/obj/structure/surface/table/reinforced,
+/obj/item/clothing/head/chefhat,
+/obj/item/reagent_container/food/condiment/sugar{
+	pixel_x = 10
+	},
+/obj/structure/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/kutjevo/tan/alt_inner_edge,
+/area/amongus/kitchen)
+"VL" = (
+/obj/structure/machinery/cryopod{
+	pixel_y = 6
+	},
+/turf/open/floor/kutjevo/tiles,
+/area/amongus/cryo_cells)
+"VR" = (
+/obj/structure/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/wood,
+/area/amongus/kitchen)
+"VV" = (
+/obj/structure/surface/table/reinforced,
+/obj/structure/machinery/reagentgrinder{
+	pixel_y = 10
+	},
+/turf/open/floor/kutjevo/tan/alt_edge{
+	dir = 4
+	},
+/area/amongus/kitchen)
+"Wa" = (
+/obj/structure/machinery/light,
+/turf/open/floor/kutjevo/colors,
+/area/amongus/kitchen)
+"Wh" = (
+/obj/effect/landmark/start/bridge,
+/obj/effect/landmark/late_join,
+/turf/open/floor/kutjevo/plate,
+/area/amongus/cryo_cells)
+"Wt" = (
+/obj/item/trash/plate{
+	pixel_x = 1;
+	pixel_y = 3
+	},
+/obj/item/trash/plate{
+	pixel_x = 1;
+	pixel_y = 6
+	},
+/obj/item/reagent_container/food/condiment/peppermill{
+	pixel_x = 4
+	},
+/obj/item/reagent_container/food/condiment/saltshaker{
+	pixel_x = -4
+	},
+/obj/structure/surface/table/reinforced,
+/turf/open/floor/kutjevo/tan/alt_edge,
+/area/amongus/kitchen)
+"Wu" = (
+/obj/structure/machinery/cryopod/right,
+/turf/open/floor/kutjevo/tiles,
+/area/amongus/cryo_cells)
+"WS" = (
+/obj/structure/machinery/telecomms/relay/preset/tower,
+/turf/open/floor/almayer,
+/area/amongus/engineering)
+"Xc" = (
+/obj/structure/platform/kutjevo{
+	dir = 4
+	},
+/obj/structure/platform/kutjevo{
+	dir = 4;
+	icon_state = "kutjevo_platform_sm"
+	},
+/obj/structure/machinery/vending/dinnerware,
+/turf/open/floor/carpet{
+	desc = "Plush, waterproof carpet. Apparently it's fire resistant while remaining quite soft.";
+	name = "\improper carpet"
+	},
+/area/amongus/kitchen)
+"Xe" = (
+/obj/structure/machinery/cm_vending/clothing/super_snowflake/shoes,
+/turf/open/floor/kutjevo/plate,
+/area/amongus/cryo_cells)
+"Xz" = (
+/obj/structure/surface/table/reinforced,
+/obj/structure/machinery/chem_dispenser/soda/kitchen,
+/turf/open/floor/kutjevo/tan/alt_edge,
+/area/amongus/kitchen)
+"XG" = (
+/obj/structure/closet/crate/freezer,
+/obj/structure/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/kutjevo/tan/alt_edge,
+/area/amongus/kitchen)
+"Yk" = (
+/obj/structure/platform/kutjevo{
+	dir = 8
+	},
+/obj/structure/platform/kutjevo/smooth{
+	dir = 8
+	},
+/turf/open/floor/carpet{
+	desc = "Plush, waterproof carpet. Apparently it's fire resistant while remaining quite soft.";
+	name = "\improper carpet"
+	},
+/area/amongus/kitchen)
+"ZI" = (
+/obj/structure/platform/kutjevo{
+	dir = 1
+	},
+/obj/structure/platform/kutjevo{
+	dir = 8
+	},
+/obj/structure/platform/kutjevo/smooth{
+	dir = 1
+	},
+/obj/structure/platform/kutjevo/smooth{
+	dir = 8
+	},
+/turf/open/floor/wood,
+/area/amongus/kitchen)
+"ZV" = (
+/turf/open/floor/kutjevo/tiles,
+/area/amongus/kitchen)
+
+(1,1,1) = {"
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+"}
+(2,1,1) = {"
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+"}
+(3,1,1) = {"
+hA
+hA
+Ij
+Ij
+hB
+hB
+hB
+Ij
+Ij
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+Ij
+Ij
+hB
+hB
+hB
+Ij
+Ij
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+"}
+(4,1,1) = {"
+hA
+hA
+hB
+GV
+hx
+VV
+hx
+pw
+fy
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+fy
+pw
+hx
+VV
+hx
+GV
+eW
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+"}
+(5,1,1) = {"
+hA
+hA
+hB
+vX
+hE
+Li
+hE
+Hl
+rX
+Ij
+hB
+hB
+hB
+Ij
+Ij
+Ij
+hB
+hB
+hB
+Ij
+Ij
+Hl
+hE
+Li
+hE
+vX
+eW
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+"}
+(6,1,1) = {"
+hA
+hA
+hB
+Xz
+hE
+Li
+hE
+sE
+fy
+oy
+pL
+Uw
+NU
+fP
+rX
+fP
+NU
+Uw
+pL
+oy
+fy
+sE
+hE
+Li
+hE
+Xz
+eW
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+"}
+(7,1,1) = {"
+hA
+hA
+hB
+vo
+hE
+Li
+hE
+Pg
+fy
+cR
+cR
+hE
+cR
+hE
+zb
+hE
+cR
+hE
+cR
+cR
+fy
+Pg
+hE
+Li
+hE
+vo
+eW
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+"}
+(8,1,1) = {"
+hA
+hA
+Ij
+rX
+hE
+HZ
+hE
+rX
+rX
+sP
+mI
+Uw
+EF
+Nn
+zb
+Nn
+EF
+Uw
+mI
+sP
+rX
+rX
+hE
+HZ
+hE
+rX
+Ij
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+"}
+(9,1,1) = {"
+hA
+hA
+Ij
+kc
+cR
+cR
+cR
+sp
+Bg
+hE
+cR
+hE
+cR
+pY
+rX
+fT
+cR
+hE
+cR
+hE
+Bg
+sp
+cR
+cR
+cR
+Gq
+Ij
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+"}
+(10,1,1) = {"
+hA
+hA
+hB
+eD
+hE
+Li
+hE
+jQ
+rX
+vG
+oE
+Uw
+or
+aA
+zb
+aA
+or
+Uw
+oE
+vG
+rX
+pK
+hE
+Li
+hE
+eD
+eW
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+"}
+(11,1,1) = {"
+hA
+hA
+hB
+eD
+hE
+na
+hE
+oE
+rX
+RF
+cR
+hE
+cR
+hE
+zb
+hE
+cR
+hE
+cR
+uo
+rX
+oE
+hE
+na
+hE
+eD
+eW
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+"}
+(12,1,1) = {"
+hA
+hA
+hB
+Wt
+hE
+na
+hE
+pL
+rX
+ux
+aM
+Uw
+nS
+BA
+rX
+BA
+nS
+Uw
+aM
+ux
+rX
+pL
+hE
+na
+hE
+Wt
+eW
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+"}
+(13,1,1) = {"
+hA
+hA
+hB
+mb
+hE
+yq
+hE
+sp
+rX
+fy
+fy
+fy
+fy
+fy
+rX
+fy
+fy
+fy
+fy
+fy
+rX
+sp
+hE
+yq
+hE
+mb
+eW
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+"}
+(14,1,1) = {"
+hA
+hA
+Ij
+BP
+cR
+cR
+cR
+cR
+db
+Ir
+Ir
+Ir
+Ir
+Ir
+ta
+Ir
+Ir
+Ir
+Ir
+Ir
+db
+cR
+cR
+cR
+cR
+BP
+Ij
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+"}
+(15,1,1) = {"
+hA
+hA
+Ij
+XG
+cR
+cR
+cR
+cR
+MG
+Ir
+Ir
+Ir
+Ir
+Ir
+NN
+Ir
+Ir
+Ir
+Ir
+Ir
+MG
+cR
+cR
+cR
+cR
+lx
+Ij
+aC
+cc
+cc
+aC
+aC
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+"}
+(16,1,1) = {"
+hA
+hA
+hB
+eD
+hE
+Li
+hE
+BU
+rX
+VR
+Ct
+Vl
+Uc
+bw
+NN
+Ct
+Uc
+Vl
+bw
+vz
+rX
+tn
+hE
+Li
+hE
+eD
+eW
+Xe
+RO
+RO
+oc
+cc
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+"}
+(17,1,1) = {"
+hA
+hA
+hB
+eD
+hE
+na
+hE
+wK
+fy
+Kq
+Ct
+Vl
+Vl
+bw
+NN
+Ct
+Vl
+Vl
+bw
+Kq
+fy
+wK
+hE
+na
+hE
+eD
+eW
+gK
+RO
+RO
+mV
+cc
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+"}
+(18,1,1) = {"
+hA
+hA
+hB
+Wt
+hE
+na
+hE
+EK
+fy
+Kq
+Ct
+Uc
+Vl
+bw
+ls
+Ct
+Vl
+Uc
+bw
+Kq
+fy
+EK
+hE
+na
+hE
+Wt
+eW
+rI
+RO
+RO
+mS
+cc
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+"}
+(19,1,1) = {"
+hA
+hA
+hB
+fR
+Vj
+EX
+Vj
+VK
+fy
+Kq
+Ct
+Vl
+Vl
+bw
+NN
+Ct
+Vl
+Vl
+bw
+Kq
+fy
+VK
+Vj
+EX
+Vj
+fR
+eW
+nX
+TS
+TS
+iE
+cc
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+"}
+(20,1,1) = {"
+hA
+hA
+Ij
+Ij
+Ij
+rX
+rX
+rX
+rX
+vg
+Ct
+Vl
+Uc
+bw
+NN
+Ct
+Uc
+Vl
+bw
+vz
+Ij
+Ij
+hB
+hB
+hB
+Ij
+Ij
+aC
+TS
+Su
+aC
+aC
+aC
+aC
+aC
+aC
+aC
+aC
+hA
+hA
+"}
+(21,1,1) = {"
+hA
+hA
+hA
+hA
+Sv
+tj
+nw
+rw
+JY
+wb
+cJ
+Ir
+Ir
+Ir
+gT
+Ir
+Ir
+Ir
+Ir
+Ir
+hB
+nq
+nq
+nq
+nq
+nq
+eW
+cl
+TS
+TS
+vP
+aC
+Uv
+GW
+zm
+GW
+VL
+aC
+hA
+hA
+"}
+(22,1,1) = {"
+hA
+hA
+hA
+hA
+Sv
+IN
+Ir
+Ir
+Uc
+Vl
+hi
+gb
+bj
+bj
+gT
+bj
+qx
+Ir
+gb
+Xc
+hB
+nq
+nq
+nq
+nq
+nq
+eW
+RO
+RO
+RO
+TS
+kG
+rH
+rH
+kV
+kV
+VB
+jo
+hA
+hA
+"}
+(23,1,1) = {"
+hA
+hA
+hA
+hA
+Sv
+IN
+Uw
+Ir
+Ct
+Vl
+hi
+lX
+jI
+dC
+BZ
+mM
+sg
+Kq
+aP
+Wa
+Ij
+hB
+hB
+hB
+hB
+hB
+Ij
+Ke
+RO
+TS
+TS
+El
+us
+rH
+kV
+kV
+VB
+HH
+hA
+hA
+"}
+(24,1,1) = {"
+hA
+hA
+hA
+hA
+Sv
+ja
+GR
+Ir
+Ir
+Vl
+hi
+lX
+Qu
+dC
+dC
+dC
+dC
+BZ
+dC
+dC
+tx
+Uw
+Uw
+Uw
+Uw
+Uw
+oU
+Uw
+TS
+TS
+RO
+aC
+ya
+oH
+Wu
+oH
+Rm
+aC
+hA
+hA
+"}
+(25,1,1) = {"
+hA
+hA
+hA
+hA
+Sv
+ja
+DQ
+Ir
+Ct
+Fr
+hi
+lX
+ja
+yr
+Uw
+yr
+yr
+Uw
+yr
+yr
+fy
+ut
+yr
+ZV
+yr
+ut
+zW
+ZV
+TS
+aZ
+FI
+aC
+aC
+aC
+aC
+aC
+aC
+aC
+hA
+hA
+"}
+(26,1,1) = {"
+hA
+hA
+hA
+hA
+Sv
+ja
+OG
+Ir
+Ir
+Vl
+hi
+lX
+Qu
+dC
+dC
+dC
+dC
+Jy
+dC
+dC
+tx
+Uw
+Uw
+Uw
+Uw
+Uw
+oU
+Uw
+TS
+TS
+RO
+aC
+zm
+GW
+Uv
+GW
+VL
+aC
+hA
+hA
+"}
+(27,1,1) = {"
+hA
+hA
+hA
+hA
+Sv
+IN
+Uw
+Ir
+Ct
+Vl
+hi
+lX
+jI
+dC
+Jy
+mM
+ZI
+Kq
+gF
+Wa
+Ij
+hB
+hB
+hB
+hB
+hB
+Ij
+ZV
+RO
+TS
+TS
+kG
+Wh
+GP
+VB
+VB
+VB
+jo
+hA
+hA
+"}
+(28,1,1) = {"
+hA
+hA
+hA
+hA
+Sv
+IN
+Ir
+Ir
+Uc
+Vl
+hi
+Qg
+Yk
+Yk
+gT
+Yk
+Uy
+Ir
+Qg
+Nq
+hB
+nq
+nq
+nq
+nq
+nq
+eW
+RO
+RO
+RO
+TS
+El
+Wh
+GP
+VB
+VB
+VB
+HH
+hA
+hA
+"}
+(29,1,1) = {"
+hA
+hA
+hA
+hA
+Sv
+bS
+Ir
+NK
+Ul
+hR
+kO
+Ir
+Ir
+Ir
+gT
+Ir
+Ir
+Ir
+Ir
+Ir
+hB
+nq
+nq
+nq
+nq
+nq
+eW
+cl
+TS
+TS
+pz
+aC
+Wu
+oH
+ya
+oH
+Rm
+aC
+hA
+hA
+"}
+(30,1,1) = {"
+hA
+hA
+Ij
+Ij
+Ij
+rX
+rX
+rX
+rX
+Cx
+Ct
+Vl
+Uc
+bw
+NN
+Ct
+Uc
+Vl
+bw
+vz
+Ij
+Ij
+hB
+hB
+hB
+Ij
+Ij
+aC
+TS
+Su
+aC
+aC
+aC
+aC
+aC
+aC
+aC
+aC
+hA
+hA
+"}
+(31,1,1) = {"
+hA
+hA
+hB
+Ax
+Vj
+EX
+Vj
+Hh
+fy
+Kq
+Ct
+Vl
+Vl
+bw
+NN
+Ct
+Vl
+Vl
+bw
+Kq
+fy
+Hh
+Vj
+EX
+Vj
+Ax
+eW
+jD
+RO
+RO
+qm
+cc
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+"}
+(32,1,1) = {"
+hA
+hA
+hB
+Wt
+hE
+na
+hE
+EK
+fy
+Kq
+Ct
+Uc
+Vl
+bw
+ls
+Ct
+Vl
+Uc
+bw
+Kq
+fy
+EK
+hE
+na
+hE
+Wt
+eW
+gK
+RO
+RO
+mV
+cc
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+"}
+(33,1,1) = {"
+hA
+hA
+hB
+eD
+hE
+na
+hE
+wK
+fy
+Kq
+Ct
+Vl
+Vl
+bw
+NN
+Ct
+Vl
+Vl
+bw
+Kq
+fy
+wK
+hE
+na
+hE
+eD
+eW
+rI
+RO
+RO
+mS
+cc
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+"}
+(34,1,1) = {"
+hA
+hA
+hB
+eD
+hE
+Li
+hE
+Hg
+rX
+VR
+Ct
+Vl
+Uc
+bw
+NN
+Ct
+Uc
+Vl
+bw
+vz
+rX
+tn
+hE
+Li
+hE
+eD
+eW
+tB
+TS
+TS
+St
+cc
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+"}
+(35,1,1) = {"
+hA
+hA
+Ij
+XG
+cR
+cR
+cR
+cR
+db
+Ir
+Ir
+Ir
+Ir
+Ir
+NN
+Ir
+Ir
+Ir
+Ir
+Ir
+db
+cR
+cR
+cR
+cR
+lx
+Ij
+aC
+cc
+cc
+aC
+aC
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+"}
+(36,1,1) = {"
+hA
+hA
+Ij
+BP
+cR
+cR
+cR
+cR
+MG
+Ir
+Ir
+Ir
+Ir
+Ir
+vS
+Ir
+Ir
+Ir
+Ir
+Ir
+MG
+cR
+cR
+cR
+cR
+BP
+Ij
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+"}
+(37,1,1) = {"
+hA
+hA
+hB
+mb
+hE
+yq
+hE
+sp
+rX
+fy
+fy
+fy
+fy
+fy
+rX
+fy
+fy
+fy
+fy
+fy
+rX
+sp
+hE
+yq
+hE
+mb
+eW
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+"}
+(38,1,1) = {"
+hA
+hA
+hB
+Wt
+hE
+na
+hE
+pL
+rX
+ux
+aM
+Uw
+nS
+BA
+rX
+BA
+nS
+Uw
+aM
+ux
+rX
+pL
+hE
+na
+hE
+Wt
+eW
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+"}
+(39,1,1) = {"
+hA
+hA
+hB
+eD
+hE
+na
+hE
+oE
+rX
+RF
+cR
+hE
+cR
+hE
+zb
+hE
+cR
+hE
+cR
+uo
+rX
+oE
+hE
+na
+hE
+eD
+eW
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+"}
+(40,1,1) = {"
+hA
+hA
+hB
+eD
+hE
+Li
+hE
+jQ
+rX
+vG
+oE
+Uw
+or
+aA
+zb
+aA
+or
+Uw
+oE
+vG
+rX
+pK
+hE
+Li
+hE
+eD
+eW
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+"}
+(41,1,1) = {"
+hA
+hA
+Ij
+kc
+cR
+cR
+cR
+sp
+Bg
+hE
+cR
+hE
+cR
+pY
+rX
+fT
+cR
+hE
+cR
+hE
+Bg
+sp
+cR
+cR
+cR
+Gq
+Ij
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+"}
+(42,1,1) = {"
+hA
+hA
+Ij
+rX
+hE
+HZ
+hE
+rX
+rX
+sP
+mI
+Uw
+EF
+Nn
+zb
+Nn
+EF
+Uw
+mI
+sP
+rX
+rX
+hE
+HZ
+hE
+rX
+Ij
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+"}
+(43,1,1) = {"
+hA
+hA
+hB
+vo
+hE
+Li
+hE
+Pg
+fy
+cR
+cR
+hE
+cR
+hE
+zb
+hE
+cR
+hE
+cR
+cR
+fy
+Pg
+hE
+Li
+hE
+vo
+eW
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+"}
+(44,1,1) = {"
+hA
+hA
+hB
+Xz
+hE
+Li
+hE
+sE
+fy
+RA
+pL
+Uw
+NU
+iK
+rX
+iK
+NU
+Uw
+pL
+RA
+fy
+sE
+hE
+Li
+hE
+Xz
+eW
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+"}
+(45,1,1) = {"
+hA
+hA
+hB
+vX
+hE
+Li
+hE
+Hl
+rX
+Ij
+hB
+hB
+hB
+Ij
+Ij
+Ij
+hB
+hB
+hB
+Ij
+Ij
+Hl
+hE
+Li
+hE
+vX
+eW
+hA
+hA
+hA
+hA
+hA
+hA
+vy
+vy
+vy
+vy
+vy
+hA
+hA
+"}
+(46,1,1) = {"
+hA
+hA
+hB
+aG
+hx
+VV
+hx
+Id
+hB
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hB
+Id
+hx
+VV
+hx
+aG
+eW
+hA
+hA
+hA
+hA
+hA
+hA
+vy
+WS
+vy
+vy
+vy
+hA
+hA
+"}
+(47,1,1) = {"
+hA
+hA
+Ij
+Ij
+hB
+hB
+hB
+Ij
+Ij
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+Ij
+Ij
+hB
+hB
+hB
+Ij
+Ij
+hA
+hA
+hA
+hA
+hA
+hA
+vy
+vy
+vy
+vy
+vy
+hA
+hA
+"}
+(48,1,1) = {"
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+"}
+(49,1,1) = {"
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+"}

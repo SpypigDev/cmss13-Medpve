@@ -2062,7 +2062,10 @@
 /area/amongus/medical)
 "hn" = (
 /obj/structure/machinery/light/small,
-/turf/open/floor/almayer_hull,
+/turf/open/floor/almayer_hull{
+	dir = 1;
+	icon_state = "outerhull_dir"
+	},
 /area/space)
 "hp" = (
 /obj/effect/decal/cleanable/dirt,
@@ -7237,6 +7240,12 @@
 	icon_state = "sterile_green_corner"
 	},
 /area/amongus/medical)
+"Af" = (
+/turf/open/floor/almayer_hull{
+	dir = 5;
+	icon_state = "outerhull_dir"
+	},
+/area/space)
 "Ai" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/machinery/door/poddoor/almayer{
@@ -25795,7 +25804,7 @@ EG
 EG
 EG
 EG
-WY
+zq
 hn
 Ei
 aH
@@ -26008,8 +26017,8 @@ EG
 EG
 EG
 EG
-OU
-OU
+zq
+Ww
 gT
 wS
 wS
@@ -26222,7 +26231,7 @@ EG
 EG
 EG
 zq
-zq
+Ww
 gT
 wS
 sg
@@ -26435,7 +26444,7 @@ EG
 EG
 EG
 zq
-zq
+Ww
 gT
 De
 pk
@@ -26648,7 +26657,7 @@ EG
 EG
 EG
 zq
-zq
+hn
 Ei
 UX
 dM
@@ -26860,8 +26869,8 @@ EG
 EG
 EG
 EG
-pb
-pb
+zq
+Ww
 Ei
 ex
 ex
@@ -27073,7 +27082,7 @@ EG
 EG
 EG
 EG
-WY
+zq
 hn
 Ei
 Fh
@@ -27286,8 +27295,8 @@ EG
 EG
 EG
 EG
-OU
-OU
+zq
+Ww
 gT
 De
 WX
@@ -27468,7 +27477,7 @@ oB
 NA
 oB
 rX
-Lb
+Sw
 zq
 zq
 zq
@@ -27500,7 +27509,7 @@ EG
 EG
 EG
 zq
-zq
+Ww
 gT
 wS
 sg
@@ -27681,7 +27690,7 @@ oB
 NA
 oB
 rX
-Lb
+Sw
 zq
 zq
 zq
@@ -27713,7 +27722,7 @@ EG
 EG
 EG
 zq
-zq
+Ww
 gT
 wS
 wS
@@ -27926,7 +27935,7 @@ EG
 EG
 EG
 zq
-zq
+hn
 Ei
 aH
 Yr
@@ -28107,7 +28116,7 @@ DS
 DS
 oB
 VG
-Sw
+Lb
 zq
 zq
 zq
@@ -28138,8 +28147,8 @@ EG
 EG
 EG
 EG
-pb
-pb
+zq
+Ww
 Ei
 Ei
 Ei
@@ -28320,7 +28329,7 @@ ua
 ua
 Kq
 Vg
-Lb
+Sw
 zq
 zq
 zq
@@ -28351,8 +28360,8 @@ EG
 EG
 EG
 EG
-WY
-WY
+zq
+Ww
 WY
 WY
 WY
@@ -28533,7 +28542,7 @@ sB
 sB
 KE
 Vg
-Lb
+Sw
 zq
 zq
 zq
@@ -28564,8 +28573,8 @@ EG
 EG
 EG
 EG
-OU
-OU
+zq
+Af
 OU
 Mf
 CD
@@ -29172,7 +29181,7 @@ vW
 vW
 Vg
 Vg
-Lb
+Sw
 zq
 zq
 zq
@@ -30024,7 +30033,7 @@ hr
 KE
 pQ
 Vg
-Lb
+Sw
 zq
 zq
 zq
@@ -30237,7 +30246,7 @@ pQ
 ot
 pQ
 Vg
-Lb
+Sw
 zq
 zq
 zq
@@ -30663,7 +30672,7 @@ JN
 QI
 pQ
 Vg
-Sw
+Lb
 zq
 zq
 zq
@@ -30876,7 +30885,7 @@ pQ
 pQ
 pQ
 Vg
-Lb
+Sw
 zq
 zq
 zq
