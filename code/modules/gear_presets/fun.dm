@@ -82,7 +82,7 @@
 	idtype = /obj/item/card/id/gold
 	assignment = "Shrapnelsworn"
 	rank = "Brother of the Order"
-	paygrades = list("Ser" = JOB_PLAYTIME_TIER_0)
+	paygrade = "Ser"
 	role_comm_title = "OHEFA"
 
 	skills = /datum/skills/specialist
@@ -240,7 +240,7 @@
 
 /datum/equipment_preset/fun/santa
 	name = "Fun - Santa"
-	paygrades = list(PAY_SHORT_CDNM = JOB_PLAYTIME_TIER_0)
+	paygrade = "C"
 	flags = EQUIPMENT_PRESET_EXTRA
 	skills = /datum/skills/everything
 	faction = FACTION_MARINE
@@ -279,7 +279,7 @@
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/head/helmet/space/santahat(new_human), WEAR_HEAD)
 	//limbs
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/gloves/black(new_human), WEAR_HANDS)
-	new_human.equip_to_slot_or_del(new /obj/item/clothing/shoes/laceup(new_human), WEAR_FEET)
+	new_human.equip_to_slot_or_del(new /obj/item/clothing/shoes/dress(new_human), WEAR_FEET)
 	//waist
 	new_human.equip_to_slot_or_del(new /obj/item/storage/belt/gun/mateba/general/santa(new_human), WEAR_WAIST)
 
@@ -289,7 +289,6 @@
 /datum/equipment_preset/upp/ivan
 	name = "Fun - Ivan"
 	flags = EQUIPMENT_PRESET_EXTRA
-	paygrades = list(PAY_SHORT_UE6 = JOB_PLAYTIME_TIER_0)
 	skills = /datum/skills/everything
 	assignment = "UPP Armsmaster"
 	rank = "UPP Armsmaster"
@@ -316,7 +315,7 @@
 	var/obj/item/clothing/accessory/storage/webbing/W = new()
 	UPP.attach_accessory(new_human, W)
 	new_human.equip_to_slot_or_del(UPP, WEAR_BODY)
-	new_human.equip_to_slot_or_del(new /obj/item/clothing/suit/storage/marine/faction/UPP/jacket, WEAR_JACKET)
+	new_human.equip_to_slot_or_del(new /obj/item/clothing/suit/storage/marine/faction/UPP/jacket/ivan, WEAR_JACKET)
 	new_human.equip_to_slot_or_del(new /obj/item/weapon/gun/m60, WEAR_J_STORE)
 	//webbing
 	new_human.equip_to_slot_or_del(new /obj/item/ammo_magazine/m60, WEAR_IN_ACCESSORY)
@@ -339,7 +338,7 @@
 
 /datum/equipment_preset/fun/van_bandolier
 	name = "Fun - Big Game Hunter"
-	paygrades = list(PAY_SHORT_CCMO = JOB_PLAYTIME_TIER_0)
+	paygrade = "CCMO"
 	uses_special_name = TRUE
 	flags = EQUIPMENT_PRESET_EXTRA
 	skills = /datum/skills/everything
@@ -395,7 +394,7 @@
 
 	//limbs
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/gloves/marine/veteran/insulated/van_bandolier(new_human), WEAR_HANDS)
-	new_human.equip_to_slot_or_del(new /obj/item/clothing/shoes/marine/civilian(new_human), WEAR_FEET)
+	new_human.equip_to_slot_or_del(new /obj/item/clothing/shoes/veteran/pmc/van_bandolier(new_human), WEAR_FEET)
 
 	//hands
 	new_human.equip_to_slot_or_del(new /obj/item/storage/box/twobore(new_human), WEAR_L_HAND)
@@ -434,19 +433,20 @@
 	new_human.age = rand(1, 40)
 
 /datum/equipment_preset/fun/monkey/proc/get_random_name(mob/living/carbon/human/new_human)
-	return pick(GLOB.monkey_names)
+	return pick(monkey_names)
 
 /datum/equipment_preset/fun/monkey/marine
 	name = "Fun - Monkey Marine"
 
 	assignment = "Monkey Marine"
 	rank = "Monkey Marine"
-	paygrades = list(PAY_SHORT_ME2 = JOB_PLAYTIME_TIER_0)
+	paygrade = "ME2"
 
 /datum/equipment_preset/fun/monkey/marine/load_gear(mob/living/carbon/human/new_human)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/under/marine(new_human), WEAR_BODY)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/suit/storage/marine(new_human), WEAR_JACKET)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/head/helmet/marine(new_human), WEAR_HEAD)
+	new_human.equip_to_slot_or_del(new /obj/item/clothing/shoes/marine/monkey(new_human), WEAR_FEET)
 	new_human.equip_to_slot_or_del(new /obj/item/weapon/gun/rifle/m41a(new_human), WEAR_BACK)
 	new_human.equip_to_slot_or_del(new /obj/item/ammo_magazine/rifle(new_human), WEAR_IN_JACKET)
 	new_human.equip_to_slot_or_del(new /obj/item/ammo_magazine/rifle(new_human), WEAR_IN_JACKET)
@@ -457,15 +457,16 @@
 
 	assignment = "Monkey Soldier"
 	rank = "Monkey Soldier"
-	paygrades = list(PAY_SHORT_UE1 = JOB_PLAYTIME_TIER_0)
+	paygrade = "UE1"
 
 /datum/equipment_preset/fun/monkey/soldier/get_random_name(mob/living/carbon/human/new_human)
-	return new_human.gender == MALE ? pick(GLOB.first_names_male_upp) : pick(GLOB.first_names_female_upp)
+	return new_human.gender == MALE ? pick(first_names_male_upp) : pick(first_names_female_upp)
 
 /datum/equipment_preset/fun/monkey/soldier/load_gear(mob/living/carbon/human/new_human)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/under/marine/veteran/UPP(new_human), WEAR_BODY)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/suit/storage/marine/faction/UPP(new_human), WEAR_JACKET)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/head/helmet/marine/veteran/UPP(new_human), WEAR_HEAD)
+	new_human.equip_to_slot_or_del(new /obj/item/clothing/shoes/marine/monkey(new_human), WEAR_FEET)
 	new_human.equip_to_slot_or_del(new /obj/item/weapon/gun/rifle/type71/rifleman(new_human), WEAR_BACK)
 	new_human.equip_to_slot_or_del(new /obj/item/ammo_magazine/rifle/type71(new_human), WEAR_IN_JACKET)
 	new_human.equip_to_slot_or_del(new /obj/item/ammo_magazine/rifle/type71(new_human), WEAR_IN_JACKET)

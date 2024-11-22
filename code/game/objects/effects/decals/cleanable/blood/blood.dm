@@ -48,8 +48,7 @@
 	// can make footprints
 	if(!amount || !ishuman(AM))
 		return
-	if(basecolor == BLOOD_COLOR_XENO || basecolor == BLOOD_COLOR_XENO_ROYAL)
-		return FALSE
+
 	if(SSticker.mode && MODE_HAS_TOGGLEABLE_FLAG(MODE_BLOOD_OPTIMIZATION))
 		return
 
@@ -113,7 +112,7 @@
 
 /obj/effect/decal/cleanable/blood/writing/New()
 	..()
-	if(length(random_icon_states))
+	if(random_icon_states.len)
 		for(var/obj/effect/decal/cleanable/blood/writing/W in loc)
 			random_icon_states.Remove(W.icon_state)
 		icon_state = pick(random_icon_states)

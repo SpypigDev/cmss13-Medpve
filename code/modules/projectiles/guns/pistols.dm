@@ -86,8 +86,6 @@
 /obj/item/weapon/gun/pistol/m4a3/training
 	current_mag = /obj/item/ammo_magazine/pistol/rubber
 
-/obj/item/weapon/gun/pistol/m4a3/unloaded
-	current_mag = null
 
 /obj/item/weapon/gun/pistol/m4a3/custom
 	name = "\improper M4A3 custom pistol"
@@ -152,8 +150,7 @@
 	scatter_unwielded = SCATTER_AMOUNT_TIER_7
 	damage_mult = BASE_BULLET_DAMAGE_MULT
 
-/obj/item/weapon/gun/pistol/vp70/unloaded
-	current_mag = null
+
 /obj/item/weapon/gun/pistol/vp70/training
 	current_mag = /obj/item/ammo_magazine/pistol/vp70/rubber
 
@@ -333,9 +330,6 @@
 /obj/item/weapon/gun/pistol/np92/suppressed/tranq
 	current_mag = /obj/item/ammo_magazine/pistol/np92/tranq
 
-/obj/item/weapon/gun/pistol/np92/unloaded
-	current_mag = null
-
 //-------------------------------------------------------
 //Type 73 pistol
 //Its a TT
@@ -369,10 +363,8 @@
 	scatter = SCATTER_AMOUNT_TIER_6
 	burst_scatter_mult = SCATTER_AMOUNT_TIER_6
 	scatter_unwielded = SCATTER_AMOUNT_TIER_6
-	damage_mult = BASE_BULLET_DAMAGE_MULT
+	damage_mult = BASE_BULLET_DAMAGE_MULT + BULLET_DAMAGE_MULT_TIER_6
 
-/obj/item/weapon/gun/pistol/t73/unloaded
-	current_mag = null
 
 /obj/item/weapon/gun/pistol/t73/leader
 	name = "\improper Type 74 pistol"
@@ -411,7 +403,7 @@
 	scatter = SCATTER_AMOUNT_TIER_7
 	burst_scatter_mult = SCATTER_AMOUNT_TIER_6
 	scatter_unwielded = SCATTER_AMOUNT_TIER_7
-	damage_mult = BASE_BULLET_DAMAGE_MULT
+	damage_mult = BASE_BULLET_DAMAGE_MULT + BULLET_DAMAGE_MULT_TIER_6
 
 //-------------------------------------------------------
 //KT-42 //Inspired by the .44 Auto Mag pistol
@@ -528,7 +520,6 @@
 	current_mag = /obj/item/ammo_magazine/pistol/es4
 	force = 8
 	muzzle_flash = "muzzle_flash_blue"
-	muzzle_flash_color = COLOR_MUZZLE_BLUE
 	flags_gun_features = GUN_AUTO_EJECTOR|GUN_CAN_POINTBLANK|GUN_ONE_HAND_WIELDED|GUN_AMMO_COUNTER
 	attachable_allowed = list(
 		/obj/item/attachable/flashlight,

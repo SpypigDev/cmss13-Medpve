@@ -20,4 +20,4 @@
 	return ..()
 
 /datum/game_mode/colonialmarines/ai/masterchef/get_roles_list()
-	return GLOB.ROLES_AI_MASTERCHEF
+	return ROLES_AI_MASTERCHEF

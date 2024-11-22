@@ -23,4 +23,4 @@
 	return ..()
 
 /datum/game_mode/colonialmarines/ai/amongus/get_roles_list()
-	return GLOB.ROLES_AI_AMONGUS
+	return ROLES_AI_AMONGUS

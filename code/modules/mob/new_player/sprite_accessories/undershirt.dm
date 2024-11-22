@@ -123,27 +123,8 @@ GLOBAL_LIST_INIT_TYPED(undershirt_restricted, /datum/sprite_accessory/undershirt
 	camo_conforming = TRUE
 
 // Restricted
-
-/datum/sprite_accessory/undershirt/civilian
-	name = "undershirt"
-	icon_state = "undershirt"
-	gender = NEUTER
-	restricted = TRUE
-
 /datum/sprite_accessory/undershirt/telnyashka
-	name = "Naval Infantry Telnyashka"
-	icon_state = "telnyashka_blue"
-	gender = NEUTER
-	restricted = TRUE
-
-/datum/sprite_accessory/undershirt/telnyashka/territorial
-	name = "Territorial Guard Telnyashka"
-	icon_state = "telnyashka_green"
-	gender = NEUTER
-	restricted = TRUE
-
-/datum/sprite_accessory/undershirt/telnyashka/interior
-	name = "Interior Forces Telnyashka"
-	icon_state = "telnyashka_red"
+	name = "Telnyashka"
+	icon_state = "telnyashka"
 	gender = NEUTER
 	restricted = TRUE

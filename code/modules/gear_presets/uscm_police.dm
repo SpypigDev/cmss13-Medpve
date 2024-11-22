@@ -27,7 +27,7 @@
 	)
 	assignment = JOB_POLICE
 	rank = JOB_POLICE
-	paygrades = list(PAY_SHORT_ME4 = JOB_PLAYTIME_TIER_0, PAY_SHORT_ME5 = JOB_PLAYTIME_TIER_1, PAY_SHORT_ME6 = JOB_PLAYTIME_TIER_3)
+	paygrade = "ME5"
 	role_comm_title = "MP"
 	skills = /datum/skills/MP
 
@@ -40,17 +40,29 @@
 	service_over = list(/obj/item/clothing/suit/storage/jacket/marine/service)
 
 /datum/equipment_preset/uscm_ship/uscm_police/mp/load_gear(mob/living/carbon/human/new_human)
-	new_human.equip_to_slot_or_del(new /obj/item/device/radio/headset/almayer/marine/solardevils(new_human), WEAR_L_EAR)
+	var/back_item = /obj/item/storage/backpack/marine/satchel
+	if (new_human.client && new_human.client.prefs && (new_human.client.prefs.backbag == 1))
+		back_item = /obj/item/storage/backpack/marine/satchel
+
+	new_human.equip_to_slot_or_del(new /obj/item/device/radio/headset/almayer/mmpo(new_human), WEAR_L_EAR)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/under/marine(new_human), WEAR_BODY)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/accessory/armband/mpsec(new_human), WEAR_ACCESSORY)
-	new_human.equip_to_slot_or_del(new /obj/item/clothing/shoes/marine/jungle(new_human), WEAR_FEET)
+	new_human.equip_to_slot_or_del(new /obj/item/clothing/accessory/storage/holster(new_human), WEAR_ACCESSORY)
+	new_human.equip_to_slot_or_del(new /obj/item/weapon/gun/pistol/vp70(new_human), WEAR_IN_ACCESSORY)
+	new_human.equip_to_slot_or_del(new /obj/item/ammo_magazine/pistol/vp70(new_human), WEAR_IN_ACCESSORY)
+	new_human.equip_to_slot_or_del(new /obj/item/ammo_magazine/pistol/vp70(new_human), WEAR_IN_ACCESSORY)
+	new_human.equip_to_slot_or_del(new /obj/item/clothing/shoes/marine/knife(new_human), WEAR_FEET)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/gloves/marine(new_human), WEAR_HANDS)
 	new_human.equip_to_slot_or_del(new /obj/item/storage/belt/security/MP/full(new_human), WEAR_WAIST)
-	new_human.equip_to_slot_or_del(new /obj/item/clothing/suit/storage/marine(new_human), WEAR_JACKET)
+	new_human.equip_to_slot_or_del(new /obj/item/clothing/suit/storage/marine/light/vest/dcc(new_human), WEAR_JACKET)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/head/helmet/marine/MP(new_human), WEAR_HEAD)
-	new_human.equip_to_slot_or_del(new /obj/item/storage/pouch/pistol(new_human), WEAR_R_STORE)
-	new_human.equip_to_slot_or_del(new /obj/item/weapon/gun/pistol/vp70(new_human), WEAR_IN_R_STORE)
-	new_human.equip_to_slot_or_del(new /obj/item/storage/pouch/firstaid/full/alternate(new_human), WEAR_L_STORE)
+	new_human.equip_to_slot_or_del(new back_item(new_human), WEAR_BACK)
+	new_human.equip_to_slot_or_del(new /obj/item/storage/pouch/general/medium(new_human), WEAR_R_STORE)
+
+/datum/equipment_preset/uscm_ship/uscm_police/mp/load_rank(mob/living/carbon/human/human)
+	if(human.client && get_job_playtime(human.client, rank) < JOB_PLAYTIME_TIER_1)
+		return "ME3"
+	return paygrade
 
 //*****************************************************************************************************/
 
@@ -78,7 +90,7 @@
 	)
 	assignment = JOB_WARDEN
 	rank = JOB_WARDEN
-	paygrades = list(PAY_SHORT_ME5 = JOB_PLAYTIME_TIER_0, PAY_SHORT_ME6 = JOB_PLAYTIME_TIER_1, PAY_SHORT_ME7 = JOB_PLAYTIME_TIER_3)
+	paygrade = "ME6"
 	role_comm_title = "MW"
 	skills = /datum/skills/MW
 
@@ -138,7 +150,7 @@
 	)
 	assignment = JOB_CHIEF_POLICE
 	rank = JOB_CHIEF_POLICE
-	paygrades = list(PAY_SHORT_MO1 = JOB_PLAYTIME_TIER_0, PAY_SHORT_MO2 = JOB_PLAYTIME_TIER_1)
+	paygrade = "MO2"
 	role_comm_title = "CMP"
 	skills = /datum/skills/CMP
 
@@ -181,7 +193,7 @@
 	access = list()
 	assignment = JOB_RIOT
 	rank = JOB_RIOT
-	paygrades = list(PAY_SHORT_ME5 = JOB_PLAYTIME_TIER_0)
+	paygrade = "ME5"
 	role_comm_title = "RMP"
 	skills = /datum/skills/CMP
 
@@ -212,8 +224,8 @@
 	new_human.equip_to_slot_or_del(new /obj/item/explosive/grenade/custom/teargas(new_human.back), WEAR_IN_BACK)
 	new_human.equip_to_slot_or_del(new /obj/item/explosive/grenade/custom/teargas(new_human.back), WEAR_IN_BACK)
 	new_human.equip_to_slot_or_del(new /obj/item/explosive/grenade/custom/teargas(new_human.back), WEAR_IN_BACK)
-	new_human.equip_to_slot_or_del(new /obj/item/restraint/handcuffs(new_human.back), WEAR_IN_BACK)
-	new_human.equip_to_slot_or_del(new /obj/item/restraint/handcuffs(new_human.back), WEAR_IN_BACK)
+	new_human.equip_to_slot_or_del(new /obj/item/handcuffs(new_human.back), WEAR_IN_BACK)
+	new_human.equip_to_slot_or_del(new /obj/item/handcuffs(new_human.back), WEAR_IN_BACK)
 	new_human.equip_to_slot_or_del(new /obj/item/storage/pouch/shotgun/large/beanbag/riot(new_human), WEAR_L_STORE)
 	new_human.equip_to_slot_or_del(new /obj/item/storage/pouch/shotgun/large/beanbag/riot(new_human), WEAR_R_STORE)
 	if(new_human.disabilities & NEARSIGHTED)
@@ -229,6 +241,6 @@
 
 	assignment = JOB_RIOT_CHIEF
 	rank = JOB_RIOT_CHIEF
-	paygrades = list(PAY_SHORT_MO1 = JOB_PLAYTIME_TIER_0)
+	paygrade = "MO1"
 	role_comm_title = "CRMP"
 	skills = /datum/skills/CMP

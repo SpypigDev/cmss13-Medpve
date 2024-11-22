@@ -83,12 +83,12 @@ GLOBAL_VAR_INIT(meeting_state, MEETING_READY)
 		log += " (Admin Triggered)."
 		ares_log = "[MAIN_AI_SYSTEM] triggered an Emergency Meeting."
 
-	switch(GLOB.meeting_state)
+	switch(GLOB.lockdown_state)
 		if(MEETING_READY)
-			GLOB.meeting_state = MEETING_ACTIVE
+			GLOB.lockdown_state = MEETING_ACTIVE
 			SEND_GLOBAL_SIGNAL(COMSIG_GLOB_MEETING)
 		if(MEETING_ACTIVE)
-			GLOB.meeting_state = MEETING_READY
+			GLOB.lockdown_state = MEETING_READY
 			message = "ATTENTION! \n\nEMERGENCY MEETING ENDED."
 			log = "[key_name(user)] ended emergency meeting!"
 			ares_log = "[user.name] ended an Emergency Meeting."

@@ -26,10 +26,6 @@
 	desc = "A black folder."
 	icon_state = "folder_black"
 
-/obj/item/folder/green
-	desc = "A green folder."
-	icon_state = "folder_green"
-
 /obj/item/folder/black_random
 	desc = "A black folder. It is decorated with stripes."
 	icon_state = "folder_black_green"
@@ -45,14 +41,14 @@
 
 /obj/item/folder/update_icon()
 	overlays.Cut()
-	if(length(contents))
+	if(contents.len)
 		overlays += "folder_paper"
 	return
 
 /obj/item/folder/attackby(obj/item/W as obj, mob/user as mob)
 	if(istype(W, /obj/item/paper) || istype(W, /obj/item/photo) || istype(W, /obj/item/paper_bundle))
 		if(user.drop_inv_item_to_loc(W, src))
-			to_chat(user, SPAN_NOTICE("You put [W] into [src]."))
+			to_chat(user, SPAN_NOTICE("You put the [W] into \the [src]."))
 			update_icon()
 	else if(HAS_TRAIT(W, TRAIT_TOOL_PEN))
 		var/n_name = strip_html(input(usr, "What would you like to label the folder?", "Folder Labelling", null)  as text)
