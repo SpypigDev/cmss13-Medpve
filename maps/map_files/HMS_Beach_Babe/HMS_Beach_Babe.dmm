@@ -1,10 +1,114 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"as" = (
+/obj/structure/ladder{
+	icon_state = "ladder10"
+	},
+/turf/open/floor/kutjevo/plate,
+/area/golden_arrow/cryo_cells)
+"at" = (
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/turf/open/floor/kutjevo/tiles,
+/area/golden_arrow/platoonprep)
+"bC" = (
+/obj/effect/landmark/late_join,
+/obj/effect/landmark/late_join/alpha,
+/obj/structure/pipes/standard/simple/hidden/supply,
+/turf/open/floor/kutjevo/plate{
+	icon_state = "catwalk";
+	dir = 1
+	},
+/area/golden_arrow/cryo_cells)
+"cd" = (
+/obj/item/tool/kitchen/tray{
+	pixel_x = -3;
+	pixel_y = 3
+	},
+/obj/item/reagent_container/food/condiment/hotsauce/tabasco{
+	pixel_x = 12;
+	pixel_y = 18
+	},
+/obj/item/trash/plate{
+	pixel_x = -5;
+	pixel_y = 3
+	},
+/obj/item/trash/plate{
+	pixel_x = -3;
+	pixel_y = 5
+	},
+/obj/item/reagent_container/food/condiment/hotsauce/tabasco{
+	pixel_y = 18;
+	pixel_x = 2
+	},
+/obj/item/trash/plate{
+	pixel_x = -4;
+	pixel_y = 7
+	},
+/obj/structure/surface/table/reinforced,
+/turf/open/floor/kutjevo/tan/multi_tiles/east,
+/area/golden_arrow/cryo_cells)
+"ch" = (
+/obj/structure/machinery/chem_dispenser/soda/beer{
+	density = 0;
+	pixel_y = 32
+	},
+/turf/open/floor/kutjevo/tan/multi_tiles,
+/area/golden_arrow/cryo_cells)
+"cj" = (
+/obj/structure/pipes/standard/manifold/hidden/supply{
+	dir = 1
+	},
+/turf/open/floor/kutjevo/tiles,
+/area/golden_arrow/cryo_cells)
+"ej" = (
+/obj/structure/machinery/cryopod/right,
+/turf/open/floor/kutjevo/plate,
+/area/golden_arrow/cryo_cells)
+"ez" = (
+/obj/item/storage/box/guncase/flamer/fuel{
+	pixel_y = 8
+	},
+/obj/item/tool/crowbar,
+/obj/structure/surface/table/woodentable/poor,
+/obj/structure/machinery/light/double{
+	light_color = "#ffe6da"
+	},
+/turf/open/floor/kutjevo/plate,
+/area/golden_arrow/platoonprep)
+"eF" = (
+/obj/structure/bed/chair/comfy{
+	dir = 4
+	},
+/turf/open/floor/kutjevo/tiles,
+/area/golden_arrow/cryo_cells)
+"fb" = (
+/obj/structure/machinery/light/double{
+	dir = 1;
+	light_color = "#ffe6da"
+	},
+/obj/structure/pipes/vents/pump,
+/turf/open/floor/kutjevo/plate,
+/area/golden_arrow/cryo_cells)
+"fi" = (
+/obj/structure/machinery/vending/dinnerware{
+	pixel_y = 25;
+	density = 0
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/kutjevo/tan/multi_tiles,
+/area/golden_arrow/cryo_cells)
 "fl" = (
 /obj/structure/platform/kutjevo/smooth{
 	dir = 1
 	},
 /turf/open/gm/river/ocean/deep_ocean,
 /area/space)
+"fy" = (
+/obj/structure/pipes/standard/simple/hidden/supply,
+/obj/structure/machinery/door/airlock/multi_tile/almayer/almayer,
+/turf/open/floor/kutjevo/tiles,
+/area/golden_arrow/cryo_cells)
 "gf" = (
 /obj/structure/stairs/perspective/kutjevo{
 	dir = 4
@@ -12,6 +116,72 @@
 /obj/structure/machinery/light,
 /turf/open/floor/kutjevo/tiles,
 /area/almayer/command/airoom)
+"gg" = (
+/obj/structure/gun_rack/mk221{
+	pixel_x = -8
+	},
+/obj/structure/gun_rack/mk221{
+	pixel_x = 8
+	},
+/turf/open/floor/kutjevo/tiles,
+/area/golden_arrow/platoonprep)
+"gi" = (
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 8
+	},
+/turf/open/floor/kutjevo/multi_tiles/east,
+/area/golden_arrow/cryo_cells)
+"gk" = (
+/obj/structure/machinery/door/airlock/almayer/secure/glass{
+	dir = 1;
+	req_access = null
+	},
+/obj/structure/pipes/standard/simple/hidden/supply,
+/turf/open/floor/kutjevo/plate,
+/area/golden_arrow/cryo_cells)
+"gn" = (
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 8
+	},
+/turf/open/floor/strata/faux_wood,
+/area/golden_arrow/cryo_cells)
+"gx" = (
+/obj/structure/machinery/door/airlock/almayer/secure/glass{
+	dir = 8;
+	req_access = null
+	},
+/turf/open/floor/kutjevo/tiles,
+/area/golden_arrow/cryo_cells)
+"hw" = (
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 8
+	},
+/turf/open/floor/kutjevo/tiles,
+/area/golden_arrow/cryo_cells)
+"hH" = (
+/obj/structure/machinery/light/double{
+	light_color = "#ffe6da";
+	dir = 4
+	},
+/turf/open/floor/kutjevo/plate,
+/area/golden_arrow/cryo_cells)
+"hS" = (
+/turf/open/floor/kutjevo/tiles,
+/area/golden_arrow/cryo_cells)
+"io" = (
+/obj/structure/pipes/standard/simple/hidden/supply,
+/turf/open/floor/kutjevo/multi_tiles/north,
+/area/golden_arrow/cryo_cells)
+"iq" = (
+/obj/structure/bed/chair/comfy{
+	dir = 4
+	},
+/obj/structure/machinery/light/double{
+	dir = 1;
+	light_color = "#ffe6da"
+	},
+/turf/open/floor/kutjevo/tiles,
+/area/golden_arrow/cryo_cells)
 "iH" = (
 /obj/structure/surface/table/woodentable/fancy,
 /obj/structure/machinery/computer/groundside_operations/pmc{
@@ -24,6 +194,24 @@
 	},
 /turf/open/floor/kutjevo/plate,
 /area/almayer/command/airoom)
+"iL" = (
+/obj/structure/closet/secure_closet/marine_personal{
+	pixel_x = -7
+	},
+/obj/structure/closet/secure_closet/marine_personal{
+	pixel_x = 8
+	},
+/turf/open/floor/kutjevo/multi_tiles/north,
+/area/golden_arrow/cryo_cells)
+"iU" = (
+/obj/structure/sign/catclock{
+	pixel_y = 28
+	},
+/turf/open/floor/kutjevo/plate,
+/area/golden_arrow/cryo_cells)
+"ju" = (
+/turf/open/floor/kutjevo/multi_tiles/north,
+/area/golden_arrow/platoonprep)
 "jF" = (
 /obj/structure/surface/table/woodentable/fancy,
 /obj/structure/phone_base/rotary{
@@ -56,6 +244,38 @@
 "kG" = (
 /turf/open/floor/plating/wood,
 /area/almayer/command/airoom)
+"kN" = (
+/obj/item/trash/cigbutt/cigarbutt{
+	pixel_y = 25;
+	pixel_x = -3;
+	randpixel = 0
+	},
+/obj/item/ashtray/plastic{
+	icon_state = "ashtray_full_bl";
+	pixel_x = 9;
+	pixel_y = 6
+	},
+/obj/item/trash/cigbutt{
+	pixel_y = 5;
+	pixel_x = 4;
+	randpixel = 0
+	},
+/obj/item/prop/helmetgarb/gunoil{
+	pixel_y = 23;
+	pixel_x = 9;
+	layer = 3.3
+	},
+/obj/item/storage/fancy/cigar/matchbook{
+	pixel_y = 8;
+	pixel_x = -2
+	},
+/obj/item/storage/box/pdt_kit/advanced,
+/obj/structure/surface/table/woodentable/poor,
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/turf/open/floor/kutjevo/plate,
+/area/golden_arrow/platoonprep)
 "kU" = (
 /obj/structure/stairs/perspective/kutjevo{
 	dir = 4
@@ -68,6 +288,42 @@
 	},
 /turf/open/floor/kutjevo/tiles,
 /area/almayer/command/airoom)
+"kX" = (
+/obj/item/trash/plate{
+	pixel_y = 8;
+	pixel_x = 7
+	},
+/obj/item/reagent_container/food/condiment/saltshaker{
+	pixel_x = -4;
+	pixel_y = 13
+	},
+/obj/item/reagent_container/food/snacks/protein_pack{
+	pixel_y = 9;
+	pixel_x = 3
+	},
+/obj/structure/surface/table/woodentable/poor,
+/turf/open/floor/strata/faux_wood,
+/area/golden_arrow/cryo_cells)
+"lm" = (
+/obj/structure/closet/secure_closet/smartgunner{
+	req_access_txt = "14;39";
+	req_one_access = list();
+	name = "squad one smartgunner locker"
+	},
+/turf/open/floor/kutjevo/plate,
+/area/golden_arrow/platoonprep)
+"lB" = (
+/obj/effect/landmark/late_join,
+/obj/effect/landmark/late_join/alpha,
+/obj/structure/machinery/light/double{
+	light_color = "#ffe6da"
+	},
+/obj/structure/pipes/standard/simple/hidden/supply,
+/turf/open/floor/kutjevo/plate{
+	icon_state = "catwalk";
+	dir = 1
+	},
+/area/golden_arrow/cryo_cells)
 "lO" = (
 /obj/structure/barricade/handrail/kutjevo{
 	dir = 1;
@@ -83,10 +339,56 @@
 	},
 /turf/open/floor/kutjevo/plate,
 /area/almayer/command/airoom)
+"ml" = (
+/turf/open/floor/kutjevo/tan/multi_tiles/east,
+/area/golden_arrow/cryo_cells)
 "my" = (
 /obj/structure/platform/kutjevo/smooth,
 /turf/open/gm/river/ocean/deep_ocean,
 /area/space)
+"mD" = (
+/obj/structure/machinery/door/airlock/multi_tile/almayer/almayer/glass{
+	dir = 1
+	},
+/turf/open/floor/kutjevo/tiles,
+/area/golden_arrow/platoonprep)
+"nl" = (
+/obj/item/trash/plate{
+	pixel_y = 13;
+	pixel_x = 4
+	},
+/obj/item/trash/plate{
+	pixel_x = -3
+	},
+/obj/structure/surface/table/woodentable/poor,
+/turf/open/floor/strata/faux_wood,
+/area/golden_arrow/cryo_cells)
+"nw" = (
+/obj/structure/machinery/light/double{
+	light_color = "#ffe6da"
+	},
+/obj/structure/machinery/vending/cola,
+/turf/open/floor/kutjevo/plate,
+/area/golden_arrow/cryo_cells)
+"nC" = (
+/obj/item/reagent_container/food/condiment/peppermill{
+	pixel_x = 1;
+	pixel_y = 12
+	},
+/obj/structure/surface/table/woodentable/poor,
+/turf/open/floor/strata/faux_wood,
+/area/golden_arrow/cryo_cells)
+"nE" = (
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/obj/item/weapon/gun/rifle/m4ra/pve{
+	pixel_y = 9
+	},
+/obj/item/storage/box/guncase/shotgunpump,
+/obj/structure/surface/table/woodentable/poor,
+/turf/open/floor/kutjevo/plate,
+/area/golden_arrow/platoonprep)
 "nM" = (
 /obj/structure/surface/table/woodentable/fancy,
 /obj/structure/machinery/computer/cameras/almayer,
@@ -99,6 +401,16 @@
 /obj/structure/machinery/prop/almayer/CICmap,
 /turf/open/floor/kutjevo/plate,
 /area/almayer/command/airoom)
+"ow" = (
+/obj/structure/pipes/standard/manifold/hidden/supply{
+	dir = 4
+	},
+/turf/open/floor/kutjevo/tiles,
+/area/golden_arrow/cryo_cells)
+"oP" = (
+/obj/structure/gun_rack/m41/unloaded,
+/turf/open/floor/kutjevo/tiles,
+/area/golden_arrow/platoonprep)
 "oW" = (
 /obj/structure/platform/kutjevo{
 	dir = 8
@@ -110,6 +422,25 @@
 	},
 /turf/open/floor/kutjevo/plate,
 /area/almayer/command/airoom)
+"pd" = (
+/turf/closed/wall/kutjevo/colony/reinforced,
+/area/golden_arrow/platoonprep)
+"pg" = (
+/obj/structure/surface/table/reinforced,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 8
+	},
+/turf/open/floor/kutjevo/tan/multi_tiles/east,
+/area/golden_arrow/cryo_cells)
+"po" = (
+/obj/item/trash/plate{
+	pixel_y = 4;
+	pixel_x = -4
+	},
+/obj/structure/surface/table/woodentable/poor,
+/turf/open/floor/strata/faux_wood,
+/area/golden_arrow/cryo_cells)
 "pB" = (
 /obj/structure/machinery/floodlight/landing/floor{
 	name = "daylight";
@@ -121,6 +452,49 @@
 	},
 /turf/open/floor/kutjevo/plate,
 /area/almayer/command/airoom)
+"pM" = (
+/obj/item/tool/kitchen/rollingpin{
+	pixel_y = 4;
+	pixel_x = -6
+	},
+/obj/item/tool/kitchen/knife{
+	pixel_x = 9
+	},
+/obj/structure/surface/table/reinforced,
+/turf/open/floor/kutjevo/tan/multi_tiles/east,
+/area/golden_arrow/cryo_cells)
+"pP" = (
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 8
+	},
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 8
+	},
+/turf/open/floor/strata/faux_wood,
+/area/golden_arrow/cryo_cells)
+"rB" = (
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/obj/item/facepaint/green{
+	pixel_y = 12;
+	pixel_x = 2
+	},
+/obj/item/facepaint/black{
+	pixel_x = -7;
+	pixel_y = 7
+	},
+/obj/item/facepaint/brown{
+	pixel_x = -2;
+	pixel_y = 1
+	},
+/obj/structure/surface/table/woodentable/poor,
+/turf/open/floor/kutjevo/plate,
+/area/golden_arrow/platoonprep)
+"sp" = (
+/obj/structure/window/framed/kutjevo/reinforced/hull,
+/turf/open/floor/kutjevo/tiles,
+/area/golden_arrow/cryo_cells)
 "ss" = (
 /obj/structure/barricade/handrail/kutjevo,
 /turf/open/floor/plating/wood,
@@ -135,10 +509,104 @@
 "ub" = (
 /turf/open/floor/kutjevo/multi_tiles/west,
 /area/almayer/command/airoom)
+"uk" = (
+/obj/structure/machinery/cm_vending/sorted/marine_food{
+	density = 0;
+	pixel_y = -32
+	},
+/obj/structure/pipes/vents/pump,
+/turf/open/floor/kutjevo/multi_tiles/north,
+/area/golden_arrow/cryo_cells)
+"uY" = (
+/obj/structure/gun_rack/type71,
+/turf/open/floor/kutjevo/tiles,
+/area/golden_arrow/platoonprep)
+"vA" = (
+/obj/structure/closet/coffin/woodencrate,
+/obj/item/ammo_magazine/rifle/m4ra/pve,
+/obj/item/ammo_magazine/rifle/m4ra/pve,
+/obj/item/ammo_magazine/rifle/m4ra/pve,
+/obj/item/ammo_magazine/rifle/m4ra/pve,
+/obj/item/ammo_magazine/rifle/m4ra/pve,
+/turf/open/floor/kutjevo/plate{
+	icon_state = "catwalk";
+	dir = 1
+	},
+/area/golden_arrow/platoonprep)
+"vD" = (
+/obj/item/reagent_container/food/condiment/juice/orange{
+	pixel_y = 3;
+	pixel_x = -5
+	},
+/obj/item/trash/burger{
+	pixel_y = -7;
+	pixel_x = 7
+	},
+/obj/structure/surface/table/woodentable/poor,
+/turf/open/floor/strata/faux_wood,
+/area/golden_arrow/cryo_cells)
+"vH" = (
+/obj/structure/pipes/standard/manifold/hidden/supply{
+	dir = 1
+	},
+/turf/open/floor/strata/faux_wood,
+/area/golden_arrow/cryo_cells)
+"vI" = (
+/turf/open/floor/strata/faux_wood,
+/area/golden_arrow/cryo_cells)
+"vN" = (
+/obj/effect/decal/cleanable/dirt/greenglow,
+/turf/open/floor/kutjevo/tan/multi_tiles,
+/area/golden_arrow/cryo_cells)
+"wa" = (
+/turf/open/floor/kutjevo/multi_tiles/east,
+/area/golden_arrow/cryo_cells)
+"wz" = (
+/obj/structure/machinery/cryopod,
+/turf/open/floor/kutjevo/plate,
+/area/golden_arrow/cryo_cells)
+"wA" = (
+/obj/structure/machinery/recharger{
+	pixel_y = -10;
+	pixel_x = 5
+	},
+/obj/item/smartgun_battery{
+	pixel_x = 4;
+	pixel_y = -5
+	},
+/obj/item/prop/magazine{
+	icon_state = "poster8";
+	name = "Soldier Of Fortune: Issue March 2182";
+	desc = "A copy of Soldier of Fortune magazine. On the cover is a stylized imagine of a motion tracker in use, with the headline 'Combat Awareness in the 22nd Century'. The article covers the advancement in sensor technology that has made combat between peer nations like the UA and UPP increasingly lethal to those on the ground. Flipping through the magazine you see article titles such as 'Arsenal: The M2C Heavy Machinegun', and 'The Future War: advancements in Cyberdyne Systems combat AI'. At the back of the magazine is an extensive list of advertisements for private contractors and wares.";
+	pixel_y = 15;
+	pixel_x = 7
+	},
+/obj/item/clipboard{
+	pixel_x = -7;
+	pixel_y = 8
+	},
+/obj/structure/surface/table/woodentable/poor,
+/turf/open/floor/kutjevo/plate,
+/area/golden_arrow/platoonprep)
+"wN" = (
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 8
+	},
+/turf/open/floor/kutjevo/tan/multi_tiles,
+/area/golden_arrow/cryo_cells)
 "wV" = (
 /obj/structure/window/framed/kutjevo/reinforced/hull,
 /turf/open/floor/kutjevo/tiles,
 /area/almayer/command/airoom)
+"xz" = (
+/turf/open/floor/kutjevo/multi_tiles/north,
+/area/golden_arrow/cryo_cells)
+"xC" = (
+/obj/structure/bed/chair/comfy{
+	dir = 4
+	},
+/turf/open/floor/strata/faux_wood,
+/area/golden_arrow/cryo_cells)
 "xI" = (
 /obj/structure/barricade/handrail/kutjevo,
 /turf/open/floor/plating/wood{
@@ -153,6 +621,12 @@
 	},
 /turf/open/floor/kutjevo/multi_tiles/southeast,
 /area/almayer/command/airoom)
+"ye" = (
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 6
+	},
+/turf/open/floor/kutjevo/tiles,
+/area/golden_arrow/cryo_cells)
 "yo" = (
 /obj/structure/largecrate/black_market/secured_wildlife{
 	pixel_y = 4;
@@ -175,6 +649,15 @@
 	dir = 1
 	},
 /area/almayer/command/airoom)
+"Ac" = (
+/obj/structure/closet/secure_closet/marine_personal{
+	pixel_x = -7
+	},
+/obj/structure/closet/secure_closet/marine_personal{
+	pixel_x = 8
+	},
+/turf/open/floor/kutjevo/grey,
+/area/golden_arrow/cryo_cells)
 "AV" = (
 /obj/structure/platform/kutjevo/smooth{
 	dir = 1
@@ -197,6 +680,10 @@
 /obj/structure/phone_base/rotary,
 /turf/open/floor/kutjevo/plate,
 /area/almayer/command/airoom)
+"Cx" = (
+/obj/structure/window/framed/kutjevo/reinforced,
+/turf/open/floor/kutjevo/tiles,
+/area/golden_arrow/cryo_cells)
 "CA" = (
 /obj/structure/largecrate/black_market/secured_wildlife{
 	pixel_y = 4;
@@ -236,6 +723,28 @@
 	dir = 1
 	},
 /area/almayer/command/airoom)
+"CE" = (
+/obj/structure/window/framed/kutjevo/reinforced/hull,
+/turf/open/floor/kutjevo/tiles,
+/area/golden_arrow/platoonprep)
+"CK" = (
+/turf/open/floor/almayer/dark_sterile,
+/area/space)
+"CU" = (
+/obj/structure/machinery/light/double{
+	light_color = "#ffe6da"
+	},
+/turf/open/floor/kutjevo/plate,
+/area/golden_arrow/cryo_cells)
+"Dj" = (
+/obj/structure/machinery/power/apc/upgraded/power,
+/obj/structure/pipes/standard/manifold/hidden/supply/no_boom,
+/turf/open/floor/kutjevo/tiles,
+/area/golden_arrow/cryo_cells)
+"Dk" = (
+/obj/structure/pipes/standard/simple/hidden/supply,
+/turf/open/floor/kutjevo/tiles,
+/area/golden_arrow/cryo_cells)
 "Dv" = (
 /obj/structure/surface/table/woodentable/fancy,
 /obj/structure/machinery/readybutton,
@@ -244,12 +753,72 @@
 	},
 /turf/open/floor/kutjevo/plate,
 /area/almayer/command/airoom)
+"DB" = (
+/obj/structure/machinery/door/airlock/multi_tile/almayer/almayer{
+	dir = 2
+	},
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 8
+	},
+/turf/open/floor/kutjevo/tiles,
+/area/golden_arrow/cryo_cells)
+"Eb" = (
+/obj/structure/machinery/cm_vending/sorted/uniform_supply/squad_prep{
+	req_one_access_txt = "8;12;39;40";
+	req_access = list()
+	},
+/turf/open/floor/kutjevo/tiles,
+/area/golden_arrow/platoonprep)
 "Ep" = (
 /turf/open/floor/kutjevo/plate,
 /area/space)
+"EB" = (
+/obj/structure/foamed_metal/iron,
+/turf/open/floor/kutjevo/tiles,
+/area/golden_arrow/platoonprep)
 "EJ" = (
 /turf/open/floor/kutjevo/multi_tiles/southeast,
 /area/almayer/command/airoom)
+"EV" = (
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/turf/open/floor/kutjevo/plate,
+/area/golden_arrow/platoonprep)
+"Fj" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/kutjevo/tan/multi_tiles/east,
+/area/golden_arrow/cryo_cells)
+"Fv" = (
+/turf/open/floor/kutjevo/multi_tiles/east,
+/area/golden_arrow/platoonprep)
+"Fz" = (
+/obj/structure/machinery/door/airlock/almayer/generic/glass,
+/turf/open/floor/kutjevo/tan/multi_tiles/east,
+/area/golden_arrow/cryo_cells)
+"FI" = (
+/obj/structure/bed/chair/comfy{
+	dir = 8
+	},
+/obj/structure/sign/banners/twe_flag{
+	pixel_y = 32
+	},
+/turf/open/floor/strata/faux_wood,
+/area/golden_arrow/cryo_cells)
+"FK" = (
+/obj/structure/machinery/light/double{
+	light_color = "#ffe6da";
+	dir = 1
+	},
+/turf/open/floor/kutjevo/tiles,
+/area/golden_arrow/platoonprep)
+"FN" = (
+/obj/structure/machinery/cm_vending/sorted/cargo_guns/squad{
+	req_one_access_txt = "8;12;39;40";
+	req_one_access = list()
+	},
+/turf/open/floor/kutjevo/tiles,
+/area/golden_arrow/platoonprep)
 "Gf" = (
 /obj/structure/window/framed/kutjevo/reinforced,
 /turf/open/floor/kutjevo/tiles,
@@ -268,15 +837,106 @@
 	},
 /turf/open/floor/kutjevo/plate,
 /area/almayer/command/airoom)
+"Hh" = (
+/turf/closed/wall/kutjevo/colony/reinforced/hull,
+/area/golden_arrow/platoonprep)
 "Hs" = (
 /obj/structure/bed/chair/comfy{
 	dir = 8
 	},
 /turf/open/floor/kutjevo/tiles,
 /area/almayer/command/airoom)
+"HE" = (
+/obj/structure/machinery/power/apc/upgraded/power{
+	dir = 8
+	},
+/turf/open/floor/kutjevo/multi_tiles/north,
+/area/golden_arrow/platoonprep)
+"It" = (
+/obj/item/reagent_container/food/condiment/saltshaker{
+	pixel_x = -7;
+	pixel_y = 13
+	},
+/obj/item/reagent_container/food/condiment/peppermill{
+	pixel_x = -11;
+	pixel_y = 5
+	},
+/obj/item/clothing/head/cmcap{
+	pixel_x = 1;
+	pixel_y = -3
+	},
+/obj/structure/surface/table/woodentable/poor,
+/turf/open/floor/strata/faux_wood,
+/area/golden_arrow/cryo_cells)
+"IU" = (
+/obj/structure/bed/chair/comfy{
+	dir = 8
+	},
+/turf/open/floor/kutjevo/tiles,
+/area/golden_arrow/cryo_cells)
+"Jb" = (
+/obj/structure/machinery/light/double{
+	light_color = "#ffe6da";
+	dir = 8
+	},
+/turf/open/floor/kutjevo/multi_tiles/east,
+/area/golden_arrow/cryo_cells)
+"Km" = (
+/obj/structure/machinery/door/airlock/almayer/secure/glass{
+	dir = 8;
+	req_access = null
+	},
+/turf/open/floor/kutjevo/multi_tiles/north,
+/area/golden_arrow/cryo_cells)
+"Ky" = (
+/obj/structure/closet/secure_closet/marine_personal{
+	pixel_x = -7
+	},
+/obj/structure/closet/secure_closet/marine_personal{
+	pixel_x = 8
+	},
+/turf/open/floor/kutjevo/multi_tiles/east,
+/area/golden_arrow/cryo_cells)
+"KO" = (
+/turf/closed/wall/kutjevo/colony/reinforced,
+/area/golden_arrow/cryo_cells)
+"Lj" = (
+/obj/structure/bed/chair/comfy{
+	dir = 8
+	},
+/obj/structure/machinery/light/double{
+	dir = 1;
+	light_color = "#ffe6da"
+	},
+/turf/open/floor/kutjevo/tiles,
+/area/golden_arrow/cryo_cells)
+"Lt" = (
+/obj/item/storage/fancy/cigarettes/lucky_strikes{
+	pixel_x = -7;
+	pixel_y = 9
+	},
+/obj/item/prop/magazine/dirty{
+	icon_state = "poster3";
+	pixel_y = 7;
+	pixel_x = 3;
+	name = "Playboy Magazine: Issue March 2182";
+	desc = "A copy of Playboy magazine. On the cover is photo of guitarist Sadie Summers, with the headline 'Sadie Summers tells ALL'. The article itself focuses on Sadie's many carnal exploits while on tour as well as her very public brawl at an LA nightclub that occured two years prior to the date of this issue. Flipping through the magazine you see article titles such as 'Jungle Mercenary: Life as an Ex-UPP commando', 'The whys and hows of choosing synthetic girls'."
+	},
+/obj/structure/surface/table/woodentable/poor,
+/turf/open/floor/strata/faux_wood,
+/area/golden_arrow/cryo_cells)
 "LM" = (
 /turf/open/floor/kutjevo/tiles,
 /area/almayer/command/airoom)
+"Ms" = (
+/turf/open/floor/kutjevo/tiles,
+/area/golden_arrow/platoonprep)
+"MV" = (
+/obj/structure/ladder{
+	icon_state = "ladder01"
+	},
+/turf/open/floor/kutjevo/plate,
+/area/golden_arrow/cryo_cells)
 "Nm" = (
 /obj/structure/surface/table/woodentable/fancy,
 /obj/structure/platform/kutjevo/smooth{
@@ -294,17 +954,100 @@
 	dir = 1
 	},
 /area/almayer/command/airoom)
+"ND" = (
+/obj/structure/machinery/cm_vending/sorted/marine_food{
+	density = 0;
+	pixel_y = -32
+	},
+/turf/open/floor/kutjevo/multi_tiles/north,
+/area/golden_arrow/cryo_cells)
+"NP" = (
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/obj/structure/closet/secure_closet/squad_sergeant{
+	req_access_txt = "32;39";
+	req_one_access = list();
+	name = "squad one sergeant locker"
+	},
+/turf/open/floor/kutjevo/plate,
+/area/golden_arrow/platoonprep)
 "Ok" = (
 /obj/structure/surface/table/woodentable/fancy,
 /obj/item/device/flashlight/lamp/green,
 /turf/open/floor/kutjevo/plate,
 /area/almayer/command/airoom)
+"Oo" = (
+/turf/open/floor/kutjevo/plate,
+/area/golden_arrow/platoonprep)
 "OI" = (
 /turf/open/space/basic,
 /area/space)
 "OV" = (
 /turf/open/floor/kutjevo/multi_tiles/north,
 /area/almayer/command/airoom)
+"Pe" = (
+/turf/open/floor/kutjevo/plate,
+/area/golden_arrow/cryo_cells)
+"Pi" = (
+/obj/structure/closet/secure_closet/platoon_sergeant,
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/obj/structure/machinery/light/double{
+	light_color = "#ffe6da";
+	dir = 4
+	},
+/turf/open/floor/kutjevo/plate,
+/area/golden_arrow/platoonprep)
+"PS" = (
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/obj/item/ammo_box/magazine/mk1{
+	layer = 3.1;
+	pixel_y = 13;
+	pixel_x = 3
+	},
+/obj/item/facepaint/sunscreen_stick{
+	pixel_y = 2;
+	pixel_x = -2;
+	layer = 3.2
+	},
+/obj/structure/sign/poster{
+	desc = "YOU ALWAYS KNOW A WORKING JOE. YOU ALWAYS KNOW A WORKING JOE. YOU ALWAYS KNOW A WORKING JOE. YOU ALWAYS KNOW A WORKING JOE. YOU ALWAYS KNOW A WORKING JOE.";
+	icon_state = "poster11";
+	name = "YOU ALWAYS KNOW A WORKING JOE.";
+	pixel_x = 24;
+	serial_number = 11
+	},
+/obj/structure/surface/table/woodentable/poor,
+/obj/structure/machinery/light/double{
+	light_color = "#ffe6da";
+	dir = 1
+	},
+/turf/open/floor/kutjevo/plate,
+/area/golden_arrow/platoonprep)
+"PT" = (
+/obj/item/reagent_container/food/condiment/sugar,
+/obj/item/reagent_container/food/condiment/enzyme,
+/obj/item/reagent_container/food/snacks/flour,
+/obj/item/reagent_container/food/snacks/flour,
+/obj/item/reagent_container/food/snacks/flour,
+/obj/item/reagent_container/food/snacks/flour,
+/obj/structure/closet{
+	desc = "It's a fancy storage unit for long-life foodstuffs.";
+	name = "long-life foodstuff storage"
+	},
+/obj/item/storage/box/powderedmilk,
+/obj/item/reagent_container/food/condiment/juice/egg,
+/obj/item/reagent_container/food/snacks/flour,
+/obj/item/reagent_container/food/snacks/flour,
+/obj/item/reagent_container/food/snacks/flour,
+/obj/item/reagent_container/food/snacks/flour,
+/obj/effect/decal/cleanable/cobweb2/dynamic,
+/turf/open/floor/kutjevo/tan/multi_tiles/east,
+/area/golden_arrow/cryo_cells)
 "Qa" = (
 /obj/structure/platform/kutjevo/smooth,
 /obj/structure/bed/chair/comfy{
@@ -313,6 +1056,53 @@
 	},
 /turf/open/floor/kutjevo/tiles,
 /area/almayer/command/airoom)
+"Qo" = (
+/obj/item/reagent_container/food/drinks/cans/beer{
+	pixel_y = 3;
+	pixel_x = -5
+	},
+/obj/item/reagent_container/food/drinks/cans/beer{
+	pixel_y = 3;
+	pixel_x = 3
+	},
+/obj/item/reagent_container/food/drinks/cans/beer{
+	pixel_y = 14;
+	pixel_x = -2
+	},
+/obj/structure/surface/table/woodentable/poor,
+/turf/open/floor/strata/faux_wood,
+/area/golden_arrow/cryo_cells)
+"Qv" = (
+/obj/structure/pipes/standard/simple/hidden/supply,
+/turf/open/floor/kutjevo/plate{
+	icon_state = "catwalk";
+	dir = 1
+	},
+/area/golden_arrow/cryo_cells)
+"RJ" = (
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 10
+	},
+/turf/open/floor/strata/faux_wood,
+/area/golden_arrow/cryo_cells)
+"SC" = (
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/obj/item/ammo_box/magazine/misc/mre{
+	pixel_y = 11
+	},
+/obj/item/prop/helmetgarb/flair_io{
+	pixel_x = -5;
+	pixel_y = -9
+	},
+/obj/structure/surface/table/woodentable/poor,
+/obj/structure/machinery/light/double{
+	light_color = "#ffe6da";
+	dir = 8
+	},
+/turf/open/floor/kutjevo/plate,
+/area/golden_arrow/platoonprep)
 "Te" = (
 /obj/structure/surface/table/woodentable/fancy,
 /obj/item/device/flashlight/lamp/green{
@@ -321,6 +1111,13 @@
 	},
 /turf/open/floor/kutjevo/plate,
 /area/almayer/command/airoom)
+"Tf" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/machinery/light/double{
+	light_color = "#ffe6da"
+	},
+/turf/open/floor/kutjevo/tan/multi_tiles/east,
+/area/golden_arrow/cryo_cells)
 "Tr" = (
 /obj/structure/largecrate/black_market/confiscated_equipment{
 	pixel_x = -10;
@@ -366,13 +1163,42 @@
 	},
 /turf/open/floor/kutjevo/plate,
 /area/almayer/command/airoom)
+"VK" = (
+/obj/structure/machinery/chem_dispenser/soda{
+	density = 0;
+	pixel_y = 32
+	},
+/turf/open/floor/kutjevo/tan/multi_tiles,
+/area/golden_arrow/cryo_cells)
 "WE" = (
 /obj/structure/prop/invuln/lattice_prop,
 /turf/open/gm/river/ocean/deep_ocean,
 /area/almayer/command/airoom)
+"WM" = (
+/obj/structure/machinery/microwave{
+	density = 0;
+	pixel_y = 9
+	},
+/obj/item/reagent_container/food/drinks/coffee/marine{
+	pixel_x = 9;
+	pixel_y = -3
+	},
+/obj/item/storage/box/donkpockets{
+	pixel_x = 4;
+	pixel_y = 22
+	},
+/obj/structure/surface/table/reinforced,
+/turf/open/floor/kutjevo/tan/multi_tiles/east,
+/area/golden_arrow/cryo_cells)
 "Xb" = (
 /turf/closed/wall/kutjevo/colony/reinforced/hull,
 /area/space)
+"Xg" = (
+/obj/structure/bed/chair/comfy{
+	dir = 8
+	},
+/turf/open/floor/strata/faux_wood,
+/area/golden_arrow/cryo_cells)
 "Xm" = (
 /obj/structure/surface/table/woodentable/fancy,
 /obj/structure/machinery/computer/shuttle/dropship/flight/remote_control{
@@ -392,6 +1218,9 @@
 	},
 /turf/open/floor/kutjevo/plate,
 /area/almayer/command/airoom)
+"Xr" = (
+/turf/closed/wall/kutjevo/colony/reinforced/hull,
+/area/golden_arrow/cryo_cells)
 "XF" = (
 /obj/structure/surface/table/woodentable/fancy,
 /obj/structure/platform/kutjevo/smooth,
@@ -400,6 +1229,13 @@
 	},
 /turf/open/floor/kutjevo/plate,
 /area/almayer/command/airoom)
+"Yf" = (
+/obj/structure/machinery/vending/dinnerware,
+/obj/structure/machinery/light/double{
+	light_color = "#ffe6da"
+	},
+/turf/open/floor/kutjevo/plate,
+/area/golden_arrow/cryo_cells)
 "Yy" = (
 /obj/structure/bed/chair/comfy{
 	dir = 8
@@ -423,6 +1259,13 @@
 "ZL" = (
 /turf/open/floor/kutjevo/multi_tiles/southwest,
 /area/almayer/command/airoom)
+"ZS" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/pipes/vents/scrubber{
+	dir = 8
+	},
+/turf/open/floor/kutjevo/tan/multi_tiles,
+/area/golden_arrow/cryo_cells)
 "ZT" = (
 /turf/open/gm/river/ocean/deep_ocean,
 /area/space)
@@ -2778,27 +3621,27 @@ OI
 OI
 "}
 (24,1,1) = {"
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-Xb
-Xb
-Xb
-Xb
-Xb
-Xb
-Xb
-Xb
-Xb
-Xb
-Xb
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+Xr
+Xr
+Xr
+Xr
+Xr
+Xr
+Xr
+Xr
+Xr
+Xr
+Xr
 ZT
 ZT
 ZT
@@ -2880,27 +3723,27 @@ OI
 OI
 "}
 (25,1,1) = {"
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-Xb
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-Xb
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+Xr
+KO
+KO
+iU
+Jb
+Ky
+Cx
+wz
+wz
+wz
+Xr
 ZT
 ZT
 ZT
@@ -2982,27 +3825,27 @@ OI
 OI
 "}
 (26,1,1) = {"
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-Xb
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-Xb
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+Xr
+KO
+Ac
+xz
+ye
+Qv
+gk
+bC
+bC
+lB
+Xr
 ZT
 ZT
 ZT
@@ -3084,27 +3927,27 @@ OI
 OI
 "}
 (27,1,1) = {"
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-Xb
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-Xb
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+Xr
+KO
+Ac
+xz
+hw
+iL
+Cx
+ej
+ej
+ej
+Xr
 ZT
 ZT
 ZT
@@ -3186,27 +4029,27 @@ OI
 OI
 "}
 (28,1,1) = {"
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-Xb
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-Xb
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+Xr
+KO
+KO
+fb
+Dj
+KO
+KO
+Cx
+Cx
+KO
+Xr
 ZT
 ZT
 ZT
@@ -3288,27 +4131,27 @@ OI
 OI
 "}
 (29,1,1) = {"
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-Xb
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-Xb
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+Xr
+KO
+Ac
+xz
+hw
+iL
+Cx
+wz
+wz
+wz
+Xr
 ZT
 ZT
 ZT
@@ -3390,27 +4233,27 @@ OI
 OI
 "}
 (30,1,1) = {"
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-Xb
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-Xb
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+Xr
+KO
+Ac
+xz
+cj
+Qv
+gk
+bC
+bC
+lB
+Xr
 ZT
 ZT
 ZT
@@ -3492,27 +4335,27 @@ OI
 OI
 "}
 (31,1,1) = {"
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-Xb
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-Xb
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+Xr
+KO
+KO
+Pe
+hw
+iL
+Cx
+ej
+ej
+ej
+Xr
 ZT
 ZT
 ZT
@@ -3594,27 +4437,27 @@ OI
 OI
 "}
 (32,1,1) = {"
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-Xb
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-Xb
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+Xr
+KO
+KO
+Pe
+DB
+KO
+KO
+Cx
+Cx
+KO
+Xr
 ZT
 ZT
 ZT
@@ -3696,27 +4539,27 @@ OI
 OI
 "}
 (33,1,1) = {"
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-Xb
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-Xb
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+Xr
+iq
+eF
+wa
+gi
+Yf
+KO
+WM
+pM
+PT
+Xr
 ZT
 ZT
 ZT
@@ -3798,29 +4641,29 @@ OI
 OI
 "}
 (34,1,1) = {"
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-Xb
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-Xb
 ZT
 ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+sp
+It
+Lt
+vI
+gn
+ND
+KO
+VK
+vN
+Fj
+Xr
+OI
+OI
 ZT
 ZT
 ZT
@@ -3900,29 +4743,29 @@ OI
 OI
 "}
 (35,1,1) = {"
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-Xb
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-Xb
 ZT
 ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+sp
+po
+nl
+vI
+vH
+uk
+KO
+ch
+ZS
+Tf
+Xr
+CK
+CK
 ZT
 ZT
 ZT
@@ -4002,29 +4845,29 @@ OI
 OI
 "}
 (36,1,1) = {"
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-Xb
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-Xb
 ZT
 ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+sp
+FI
+Xg
+vI
+pP
+ND
+KO
+fi
+wN
+ml
+Xr
+OI
+OI
 ZT
 ZT
 ZT
@@ -4104,27 +4947,27 @@ OI
 OI
 "}
 (37,1,1) = {"
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-Xb
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-Xb
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+sp
+xC
+xC
+vI
+gn
+nw
+KO
+cd
+pg
+Fz
+Xr
 ZT
 ZT
 ZT
@@ -4206,27 +5049,27 @@ OI
 OI
 "}
 (38,1,1) = {"
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-Xb
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-Xb
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+sp
+vD
+nC
+vI
+RJ
+io
+fy
+Dk
+ow
+xz
+Xr
 ZT
 ZT
 ZT
@@ -4308,27 +5151,27 @@ OI
 OI
 "}
 (39,1,1) = {"
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-Xb
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-Xb
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+sp
+kX
+Qo
+vI
+vI
+xz
+hS
+hS
+hS
+xz
+Xr
 ZT
 ZT
 ZT
@@ -4410,27 +5253,27 @@ OI
 OI
 "}
 (40,1,1) = {"
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-Xb
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-Xb
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+Xr
+Lj
+IU
+vI
+vI
+CU
+KO
+gx
+Cx
+Km
+Xr
 ZT
 ZT
 ZT
@@ -4512,27 +5355,27 @@ OI
 OI
 "}
 (41,1,1) = {"
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-Xb
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-Xb
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+Xr
+Xr
+Xr
+wa
+wa
+KO
+KO
+xz
+Pe
+xz
+Xr
 ZT
 ZT
 ZT
@@ -4614,27 +5457,27 @@ OI
 OI
 "}
 (42,1,1) = {"
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-Xb
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-Xb
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+Hh
+EB
+Hh
+Ms
+mD
+pd
+pd
+as
+hH
+MV
+Xr
 ZT
 ZT
 ZT
@@ -4716,27 +5559,27 @@ OI
 OI
 "}
 (43,1,1) = {"
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-Xb
-Xb
-Xb
-Xb
-Xb
-Xb
-Xb
-Xb
-Xb
-Xb
-Xb
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+Hh
+Hh
+Hh
+Fv
+Fv
+pd
+pd
+Hh
+Hh
+Hh
+Hh
 ZT
 ZT
 ZT
@@ -4755,9 +5598,9 @@ jT
 jT
 jT
 jT
-LM
-LM
-LM
+jT
+jT
+jT
 jT
 jT
 jT
@@ -4818,27 +5661,27 @@ OI
 OI
 "}
 (44,1,1) = {"
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+Hh
+Hh
+Hh
+FK
+Ms
+HE
+Ms
+Ms
+SC
+Hh
+Hh
 ZT
 ZT
 ZT
@@ -4920,27 +5763,27 @@ OI
 OI
 "}
 (45,1,1) = {"
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+Hh
+Hh
+oP
+Ms
+Ms
+FN
+at
+Ms
+nE
+Hh
+Hh
 ZT
 ZT
 ZT
@@ -5022,27 +5865,27 @@ OI
 OI
 "}
 (46,1,1) = {"
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+Hh
+Hh
+oP
+Ms
+at
+Eb
+at
+at
+vA
+Hh
+Hh
 ZT
 ZT
 ZT
@@ -5124,34 +5967,34 @@ OI
 OI
 "}
 (47,1,1) = {"
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+Hh
+Hh
+uY
+Ms
+at
+Eb
+Ms
+Ms
+lm
+Hh
+Hh
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
 OI
 OI
 OI
@@ -5226,34 +6069,34 @@ OI
 OI
 "}
 (48,1,1) = {"
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+Hh
+Hh
+uY
+Ms
+Ms
+Eb
+Ms
+Ms
+NP
+Hh
+Hh
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
 OI
 OI
 OI
@@ -5328,34 +6171,34 @@ OI
 OI
 "}
 (49,1,1) = {"
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+Hh
+Hh
+gg
+EV
+Oo
+ju
+Oo
+EV
+Pi
+Hh
+Hh
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
 OI
 OI
 OI
@@ -5430,34 +6273,34 @@ OI
 OI
 "}
 (50,1,1) = {"
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+Hh
+Hh
+Hh
+PS
+kN
+wA
+rB
+ez
+Hh
+Hh
+Hh
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
 OI
 OI
 OI
@@ -5532,34 +6375,34 @@ OI
 OI
 "}
 (51,1,1) = {"
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+Hh
+Hh
+Hh
+CE
+CE
+CE
+CE
+CE
+Hh
+Hh
+Hh
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
 OI
 OI
 OI
@@ -5634,34 +6477,34 @@ OI
 OI
 "}
 (52,1,1) = {"
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
 OI
 OI
 OI
@@ -5736,34 +6579,34 @@ OI
 OI
 "}
 (53,1,1) = {"
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
 OI
 OI
 OI
@@ -5838,34 +6681,34 @@ OI
 OI
 "}
 (54,1,1) = {"
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
 OI
 OI
 OI
@@ -5940,34 +6783,34 @@ OI
 OI
 "}
 (55,1,1) = {"
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
 OI
 OI
 OI
@@ -6042,34 +6885,34 @@ OI
 OI
 "}
 (56,1,1) = {"
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
 OI
 OI
 OI
@@ -6144,34 +6987,34 @@ OI
 OI
 "}
 (57,1,1) = {"
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
 OI
 OI
 OI
@@ -6246,34 +7089,34 @@ OI
 OI
 "}
 (58,1,1) = {"
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
 OI
 OI
 OI
@@ -6348,34 +7191,34 @@ OI
 OI
 "}
 (59,1,1) = {"
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
 OI
 OI
 OI
@@ -6450,34 +7293,34 @@ OI
 OI
 "}
 (60,1,1) = {"
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
+ZT
 OI
 OI
 OI

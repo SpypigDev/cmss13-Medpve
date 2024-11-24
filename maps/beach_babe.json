@@ -1,0 +1,8 @@
+{
+    "map_name": "HMS Beach Babe",
+    "map_path": "map_files/HMS_Beach_Babe",
+    "map_file": "HMS_Beach_Babe.dmm",
+    "webmap_url": "Almayer",
+    "traits": [{"Marine Main Ship": true}],
+    "platoon": "/datum/squad/marine/alpha"
+}
