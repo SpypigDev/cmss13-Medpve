@@ -37,6 +37,21 @@
 	flags_armor_protection = 0
 	siemens_coefficient = 0.9
 
+/obj/item/clothing/head/helmet/space/pirate/combat
+	name = "combat pirate hat"
+	desc = "A reinforced Pirate hat, toughened for the seven seas"
+	armor_melee = CLOTHING_ARMOR_MEDIUM
+	armor_bullet = CLOTHING_ARMOR_MEDIUM
+	armor_laser = CLOTHING_ARMOR_MEDIUMLOW
+	armor_energy = CLOTHING_ARMOR_LOW
+	armor_bomb = CLOTHING_ARMOR_LOW
+	armor_bio = CLOTHING_ARMOR_MEDIUMHIGH
+	armor_rad = CLOTHING_ARMOR_LOW
+	armor_internaldamage = CLOTHING_ARMOR_MEDIUM
+	health = 5
+	force = 15
+	flags_armor_protection = BODY_FLAG_HEAD
+
 /obj/item/clothing/suit/space/pirate
 	name = "pirate coat"
 	desc = "Yarr."
