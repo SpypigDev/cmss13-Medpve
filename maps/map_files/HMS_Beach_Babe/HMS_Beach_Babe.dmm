@@ -1,4 +1,14 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"ak" = (
+/obj/structure/bed/chair/comfy{
+	buckling_y = 2;
+	dir = 8;
+	pixel_y = 2
+	},
+/turf/open/floor/carpet/edge{
+	dir = 5
+	},
+/area/golden_arrow/shared_office)
 "aq" = (
 /obj/structure/surface/table/woodentable/fancy,
 /obj/item/folder/green,
@@ -18,6 +28,12 @@
 	},
 /turf/open/floor/kutjevo/tiles,
 /area/golden_arrow/platoonprep)
+"bf" = (
+/obj/structure/bed/chair/comfy{
+	dir = 4
+	},
+/turf/open/floor/wood,
+/area/golden_arrow/shared_office)
 "by" = (
 /obj/structure/platform/kutjevo/smooth,
 /turf/open/gm/river/ocean/deep_ocean,
@@ -34,6 +50,29 @@
 "bF" = (
 /turf/open/floor/strata/faux_wood,
 /area/golden_arrow/platoon_commander_rooms)
+"bJ" = (
+/obj/structure/surface/table/woodentable/fancy,
+/obj/item/reagent_container/food/drinks/bottle/whiskey{
+	pixel_x = -5;
+	pixel_y = 16
+	},
+/obj/item/reagent_container/food/drinks/bottle/whiskey{
+	desc = "A premium double-malt whiskey, this bottle was gifted to the Captain of the USS Almayer after the completion of the ship's space trials by the VADM. himself.";
+	pixel_x = 3;
+	pixel_y = 16
+	},
+/obj/item/reagent_container/food/drinks/bottle/whiskey{
+	pixel_x = 11;
+	pixel_y = 16
+	},
+/obj/item/tool/lighter/zippo/gold{
+	pixel_y = 3;
+	layer = 3.05
+	},
+/turf/open/floor/carpet/edge{
+	dir = 1
+	},
+/area/golden_arrow/shared_office)
 "cd" = (
 /obj/item/tool/kitchen/tray{
 	pixel_x = -3;
@@ -89,6 +128,11 @@
 	id = "ship1"
 	},
 /turf/open/floor/kutjevo/plate,
+/area/golden_arrow/shared_office)
+"di" = (
+/turf/open/floor/carpet/edge{
+	dir = 6
+	},
 /area/golden_arrow/shared_office)
 "ej" = (
 /obj/structure/machinery/cryopod/right,
@@ -208,6 +252,12 @@
 "gC" = (
 /turf/open/gm/river/ocean/deep_ocean,
 /area/varadero/exterior/farocean)
+"gS" = (
+/obj/structure/machinery/light/double{
+	light_color = "#ffe6da"
+	},
+/turf/open/floor/wood,
+/area/golden_arrow/shared_office)
 "hk" = (
 /obj/structure/surface/table/woodentable/fancy,
 /obj/item/storage/fancy/cigar{
@@ -256,6 +306,18 @@
 	},
 /turf/open/floor/kutjevo/tiles,
 /area/golden_arrow/cryo_cells)
+"hF" = (
+/obj/structure/surface/table/reinforced/almayer_B,
+/obj/item/storage/box/uscm_mre,
+/obj/item/storage/box/uscm_mre,
+/obj/item/book/manual/chef_recipes,
+/obj/structure/machinery/power/apc/almayer{
+	dir = 4
+	},
+/turf/open/floor/prison{
+	icon_state = "kitchen"
+	},
+/area/golden_arrow/shared_office)
 "hH" = (
 /obj/structure/machinery/light/double{
 	light_color = "#ffe6da";
@@ -301,12 +363,22 @@
 	},
 /turf/open/floor/kutjevo/multi_tiles/north,
 /area/golden_arrow/cryo_cells)
+"iQ" = (
+/turf/open/floor/prison/chapel_carpet,
+/area/golden_arrow/shared_office)
 "iU" = (
 /obj/structure/sign/catclock{
 	pixel_y = 28
 	},
 /turf/open/floor/kutjevo/plate,
 /area/golden_arrow/cryo_cells)
+"jg" = (
+/obj/structure/flora/pottedplant{
+	pixel_y = 10
+	},
+/obj/structure/surface/table/woodentable/fancy,
+/turf/open/floor/wood,
+/area/golden_arrow/shared_office)
 "ju" = (
 /turf/open/floor/kutjevo/multi_tiles/north,
 /area/golden_arrow/platoonprep)
@@ -465,6 +537,14 @@
 /obj/structure/bed/chair/comfy/black,
 /turf/open/floor/carpet,
 /area/golden_arrow/platoon_commander_rooms)
+"nk" = (
+/obj/structure/surface/table/gamblingtable,
+/obj/item/spacecash/c1000{
+	name = "1000 BookerBucks";
+	desc = "Ten 7th battalion minted hundred-booker bucks. Every single damn one of them has Booker Fucking Peralta on them. The council of Bookers sit impatiently, as if each one thought they alone belonged to you. This regiment of angry Bookers have all since learned about your relations with the other Battle-Group-Buddies, and they want answers."
+	},
+/turf/open/floor/prison/chapel_carpet,
+/area/golden_arrow/shared_office)
 "nl" = (
 /obj/item/trash/plate{
 	pixel_y = 13;
@@ -524,6 +604,11 @@
 	},
 /turf/open/floor/kutjevo/plate,
 /area/golden_arrow/platoonprep)
+"nF" = (
+/obj/structure/surface/table/gamblingtable,
+/obj/item/storage/fancy/candle_box,
+/turf/open/floor/prison/chapel_carpet,
+/area/golden_arrow/shared_office)
 "nM" = (
 /obj/structure/surface/table/woodentable/fancy,
 /obj/structure/machinery/computer/cameras/almayer,
@@ -550,6 +635,17 @@
 	},
 /turf/open/floor/kutjevo/tiles,
 /area/golden_arrow/cryo_cells)
+"oH" = (
+/obj/structure/surface/table/gamblingtable,
+/obj/item/spacecash/c1{
+	name = "1 BookerBuck";
+	desc = "A single US Government minted one dollar bill. It has a picture of George Washington printed on it. Makes most people of English origin cry, but isn't worth very much. Could probably get you half a company in some fleets. "
+	},
+/obj/item/device/flashlight/lamp/green{
+	on = 1
+	},
+/turf/open/floor/prison/chapel_carpet,
+/area/golden_arrow/shared_office)
 "oP" = (
 /obj/structure/gun_rack/m41/unloaded,
 /turf/open/floor/kutjevo/tiles,
@@ -693,6 +789,27 @@
 "tt" = (
 /turf/open/floor/kutjevo/plate,
 /area/almayer/command/airoom)
+"tw" = (
+/obj/structure/bed/chair/comfy{
+	dir = 4
+	},
+/turf/open/floor/carpet,
+/area/golden_arrow/shared_office)
+"tB" = (
+/turf/open/floor/prison{
+	icon_state = "kitchen"
+	},
+/area/golden_arrow/shared_office)
+"tC" = (
+/obj/structure/bed/chair/comfy{
+	dir = 4
+	},
+/turf/open/floor/prison/chapel_carpet,
+/area/golden_arrow/shared_office)
+"tM" = (
+/obj/structure/barricade/handrail/kutjevo,
+/turf/open/floor/prison/chapel_carpet,
+/area/golden_arrow/shared_office)
 "tY" = (
 /obj/structure/machinery/cm_vending/sorted/cargo_guns/squad/forecon,
 /turf/open/floor/kutjevo/tiles,
@@ -818,6 +935,13 @@
 	},
 /turf/open/floor/kutjevo/multi_tiles/southeast,
 /area/almayer/command/airoom)
+"xU" = (
+/obj/structure/surface/table/woodentable/fancy,
+/obj/item/reagent_container/food/snacks/pastatomato{
+	pixel_y = 3
+	},
+/turf/open/floor/carpet,
+/area/golden_arrow/shared_office)
 "ye" = (
 /obj/structure/pipes/standard/simple/hidden/supply{
 	dir = 6
@@ -830,7 +954,8 @@
 	id = "CO-Office";
 	dir = 4
 	},
-/turf/closed/wall/kutjevo/colony/reinforced/hull,
+/obj/structure/window/framed/kutjevo/reinforced,
+/turf/open/floor/kutjevo/plate,
 /area/golden_arrow/platoon_commander_rooms)
 "yo" = (
 /obj/structure/largecrate/black_market/secured_wildlife{
@@ -854,6 +979,13 @@
 	dir = 1
 	},
 /area/almayer/command/airoom)
+"yH" = (
+/obj/structure/machinery/light/double{
+	light_color = "#ffe6da";
+	dir = 4
+	},
+/turf/open/floor/kutjevo/tiles,
+/area/golden_arrow/shared_office)
 "zg" = (
 /obj/structure/machinery/light/double{
 	light_color = "#ffe6da";
@@ -902,6 +1034,32 @@
 "BH" = (
 /obj/structure/bed/chair/comfy,
 /turf/open/floor/carpet,
+/area/golden_arrow/shared_office)
+"Cf" = (
+/obj/structure/barricade/handrail/kutjevo,
+/obj/structure/machinery/light/double{
+	light_color = "#ffe6da";
+	dir = 8
+	},
+/turf/open/floor/prison/chapel_carpet,
+/area/golden_arrow/shared_office)
+"Cs" = (
+/obj/structure/surface/table/woodentable/fancy,
+/obj/item/reagent_container/food/snacks/pastatomato{
+	pixel_y = 3
+	},
+/obj/item/device/flashlight/lamp/candelabra{
+	pixel_y = 18;
+	pixel_x = -5;
+	randpixel = 0
+	},
+/obj/item/reagent_container/food/drinks/bottle/wine{
+	pixel_y = 19;
+	pixel_x = 7;
+	base_pixel_x = 2;
+	randpixel = 0
+	},
+/turf/open/floor/prison/chapel_carpet,
 /area/golden_arrow/shared_office)
 "Cx" = (
 /obj/structure/window/framed/kutjevo/reinforced,
@@ -970,6 +1128,17 @@
 	},
 /turf/open/space,
 /area/space)
+"CM" = (
+/obj/structure/closet/secure_closet/freezer/meat,
+/obj/item/reagent_container/food/snacks/carpmeat,
+/obj/item/reagent_container/food/snacks/carpmeat,
+/obj/item/reagent_container/food/snacks/carpmeat,
+/obj/item/reagent_container/food/snacks/carpmeat,
+/obj/item/reagent_container/food/snacks/carpmeat,
+/turf/open/floor/prison{
+	icon_state = "kitchen"
+	},
+/area/golden_arrow/shared_office)
 "CU" = (
 /obj/structure/machinery/light/double{
 	light_color = "#ffe6da"
@@ -985,6 +1154,17 @@
 /obj/structure/pipes/standard/simple/hidden/supply,
 /turf/open/floor/kutjevo/tiles,
 /area/golden_arrow/cryo_cells)
+"Dn" = (
+/obj/structure/surface/table/reinforced/almayer_B,
+/obj/structure/machinery/chem_dispenser/soda,
+/obj/structure/machinery/light/double{
+	light_color = "#ffe6da";
+	dir = 1
+	},
+/turf/open/floor/prison{
+	icon_state = "kitchen"
+	},
+/area/golden_arrow/shared_office)
 "Dv" = (
 /obj/structure/surface/table/woodentable/fancy,
 /obj/structure/machinery/readybutton,
@@ -993,6 +1173,13 @@
 	},
 /turf/open/floor/kutjevo/plate,
 /area/almayer/command/airoom)
+"DA" = (
+/obj/structure/surface/table/woodentable/fancy,
+/obj/item/device/flashlight/lamp/green{
+	on = 1
+	},
+/turf/open/floor/carpet,
+/area/golden_arrow/shared_office)
 "DB" = (
 /obj/structure/machinery/door/airlock/multi_tile/almayer/almayer{
 	dir = 2
@@ -1052,6 +1239,9 @@
 "EJ" = (
 /turf/open/floor/kutjevo/multi_tiles/southeast,
 /area/almayer/command/airoom)
+"EL" = (
+/turf/open/floor/carpet/edge,
+/area/golden_arrow/shared_office)
 "EV" = (
 /obj/effect/decal/cleanable/dirt{
 	layer = 2.52
@@ -1069,6 +1259,14 @@
 /obj/structure/machinery/door/airlock/almayer/generic/glass,
 /turf/open/floor/kutjevo/tan/multi_tiles/east,
 /area/golden_arrow/cryo_cells)
+"FA" = (
+/obj/structure/surface/table/woodentable/fancy,
+/obj/item/device/flashlight/lamp/green{
+	on = 1;
+	light_color = "#ffe6da"
+	},
+/turf/open/floor/wood,
+/area/golden_arrow/shared_office)
 "FI" = (
 /obj/structure/bed/chair/comfy{
 	dir = 8
@@ -1115,6 +1313,16 @@
 	},
 /turf/open/floor/kutjevo/plate,
 /area/almayer/command/airoom)
+"Hd" = (
+/obj/structure/bed/chair/comfy{
+	buckling_y = 2;
+	dir = 8;
+	pixel_y = 2
+	},
+/turf/open/floor/carpet/edge{
+	dir = 4
+	},
+/area/golden_arrow/shared_office)
 "Hg" = (
 /turf/open/floor/kutjevo/multi_tiles/north,
 /area/golden_arrow/shared_office)
@@ -1127,12 +1335,47 @@
 	},
 /turf/open/floor/kutjevo/tiles,
 /area/almayer/command/airoom)
+"Hv" = (
+/obj/structure/bed/chair/comfy{
+	dir = 4
+	},
+/turf/open/floor/carpet/edge{
+	dir = 1
+	},
+/area/golden_arrow/shared_office)
+"Hx" = (
+/obj/structure/machinery/vending/coffee,
+/turf/open/floor/wood,
+/area/golden_arrow/shared_office)
 "HE" = (
 /obj/structure/machinery/power/apc/upgraded/power{
 	dir = 8
 	},
 /turf/open/floor/kutjevo/multi_tiles/north,
 /area/golden_arrow/platoonprep)
+"HM" = (
+/obj/structure/surface/table/woodentable/fancy,
+/obj/item/storage/fancy/cigar{
+	pixel_y = 2;
+	layer = 3.04;
+	pixel_x = -2
+	},
+/obj/item/reagent_container/food/drinks/bottle/sake{
+	pixel_x = -11;
+	pixel_y = 16
+	},
+/obj/item/reagent_container/food/drinks/bottle/sake{
+	pixel_y = 16;
+	pixel_x = -2
+	},
+/obj/item/reagent_container/food/drinks/bottle/sake{
+	pixel_x = 7;
+	pixel_y = 16
+	},
+/turf/open/floor/carpet/edge{
+	dir = 1
+	},
+/area/golden_arrow/shared_office)
 "It" = (
 /obj/item/reagent_container/food/condiment/saltshaker{
 	pixel_x = -7;
@@ -1207,6 +1450,12 @@
 "KO" = (
 /turf/closed/wall/kutjevo/colony/reinforced,
 /area/golden_arrow/cryo_cells)
+"KT" = (
+/obj/structure/machinery/vending/dinnerware,
+/turf/open/floor/prison{
+	icon_state = "kitchen"
+	},
+/area/golden_arrow/shared_office)
 "Lj" = (
 /obj/structure/bed/chair/comfy{
 	dir = 8
@@ -1231,6 +1480,10 @@
 /obj/item/book/manual/hydroponics_beekeeping,
 /turf/open/floor/kutjevo/plate,
 /area/golden_arrow/platoon_commander_rooms)
+"Lo" = (
+/obj/structure/machinery/vending/cola,
+/turf/open/floor/wood,
+/area/golden_arrow/shared_office)
 "Lt" = (
 /obj/item/storage/fancy/cigarettes/lucky_strikes{
 	pixel_x = -7;
@@ -1246,6 +1499,22 @@
 /obj/structure/surface/table/woodentable/poor,
 /turf/open/floor/strata/faux_wood,
 /area/golden_arrow/cryo_cells)
+"LA" = (
+/obj/structure/surface/table/reinforced/almayer_B,
+/obj/item/device/flashlight/lamp/green{
+	pixel_x = 2;
+	pixel_y = 2;
+	on = 1
+	},
+/obj/item/reagent_container/food/drinks/bottle/rum{
+	pixel_y = -2;
+	pixel_x = -6;
+	randpixel = 0
+	},
+/turf/open/floor/prison{
+	icon_state = "kitchen"
+	},
+/area/golden_arrow/shared_office)
 "LJ" = (
 /obj/structure/machinery/light/double{
 	light_color = "#ffe6da";
@@ -1367,6 +1636,9 @@
 	},
 /turf/open/floor/kutjevo/plate,
 /area/golden_arrow/platoonprep)
+"Pj" = (
+/turf/open/floor/wood,
+/area/golden_arrow/shared_office)
 "Po" = (
 /obj/structure/surface/table/woodentable/fancy,
 /obj/item/paper_bin/uscm{
@@ -1470,8 +1742,7 @@
 	pixel_y = 4;
 	light_range = 8;
 	light_on = 1;
-	light_color = "#ffe6da";
-	on = 1
+	light_color = "#ffe6da"
 	},
 /obj/item/tool/lighter/zippo/gold,
 /turf/open/floor/wood/ship,
@@ -1490,6 +1761,22 @@
 "Qe" = (
 /turf/closed/wall/almayer/outer,
 /area/space)
+"Qm" = (
+/obj/structure/surface/table/reinforced/almayer_B,
+/obj/structure/sink/kitchen{
+	dir = 8;
+	pixel_y = 6;
+	pixel_x = 14
+	},
+/obj/item/reagent_container/food/snacks/cheeseburger{
+	pixel_x = -5;
+	pixel_y = 2;
+	randpixel = 0
+	},
+/turf/open/floor/prison{
+	icon_state = "kitchen"
+	},
+/area/golden_arrow/shared_office)
 "Qo" = (
 /obj/item/reagent_container/food/drinks/cans/beer{
 	pixel_y = 3;
@@ -1528,6 +1815,9 @@
 	dir = 8
 	},
 /turf/open/floor/carpet,
+/area/golden_arrow/shared_office)
+"RI" = (
+/turf/open/floor/plating/plating_catwalk,
 /area/golden_arrow/shared_office)
 "RJ" = (
 /obj/structure/pipes/standard/simple/hidden/supply{
@@ -1697,6 +1987,18 @@
 	},
 /turf/open/floor/strata/faux_wood,
 /area/golden_arrow/platoon_commander_rooms)
+"Vh" = (
+/obj/structure/machinery/light/double{
+	light_color = "#ffe6da";
+	dir = 8
+	},
+/turf/open/floor/prison/chapel_carpet,
+/area/golden_arrow/shared_office)
+"Vq" = (
+/obj/structure/surface/table/gamblingtable,
+/obj/item/toy/dice,
+/turf/open/floor/prison/chapel_carpet,
+/area/golden_arrow/shared_office)
 "Vv" = (
 /obj/structure/surface/table/woodentable/fancy,
 /obj/structure/machinery/computer/station_alert{
@@ -1712,6 +2014,28 @@
 	},
 /turf/open/floor/kutjevo/tan/multi_tiles,
 /area/golden_arrow/cryo_cells)
+"VW" = (
+/obj/structure/surface/table/gamblingtable,
+/obj/item/toy/deck,
+/turf/open/floor/prison/chapel_carpet,
+/area/golden_arrow/shared_office)
+"WA" = (
+/obj/structure/closet/secure_closet/freezer/fridge,
+/obj/item/reagent_container/food/snacks/tofukabob,
+/obj/item/reagent_container/food/snacks/tofubreadslice,
+/obj/item/reagent_container/food/snacks/tofubreadslice,
+/turf/open/floor/prison{
+	icon_state = "kitchen"
+	},
+/area/golden_arrow/shared_office)
+"WC" = (
+/obj/structure/bed/chair/comfy{
+	buckling_y = 2;
+	dir = 8;
+	pixel_y = 2
+	},
+/turf/open/floor/prison/chapel_carpet,
+/area/golden_arrow/shared_office)
 "WE" = (
 /obj/structure/prop/invuln/lattice_prop,
 /turf/open/gm/river/ocean/deep_ocean,
@@ -1732,6 +2056,13 @@
 /obj/structure/surface/table/reinforced,
 /turf/open/floor/kutjevo/tan/multi_tiles/east,
 /area/golden_arrow/cryo_cells)
+"Xa" = (
+/obj/structure/surface/table/reinforced/almayer_B,
+/obj/structure/machinery/chem_dispenser/soda/beer,
+/turf/open/floor/prison{
+	icon_state = "kitchen"
+	},
+/area/golden_arrow/shared_office)
 "Xb" = (
 /turf/closed/wall/kutjevo/colony/reinforced/hull,
 /area/space)
@@ -1845,6 +2176,22 @@
 	dir = 1
 	},
 /area/almayer/command/airoom)
+"ZK" = (
+/obj/structure/surface/table/reinforced/almayer_B,
+/obj/structure/flora/pottedplant{
+	icon_state = "pottedplant_18";
+	pixel_y = 6;
+	pixel_x = -6
+	},
+/obj/item/reagent_container/food/drinks/bottle/vodka{
+	pixel_x = 6;
+	pixel_y = 7;
+	randpixel = 0
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/shared_office)
 "ZL" = (
 /turf/open/floor/kutjevo/multi_tiles/southwest,
 /area/almayer/command/airoom)
@@ -3297,10 +3644,10 @@ gC
 gC
 rM
 rM
-rM
-rM
-rM
-rM
+py
+py
+py
+py
 rM
 rM
 rM
@@ -3410,16 +3757,16 @@ gC
 gC
 gC
 gC
-rM
-UE
-UE
-UE
-UE
-UE
-UE
-UE
-UE
-UE
+py
+Vh
+tC
+tC
+tC
+tC
+Cf
+Hv
+tw
+EL
 rM
 gC
 gC
@@ -3525,17 +3872,17 @@ gC
 gC
 gC
 gC
-rM
-UE
-UE
-UE
-UE
-UE
-UE
-UE
-UE
-UE
-rM
+py
+iQ
+oH
+Vq
+nk
+Vq
+tM
+bJ
+DA
+EL
+py
 gC
 gC
 gC
@@ -3640,17 +3987,17 @@ gC
 gC
 gC
 gC
-rM
-UE
-UE
-UE
-UE
-UE
-UE
-UE
-UE
-UE
-rM
+py
+iQ
+nF
+VW
+Vq
+VW
+tM
+HM
+xU
+EL
+py
 gC
 gC
 gC
@@ -3755,16 +4102,16 @@ gC
 gC
 gC
 gC
-rM
-UE
-UE
-UE
-UE
-UE
-UE
-UE
-UE
-UE
+py
+iQ
+WC
+WC
+WC
+WC
+tM
+ak
+Hd
+di
 rM
 gC
 gC
@@ -3871,15 +4218,15 @@ gC
 gC
 gC
 rM
-UE
-UE
-UE
-UE
-UE
-UE
-UE
-UE
-UE
+Hx
+Pj
+Pj
+Pj
+Pj
+FA
+iQ
+Pj
+gS
 rM
 gC
 gC
@@ -3986,16 +4333,16 @@ gC
 gC
 gC
 rM
-UE
-UE
-UE
-UE
-UE
-UE
-UE
-UE
-UE
-rM
+Lo
+bf
+bf
+bf
+Pj
+iQ
+tC
+iQ
+Pj
+py
 gC
 gC
 gC
@@ -4101,16 +4448,16 @@ gC
 gC
 gC
 rM
-UE
-UE
-UE
-UE
-UE
-UE
-UE
-UE
-UE
-rM
+Dn
+Qm
+ZK
+LA
+Pj
+Pj
+Cs
+iQ
+iQ
+py
 gC
 gC
 gC
@@ -4216,16 +4563,16 @@ gC
 gC
 gC
 rM
-UE
-UE
-UE
-UE
-UE
-UE
-UE
-UE
-UE
-rM
+Xa
+tB
+tB
+RI
+Pj
+iQ
+WC
+iQ
+Pj
+py
 gC
 gC
 gC
@@ -4331,15 +4678,15 @@ gC
 gC
 gC
 rM
-UE
-UE
-UE
-UE
-UE
-UE
-UE
-UE
-UE
+KT
+WA
+CM
+hF
+Pj
+jg
+iQ
+Pj
+Pj
 rM
 gC
 gC
@@ -4913,7 +5260,7 @@ MV
 Pf
 rM
 Hg
-fl
+yH
 Hg
 rM
 gC
