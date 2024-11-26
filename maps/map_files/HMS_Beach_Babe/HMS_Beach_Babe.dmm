@@ -1,7 +1,9 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "as" = (
 /obj/structure/ladder{
-	icon_state = "ladder10"
+	icon_state = "ladder10";
+	id = "lv01";
+	up = "lv11"
 	},
 /turf/open/floor/kutjevo/plate,
 /area/golden_arrow/cryo_cells)
@@ -20,6 +22,9 @@
 	dir = 1
 	},
 /area/golden_arrow/cryo_cells)
+"bF" = (
+/turf/open/floor/strata/faux_wood,
+/area/golden_arrow/platoon_commander_rooms)
 "cd" = (
 /obj/item/tool/kitchen/tray{
 	pixel_x = -3;
@@ -61,10 +66,22 @@
 	},
 /turf/open/floor/kutjevo/tiles,
 /area/golden_arrow/cryo_cells)
+"cG" = (
+/obj/structure/surface/table/woodentable/fancy,
+/obj/structure/machinery/computer/emails{
+	dir = 4;
+	pixel_y = 2
+	},
+/turf/open/floor/carpet,
+/area/golden_arrow/platoon_commander_rooms)
 "ej" = (
 /obj/structure/machinery/cryopod/right,
 /turf/open/floor/kutjevo/plate,
 /area/golden_arrow/cryo_cells)
+"eo" = (
+/obj/item/storage/box/guncase/m44,
+/turf/open/space/basic,
+/area/space)
 "ez" = (
 /obj/item/storage/box/guncase/flamer/fuel{
 	pixel_y = 8
@@ -145,6 +162,13 @@
 	},
 /turf/open/floor/strata/faux_wood,
 /area/golden_arrow/cryo_cells)
+"gu" = (
+/obj/structure/machinery/door/airlock/almayer/secure/reinforced{
+	req_access = null;
+	req_access_txt = "31"
+	},
+/turf/open/floor/kutjevo/plate,
+/area/golden_arrow/platoon_commander_rooms)
 "gx" = (
 /obj/structure/machinery/door/airlock/almayer/secure/glass{
 	dir = 8;
@@ -152,6 +176,9 @@
 	},
 /turf/open/floor/kutjevo/tiles,
 /area/golden_arrow/cryo_cells)
+"gC" = (
+/turf/open/gm/river/ocean/deep_ocean,
+/area/varadero/exterior/farocean)
 "hw" = (
 /obj/structure/pipes/standard/simple/hidden/supply{
 	dir = 8
@@ -276,6 +303,9 @@
 	},
 /turf/open/floor/kutjevo/plate,
 /area/golden_arrow/platoonprep)
+"kQ" = (
+/turf/closed/wall/kutjevo/colony/reinforced/hull,
+/area/varadero/exterior/farocean)
 "kU" = (
 /obj/structure/stairs/perspective/kutjevo{
 	dir = 4
@@ -352,6 +382,10 @@
 	},
 /turf/open/floor/kutjevo/tiles,
 /area/golden_arrow/platoonprep)
+"mV" = (
+/obj/structure/bed/chair/comfy/black,
+/turf/open/floor/carpet,
+/area/golden_arrow/platoon_commander_rooms)
 "nl" = (
 /obj/item/trash/plate{
 	pixel_y = 13;
@@ -382,11 +416,25 @@
 /obj/effect/decal/cleanable/dirt{
 	layer = 2.52
 	},
-/obj/item/weapon/gun/rifle/m4ra/pve{
-	pixel_y = 9
-	},
-/obj/item/storage/box/guncase/shotgunpump,
 /obj/structure/surface/table/woodentable/poor,
+/obj/item/storage/box/guncase/r4t_scout,
+/obj/item/storage/box/guncase/r4t_scout,
+/obj/item/storage/box/guncase/r4t_scout,
+/obj/item/storage/box/guncase/m44{
+	pixel_y = 6
+	},
+/obj/item/storage/box/guncase/m44{
+	pixel_y = 6
+	},
+/obj/item/storage/box/guncase/m44{
+	pixel_y = 6
+	},
+/obj/item/storage/box/guncase/m44{
+	pixel_y = 6
+	},
+/obj/item/storage/box/guncase/m44{
+	pixel_y = 6
+	},
 /turf/open/floor/kutjevo/plate,
 /area/golden_arrow/platoonprep)
 "nM" = (
@@ -394,6 +442,14 @@
 /obj/structure/machinery/computer/cameras/almayer,
 /turf/open/floor/kutjevo/plate,
 /area/almayer/command/airoom)
+"nO" = (
+/obj/structure/surface/table/woodentable/fancy,
+/obj/structure/flora/pottedplant{
+	icon_state = "pottedplant_18";
+	pixel_y = 12
+	},
+/turf/open/floor/carpet,
+/area/golden_arrow/platoon_commander_rooms)
 "nS" = (
 /obj/structure/barricade/handrail/kutjevo{
 	dir = 4
@@ -401,6 +457,10 @@
 /obj/structure/machinery/prop/almayer/CICmap,
 /turf/open/floor/kutjevo/plate,
 /area/almayer/command/airoom)
+"nZ" = (
+/obj/item/storage/box/guncase/r4t_scout,
+/turf/open/space/basic,
+/area/space)
 "ow" = (
 /obj/structure/pipes/standard/manifold/hidden/supply{
 	dir = 4
@@ -441,6 +501,17 @@
 /obj/structure/surface/table/woodentable/poor,
 /turf/open/floor/strata/faux_wood,
 /area/golden_arrow/cryo_cells)
+"pr" = (
+/obj/structure/surface/table/woodentable/fancy,
+/obj/structure/phone_base/rotary{
+	name = "Commanding Officer's Office";
+	phone_category = "Offices";
+	phone_id = "Commanding Officer's Office";
+	pixel_x = 16;
+	pixel_y = 8
+	},
+/turf/open/floor/carpet,
+/area/golden_arrow/platoon_commander_rooms)
 "pB" = (
 /obj/structure/machinery/floodlight/landing/floor{
 	name = "daylight";
@@ -472,6 +543,9 @@
 	},
 /turf/open/floor/strata/faux_wood,
 /area/golden_arrow/cryo_cells)
+"qw" = (
+/turf/open/floor/carpet,
+/area/golden_arrow/platoon_commander_rooms)
 "rB" = (
 /obj/effect/decal/cleanable/dirt{
 	layer = 2.52
@@ -491,6 +565,19 @@
 /obj/structure/surface/table/woodentable/poor,
 /turf/open/floor/kutjevo/plate,
 /area/golden_arrow/platoonprep)
+"rD" = (
+/obj/structure/machinery/light/double{
+	light_color = "#ffe6da";
+	dir = 4
+	},
+/turf/open/floor/strata/faux_wood,
+/area/golden_arrow/platoon_commander_rooms)
+"rO" = (
+/obj/structure/machinery/light/double{
+	light_color = "#ffe6da"
+	},
+/turf/open/floor/strata/faux_wood,
+/area/golden_arrow/platoon_commander_rooms)
 "sp" = (
 /obj/structure/window/framed/kutjevo/reinforced/hull,
 /turf/open/floor/kutjevo/tiles,
@@ -510,11 +597,8 @@
 /turf/open/floor/kutjevo/multi_tiles/west,
 /area/almayer/command/airoom)
 "uk" = (
-/obj/structure/machinery/cm_vending/sorted/marine_food{
-	density = 0;
-	pixel_y = -32
-	},
 /obj/structure/pipes/vents/pump,
+/obj/structure/machinery/cm_vending/sorted/marine_food/slop_machine,
 /turf/open/floor/kutjevo/multi_tiles/north,
 /area/golden_arrow/cryo_cells)
 "uY" = (
@@ -598,6 +682,17 @@
 /obj/structure/window/framed/kutjevo/reinforced/hull,
 /turf/open/floor/kutjevo/tiles,
 /area/almayer/command/airoom)
+"xl" = (
+/obj/structure/surface/table/woodentable/fancy,
+/obj/structure/flora/pottedplant{
+	icon_state = "pottedplant_10";
+	pixel_y = 14;
+	light_range = 1.5;
+	light_color = "#f93afc";
+	light_on = 1
+	},
+/turf/open/floor/kutjevo/plate,
+/area/golden_arrow/platoon_commander_rooms)
 "xz" = (
 /turf/open/floor/kutjevo/multi_tiles/north,
 /area/golden_arrow/cryo_cells)
@@ -649,6 +744,9 @@
 	dir = 1
 	},
 /area/almayer/command/airoom)
+"zh" = (
+/turf/closed/wall/kutjevo/colony/reinforced/hull,
+/area/golden_arrow/platoon_commander_rooms)
 "Ac" = (
 /obj/structure/closet/secure_closet/marine_personal{
 	pixel_x = -7
@@ -723,6 +821,15 @@
 	dir = 1
 	},
 /area/almayer/command/airoom)
+"CC" = (
+/obj/structure/machinery/light/double{
+	light_color = "#ffe6da"
+	},
+/obj/structure/machinery/power/apc/upgraded/power{
+	dir = 4
+	},
+/turf/open/floor/strata/faux_wood,
+/area/golden_arrow/platoon_commander_rooms)
 "CE" = (
 /obj/structure/window/framed/kutjevo/reinforced/hull,
 /turf/open/floor/kutjevo/tiles,
@@ -769,6 +876,31 @@
 	},
 /turf/open/floor/kutjevo/tiles,
 /area/golden_arrow/platoonprep)
+"Ek" = (
+/obj/structure/bookcase{
+	icon_state = "book-5";
+	name = "medical manuals bookcase";
+	opacity = 0
+	},
+/obj/item/book/manual/surgery,
+/obj/item/book/manual/medical_diagnostics_manual,
+/turf/open/floor/kutjevo/plate,
+/area/golden_arrow/platoon_commander_rooms)
+"Em" = (
+/obj/structure/surface/table/woodentable/fancy,
+/obj/item/folder/black{
+	pixel_y = 8
+	},
+/obj/item/folder/yellow,
+/obj/item/device/flashlight/lamp/green{
+	pixel_x = -16;
+	pixel_y = 8;
+	light_range = 8;
+	light_on = 1;
+	light_color = "#ffe6da"
+	},
+/turf/open/floor/carpet,
+/area/golden_arrow/platoon_commander_rooms)
 "Ep" = (
 /turf/open/floor/kutjevo/plate,
 /area/space)
@@ -881,6 +1013,16 @@
 	},
 /turf/open/floor/kutjevo/multi_tiles/east,
 /area/golden_arrow/cryo_cells)
+"Kf" = (
+/obj/structure/surface/table/woodentable/fancy,
+/obj/item/prop/tableflag/uscm{
+	pixel_x = -5
+	},
+/obj/item/prop/tableflag/uscm2{
+	pixel_x = 5
+	},
+/turf/open/floor/carpet,
+/area/golden_arrow/platoon_commander_rooms)
 "Km" = (
 /obj/structure/machinery/door/airlock/almayer/secure/glass{
 	dir = 8;
@@ -888,6 +1030,13 @@
 	},
 /turf/open/floor/kutjevo/multi_tiles/north,
 /area/golden_arrow/cryo_cells)
+"Kn" = (
+/obj/structure/machinery/light/double{
+	light_color = "#ffe6da";
+	dir = 4
+	},
+/turf/open/floor/kutjevo/plate,
+/area/golden_arrow/platoon_commander_rooms)
 "Ky" = (
 /obj/structure/closet/secure_closet/marine_personal{
 	pixel_x = -7
@@ -897,6 +1046,14 @@
 	},
 /turf/open/floor/kutjevo/multi_tiles/east,
 /area/golden_arrow/cryo_cells)
+"KA" = (
+/obj/structure/window/framed/kutjevo/reinforced/hull,
+/obj/structure/machinery/door/poddoor/almayer/open{
+	icon_state = "almayer_pdoorc0";
+	id = "captainsquarters"
+	},
+/turf/open/floor/kutjevo/tiles,
+/area/golden_arrow/platoon_commander_rooms)
 "KO" = (
 /turf/closed/wall/kutjevo/colony/reinforced,
 /area/golden_arrow/cryo_cells)
@@ -925,6 +1082,13 @@
 /obj/structure/surface/table/woodentable/poor,
 /turf/open/floor/strata/faux_wood,
 /area/golden_arrow/cryo_cells)
+"LJ" = (
+/obj/structure/machinery/light/double{
+	light_color = "#ffe6da";
+	dir = 8
+	},
+/turf/open/floor/strata/faux_wood,
+/area/golden_arrow/platoon_commander_rooms)
 "LM" = (
 /turf/open/floor/kutjevo/tiles,
 /area/almayer/command/airoom)
@@ -933,7 +1097,8 @@
 /area/golden_arrow/platoonprep)
 "MV" = (
 /obj/structure/ladder{
-	icon_state = "ladder01"
+	icon_state = "ladder01";
+	id = "lv0down"
 	},
 /turf/open/floor/kutjevo/plate,
 /area/golden_arrow/cryo_cells)
@@ -955,10 +1120,7 @@
 	},
 /area/almayer/command/airoom)
 "ND" = (
-/obj/structure/machinery/cm_vending/sorted/marine_food{
-	density = 0;
-	pixel_y = -32
-	},
+/obj/structure/machinery/cm_vending/sorted/marine_food/slop_machine,
 /turf/open/floor/kutjevo/multi_tiles/north,
 /area/golden_arrow/cryo_cells)
 "NP" = (
@@ -972,6 +1134,27 @@
 	},
 /turf/open/floor/kutjevo/plate,
 /area/golden_arrow/platoonprep)
+"NW" = (
+/obj/structure/machinery/photocopier,
+/turf/open/floor/kutjevo/plate,
+/area/golden_arrow/platoon_commander_rooms)
+"NZ" = (
+/obj/structure/bed/chair/comfy{
+	dir = 1
+	},
+/turf/open/floor/carpet,
+/area/golden_arrow/platoon_commander_rooms)
+"Oj" = (
+/obj/structure/surface/table/woodentable/fancy,
+/obj/structure/window/reinforced/toughened{
+	dir = 8;
+	indestructible = 1
+	},
+/obj/structure/window/reinforced/toughened,
+/obj/structure/blocker/invisible_wall,
+/obj/item/clothing/head/beret/marine/commander/councilchief,
+/turf/open/floor/kutjevo/plate,
+/area/golden_arrow/platoon_commander_rooms)
 "Ok" = (
 /obj/structure/surface/table/woodentable/fancy,
 /obj/item/device/flashlight/lamp/green,
@@ -1048,6 +1231,29 @@
 /obj/effect/decal/cleanable/cobweb2/dynamic,
 /turf/open/floor/kutjevo/tan/multi_tiles/east,
 /area/golden_arrow/cryo_cells)
+"PY" = (
+/obj/structure/surface/table/woodentable/fancy,
+/obj/item/paper_bin/uscm{
+	pixel_x = -17;
+	pixel_y = 7
+	},
+/obj/item/tool/pen/clicky{
+	pixel_x = -13;
+	pixel_y = -1
+	},
+/obj/item/tool/pen/clicky{
+	pixel_x = -13;
+	pixel_y = 5
+	},
+/obj/item/ashtray/bronze{
+	pixel_x = 12;
+	pixel_y = 1
+	},
+/obj/structure/machinery/door_control/brbutton/alt{
+	id = "captainsquarters"
+	},
+/turf/open/floor/carpet,
+/area/golden_arrow/platoon_commander_rooms)
 "Qa" = (
 /obj/structure/platform/kutjevo/smooth,
 /obj/structure/bed/chair/comfy{
@@ -1056,6 +1262,14 @@
 	},
 /turf/open/floor/kutjevo/tiles,
 /area/almayer/command/airoom)
+"Qe" = (
+/obj/structure/ladder{
+	icon_state = "ladder01";
+	down = "lv01";
+	id = "lv11"
+	},
+/turf/open/floor/kutjevo/plate,
+/area/golden_arrow/platoon_commander_rooms)
 "Qo" = (
 /obj/item/reagent_container/food/drinks/cans/beer{
 	pixel_y = 3;
@@ -1085,6 +1299,22 @@
 	},
 /turf/open/floor/strata/faux_wood,
 /area/golden_arrow/cryo_cells)
+"Sn" = (
+/obj/structure/bookcase{
+	icon_state = "book-5";
+	name = "law and engineering manuals bookcase";
+	opacity = 0
+	},
+/obj/item/book/manual/marine_law,
+/obj/item/book/manual/detective,
+/obj/item/book/manual/security_space_law,
+/obj/item/book/manual/engineering_guide,
+/obj/item/book/manual/engineering_construction,
+/obj/item/book/manual/orbital_cannon_manual,
+/obj/item/book/manual/ripley_build_and_repair,
+/obj/item/book/manual/engineering_hacking,
+/turf/open/floor/kutjevo/plate,
+/area/golden_arrow/platoon_commander_rooms)
 "SC" = (
 /obj/effect/decal/cleanable/dirt{
 	layer = 2.52
@@ -1101,6 +1331,10 @@
 	light_color = "#ffe6da";
 	dir = 8
 	},
+/obj/item/storage/large_holster/machete/full,
+/obj/item/storage/large_holster/machete/full,
+/obj/item/storage/pouch/machete/full,
+/obj/item/storage/pouch/machete/full,
 /turf/open/floor/kutjevo/plate,
 /area/golden_arrow/platoonprep)
 "Te" = (
@@ -1147,6 +1381,25 @@
 	},
 /turf/open/floor/kutjevo/plate,
 /area/almayer/command/airoom)
+"TR" = (
+/obj/structure/surface/table/woodentable/fancy,
+/obj/structure/machinery/computer/cameras/wooden_tv/almayer{
+	dir = 8
+	},
+/turf/open/floor/carpet,
+/area/golden_arrow/platoon_commander_rooms)
+"Ud" = (
+/obj/structure/surface/table/woodentable/fancy,
+/obj/structure/window/reinforced/toughened,
+/obj/structure/blocker/invisible_wall,
+/obj/structure/sign/goldenplaque{
+	pixel_y = 28
+	},
+/obj/item/weapon/gun/revolver/mateba/general{
+	pixel_x = 2
+	},
+/turf/open/floor/kutjevo/plate,
+/area/golden_arrow/platoon_commander_rooms)
 "UA" = (
 /obj/structure/surface/table/woodentable/fancy,
 /obj/item/device/flashlight/lamp/green{
@@ -1155,6 +1408,11 @@
 	},
 /turf/open/floor/kutjevo/plate,
 /area/almayer/command/airoom)
+"UG" = (
+/obj/structure/machinery/faxmachine,
+/obj/structure/surface/table/woodentable/fancy,
+/turf/open/floor/kutjevo/plate,
+/area/golden_arrow/platoon_commander_rooms)
 "Vv" = (
 /obj/structure/surface/table/woodentable/fancy,
 /obj/structure/machinery/computer/station_alert{
@@ -1229,6 +1487,22 @@
 	},
 /turf/open/floor/kutjevo/plate,
 /area/almayer/command/airoom)
+"XK" = (
+/obj/structure/surface/table/woodentable/fancy,
+/obj/structure/window/reinforced/toughened{
+	dir = 4;
+	indestructible = 1
+	},
+/obj/structure/machinery/door/window/southright{
+	req_access_txt = "31";
+	indestructible = 1
+	},
+/obj/structure/blocker/invisible_wall,
+/obj/item/spacecash/c1000/counterfeit{
+	name = "1000 BookerBucks"
+	},
+/turf/open/floor/kutjevo/plate,
+/area/golden_arrow/platoon_commander_rooms)
 "Yf" = (
 /obj/structure/machinery/vending/dinnerware,
 /obj/structure/machinery/light/double{
@@ -1242,6 +1516,9 @@
 	},
 /turf/open/floor/kutjevo/plate,
 /area/almayer/command/airoom)
+"Zd" = (
+/turf/open/floor/kutjevo/plate,
+/area/golden_arrow/platoon_commander_rooms)
 "Zq" = (
 /obj/structure/largecrate/black_market/secured_wildlife{
 	pixel_y = 1;
@@ -4236,13 +4513,13 @@ OI
 ZT
 ZT
 ZT
-ZT
-ZT
-ZT
-ZT
-ZT
-ZT
-ZT
+gC
+gC
+gC
+gC
+gC
+gC
+gC
 Xr
 KO
 Ac
@@ -4338,13 +4615,13 @@ OI
 ZT
 ZT
 ZT
-ZT
-ZT
-ZT
-ZT
-ZT
-ZT
-ZT
+gC
+gC
+gC
+gC
+gC
+gC
+gC
 Xr
 KO
 KO
@@ -4440,13 +4717,13 @@ OI
 ZT
 ZT
 ZT
-ZT
-ZT
-ZT
-ZT
-ZT
-ZT
-ZT
+gC
+gC
+gC
+gC
+gC
+gC
+gC
 Xr
 KO
 KO
@@ -4542,13 +4819,13 @@ OI
 ZT
 ZT
 ZT
-ZT
-ZT
-ZT
-ZT
-ZT
-ZT
-ZT
+gC
+gC
+gC
+gC
+gC
+gC
+gC
 Xr
 iq
 eF
@@ -4644,13 +4921,13 @@ OI
 ZT
 ZT
 ZT
-ZT
-ZT
-ZT
-ZT
-ZT
-ZT
-ZT
+gC
+gC
+gC
+gC
+gC
+gC
+gC
 sp
 It
 Lt
@@ -4746,13 +5023,13 @@ OI
 ZT
 ZT
 ZT
-ZT
-ZT
-ZT
-ZT
-ZT
-ZT
-ZT
+gC
+gC
+gC
+gC
+gC
+gC
+gC
 sp
 po
 nl
@@ -4848,13 +5125,13 @@ OI
 ZT
 ZT
 ZT
-ZT
-ZT
-ZT
-ZT
-ZT
-ZT
-ZT
+gC
+gC
+gC
+gC
+gC
+gC
+gC
 sp
 FI
 Xg
@@ -4950,13 +5227,13 @@ OI
 ZT
 ZT
 ZT
-ZT
-ZT
-ZT
-ZT
-ZT
-ZT
-ZT
+gC
+gC
+gC
+gC
+gC
+gC
+gC
 sp
 xC
 xC
@@ -5052,13 +5329,13 @@ OI
 ZT
 ZT
 ZT
-ZT
-ZT
-ZT
-ZT
-ZT
-ZT
-ZT
+gC
+gC
+gC
+gC
+gC
+gC
+gC
 sp
 vD
 nC
@@ -5154,13 +5431,13 @@ OI
 ZT
 ZT
 ZT
-ZT
-ZT
-ZT
-ZT
-ZT
-ZT
-ZT
+gC
+gC
+gC
+gC
+gC
+gC
+gC
 sp
 kX
 Qo
@@ -5256,13 +5533,13 @@ OI
 ZT
 ZT
 ZT
-ZT
-ZT
-ZT
-ZT
-ZT
-ZT
-ZT
+gC
+gC
+gC
+gC
+gC
+gC
+gC
 Xr
 Lj
 IU
@@ -5358,13 +5635,13 @@ OI
 ZT
 ZT
 ZT
-ZT
-ZT
-ZT
-ZT
-ZT
-ZT
-ZT
+gC
+gC
+gC
+gC
+gC
+gC
+gC
 Xr
 Xr
 Xr
@@ -5460,13 +5737,13 @@ OI
 ZT
 ZT
 ZT
-ZT
-ZT
-ZT
-ZT
-ZT
-ZT
-ZT
+gC
+gC
+gC
+gC
+gC
+gC
+gC
 Hh
 EB
 Hh
@@ -5562,13 +5839,13 @@ OI
 ZT
 ZT
 ZT
-ZT
-ZT
-ZT
-ZT
-ZT
-ZT
-ZT
+gC
+gC
+gC
+gC
+gC
+gC
+gC
 Hh
 Hh
 Hh
@@ -6488,16 +6765,16 @@ ZT
 ZT
 ZT
 ZT
-ZT
-ZT
-ZT
-ZT
-ZT
-ZT
-ZT
-ZT
-ZT
-ZT
+gC
+gC
+gC
+gC
+gC
+gC
+gC
+gC
+gC
+gC
 ZT
 ZT
 ZT
@@ -6590,16 +6867,16 @@ ZT
 ZT
 ZT
 ZT
-ZT
-ZT
-ZT
-ZT
-ZT
-ZT
-ZT
-ZT
-ZT
-ZT
+gC
+gC
+gC
+gC
+gC
+gC
+gC
+gC
+gC
+gC
 ZT
 ZT
 ZT
@@ -6692,16 +6969,16 @@ ZT
 ZT
 ZT
 ZT
-ZT
-ZT
-ZT
-ZT
-ZT
-ZT
-ZT
-ZT
-ZT
-ZT
+gC
+gC
+gC
+gC
+gC
+gC
+gC
+gC
+gC
+gC
 ZT
 ZT
 ZT
@@ -6794,16 +7071,16 @@ ZT
 ZT
 ZT
 ZT
-ZT
-ZT
-ZT
-ZT
-ZT
-ZT
-ZT
-ZT
-ZT
-ZT
+gC
+gC
+gC
+gC
+gC
+gC
+gC
+gC
+gC
+gC
 ZT
 ZT
 ZT
@@ -6896,16 +7173,16 @@ ZT
 ZT
 ZT
 ZT
-ZT
-ZT
-ZT
-ZT
-ZT
-ZT
-ZT
-ZT
-ZT
-ZT
+gC
+gC
+gC
+gC
+gC
+gC
+gC
+gC
+gC
+gC
 ZT
 ZT
 ZT
@@ -6998,16 +7275,16 @@ ZT
 ZT
 ZT
 ZT
-ZT
-ZT
-ZT
-ZT
-ZT
-ZT
-ZT
-ZT
-ZT
-ZT
+gC
+gC
+gC
+gC
+gC
+gC
+gC
+gC
+gC
+gC
 ZT
 ZT
 ZT
@@ -7100,16 +7377,16 @@ ZT
 ZT
 ZT
 ZT
-ZT
-ZT
-ZT
-ZT
-ZT
-ZT
-ZT
-ZT
-ZT
-ZT
+gC
+gC
+gC
+gC
+gC
+gC
+gC
+gC
+gC
+gC
 ZT
 ZT
 ZT
@@ -7202,16 +7479,16 @@ ZT
 ZT
 ZT
 ZT
-ZT
-ZT
-ZT
-ZT
-ZT
-ZT
-ZT
-ZT
-ZT
-ZT
+gC
+gC
+gC
+gC
+gC
+gC
+gC
+gC
+gC
+gC
 ZT
 ZT
 ZT
@@ -7323,17 +7600,17 @@ ZT
 ZT
 OI
 OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
+Xb
+Xb
+Xb
+Xb
+Xb
+Xb
+Xb
+Xb
+Xb
+Xb
+Xb
 OI
 OI
 OI
@@ -7425,6 +7702,7 @@ OI
 OI
 OI
 OI
+Xb
 OI
 OI
 OI
@@ -7434,8 +7712,7 @@ OI
 OI
 OI
 OI
-OI
-OI
+Xb
 OI
 OI
 OI
@@ -7527,6 +7804,7 @@ OI
 OI
 OI
 OI
+Xb
 OI
 OI
 OI
@@ -7536,8 +7814,7 @@ OI
 OI
 OI
 OI
-OI
-OI
+Xb
 OI
 OI
 OI
@@ -7629,6 +7906,7 @@ OI
 OI
 OI
 OI
+Xb
 OI
 OI
 OI
@@ -7638,8 +7916,7 @@ OI
 OI
 OI
 OI
-OI
-OI
+Xb
 OI
 OI
 OI
@@ -7731,6 +8008,7 @@ OI
 OI
 OI
 OI
+Xb
 OI
 OI
 OI
@@ -7740,8 +8018,7 @@ OI
 OI
 OI
 OI
-OI
-OI
+Xb
 OI
 OI
 OI
@@ -7833,6 +8110,7 @@ OI
 OI
 OI
 OI
+Xb
 OI
 OI
 OI
@@ -7842,8 +8120,7 @@ OI
 OI
 OI
 OI
-OI
-OI
+Xb
 OI
 OI
 OI
@@ -7935,6 +8212,7 @@ OI
 OI
 OI
 OI
+Xb
 OI
 OI
 OI
@@ -7944,8 +8222,7 @@ OI
 OI
 OI
 OI
-OI
-OI
+Xb
 OI
 OI
 OI
@@ -8037,6 +8314,7 @@ OI
 OI
 OI
 OI
+Xb
 OI
 OI
 OI
@@ -8046,8 +8324,7 @@ OI
 OI
 OI
 OI
-OI
-OI
+Xb
 OI
 OI
 OI
@@ -8139,6 +8416,7 @@ OI
 OI
 OI
 OI
+Xb
 OI
 OI
 OI
@@ -8148,8 +8426,7 @@ OI
 OI
 OI
 OI
-OI
-OI
+Xb
 OI
 OI
 OI
@@ -8241,6 +8518,7 @@ OI
 OI
 OI
 OI
+Xb
 OI
 OI
 OI
@@ -8250,8 +8528,7 @@ OI
 OI
 OI
 OI
-OI
-OI
+Xb
 OI
 OI
 OI
@@ -8343,17 +8620,17 @@ OI
 OI
 OI
 OI
+Xb
+OI
+OI
+eo
+nZ
 OI
 OI
 OI
 OI
 OI
-OI
-OI
-OI
-OI
-OI
-OI
+Xb
 OI
 OI
 OI
@@ -8445,6 +8722,7 @@ OI
 OI
 OI
 OI
+Xb
 OI
 OI
 OI
@@ -8454,8 +8732,7 @@ OI
 OI
 OI
 OI
-OI
-OI
+Xb
 OI
 OI
 OI
@@ -8547,6 +8824,7 @@ OI
 OI
 OI
 OI
+Xb
 OI
 OI
 OI
@@ -8556,8 +8834,7 @@ OI
 OI
 OI
 OI
-OI
-OI
+Xb
 OI
 OI
 OI
@@ -8649,6 +8926,7 @@ OI
 OI
 OI
 OI
+Xb
 OI
 OI
 OI
@@ -8658,8 +8936,7 @@ OI
 OI
 OI
 OI
-OI
-OI
+Xb
 OI
 OI
 OI
@@ -8751,6 +9028,7 @@ OI
 OI
 OI
 OI
+Xb
 OI
 OI
 OI
@@ -8760,18 +9038,17 @@ OI
 OI
 OI
 OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
+Xb
+gC
+gC
+gC
+gC
+gC
+gC
+gC
+gC
+gC
+gC
 OI
 OI
 OI
@@ -8853,6 +9130,7 @@ OI
 OI
 OI
 OI
+Xb
 OI
 OI
 OI
@@ -8862,18 +9140,17 @@ OI
 OI
 OI
 OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
+Xb
+gC
+gC
+gC
+gC
+gC
+gC
+gC
+gC
+gC
+gC
 OI
 OI
 OI
@@ -8955,27 +9232,27 @@ OI
 OI
 OI
 OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
+Xb
+Xb
+Xb
+Xb
+Xb
+Xb
+Xb
+Xb
+Xb
+Xb
+Xb
+gC
+gC
+gC
+gC
+gC
+gC
+gC
+gC
+gC
+gC
 OI
 OI
 OI
@@ -9057,27 +9334,27 @@ OI
 OI
 OI
 OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
+Xb
+Xb
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Xb
+gC
+gC
+gC
+gC
+gC
+gC
+gC
+gC
+gC
+gC
 OI
 OI
 OI
@@ -9159,27 +9436,27 @@ OI
 OI
 OI
 OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
+Xb
+Xb
+Zd
+Zd
+Zd
+Zd
+Zd
+Qe
+Kn
+Zd
+Xb
+gC
+gC
+gC
+gC
+gC
+gC
+gC
+gC
+gC
+gC
 OI
 OI
 OI
@@ -9261,27 +9538,27 @@ OI
 OI
 OI
 OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
+Xb
+Xb
+zh
+zh
+zh
+gu
+zh
+zh
+zh
+zh
+zh
+gC
+gC
+gC
+gC
+gC
+gC
+gC
+gC
+gC
+gC
 OI
 OI
 OI
@@ -9363,27 +9640,27 @@ OI
 OI
 OI
 OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
+Xb
+Xb
+zh
+xl
+NW
+bF
+LJ
+bF
+bF
+rO
+zh
+gC
+gC
+gC
+gC
+gC
+gC
+gC
+gC
+gC
+gC
 OI
 OI
 OI
@@ -9465,27 +9742,27 @@ OI
 OI
 OI
 OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
+Xb
+Xb
+zh
+Ek
+bF
+bF
+qw
+nO
+cG
+qw
+KA
+gC
+gC
+gC
+gC
+gC
+gC
+gC
+gC
+gC
+gC
 OI
 OI
 OI
@@ -9567,27 +9844,27 @@ OI
 OI
 OI
 OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
+Xb
+Xb
+zh
+Oj
+bF
+qw
+mV
+PY
+qw
+qw
+KA
+gC
+gC
+gC
+gC
+gC
+gC
+gC
+gC
+gC
+gC
 OI
 OI
 OI
@@ -9669,27 +9946,27 @@ OI
 OI
 OI
 OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
+Xb
+Xb
+zh
+Ud
+bF
+qw
+qw
+pr
+NZ
+qw
+KA
+gC
+gC
+gC
+gC
+gC
+gC
+gC
+gC
+kQ
+gC
 OI
 OI
 OI
@@ -9771,27 +10048,27 @@ OI
 OI
 OI
 OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
+Xb
+Xb
+zh
+XK
+bF
+qw
+mV
+Kf
+qw
+qw
+KA
+gC
+gC
+gC
+gC
+gC
+gC
+gC
+gC
+gC
+gC
 OI
 OI
 OI
@@ -9873,27 +10150,27 @@ OI
 OI
 OI
 OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
+Xb
+Xb
+zh
+Sn
+bF
+bF
+qw
+Em
+TR
+qw
+KA
+gC
+gC
+gC
+gC
+gC
+gC
+gC
+gC
+gC
+gC
 OI
 OI
 OI
@@ -9975,27 +10252,27 @@ OI
 OI
 OI
 OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
+Xb
+Xb
+zh
+xl
+UG
+bF
+rD
+bF
+bF
+CC
+zh
+gC
+gC
+gC
+gC
+gC
+gC
+gC
+gC
+gC
+gC
 OI
 OI
 OI
@@ -10077,27 +10354,27 @@ OI
 OI
 OI
 OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
+Xb
+Xb
+zh
+zh
+zh
+zh
+zh
+zh
+zh
+zh
+zh
+gC
+gC
+gC
+gC
+gC
+gC
+gC
+gC
+gC
+gC
 OI
 OI
 OI
@@ -10190,16 +10467,16 @@ OI
 OI
 OI
 OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
+gC
+gC
+gC
+gC
+gC
+gC
+gC
+gC
+gC
+gC
 OI
 OI
 OI
@@ -10292,16 +10569,16 @@ OI
 OI
 OI
 OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
+gC
+gC
+gC
+gC
+gC
+gC
+gC
+gC
+gC
+gC
 OI
 OI
 OI
@@ -10394,16 +10671,16 @@ OI
 OI
 OI
 OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
+gC
+gC
+gC
+gC
+gC
+gC
+gC
+gC
+gC
+gC
 OI
 OI
 OI
@@ -10496,16 +10773,16 @@ OI
 OI
 OI
 OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
-OI
+gC
+gC
+gC
+gC
+gC
+gC
+gC
+gC
+gC
+gC
 OI
 OI
 OI

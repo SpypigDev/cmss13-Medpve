@@ -46,6 +46,19 @@
 		list("USCM Flask", 0, /obj/item/reagent_container/food/drinks/flask/marine, VENDOR_ITEM_REGULAR),
 		list("W-Y Flask", 0, /obj/item/reagent_container/food/drinks/flask/weylandyutani, VENDOR_ITEM_REGULAR)
 	)
+
+/obj/structure/machinery/cm_vending/sorted/marine_food/slop_machine
+	name = "\improper Pirate Slop-O-Mat"
+	desc = "A revolting food vendor, fit for only the saltiest of Sea-Dogs. Serves one meal, and not a particularly good one at that."
+	icon_state = "slop-machine"
+	hackable = FALSE
+
+/obj/structure/machinery/cm_vending/sorted/marine_food/slop_machine/populate_product_list(scale)
+	listed_products = list(
+		list("Sloppy Selections", -1, null, null),
+		list("The Eka Special", 25, /obj/item/reagent_container/food/snacks/ekaspecial, VENDOR_ITEM_REGULAR)
+	)
+
 //------------BOOZE-O-MAT VENDOR---------------
 
 /obj/structure/machinery/cm_vending/sorted/boozeomat

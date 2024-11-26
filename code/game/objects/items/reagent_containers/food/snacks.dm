@@ -1882,6 +1882,20 @@
 	reagents.add_reagent("milk", 1)
 	bitesize = 2
 
+/obj/item/reagent_container/food/snacks/ekaspecial
+	name = "The Eka Special"
+	desc = "This is revolting..."
+	icon_state = "stewedsoymeat"
+	trash = /obj/item/trash/plate
+	filling_color = "#FFFBDB"
+
+/obj/item/reagent_container/food/snacks/ekaspecial/Initialize()
+	. = ..()
+	reagents.add_reagent("rice", 15)
+	reagents.add_reagent("ketchup", 10)
+	reagents.add_reagent("nutriment", 5)
+	bitesize = 2
+
 /obj/item/reagent_container/food/snacks/pastatomato
 	name = "Spaghetti"
 	desc = "Spaghetti and crushed tomatoes. Just like your abusive father used to make!"
