@@ -98,10 +98,9 @@
 /area/golden_arrow/shared_office)
 "dt" = (
 /obj/structure/machinery/light/double{
-	light_color = "#ffe6da";
-	dir = 4
+	light_color = "#ffe6da"
 	},
-/turf/open/floor/kutjevo/tiles,
+/turf/open/floor/kutjevo/multi_tiles/north,
 /area/golden_arrow/shared_office)
 "du" = (
 /obj/structure/surface/table/woodentable/fancy,
@@ -216,7 +215,9 @@
 /area/golden_arrow/shared_office)
 "fy" = (
 /obj/structure/pipes/standard/simple/hidden/supply,
-/obj/structure/machinery/door/airlock/multi_tile/almayer/almayer,
+/obj/structure/machinery/door/airlock/multi_tile/almayer/almayer/glass{
+	dir = 8
+	},
 /turf/open/floor/kutjevo/tiles,
 /area/golden_arrow/cryo_cells)
 "gf" = (
@@ -452,6 +453,9 @@
 /area/almayer/command/airoom)
 "ky" = (
 /obj/structure/machinery/photocopier,
+/obj/structure/machinery/light/double{
+	light_color = "#ffe6da"
+	},
 /turf/open/floor/strata/faux_wood,
 /area/golden_arrow/shared_office)
 "kG" = (
@@ -594,8 +598,8 @@
 /turf/open/floor/kutjevo/plate,
 /area/golden_arrow/shared_office)
 "mD" = (
-/obj/structure/machinery/door/airlock/multi_tile/almayer/almayer/glass{
-	dir = 1
+/obj/structure/machinery/door/airlock/multi_tile/almayer/almayer{
+	dir = 2
 	},
 /turf/open/floor/kutjevo/tiles,
 /area/golden_arrow/platoonprep)
@@ -619,6 +623,9 @@
 /obj/structure/machinery/computer/emails{
 	dir = 8;
 	pixel_y = 2
+	},
+/obj/structure/machinery/light/double{
+	light_color = "#ffe6da"
 	},
 /turf/open/floor/strata/faux_wood,
 /area/golden_arrow/shared_office)
@@ -772,8 +779,10 @@
 /turf/open/floor/carpet,
 /area/golden_arrow/platoon_commander_rooms)
 "rg" = (
-/obj/structure/machinery/light/double{
-	light_color = "#ffe6da"
+/obj/structure/window/framed/kutjevo/reinforced,
+/obj/structure/machinery/door/poddoor/almayer/open{
+	icon_state = "almayer_pdoorc0";
+	id = "XO-Office"
 	},
 /turf/open/floor/strata/faux_wood,
 /area/golden_arrow/shared_office)
@@ -1202,9 +1211,12 @@
 /turf/open/floor/kutjevo/plate,
 /area/golden_arrow/platoon_commander_rooms)
 "CE" = (
-/obj/structure/window/framed/kutjevo/reinforced/hull,
-/turf/open/floor/kutjevo/tiles,
-/area/golden_arrow/platoonprep)
+/obj/structure/machinery/light/double{
+	light_color = "#ffe6da";
+	dir = 1
+	},
+/turf/open/floor/kutjevo/multi_tiles/north,
+/area/golden_arrow/shared_office)
 "CK" = (
 /obj/effect/step_trigger/teleporter/random{
 	affect_ghosts = 1;
@@ -3647,10 +3659,10 @@ gC
 gC
 rM
 rM
-py
-py
-py
-py
+rM
+rM
+rM
+rM
 rM
 rM
 rM
@@ -4917,9 +4929,9 @@ MV
 UE
 ky
 rM
-Hg
+CE
 fl
-Hg
+dt
 rM
 gC
 gC
@@ -5031,11 +5043,11 @@ MV
 aq
 MV
 UE
-rM
+rg
 Hg
 fl
 Hg
-rM
+py
 gC
 gC
 gC
@@ -5145,12 +5157,12 @@ Xx
 BH
 zG
 MV
+UE
 rg
-rM
 Hg
 fl
 Hg
-rM
+py
 gC
 gC
 gC
@@ -5261,11 +5273,11 @@ MV
 SK
 MV
 Pf
-rM
+rg
 Hg
-dt
+fl
 Hg
-rM
+py
 gC
 gC
 gC
@@ -5377,9 +5389,9 @@ Wi
 UE
 nn
 rM
-kQ
-rM
-kQ
+CE
+fl
+dt
 rM
 gC
 gC
@@ -5495,7 +5507,7 @@ rM
 fl
 fl
 fl
-rM
+py
 gC
 gC
 gC
@@ -6791,11 +6803,11 @@ gC
 Hh
 Hh
 Hh
-CE
-CE
-CE
-CE
-CE
+Hh
+Hh
+Hh
+Hh
+Hh
 Hh
 Hh
 Hh
