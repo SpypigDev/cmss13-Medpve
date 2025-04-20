@@ -165,6 +165,12 @@
 /area/shuttle/somme)
 "pv" = (
 /obj/effect/attach_point/crew_weapon/somme,
+/obj/merge_conflict_marker{
+	name = "---Merge Conflict Marker---";
+	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete."
+	},
+/obj/docking_port/mobile/marine_dropship/somme,
+/obj/effect/attach_point/crew_weapon/somme,
 /turf/open/shuttle/dropship/can_surgery{
 	icon = 'icons/turf/dropship5.dmi';
 	icon_state = "dropship_interior 5,14"
