@@ -1,0 +1,8 @@
+{
+    "map_name": "USS Liberty",
+    "map_path": "map_files/USS_Liberty",
+    "map_file": "USS_Liberty.dmm",
+    "webmap_url": "USS_Liberty",
+    "traits": [{"Marine Main Ship": true}],
+    "platoon": "/datum/squad/marine/alpha"
+}

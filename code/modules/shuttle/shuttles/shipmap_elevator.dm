@@ -74,3 +74,19 @@
 	name = "Cargo Elevator"
 	height = 6
 	width = 8
+
+
+/obj/docking_port/mobile/trijent_elevator/shipmap_elevator/liberty/
+	dir = NORTH
+	height = 5
+	width = 5
+
+/obj/docking_port/mobile/trijent_elevator/shipmap_elevator/liberty/s
+	name = "Vehicle Elevator Starboard"
+	id = MOBILE_SHUTTLE_SHIPMAP_ELEVATOR_SOUTH
+	area_type = /area/liberty/vehicle_shuttle/s/
+
+/obj/docking_port/mobile/trijent_elevator/shipmap_elevator/liberty/n
+	name = "Vehicle Elevator Port"
+	id = MOBILE_SHUTTLE_SHIPMAP_ELEVATOR_NORTH
+	area_type = /area/liberty/vehicle_shuttle/n/

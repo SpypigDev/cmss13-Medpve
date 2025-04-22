@@ -817,6 +817,7 @@
 #include "code\game\area\kleschers_research_site.dm"
 #include "code\game\area\kutjevo.dm"
 #include "code\game\area\lead_hawk.dm"
+#include "code\game\area\liberty.dm"
 #include "code\game\area\LV295_Blacksite.dm"
 #include "code\game\area\LV522_Chances_Claim.dm"
 #include "code\game\area\LV624.dm"

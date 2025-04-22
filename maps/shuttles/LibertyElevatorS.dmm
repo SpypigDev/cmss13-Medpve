@@ -1,0 +1,216 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "E";
+	pixel_x = 1
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "E";
+	pixel_x = 1
+	},
+/turf/open/floor/almayer/plate,
+/area/liberty/vehicle_shuttle/s)
+"c" = (
+/obj/structure/barricade/handrail{
+	dir = 8;
+	indestructible = 1
+	},
+/turf/open/floor/plating/plating_catwalk,
+/area/liberty/vehicle_shuttle/s)
+"e" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "E";
+	pixel_x = 1
+	},
+/turf/open/floor/almayer/plate,
+/area/liberty/vehicle_shuttle/s)
+"i" = (
+/turf/open/floor/almayer/plate,
+/area/liberty/vehicle_shuttle/s)
+"j" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "W";
+	dir = 1
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "S";
+	pixel_y = 1
+	},
+/turf/open/floor/almayer/plate,
+/area/liberty/vehicle_shuttle/s)
+"l" = (
+/obj/structure/machinery/elevator_strut/bottom{
+	pixel_y = -2;
+	indestructible = 1
+	},
+/obj/structure/barricade/handrail{
+	indestructible = 1;
+	pixel_x = 16
+	},
+/obj/effect/decal/siding,
+/turf/open/floor/plating/plating_catwalk,
+/area/liberty/vehicle_shuttle/s)
+"o" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/docking_port/mobile/trijent_elevator/shipmap_elevator/liberty/s,
+/obj/structure/barricade/handrail{
+	indestructible = 1
+	},
+/obj/structure/barricade/handrail{
+	dir = 8;
+	indestructible = 1
+	},
+/turf/open/floor/plating/plating_catwalk,
+/area/liberty/vehicle_shuttle/s)
+"p" = (
+/obj/structure/barricade/handrail{
+	dir = 4;
+	indestructible = 1
+	},
+/obj/structure/machinery/computer/shuttle/elevator_controller/railing{
+	pixel_y = 24;
+	shuttleId = "LibertyElevatorS";
+	pixel_x = null;
+	indestructible = 1
+	},
+/obj/structure/barricade/handrail{
+	dir = 1;
+	pixel_y = 14;
+	indestructible = 1;
+	layer = 2
+	},
+/turf/open/floor/plating/plating_catwalk,
+/area/liberty/vehicle_shuttle/s)
+"s" = (
+/obj/effect/decal/siding,
+/turf/open/floor/plating/plating_catwalk,
+/area/liberty/vehicle_shuttle/s)
+"u" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/warning_stripes{
+	icon_state = "E";
+	pixel_x = 1
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "S";
+	pixel_y = 1
+	},
+/turf/open/floor/almayer/plate,
+/area/liberty/vehicle_shuttle/s)
+"v" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/warning_stripes{
+	icon_state = "S";
+	pixel_y = 1
+	},
+/turf/open/floor/almayer/plate,
+/area/liberty/vehicle_shuttle/s)
+"A" = (
+/obj/structure/barricade/handrail{
+	dir = 4;
+	indestructible = 1
+	},
+/turf/open/floor/plating/plating_catwalk,
+/area/liberty/vehicle_shuttle/s)
+"C" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/barricade/handrail{
+	dir = 8;
+	indestructible = 1
+	},
+/turf/open/floor/plating/plating_catwalk,
+/area/liberty/vehicle_shuttle/s)
+"D" = (
+/obj/structure/barricade/handrail{
+	indestructible = 1
+	},
+/obj/effect/decal/siding,
+/turf/open/floor/plating/plating_catwalk,
+/area/liberty/vehicle_shuttle/s)
+"J" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "W";
+	dir = 1
+	},
+/turf/open/floor/almayer/plate,
+/area/liberty/vehicle_shuttle/s)
+"M" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/warning_stripes{
+	icon_state = "E";
+	pixel_x = 1
+	},
+/turf/open/floor/almayer/plate,
+/area/liberty/vehicle_shuttle/s)
+"N" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/warning_stripes{
+	icon_state = "W";
+	dir = 1
+	},
+/turf/open/floor/almayer/plate,
+/area/liberty/vehicle_shuttle/s)
+"O" = (
+/obj/structure/machinery/floodlight/landing/floor{
+	color = "#dae2ff";
+	light_color = "#dae2ff"
+	},
+/turf/open/floor/plating/plating_catwalk,
+/area/liberty/vehicle_shuttle/s)
+"R" = (
+/obj/structure/barricade/handrail{
+	indestructible = 1
+	},
+/obj/structure/barricade/handrail{
+	dir = 4;
+	indestructible = 1
+	},
+/turf/open/floor/plating/plating_catwalk,
+/area/liberty/vehicle_shuttle/s)
+"T" = (
+/obj/effect/decal/cleanable/blood/oil,
+/obj/effect/decal/warning_stripes{
+	icon_state = "W";
+	dir = 1
+	},
+/turf/open/floor/almayer/plate,
+/area/liberty/vehicle_shuttle/s)
+"Z" = (
+/turf/open/floor/plating/plating_catwalk,
+/area/liberty/vehicle_shuttle/s)
+
+(1,1,1) = {"
+C
+c
+c
+c
+o
+"}
+(2,1,1) = {"
+T
+N
+J
+j
+l
+"}
+(3,1,1) = {"
+i
+Z
+O
+v
+s
+"}
+(4,1,1) = {"
+e
+a
+M
+u
+D
+"}
+(5,1,1) = {"
+p
+A
+A
+A
+R
+"}
