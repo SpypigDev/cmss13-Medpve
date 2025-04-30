@@ -698,6 +698,27 @@
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/plating/plating_catwalk/strata,
 /area/golden_arrow/engineering)
+"bl" = (
+/obj/merge_conflict_marker{
+	name = "---Merge Conflict Marker---";
+	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete."
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "W";
+	pixel_x = -1
+	},
+/obj/structure/machinery/light/small{
+	dir = 8;
+	light_color = "#e7c0a4";
+	light_power = 0.8;
+	light_range = 4
+	},
+/obj/structure/closet/secure_closet/marine_personal/upp/platoon_leader{
+	can_block_movement = 0;
+	pixel_x = -7
+	},
+/turf/open/space/basic,
+/area/space)
 "bm" = (
 /obj/structure/pipes/standard/simple/hidden/supply,
 /obj/structure/machinery/door/airlock/upp_utility{
@@ -1694,6 +1715,28 @@
 	},
 /turf/open/floor/strata/floor3/east,
 /area/golden_arrow/briefing)
+"cZ" = (
+/obj/merge_conflict_marker{
+	name = "---Merge Conflict Marker---";
+	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete."
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "E";
+	pixel_x = 1
+	},
+/obj/item/prop/magazine/book/littleredbook,
+/obj/structure/machinery/light/small{
+	dir = 4;
+	light_color = "#e7c0a4";
+	light_power = 0.8;
+	light_range = 4
+	},
+/obj/structure/closet/secure_closet/marine_personal/upp/smartgunner{
+	can_block_movement = 0;
+	pixel_x = 7
+	},
+/turf/open/space/basic,
+/area/space)
 "da" = (
 /turf/closed/wall/upp_wall/grey/hull,
 /area/space)
@@ -1707,12 +1750,90 @@
 	},
 /turf/open/floor/strata/floor3/east,
 /area/golden_arrow/briefing)
+"dc" = (
+/obj/merge_conflict_marker{
+	name = "---Merge Conflict Marker---";
+	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete."
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	pixel_y = 1
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "W";
+	pixel_x = -1
+	},
+/obj/item/weapon/butterfly,
+/obj/structure/prop/invuln/overhead_pipe{
+	dir = 4;
+	pixel_y = 10
+	},
+/obj/structure/prop/invuln/overhead_pipe{
+	dir = 4;
+	pixel_y = 10;
+	pixel_x = -13
+	},
+/obj/structure/closet/secure_closet/marine_personal/upp/corpsman{
+	pixel_x = -7;
+	can_block_movement = 0
+	},
+/turf/open/space/basic,
+/area/space)
+"dd" = (
+/obj/merge_conflict_marker{
+	name = "---Merge Conflict Marker---";
+	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete."
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "E";
+	pixel_x = 1
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	pixel_y = 1
+	},
+/obj/structure/prop/invuln/overhead_pipe{
+	dir = 4;
+	pixel_y = 10
+	},
+/obj/structure/prop/invuln/overhead_pipe{
+	dir = 4;
+	pixel_y = 10;
+	pixel_x = 11
+	},
+/obj/structure/closet/secure_closet/marine_personal/upp/squad_leader{
+	can_block_movement = 0;
+	pixel_x = 7
+	},
+/turf/open/space/basic,
+/area/space)
 "de" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
 /turf/open/floor/plating/plating_catwalk/strata,
 /area/golden_arrow/briefing)
+"df" = (
+/obj/merge_conflict_marker{
+	name = "---Merge Conflict Marker---";
+	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete."
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "W";
+	pixel_x = -1
+	},
+/obj/structure/machinery/light/small{
+	dir = 8;
+	light_color = "#e7c0a4";
+	light_power = 0.8;
+	light_range = 4
+	},
+/obj/structure/closet/secure_closet/marine_personal/upp/squad_leader{
+	can_block_movement = 0;
+	pixel_x = -7
+	},
+/turf/open/space/basic,
+/area/space)
 "dg" = (
 /obj/structure/largecrate/random/barrel/red{
 	stuff = list(/obj/item/clothing/under/marine/veteran/UPP,/obj/item/clothing/gloves/marine,/obj/item/clothing/gloves/marine/brown,/obj/item/clothing/gloves/marine/joe,/obj/item/clothing/shoes/marine/joe,/obj/item/clothing/shoes/marine/upp/guard,/obj/item/clothing/shoes/marine/upp)
@@ -1781,6 +1902,28 @@
 	},
 /turf/open/floor/strata/multi_tiles,
 /area/golden_arrow/cryo_cells)
+"dm" = (
+/obj/merge_conflict_marker{
+	name = "---Merge Conflict Marker---";
+	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete."
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "E";
+	pixel_x = 1
+	},
+/obj/item/weapon/butterfly,
+/obj/structure/machinery/light/small{
+	dir = 4;
+	light_color = "#e7c0a4";
+	light_power = 0.8;
+	light_range = 4
+	},
+/obj/structure/closet/secure_closet/marine_personal/upp/smartgunner{
+	can_block_movement = 0;
+	pixel_x = 7
+	},
+/turf/open/space/basic,
+/area/space)
 "dn" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4;
@@ -1817,6 +1960,22 @@
 	},
 /turf/open/floor/strata/multi_tiles/west,
 /area/golden_arrow/cryo_cells)
+"dq" = (
+/obj/merge_conflict_marker{
+	name = "---Merge Conflict Marker---";
+	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete."
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "W";
+	pixel_x = -1
+	},
+/obj/item/prop/magazine/book/littleredbook,
+/obj/structure/closet/secure_closet/marine_personal/upp/rifleman{
+	can_block_movement = 0;
+	pixel_x = -7
+	},
+/turf/open/space/basic,
+/area/space)
 "dr" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "E";
@@ -1878,6 +2037,21 @@
 	},
 /turf/open/floor/strata/floor3/east,
 /area/golden_arrow/briefing)
+"dw" = (
+/obj/merge_conflict_marker{
+	name = "---Merge Conflict Marker---";
+	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete."
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "E";
+	pixel_x = 1
+	},
+/obj/structure/closet/secure_closet/marine_personal/upp/rifleman{
+	can_block_movement = 0;
+	pixel_x = 7
+	},
+/turf/open/space/basic,
+/area/space)
 "dx" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "W";
@@ -1905,6 +2079,67 @@
 "dA" = (
 /turf/open/floor/strata/multi_tiles/southwest,
 /area/golden_arrow/briefing)
+"dB" = (
+/obj/merge_conflict_marker{
+	name = "---Merge Conflict Marker---";
+	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete."
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "W";
+	pixel_x = -1
+	},
+/obj/structure/machinery/light/small{
+	dir = 8;
+	light_color = "#e7c0a4";
+	light_power = 0.8;
+	light_range = 4
+	},
+/obj/structure/closet/secure_closet/marine_personal/upp/rifleman{
+	can_block_movement = 0;
+	pixel_x = -7
+	},
+/turf/open/space/basic,
+/area/space)
+"dC" = (
+/obj/merge_conflict_marker{
+	name = "---Merge Conflict Marker---";
+	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete."
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4;
+	icon_state = "pipe-c"
+	},
+/obj/structure/pipes/standard/manifold/visible/supply{
+	dir = 1
+	},
+/obj/structure/closet/secure_closet/marine_personal/upp/platoon_commander{
+	can_block_movement = 0;
+	pixel_y = 10
+	},
+/turf/open/space/basic,
+/area/space)
+"dD" = (
+/obj/merge_conflict_marker{
+	name = "---Merge Conflict Marker---";
+	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete."
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "E";
+	pixel_x = 1
+	},
+/obj/item/weapon/butterfly,
+/obj/structure/machinery/light/small{
+	dir = 4;
+	light_color = "#e7c0a4";
+	light_power = 0.8;
+	light_range = 4
+	},
+/obj/structure/closet/secure_closet/marine_personal/upp/rifleman{
+	can_block_movement = 0;
+	pixel_x = 7
+	},
+/turf/open/space/basic,
+/area/space)
 "dE" = (
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/plating/plating_catwalk/strata,
@@ -21317,11 +21552,11 @@ mV
 mV
 mV
 mV
-mV
-mV
-mV
-mV
-mV
+dB
+dq
+df
+dc
+bl
 mV
 mV
 mV
@@ -21621,7 +21856,7 @@ mV
 mV
 mV
 mV
-mV
+dC
 mV
 mV
 mV
@@ -21925,11 +22160,11 @@ mV
 mV
 mV
 mV
-mV
-mV
-mV
-mV
-mV
+dD
+dw
+dm
+dd
+cZ
 mV
 mV
 mV
