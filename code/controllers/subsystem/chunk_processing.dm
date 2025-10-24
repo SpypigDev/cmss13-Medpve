@@ -1,8 +1,13 @@
-SUBSYSTEM_DEF(pathfinding)
-	name = "Pathfinding"
+#define PROCESSING_CHUNK_SIZE 10
+
+#define PROCESSING_CHUNK_STATUS_INACTIVE 1
+
+SUBSYSTEM_DEF(chunk_processing)
+	name = "Chunk Processing"
 	priority = SS_PRIORITY_PATHFINDING
-	flags = SS_NO_INIT|SS_TICKER|SS_BACKGROUND
-	wait = 1
+	flags = SS_BACKGROUND
+	wait = 3 SECONDS
+	var/interations_since_full_target_check = 0
 	/// A list of mobs scheduled to process
 	var/list/datum/xeno_pathinfo/current_processing = list()
 	/// A list of paths to calculate
@@ -11,9 +16,118 @@ SUBSYSTEM_DEF(pathfinding)
 	var/list/hash_path = list()
 	var/current_position = 1
 
-/datum/controller/subsystem/pathfinding/stat_entry(msg)
-	msg = "P:[length(paths_to_calculate)]"
-	return ..()
+/datum/processing_chunk
+	var/chunk_status = PROCESSING_CHUNK_STATUS_INACTIVE
+	var/chunk_array_x
+	var/chunk_array_y
+	var/chunk_array_z
+	var/turf/anchor_turf
+	var/list/contained_ai_mobs = list()
+	var/list/contained_active_ai_mobs = list()
+	var/list/contained_targets = list()
+
+/datum/controller/subsystem/minimaps/Initialize()
+	for(var/level in 1 to length(SSmapping.z_list))
+		minimaps_by_z["[level]"] = new /datum/hud_displays
+		if(!is_ground_level(level) && !is_mainship_level(level))
+			continue
+
+		var/icon/icon_gen = new('icons/ui_icons/minimap.dmi') //600x600 blank icon template for drawing on the map
+		var/xmin = world.maxx
+		var/ymin = world.maxy
+		var/xmax = 1
+		var/ymax = 1
+
+		for(var/xval in 1 to world.maxx)
+			for(var/yval in 1 to world.maxy) //Scan all the turfs and draw as needed
+				var/turf/location = locate(xval, yval, level)
+				if(location.z != level)
+					continue
+
+				if(location.density)
+					if(!istype(location, /turf/closed/wall/almayer/outer)) // Ignore almayer border
+						xmin = min(xmin, xval)
+						ymin = min(ymin, yval)
+						xmax = max(xmax, xval)
+						ymax = max(ymax, yval)
+					icon_gen.DrawBox(location.minimap_color, xval, yval)
+					continue
+
+				if(istype(location, /turf/open/space))
+					continue
+
+				var/atom/movable/alttarget = (locate(/obj/structure/machinery/door) in location) || (locate(/obj/structure/fence) in location)
+				if(alttarget)
+					xmin = min(xmin, xval)
+					ymin = min(ymin, yval)
+					xmax = max(xmax, xval)
+					ymax = max(ymax, yval)
+					icon_gen.DrawBox(alttarget.minimap_color, xval, yval)
+					continue
+
+				var/area/turfloc = location.loc
+				if(turfloc.minimap_color)
+					xmin = min(xmin, xval)
+					ymin = min(ymin, yval)
+					xmax = max(xmax, xval)
+					ymax = max(ymax, yval)
+					icon_gen.DrawBox(BlendRGB(location.minimap_color, turfloc.minimap_color, 0.5), xval, yval)
+					continue
+
+				xmin = min(xmin, xval)
+				ymin = min(ymin, yval)
+				xmax = max(xmax, xval)
+				ymax = max(ymax, yval)
+				icon_gen.DrawBox(location.minimap_color, xval, yval)
+
+		xmin = xmin * MINIMAP_SCALE - 1
+		ymin = ymin * MINIMAP_SCALE - 1
+		xmax = min(xmax * MINIMAP_SCALE, MINIMAP_PIXEL_SIZE)
+		ymax = min(ymax * MINIMAP_SCALE, MINIMAP_PIXEL_SIZE)
+
+		icon_gen.Scale(icon_gen.Width() * MINIMAP_SCALE, icon_gen.Height() * MINIMAP_SCALE) //scale it up x2 to make it easer to see
+		icon_gen.Crop(xmin, ymin, MINIMAP_PIXEL_SIZE + xmin - 1, MINIMAP_PIXEL_SIZE + ymin - 1) //then trim it down also cutting anything unused on the bottom left
+
+		// Determine and assign the offsets
+		minimaps_by_z["[level]"].x_offset = floor((MINIMAP_PIXEL_SIZE - xmax - 1) / MINIMAP_SCALE) - xmin
+		minimaps_by_z["[level]"].y_offset = floor((MINIMAP_PIXEL_SIZE - ymax - 1) / MINIMAP_SCALE) - ymin
+		minimaps_by_z["[level]"].x_max = xmax
+		minimaps_by_z["[level]"].y_max = ymax
+
+		// Center the map icon
+		icon_gen.Shift(EAST, minimaps_by_z["[level]"].x_offset + xmin)
+		icon_gen.Shift(NORTH, minimaps_by_z["[level]"].y_offset + ymin)
+
+		minimaps_by_z["[level]"].hud_image = icon_gen //done making the image!
+
+	RegisterSignal(SSdcs, COMSIG_GLOB_NEW_Z, PROC_REF(handle_new_z))
+
+	initialized = TRUE
+
+	for(var/i in 1 to length(earlyadds)) //lateload icons
+		earlyadds[i].Invoke()
+	earlyadds = null //then clear them
+
+	return SS_INIT_SUCCESS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /datum/controller/subsystem/pathfinding/fire(resumed = FALSE)
 	if(!resumed)
@@ -129,15 +243,15 @@ SUBSYSTEM_DEF(pathfinding)
 		QDEL_NULL(current_run)
 
 /datum/controller/subsystem/pathfinding/proc/check_special_blockers(mob/agent, turf/checking_turf)
-	var/list/blockers = list()
-	if(is_type_in_list(checking_turf, AI_SPECIAL_BLOCKER_TURFS))
-		blockers += checking_turf
-	else
+	var/list/pass_back = list()
+
+	for(var/spec_blocker in AI_SPECIAL_BLOCKERS)
+		pass_back += istype(checking_turf, spec_blocker) ? checking_turf : list()
+
 		for(var/atom/checked_atom as anything in checking_turf)
-			if(is_type_in_list(checked_atom, AI_SPECIAL_BLOCKERS))
-				blockers += checked_atom
-				break
-	return blockers
+			pass_back += istype(checked_atom, spec_blocker) ? checked_atom : list()
+
+	return pass_back
 
 /datum/controller/subsystem/pathfinding/proc/stop_calculating_path(mob/agent)
 	var/datum/xeno_pathinfo/data = hash_path[agent]

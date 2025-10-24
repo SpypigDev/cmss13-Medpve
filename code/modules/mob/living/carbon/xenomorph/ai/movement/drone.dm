@@ -43,6 +43,9 @@
 
 	var/shortest_distance
 	for(var/turf/potential_home as anything in shuffle(RANGE_TURFS(home_locate_range, current_turf)))
+		if(isclosedturf(potential_home))
+			continue
+
 		if(!check_turf(potential_home))
 			continue
 
@@ -68,6 +71,12 @@
 	blacklisted_turfs -= unblacklisting_turf
 
 /datum/xeno_ai_movement/drone/proc/check_turf(turf/checked_turf)
+	if(parent.loc == checked_turf)
+		return FALSE
+
+	if(checked_turf.density)
+		return FALSE
+
 	var/area/found_area = get_area(checked_turf)
 	if(found_area.flags_area & AREA_NOTUNNEL)
 		return FALSE
@@ -81,31 +90,21 @@
 	if(checked_turf in blacklisted_turfs)
 		return FALSE
 
-	var/obj/effect/alien/weeds/checked_weeds = checked_turf.weeds
-	if(checked_weeds && IS_SAME_HIVENUMBER(checked_weeds, parent))
-		return FALSE
-
 	if(checked_turf.is_weedable() < FULLY_WEEDABLE)
 		return FALSE
 
-	var/obj/effect/alien/weeds/found_weeds = locate(/obj/effect/alien/weeds/node) in range(3, checked_turf)
-	if(found_weeds && IS_SAME_HIVENUMBER(found_weeds, parent))
+	if(checked_turf.weeds && IS_SAME_HIVENUMBER(checked_turf.weeds, parent))
 		return FALSE
 
-	if(checked_turf.density)
-		return FALSE
+	// way too expensive for such a niche use case. pending an admin panel flag
+	//var/obj/effect/alien/weeds/found_weeds = locate(/obj/effect/alien/weeds/node) in range(3, checked_turf)
+	//if(found_weeds && IS_SAME_HIVENUMBER(found_weeds, parent))
+	//	return FALSE
 
-	var/blocked = FALSE
 	for(var/atom/potential_blocker as anything in checked_turf)
-		if(parent != potential_blocker && (potential_blocker.density || potential_blocker.can_block_movement))
-			blocked = TRUE
-			break
-
-	if(blocked)
-		return FALSE
-
-	for(var/obj/structure/struct in checked_turf)
-		if(struct.density && !(struct.flags_atom & ON_BORDER))
+		if(potential_blocker.density || potential_blocker.can_block_movement)
+			return FALSE
+		if(isStructure(potential_blocker) && !(potential_blocker.flags_atom & ON_BORDER))
 			return FALSE
 
 	return TRUE
