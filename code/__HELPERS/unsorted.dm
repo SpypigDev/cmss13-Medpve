@@ -135,7 +135,7 @@
 //
 // This is a copy-and-paste of the Enter() proc for turfs with tweaks related to the applications
 // of LinkBlocked
-/proc/LinkBlocked(atom/movable/mover, turf/start_turf, turf/target_turf, list/atom/forget, return_list = FALSE)
+/proc/LinkBlocked(atom/movable/mover, turf/start_turf, turf/target_turf, list/atom/forget, return_list = FALSE, debug_info = FALSE)
 	if (!mover)
 		return null
 
@@ -155,6 +155,8 @@
 	var/turf/T
 	var/atom/A
 
+	var/list/debug_list = list()
+
 	blocking_dir |= start_turf.BlockedExitDirs(mover, fdir)
 	for (obstacle in start_turf) //First, check objects to block exit
 		if (mover == obstacle || (obstacle in forget))
@@ -172,6 +174,7 @@
 	// Check for atoms in adjacent turf EAST/WEST
 	if (fd1 && fd1 != fdir)
 		T = get_step(start_turf, fd1)
+		T.color = "#d19a02"
 		if (T.BlockedExitDirs(mover, fd2) || T.BlockedPassDirs(mover, fd1))
 			blocking_dir |= fd1
 			if ((!fd1 || blocking_dir & fd1) && (!fd2 || blocking_dir & fd2))
@@ -197,6 +200,7 @@
 	// Check for atoms in adjacent turf NORTH/SOUTH
 	if (fd2 && fd2 != fdir)
 		T = get_step(start_turf, fd2)
+		T.color = "#d19a02"
 		if (T.BlockedExitDirs(mover, fd1) || T.BlockedPassDirs(mover, fd2))
 			blocking_dir |= fd2
 			if ((!fd1 || blocking_dir & fd1) && (!fd2 || blocking_dir & fd2))

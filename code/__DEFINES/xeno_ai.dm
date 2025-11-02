@@ -1,7 +1,7 @@
 #define CALCULATING_PATH(X) (X in SSpathfinding.hash_path)
 
-#define DIRECTION_CHANGE_PENALTY 2
-#define NO_WEED_PENALTY 2
+#define DIRECTION_CHANGE_PENALTY 1
+#define NO_WEED_PENALTY 1
 #define DISTANCE_PENALTY 1
 #define ASTAR_COST_FUNCTION(n) (abs(n.x - target.x)+abs(n.y - target.y))
 

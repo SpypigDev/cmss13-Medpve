@@ -169,10 +169,6 @@ SUBSYSTEM_DEF(chunk_processing)
 				if(isxeno(current_run.agent) && !neighbor.weeds)
 					distance_between += NO_WEED_PENALTY
 
-				for(var/i in neighbor)
-					var/atom/A = i
-					distance_between += A.object_weight
-
 				var/list/L = LinkBlocked(current_run.agent, current_run.current_node, neighbor, current_run.ignore, TRUE)
 				L += check_special_blockers(current_run.agent, neighbor)
 				if(length(L))

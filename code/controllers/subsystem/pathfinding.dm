@@ -29,65 +29,89 @@ SUBSYSTEM_DEF(pathfinding)
 
 		var/turf/target = current_run.finish
 
+		var/list/pathing_nodes = list(current_run.start)
 		var/list/visited_nodes = current_run.visited_nodes
 		var/list/distances = current_run.distances
 		var/list/f_distances = current_run.f_distances
 		var/list/prev = current_run.prev
 
-		while(length(visited_nodes))
-			current_run.current_node = visited_nodes[length(visited_nodes)]
-			visited_nodes.len--
+		if(isxeno(current_run.agent) && !current_run.start.weeds)
+			distances[current_run.start] += NO_WEED_PENALTY
+
+		while(length(pathing_nodes))
+			current_run.current_node = listgetindex(pathing_nodes, 1)
+			current_run.current_node.color ="#610000"
 			if(current_run.current_node == target)
+				pathing_nodes = list()
 				break
+
+			pathing_nodes -= current_run.current_node
+
+			var/list/testing_turfs = list()
 
 			for(var/direction in GLOB.cardinals)
 				var/turf/neighbor = get_step(current_run.current_node, direction)
-				var/distance_between = distances[current_run.current_node] * DISTANCE_PENALTY
+				if(neighbor in visited_nodes)
+					continue
+				var/distance_between = distances[current_run.current_node]
 				if(isnull(distances[neighbor]))
 					if(get_dist(neighbor, current_run.agent) > current_run.path_range)
+						distances[neighbor] = INFINITY
+						f_distances[neighbor] = INFINITY
 						continue
-					distances[neighbor] = INFINITY
-					f_distances[neighbor] = INFINITY
 
-				if(direction != get_dir(prev[neighbor], neighbor))
+				if(prev[neighbor] && direction != get_dir(prev[neighbor], neighbor))
 					distance_between += DIRECTION_CHANGE_PENALTY
 
 				if(isxeno(current_run.agent) && !neighbor.weeds)
 					distance_between += NO_WEED_PENALTY
 
-				for(var/i in neighbor)
-					var/atom/A = i
-					distance_between += A.object_weight
-
 				var/list/L = LinkBlocked(current_run.agent, current_run.current_node, neighbor, current_run.ignore, TRUE)
 				L += check_special_blockers(current_run.agent, neighbor)
 				if(length(L))
 					if(isxeno(current_run.agent))
-						for(var/atom/A as anything in L)
-							distance_between += A.xeno_ai_obstacle(current_run.agent, direction, target)
+						//for(var/atom/A as anything in L)
+						//	distance_between += A.xeno_ai_obstacle(current_run.agent, direction, target)
+						distance_between = INFINITY
 					else
 						var/datum/component/human_ai/ai_component = current_run.agent.GetComponent(/datum/component/human_ai)
 						var/datum/human_ai_brain/brain = ai_component.ai_brain
 						for(var/atom/A as anything in L)
 							distance_between += A.human_ai_obstacle(current_run.agent, brain, direction, target)
 
-				if(distance_between < distances[neighbor])
+				visited_nodes |= neighbor
+				var/f_distance = distance_between
+
+				if(neighbor == target)
+					f_distance = 1
+					distance_between = 1
+
+				if(distance_between != INFINITY)
+					f_distance = distance_between + ASTAR_COST_FUNCTION(neighbor)
+					testing_turfs |= neighbor
 					distances[neighbor] = distance_between
-					var/f_distance = distance_between + ASTAR_COST_FUNCTION(neighbor)
 					f_distances[neighbor] = f_distance
-					prev[neighbor] = current_run.current_node
-					if(neighbor in visited_nodes)
-						visited_nodes -= neighbor
-
-					for(var/i in 0 to length(visited_nodes))
-						var/index_to_check = length(visited_nodes) - i
-						if(index_to_check == 0)
-							visited_nodes.Insert(1, neighbor)
+					if(!listgetindex(prev, neighbor))
+						prev[neighbor] = current_run.current_node
+					if(neighbor in pathing_nodes)
+						pathing_nodes -= neighbor
+					if(!length(pathing_nodes))
+						pathing_nodes |= neighbor
+					for(var/index in 1 to length(pathing_nodes))
+						if(!listgetindex(pathing_nodes, index))
+							pathing_nodes.Insert(index, neighbor)
+							visited_nodes -= neighbor
+							break
+						if(f_distance == f_distances[pathing_nodes[index]])
+							f_distances[neighbor] = f_distance + 1
+						if(f_distance < f_distances[pathing_nodes[index]])
+							pathing_nodes.Insert(index, neighbor)
+							visited_nodes -= neighbor
 							break
 
-						if(f_distance < f_distances[visited_nodes[index_to_check]])
-							visited_nodes.Insert(index_to_check, neighbor)
-							break
+
+			//or(var/atom/atom as anything in visited_nodes)
+			//	atom.color = "#01dd31"
 
 			if(MC_TICK_CHECK)
 				return
@@ -120,15 +144,27 @@ SUBSYSTEM_DEF(pathfinding)
 		var/list/path = list()
 		var/turf/current_node = target
 		while(current_node)
+			if(length(path) >= 35)	// the path is recursive somehow
+				QDEL_NULL(current_run)
+				return
+			if(current_node in path)
+				current_run.to_return.Invoke()
+				QDEL_NULL(current_run)
+				return
 			if(current_node == current_run.start)
+				path += current_node
+				current_node.color = "#dd0101"
+				current_node = null
 				break
 			path += current_node
+			current_node.color ="#dd0101"
 			current_node = prev[current_node]
 
 		current_run.to_return.Invoke(path)
 		QDEL_NULL(current_run)
 
 /datum/controller/subsystem/pathfinding/proc/check_special_blockers(mob/agent, turf/checking_turf)
+	checking_turf.color ="#d14e02"
 	var/list/blockers = list()
 	if(is_type_in_list(checking_turf, AI_SPECIAL_BLOCKER_TURFS))
 		blockers += checking_turf
