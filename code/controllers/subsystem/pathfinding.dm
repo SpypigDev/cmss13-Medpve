@@ -109,6 +109,11 @@ SUBSYSTEM_DEF(pathfinding)
 							visited_nodes -= neighbor
 							break
 
+			if(!length(testing_turfs))
+				pathing_nodes -= current_run.current_node
+				visited_nodes += current_run.current_node
+
+
 
 			//or(var/atom/atom as anything in visited_nodes)
 			//	atom.color = "#01dd31"
