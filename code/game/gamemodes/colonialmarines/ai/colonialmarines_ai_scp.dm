@@ -21,7 +21,8 @@
 		/datum/job/marine/medic/ai/forecon = JOB_SQUAD_MEDIC_FORECON,
 		/datum/job/marine/engineer/ai = JOB_SQUAD_ENGI,
 		/datum/job/marine/smartgunner/ai/forecon = JOB_SQUAD_SMARTGUN_FORECON,
-		/datum/job/marine/standard/ai/forecon = JOB_SQUAD_MARINE_FORECON)
+		/datum/job/marine/standard/ai/forecon = JOB_SQUAD_MARINE_FORECON,
+		)
 
 	static_comms_amount = 0
 	requires_comms = FALSE
