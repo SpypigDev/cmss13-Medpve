@@ -5,9 +5,7 @@
 
 	flags_round_type = MODE_ANOMALY_HUNT|MODE_NEW_SPAWN|MODE_NO_XENO_EVOLVE
 
-	squad_limit = list(
-		/datum/squad/marine/forecon/containment
-	)
+	squad_limit = list(/datum/squad/marine/forecon/containment)
 
 	objectives = list()
 	initial_objectives = 0
