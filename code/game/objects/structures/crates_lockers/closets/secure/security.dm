@@ -157,7 +157,6 @@
 	new /obj/item/clothing/under/det/black(src)
 	new /obj/item/clothing/under/det/slob(src)
 	new /obj/item/clothing/suit/storage/CMB/trenchcoat/police(src)
-	new /obj/item/clothing/suit/storage/CMB/trenchcoat/police/black(src)
 	new /obj/item/clothing/suit/storage/forensics/blue(src)
 	new /obj/item/clothing/suit/storage/forensics/red(src)
 	new /obj/item/clothing/gloves/black(src)

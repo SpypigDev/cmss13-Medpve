@@ -202,7 +202,6 @@ GLOBAL_LIST_INIT_TYPED(map_type_list, /obj/item/map, setup_all_maps())
 		MAP_BIG_BLUE = new/obj/item/map/big_red_map(),
 		MAP_CALLIOPE_HIGHWAY = new /obj/item/map/big_red_map(),
 		MAP_CALLIOPE_DESERT_BUS = new /obj/item/map/big_red_map(),
-		MAP_LV624_OUTPOST_FURIDAMU = new /obj/item/map/furidamu(),
 		MAP_OREAD_GARRISON = new /obj/item/map/oread_map(),
 		MAP_TAIPEI = new /obj/item/map/taipei(),
 		MAP_REDEMPTION_VALLEY = new /obj/item/map/lazarus_landing_map(),

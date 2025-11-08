@@ -7,7 +7,6 @@
 	var/has_cryo_gear = TRUE
 
 	var/job = "DO NOT USE!!!"
-	var/job = "DO NOT USE!!!"
 	var/x_to_linked_spawn_turf
 	var/y_to_linked_spawn_turf
 	var/turf/linked_spawn_turf
@@ -41,11 +40,6 @@
 	new /obj/item/clothing/under/marine(src)
 	new /obj/item/clothing/shoes/marine/knife(src)
 	new /obj/item/device/radio/headset/almayer/marine/solardevils(src)
-
-/obj/structure/closet/secure_closet/marine_personal/Initialize()
-	. = ..()
-	if(has_cryo_gear)
-		spawn_gear()
 
 /obj/structure/closet/secure_closet/marine_personal/rifleman
 	job = JOB_SQUAD_MARINE
