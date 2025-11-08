@@ -168,6 +168,7 @@
 	name = "\improper Worn Brazil flag"
 	desc = "A flag of Brazil. Inspires patriotism, fear, but not revulsion, everybody likes Brazil."
 	icon_state = "brazilflag_worn"
+
 //=====================//
 // SEMIOTIC STANDARD  //
 //===================//
