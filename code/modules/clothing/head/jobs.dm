@@ -135,11 +135,11 @@
 //Detective
 
 /obj/item/clothing/head/fedora
-	name = "\improper tan fedora"
+	name = "\improper grey fedora"
 	desc = "A classic tan fedora."
-	icon = 'icons/obj/items/clothing/hats.dmi'
-	icon_state = "fedora_tan"
-	item_state = "fedora_tan"
+	icon = 'icons/obj/items/clothing/cm_hats.dmi'
+	icon_state = "fedora_light"
+	item_state = "fedora_light"
 	flags_armor_protection = BODY_FLAG_HEAD
 	armor_melee = CLOTHING_ARMOR_MEDIUMLOW
 	armor_bullet = CLOTHING_ARMOR_MEDIUMLOW
@@ -155,11 +155,5 @@
 /obj/item/clothing/head/fedora/brown
 	name = "\improper brown fedora"
 	desc = "A classic brown fedora."
-	icon_state = "fedora_brown"
-	item_state = "fedora_brown"
-
-/obj/item/clothing/head/fedora/grey
-	name = "\improper grey fedora"
-	desc = "A classic grey fedora."
-	icon_state = "fedora_grey"
-	item_state = "fedora_grey"
+	icon_state = "fedora_dark"
+	item_state = "fedora_dark"

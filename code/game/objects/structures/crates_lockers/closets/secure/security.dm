@@ -161,7 +161,7 @@
 	new /obj/item/clothing/suit/storage/forensics/red(src)
 	new /obj/item/clothing/gloves/black(src)
 	new /obj/item/clothing/head/fedora(src)
-	new /obj/item/clothing/head/fedora/grey(src)
+	new /obj/item/clothing/head/fedora/brown(src)
 	new /obj/item/clothing/shoes/brown(src)
 	new /obj/item/storage/box/evidence(src)
 	new /obj/item/clothing/suit/armor/det_suit(src)

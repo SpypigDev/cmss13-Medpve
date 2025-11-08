@@ -319,8 +319,8 @@
 	desc = "A 5.7×28mm (AP) magazine for the FN-TWE P90."
 	default_ammo = /datum/ammo/bullet/smg/p90/twe_ap
 	caliber = "5.7×28mm"
-	icon = 'icons/obj/items/weapons/guns/ammo_by_faction/twe_ammo.dmi'
-	icon_state = "p90_twe"
+	icon = 'icons/obj/items/weapons/guns/ammo_by_faction/colony.dmi'
+	icon_state = "p90_e"
 	w_class = SIZE_MEDIUM
 	gun_type = /obj/item/weapon/gun/smg/p90/twe
 	max_rounds = 50

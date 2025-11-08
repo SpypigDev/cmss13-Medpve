@@ -854,9 +854,9 @@
 /obj/item/weapon/gun/smg/p90/twe
 	name = "\improper FN-TWE P90 submachinegun"
 	desc = "A variation of the FN P90 submachine gun. Used by mercenaries and royal marines commandos. This weapon only accepts the AP variation of the 5.7×28mm rounds."
-	icon = 'icons/obj/items/weapons/guns/guns_by_faction/twe_guns.dmi'
-	icon_state = "p90_twe"
-	item_state = "p90_twe"
+	icon = 'icons/obj/items/weapons/guns/guns_by_faction/colony.dmi'
+	icon_state = "p90_e"
+	item_state = "p90_e"
 
 	fire_sound = 'sound/weapons/p90.ogg'
 	current_mag = /obj/item/ammo_magazine/smg/p90/twe

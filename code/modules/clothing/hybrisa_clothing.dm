@@ -491,6 +491,7 @@
 
 	name = "PT-LT firesuit"
 	desc = "The 'PyroTex LT' is an advanced, lightweight firesuit developed by 'Watatsumi'. It provides protection against fire and heat, while also offering a degree of protection from blunt force trauma."
+	icon = 'icons/obj/items/clothing/suits.dmi'
 	icon_state = "firefighter_oversuit"
 	item_state = "firefighter_oversuit"
 	uniform_restricted = null
@@ -562,6 +563,7 @@
 /obj/item/clothing/suit/storage/marine/light/vest/hybrisa_kelland
 	name = "\improper Kelland-Mining utility uniform"
 	desc = "A set of standard issue Kelland-Mining utility fatigues, a yellow pair of utility work slacks and a black collard heavy padded jacket, which protects against various environmental hazards."
+	icon = 'icons/obj/items/clothing/suits.dmi'
 	icon_state = "kellandmining_oversuit"
 	item_state = "kellandmining_oversuit"
 	uniform_restricted = null
@@ -600,6 +602,7 @@
 /obj/item/clothing/suit/storage/marine/light/vest/hybrisa_kelland_alt
 	name = "\improper Kelland-Mining utility uniform"
 	desc = "A set of standard issue Kelland-Mining utility fatigues, a yellow pair of utility work slacks and a black collard heavy padded jacket, which protects against various environmental hazards."
+	icon = 'icons/obj/items/clothing/suits.dmi'
 	icon_state = "kellandmining_alt_oversuit"
 	item_state = "kellandmining_alt_oversuit"
 	uniform_restricted = null
