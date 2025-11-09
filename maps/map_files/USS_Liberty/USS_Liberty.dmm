@@ -4,14 +4,6 @@
 	icon_state = "N";
 	pixel_y = 2
 	},
-/obj/merge_conflict_marker{
-	name = "---Merge Conflict Marker---";
-	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete."
-	},
-/obj/effect/decal/warning_stripes{
-	icon_state = "N";
-	pixel_y = 2
-	},
 /obj/structure/supply_drop/echo{
 	mouse_opacity = 0
 	},
@@ -23,21 +15,6 @@
 	},
 /turf/open/floor/almayer,
 /area/liberty/hangar_deck/cargo)
-"aac" = (
-/obj/structure/machinery/door/airlock/almayer/maint{
-	dir = 2
-	},
-/obj/merge_conflict_marker{
-	name = "---Merge Conflict Marker---";
-	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete."
-	},
-/obj/structure/window/framed/almayer/hull,
-/turf/open/floor/almayer/test_floor4,
-/area/liberty/hangar_deck/cargo)
-"aad" = (
-/obj/structure/lattice,
-/turf/open/floor/almayer,
-/area/liberty/hangar_deck/west_hall)
 "aae" = (
 /obj/structure/lattice,
 /turf/closed/wall/almayer/outer,
@@ -46,53 +23,13 @@
 /obj/structure/machinery/light/small/blue/golden_arrow{
 	dir = 8
 	},
-/obj/merge_conflict_marker{
-	name = "---Merge Conflict Marker---";
-	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete."
-	},
-/obj/structure/lattice,
-/turf/open/floor/almayer,
-/area/liberty/hangar_deck/west_hall)
-"aag" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/merge_conflict_marker{
-	name = "---Merge Conflict Marker---";
-	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete."
-	},
-/obj/structure/lattice,
 /turf/open/floor/almayer,
 /area/liberty/hangar_deck/west_hall)
 "aah" = (
 /obj/structure/machinery/light/small/blue/golden_arrow,
 /turf/open/floor/wood/ship,
 /area/liberty/command_deck/commanders_quarters)
-"aai" = (
-/obj/effect/decal/warning_stripes{
-	icon_state = "S";
-	layer = 3.3
-	},
-/obj/merge_conflict_marker{
-	name = "---Merge Conflict Marker---";
-	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete."
-	},
-/obj/effect/decal/warning_stripes{
-	icon_state = "S";
-	layer = 3.3
-	},
-/obj/structure/machinery/light/small/blue/golden_arrow{
-	dir = 1
-	},
-/turf/open/floor/prison/floor_plate,
-/area/liberty/hangar_deck/cargo)
 "aaj" = (
-/obj/effect/decal/warning_stripes{
-	icon_state = "S";
-	layer = 3.3
-	},
-/obj/merge_conflict_marker{
-	name = "---Merge Conflict Marker---";
-	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete."
-	},
 /obj/effect/decal/warning_stripes{
 	icon_state = "S";
 	layer = 3.3
@@ -272,13 +209,7 @@
 /obj/effect/decal/siding,
 /obj/structure/closet/crate/ammo,
 /obj/item/storage/box/m56d/m2c,
-/obj/item/storage/box/m56d/m2c,
-/obj/merge_conflict_marker{
-	name = "---Merge Conflict Marker---";
-	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete."
-	},
 /obj/effect/decal/siding,
-/obj/structure/closet/crate/ammo,
 /turf/open/floor/prison/floor_plate,
 /area/liberty/hangar_deck/cargo)
 "aiC" = (
@@ -507,13 +438,6 @@
 	},
 /obj/structure/platform_decoration{
 	dir = 8
-	},
-/obj/merge_conflict_marker{
-	name = "---Merge Conflict Marker---";
-	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete."
-	},
-/obj/effect/decal/warning_stripes{
-	icon_state = "cargo_arrow"
 	},
 /turf/open/floor/almayer/edge/smooth/east{
 	dir = 2
@@ -1515,12 +1439,8 @@
 /obj/structure/machinery/cryopod/big{
 	pixel_x = -8
 	},
-/obj/effect/landmark/start/marine/alpha{
-	single_use = 1
-	},
-/obj/effect/landmark/late_join/alpha{
-	single_use = 1
-	},
+/obj/effect/landmark/start/marine/alpha,
+/obj/effect/landmark/late_join/alpha,
 /obj/structure/prop/invuln/overhead_pipe{
 	pixel_x = -15
 	},
@@ -2778,12 +2698,8 @@
 /obj/structure/machinery/cryopod/big{
 	pixel_x = -8
 	},
-/obj/effect/landmark/start/marine/alpha{
-	single_use = 1
-	},
-/obj/effect/landmark/late_join/alpha{
-	single_use = 1
-	},
+/obj/effect/landmark/start/marine/alpha,
+/obj/effect/landmark/late_join/alpha,
 /obj/structure/prop/invuln/overhead_pipe{
 	pixel_x = -15
 	},
@@ -2973,12 +2889,8 @@
 	pixel_x = -8
 	},
 /obj/structure/machinery/light/small/blue/golden_arrow,
-/obj/effect/landmark/start/marine/alpha{
-	single_use = 1
-	},
-/obj/effect/landmark/late_join/alpha{
-	single_use = 1
-	},
+/obj/effect/landmark/start/marine/alpha,
+/obj/effect/landmark/late_join/alpha,
 /obj/structure/prop/invuln/overhead_pipe{
 	pixel_x = -15;
 	dir = 5
@@ -3216,10 +3128,6 @@
 "cMo" = (
 /obj/effect/decal/siding,
 /obj/structure/closet/crate/ammo,
-/obj/merge_conflict_marker{
-	name = "---Merge Conflict Marker---";
-	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete."
-	},
 /obj/effect/decal/siding,
 /turf/open/floor/prison/floor_plate,
 /area/liberty/hangar_deck/cargo)
@@ -5451,9 +5359,7 @@
 /obj/structure/machinery/cryopod/big{
 	pixel_x = -8
 	},
-/obj/effect/landmark/late_join/alpha{
-	single_use = 1
-	},
+/obj/effect/landmark/late_join/alpha,
 /obj/structure/prop/invuln/overhead_pipe{
 	pixel_x = -15
 	},
@@ -5823,10 +5729,6 @@
 	name = "hydraulic cable";
 	pixel_x = 16
 	},
-/obj/merge_conflict_marker{
-	name = "---Merge Conflict Marker---";
-	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete."
-	},
 /obj/structure/prop/hybrisa/misc/buildinggreebliessmall{
 	pixel_y = 20;
 	name = "hydraulic cable"
@@ -6115,13 +6017,7 @@
 /obj/effect/decal/siding,
 /obj/effect/decal/cleanable/dirt,
 /obj/item/ammo_box/magazine/mk1/rubber,
-/obj/item/ammo_box/magazine/mk1/rubber,
-/obj/item/ammo_box/magazine/mk1/rubber,
 /obj/structure/closet/crate/ammo,
-/obj/merge_conflict_marker{
-	name = "---Merge Conflict Marker---";
-	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete."
-	},
 /obj/effect/decal/siding,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/prison/floor_plate,
@@ -7104,12 +7000,8 @@
 /obj/structure/machinery/cryopod/big{
 	pixel_x = -8
 	},
-/obj/effect/landmark/start/marine/smartgunner/alpha{
-	single_use = 1
-	},
-/obj/effect/landmark/late_join/alpha{
-	single_use = 1
-	},
+/obj/effect/landmark/start/marine/smartgunner/alpha,
+/obj/effect/landmark/late_join/alpha,
 /obj/structure/prop/invuln/overhead_pipe{
 	pixel_x = -15
 	},
@@ -7850,10 +7742,6 @@
 /obj/structure/platform_decoration{
 	dir = 8
 	},
-/obj/merge_conflict_marker{
-	name = "---Merge Conflict Marker---";
-	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete."
-	},
 /turf/open/floor/almayer,
 /area/liberty/hangar_deck/west_hall)
 "gST" = (
@@ -8125,12 +8013,8 @@
 /obj/structure/machinery/cryopod/big{
 	pixel_x = -8
 	},
-/obj/effect/landmark/start/marine/smartgunner/alpha{
-	single_use = 1
-	},
-/obj/effect/landmark/late_join/alpha{
-	single_use = 1
-	},
+/obj/effect/landmark/start/marine/smartgunner/alpha,
+/obj/effect/landmark/late_join/alpha,
 /obj/structure/prop/invuln/overhead_pipe{
 	pixel_x = -15
 	},
@@ -8783,17 +8667,6 @@
 /obj/structure/machinery/power/apc/almayer/hardened/north,
 /obj/structure/platform/stair_cut/alt,
 /obj/structure/platform,
-/obj/merge_conflict_marker{
-	name = "---Merge Conflict Marker---";
-	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete."
-	},
-/obj/structure/machinery/light/double/blue/golden_arrow{
-	dir = 1
-	},
-/obj/structure/stairs/perspective{
-	dir = 8
-	},
-/obj/structure/machinery/power/apc/almayer/hardened/north,
 /turf/open/floor/almayer/edge/smooth/east{
 	dir = 1
 	},
@@ -9415,9 +9288,7 @@
 /obj/structure/machinery/cryopod/big{
 	pixel_x = -8
 	},
-/obj/effect/landmark/late_join/alpha{
-	single_use = 1
-	},
+/obj/effect/landmark/late_join/alpha,
 /obj/structure/machinery/light/small/blue/golden_arrow,
 /obj/structure/prop/invuln/overhead_pipe{
 	pixel_x = -15
@@ -9608,12 +9479,8 @@
 /obj/structure/machinery/cryopod/big/flipped{
 	pixel_x = -9
 	},
-/obj/effect/landmark/start/marine/tl/alpha{
-	single_use = 1
-	},
-/obj/effect/landmark/late_join/alpha{
-	single_use = 1
-	},
+/obj/effect/landmark/start/marine/tl/alpha,
+/obj/effect/landmark/late_join/alpha,
 /obj/structure/prop/invuln/overhead_pipe{
 	pixel_x = 8
 	},
@@ -11258,12 +11125,8 @@
 	layer = 2.9;
 	pixel_x = -8
 	},
-/obj/effect/landmark/start/bridge{
-	single_use = 1
-	},
-/obj/effect/landmark/late_join{
-	single_use = 1
-	},
+/obj/effect/landmark/start/bridge,
+/obj/effect/landmark/late_join,
 /obj/structure/machinery/cryopod/big/flipped{
 	pixel_x = -8
 	},
@@ -12053,12 +11916,8 @@
 /obj/structure/machinery/cryopod/big/flipped{
 	pixel_x = -9
 	},
-/obj/effect/landmark/start/marine/tl/alpha{
-	single_use = 1
-	},
-/obj/effect/landmark/late_join/alpha{
-	single_use = 1
-	},
+/obj/effect/landmark/start/marine/tl/alpha,
+/obj/effect/landmark/late_join/alpha,
 /obj/structure/prop/invuln/overhead_pipe{
 	pixel_x = 8
 	},
@@ -12403,12 +12262,8 @@
 /obj/structure/machinery/cryopod/big/flipped{
 	pixel_x = -9
 	},
-/obj/effect/landmark/start/marine/leader/alpha{
-	single_use = 1
-	},
-/obj/effect/landmark/late_join/alpha{
-	single_use = 1
-	},
+/obj/effect/landmark/start/marine/leader/alpha,
+/obj/effect/landmark/late_join/alpha,
 /obj/structure/prop/invuln/overhead_pipe{
 	pixel_x = 8
 	},
@@ -13263,12 +13118,8 @@
 /obj/structure/machinery/cryopod/big/flipped{
 	pixel_x = -9
 	},
-/obj/effect/landmark/start/marine/engineer/alpha{
-	single_use = 1
-	},
-/obj/effect/landmark/late_join/alpha{
-	single_use = 1
-	},
+/obj/effect/landmark/start/marine/engineer/alpha,
+/obj/effect/landmark/late_join/alpha,
 /obj/structure/cryofeed{
 	pixel_x = 36;
 	drag_delay = 2.9
@@ -13289,12 +13140,8 @@
 /obj/structure/machinery/cryopod/big/flipped{
 	pixel_x = -9
 	},
-/obj/effect/landmark/start/marine/medic/alpha{
-	single_use = 1
-	},
-/obj/effect/landmark/late_join/alpha{
-	single_use = 1
-	},
+/obj/effect/landmark/start/marine/medic/alpha,
+/obj/effect/landmark/late_join/alpha,
 /obj/structure/prop/invuln/overhead_pipe{
 	pixel_x = 8
 	},
@@ -13505,14 +13352,6 @@
 	dir = 8
 	},
 /obj/structure/platform/stair_cut/alt,
-/obj/merge_conflict_marker{
-	name = "---Merge Conflict Marker---";
-	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete."
-	},
-/obj/structure/machinery/light/double/blue/golden_arrow,
-/obj/structure/stairs/perspective{
-	dir = 8
-	},
 /turf/open/floor/almayer/edge/smooth/east{
 	dir = 2
 	},
@@ -14214,14 +14053,6 @@
 /obj/structure/platform_decoration,
 /obj/structure/platform_decoration{
 	dir = 8
-	},
-/obj/merge_conflict_marker{
-	name = "---Merge Conflict Marker---";
-	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete."
-	},
-/obj/effect/decal/warning_stripes{
-	icon_state = "cargo_arrow";
-	dir = 1
 	},
 /turf/open/floor/almayer/edge/smooth/east{
 	dir = 1
@@ -16697,8 +16528,7 @@
 /area/liberty/cargo_deck/center_hall)
 "nZt" = (
 /obj/structure/machinery/power/apc/almayer/north{
-	dir = 8;
-	
+	dir = 8
 	},
 /turf/open/floor/plating,
 /area/liberty/crew_deck/maintenance)
@@ -17744,12 +17574,8 @@
 /obj/structure/machinery/cryopod/big{
 	pixel_x = -8
 	},
-/obj/effect/landmark/start/crew_chief{
-	single_use = 1
-	},
-/obj/effect/landmark/late_join{
-	single_use = 1
-	},
+/obj/effect/landmark/start/crew_chief,
+/obj/effect/landmark/late_join,
 /obj/structure/prop/invuln/overhead_pipe{
 	pixel_x = -16
 	},
@@ -17795,12 +17621,8 @@
 /obj/structure/machinery/cryopod/big/flipped{
 	pixel_x = -9
 	},
-/obj/effect/landmark/start/marine/tl/alpha{
-	single_use = 1
-	},
-/obj/effect/landmark/late_join/alpha{
-	single_use = 1
-	},
+/obj/effect/landmark/start/marine/tl/alpha,
+/obj/effect/landmark/late_join/alpha,
 /obj/structure/prop/invuln/overhead_pipe{
 	pixel_x = 8
 	},
@@ -18292,12 +18114,7 @@
 /area/liberty/hangar_deck/hangar_bay)
 "pxj" = (
 /obj/effect/decal/siding,
-/obj/structure/closet/crate/explosives,
 /obj/item/ammo_box/magazine/nade_box/flare,
-/obj/merge_conflict_marker{
-	name = "---Merge Conflict Marker---";
-	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete."
-	},
 /obj/effect/decal/siding,
 /turf/open/floor/prison/floor_plate,
 /area/liberty/hangar_deck/cargo)
@@ -19560,12 +19377,8 @@
 /obj/structure/machinery/cryopod/big/flipped{
 	pixel_x = -9
 	},
-/obj/effect/landmark/start/marine/alpha{
-	single_use = 1
-	},
-/obj/effect/landmark/late_join/alpha{
-	single_use = 1
-	},
+/obj/effect/landmark/start/marine/alpha,
+/obj/effect/landmark/late_join/alpha,
 /obj/structure/prop/invuln/overhead_pipe{
 	pixel_x = 8
 	},
@@ -20504,9 +20317,7 @@
 /obj/structure/machinery/cryopod/big{
 	pixel_x = -8
 	},
-/obj/effect/landmark/late_join/alpha{
-	single_use = 1
-	},
+/obj/effect/landmark/late_join/alpha,
 /obj/structure/prop/invuln/overhead_pipe{
 	pixel_x = -15
 	},
@@ -21248,12 +21059,8 @@
 /obj/structure/machinery/cryopod/big/flipped{
 	pixel_x = -9
 	},
-/obj/effect/landmark/start/marine/tl/alpha{
-	single_use = 1
-	},
-/obj/effect/landmark/late_join/alpha{
-	single_use = 1
-	},
+/obj/effect/landmark/start/marine/tl/alpha,
+/obj/effect/landmark/late_join/alpha,
 /obj/structure/prop/invuln/overhead_pipe{
 	pixel_x = 8
 	},
@@ -22142,22 +21949,10 @@
 	icon_state = "S";
 	layer = 3.3
 	},
-/obj/structure/largecrate/supply,
 /obj/structure/largecrate/supply/ammo/m56d{
 	pixel_y = 12
 	},
-/obj/merge_conflict_marker{
-	name = "---Merge Conflict Marker---";
-	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete."
-	},
-/obj/effect/decal/warning_stripes{
-	icon_state = "S";
-	layer = 3.3
-	},
 /obj/structure/largecrate/supply,
-/obj/structure/largecrate/supply/ammo/m56d{
-	pixel_y = 12
-	},
 /obj/structure/supply_drop/echo{
 	mouse_opacity = 0
 	},
@@ -22167,9 +21962,7 @@
 /obj/structure/machinery/cryopod/big{
 	pixel_x = -8
 	},
-/obj/effect/landmark/late_join/alpha{
-	single_use = 1
-	},
+/obj/effect/landmark/late_join/alpha,
 /obj/structure/prop/invuln/overhead_pipe{
 	pixel_x = -15
 	},
@@ -23038,11 +22831,6 @@
 "tlF" = (
 /obj/effect/decal/siding,
 /obj/structure/largecrate/supply/weapons/m56d,
-/obj/merge_conflict_marker{
-	name = "---Merge Conflict Marker---";
-	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete."
-	},
-/obj/effect/decal/siding,
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/liberty/hangar_deck/cargo)
 "tmo" = (
@@ -23189,12 +22977,7 @@
 /obj/effect/decal/siding,
 /obj/structure/closet/crate/ammo,
 /obj/item/ammo_box/magazine/m56d,
-/obj/merge_conflict_marker{
-	name = "---Merge Conflict Marker---";
-	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete."
-	},
 /obj/effect/decal/siding,
-/obj/structure/closet/crate/ammo,
 /turf/open/floor/prison/floor_plate,
 /area/liberty/hangar_deck/cargo)
 "tte" = (
@@ -23342,10 +23125,6 @@
 "twX" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/barricade/handrail/type_b,
-/obj/merge_conflict_marker{
-	name = "---Merge Conflict Marker---";
-	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete."
-	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/almayer,
 /area/liberty/hangar_deck/west_hall)
@@ -23915,12 +23694,8 @@
 /obj/structure/machinery/cryopod/big/flipped{
 	pixel_x = -9
 	},
-/obj/effect/landmark/start/marine/leader/alpha{
-	single_use = 1
-	},
-/obj/effect/landmark/late_join/alpha{
-	single_use = 1
-	},
+/obj/effect/landmark/start/marine/leader/alpha,
+/obj/effect/landmark/late_join/alpha,
 /obj/structure/prop/invuln/overhead_pipe{
 	pixel_x = 8
 	},
@@ -23981,12 +23756,8 @@
 	pixel_x = 36;
 	drag_delay = 2.9
 	},
-/obj/effect/landmark/start/marine/engineer/alpha{
-	single_use = 1
-	},
-/obj/effect/landmark/late_join/alpha{
-	single_use = 1
-	},
+/obj/effect/landmark/start/marine/engineer/alpha,
+/obj/effect/landmark/late_join/alpha,
 /obj/structure/machinery/light/small/blue/golden_arrow,
 /obj/structure/prop/invuln/overhead_pipe{
 	pixel_x = 8
@@ -24095,12 +23866,8 @@
 /obj/structure/machinery/cryopod/big/flipped{
 	pixel_x = -9
 	},
-/obj/effect/landmark/start/marine/alpha{
-	single_use = 1
-	},
-/obj/effect/landmark/late_join/alpha{
-	single_use = 1
-	},
+/obj/effect/landmark/start/marine/alpha,
+/obj/effect/landmark/late_join/alpha,
 /obj/structure/prop/invuln/overhead_pipe{
 	pixel_x = 8;
 	dir = 9
@@ -24975,12 +24742,8 @@
 	layer = 2.9;
 	pixel_x = 6
 	},
-/obj/effect/landmark/start/pilot/dropship_pilot{
-	single_use = 1
-	},
-/obj/effect/landmark/late_join{
-	single_use = 1
-	},
+/obj/effect/landmark/start/pilot/dropship_pilot,
+/obj/effect/landmark/late_join,
 /obj/structure/prop/invuln/overhead_pipe{
 	pixel_x = -16
 	},
@@ -25489,12 +25252,8 @@
 /obj/structure/machinery/cryopod/big/flipped{
 	pixel_x = -9
 	},
-/obj/effect/landmark/start/marine/medic/alpha{
-	single_use = 1
-	},
-/obj/effect/landmark/late_join/alpha{
-	single_use = 1
-	},
+/obj/effect/landmark/start/marine/medic/alpha,
+/obj/effect/landmark/late_join/alpha,
 /obj/structure/prop/invuln/overhead_pipe{
 	pixel_x = 8
 	},
@@ -25746,12 +25505,8 @@
 /obj/structure/machinery/cryopod/big{
 	pixel_x = -8
 	},
-/obj/effect/landmark/start/marine/alpha{
-	single_use = 1
-	},
-/obj/effect/landmark/late_join/alpha{
-	single_use = 1
-	},
+/obj/effect/landmark/start/marine/alpha,
+/obj/effect/landmark/late_join/alpha,
 /obj/structure/prop/invuln/overhead_pipe{
 	pixel_x = -15;
 	dir = 6
@@ -26567,12 +26322,8 @@
 /obj/structure/machinery/cryopod/big/flipped{
 	pixel_x = -9
 	},
-/obj/effect/landmark/start/marine/alpha{
-	single_use = 1
-	},
-/obj/effect/landmark/late_join/alpha{
-	single_use = 1
-	},
+/obj/effect/landmark/start/marine/alpha,
+/obj/effect/landmark/late_join/alpha,
 /obj/structure/prop/invuln/overhead_pipe{
 	pixel_x = 8;
 	dir = 10
@@ -27188,14 +26939,6 @@
 	pixel_x = 1
 	},
 /obj/structure/largecrate/supply/weapons/m56d,
-/obj/merge_conflict_marker{
-	name = "---Merge Conflict Marker---";
-	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete."
-	},
-/obj/effect/decal/warning_stripes{
-	icon_state = "E";
-	pixel_x = 1
-	},
 /turf/open/floor/prison/darkyellowcorners2/west,
 /area/liberty/hangar_deck/cargo)
 "wHm" = (
@@ -28159,19 +27902,9 @@
 /turf/open/floor/almayer,
 /area/liberty/hangar_deck/hangar_bay)
 "xyM" = (
-/obj/effect/decal/warning_stripes{
-	icon_state = "W"
-	},
 /obj/structure/closet/crate/ammo,
 /obj/item/ammo_box/magazine/mk1,
 /obj/item/ammo_box/magazine/mk1,
-/obj/merge_conflict_marker{
-	name = "---Merge Conflict Marker---";
-	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete."
-	},
-/obj/effect/decal/warning_stripes{
-	icon_state = "W"
-	},
 /turf/open/floor/prison/darkyellowcorners2/west{
 	dir = 2
 	},
@@ -28551,10 +28284,6 @@
 /area/liberty/command_deck/commanders_quarters)
 "xLX" = (
 /obj/structure/platform_decoration,
-/obj/merge_conflict_marker{
-	name = "---Merge Conflict Marker---";
-	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete."
-	},
 /turf/open/floor/almayer,
 /area/liberty/hangar_deck/west_hall)
 "xMA" = (
@@ -28855,12 +28584,8 @@
 /obj/structure/machinery/cryopod/big/flipped{
 	pixel_x = -9
 	},
-/obj/effect/landmark/start/marine/alpha{
-	single_use = 1
-	},
-/obj/effect/landmark/late_join/alpha{
-	single_use = 1
-	},
+/obj/effect/landmark/start/marine/alpha,
+/obj/effect/landmark/late_join/alpha,
 /obj/structure/prop/invuln/overhead_pipe{
 	pixel_x = 8
 	},
@@ -50714,7 +50439,7 @@ iqp
 hGm
 iqp
 pfp
-aai
+kkR
 vpt
 lvf
 nNs
@@ -53550,9 +53275,9 @@ rAE
 dgd
 eMc
 aaf
-aag
-aad
-aac
+eMc
+xsH
+jMw
 kiX
 hzE
 rjf

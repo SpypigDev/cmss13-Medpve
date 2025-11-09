@@ -21,11 +21,10 @@ map firefly
 endmap
 
 map golden_arrow
-	disabled
+	default
 endmap
 
 map liberty
-	default
 endmap
 
 map chapaev
