@@ -26,6 +26,8 @@
 		/obj/structure/machinery/cm_vending/sorted/cargo_guns/cargo/blend,
 	)
 
+	noblend_turfs = list(/turf/closed/wall/mineral, /turf/closed/wall/almayer/research/containment, /turf/closed/wall/almayer/cargo_hull)
+
 	/// The type of wall decoration we use, to avoid the wall changing icon all the time
 	var/decoration_type
 
@@ -255,6 +257,24 @@
 	hull = TRUE
 	icon_state = "hull"
 
+// Cargo container hulls
+/turf/closed/wall/almayer/cargo_hull
+	name = "cargo container hull"
+	icon = 'icons/turf/walls/strata_outpost.dmi'
+	icon_state = "strata_bare_outpost_"
+	walltype = WALL_STRATA_OUTPOST_BARE
+	desc = "A metal hull used to construct spaceproof cargo containers."
+	hull = 1
+	tiles_with = list(
+		/turf/closed/wall/almayer/cargo_hull,
+		/obj/structure/window/framed,
+		/obj/structure/window_frame,
+		/obj/structure/girder,
+		/obj/structure/machinery/door,
+	)
+	blend_turfs = list(/turf/closed/wall/almayer/cargo_hull)
+	noblend_turfs = list(/turf/closed/wall/mineral, /turf/closed/wall/almayer/research/containment)
+	blend_objects = list(/obj/structure/machinery/door)
 
 //Sulaco walls.
 /turf/closed/wall/sulaco

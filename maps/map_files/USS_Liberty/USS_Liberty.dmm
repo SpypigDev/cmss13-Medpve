@@ -1,14 +1,107 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"aaa" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	pixel_y = 2
+	},
+/obj/merge_conflict_marker{
+	name = "---Merge Conflict Marker---";
+	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete."
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	pixel_y = 2
+	},
+/obj/structure/supply_drop/echo{
+	mouse_opacity = 0
+	},
+/turf/open/floor/prison/floor_plate,
+/area/liberty/hangar_deck/cargo)
+"aab" = (
+/obj/structure/cable/heavyduty{
+	icon_state = "4-8"
+	},
+/turf/open/floor/almayer,
+/area/liberty/hangar_deck/cargo)
+"aac" = (
+/obj/structure/machinery/door/airlock/almayer/maint{
+	dir = 2
+	},
+/obj/merge_conflict_marker{
+	name = "---Merge Conflict Marker---";
+	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete."
+	},
+/obj/structure/window/framed/almayer/hull,
+/turf/open/floor/almayer/test_floor4,
+/area/liberty/hangar_deck/cargo)
+"aad" = (
+/obj/structure/lattice,
+/turf/open/floor/almayer,
+/area/liberty/hangar_deck/west_hall)
+"aae" = (
+/obj/structure/lattice,
+/turf/closed/wall/almayer/outer,
+/area/liberty/hangar_deck/west_hall)
 "aaf" = (
 /obj/structure/machinery/light/small/blue/golden_arrow{
 	dir = 8
 	},
+/obj/merge_conflict_marker{
+	name = "---Merge Conflict Marker---";
+	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete."
+	},
+/obj/structure/lattice,
+/turf/open/floor/almayer,
+/area/liberty/hangar_deck/west_hall)
+"aag" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/merge_conflict_marker{
+	name = "---Merge Conflict Marker---";
+	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete."
+	},
+/obj/structure/lattice,
 /turf/open/floor/almayer,
 /area/liberty/hangar_deck/west_hall)
 "aah" = (
 /obj/structure/machinery/light/small/blue/golden_arrow,
 /turf/open/floor/wood/ship,
 /area/liberty/command_deck/commanders_quarters)
+"aai" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "S";
+	layer = 3.3
+	},
+/obj/merge_conflict_marker{
+	name = "---Merge Conflict Marker---";
+	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete."
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "S";
+	layer = 3.3
+	},
+/obj/structure/machinery/light/small/blue/golden_arrow{
+	dir = 1
+	},
+/turf/open/floor/prison/floor_plate,
+/area/liberty/hangar_deck/cargo)
+"aaj" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "S";
+	layer = 3.3
+	},
+/obj/merge_conflict_marker{
+	name = "---Merge Conflict Marker---";
+	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete."
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "S";
+	layer = 3.3
+	},
+/obj/structure/supply_drop/echo{
+	mouse_opacity = 0
+	},
+/turf/open/floor/prison/floor_plate,
+/area/liberty/hangar_deck/cargo)
 "aaL" = (
 /obj/structure/prop/hybrisa/misc/buildinggreebliessmall{
 	pixel_x = 7;
@@ -180,6 +273,12 @@
 /obj/structure/closet/crate/ammo,
 /obj/item/storage/box/m56d/m2c,
 /obj/item/storage/box/m56d/m2c,
+/obj/merge_conflict_marker{
+	name = "---Merge Conflict Marker---";
+	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete."
+	},
+/obj/effect/decal/siding,
+/obj/structure/closet/crate/ammo,
 /turf/open/floor/prison/floor_plate,
 /area/liberty/hangar_deck/cargo)
 "aiC" = (
@@ -408,6 +507,13 @@
 	},
 /obj/structure/platform_decoration{
 	dir = 8
+	},
+/obj/merge_conflict_marker{
+	name = "---Merge Conflict Marker---";
+	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete."
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "cargo_arrow"
 	},
 /turf/open/floor/almayer/edge/smooth/east{
 	dir = 2
@@ -3110,6 +3216,11 @@
 "cMo" = (
 /obj/effect/decal/siding,
 /obj/structure/closet/crate/ammo,
+/obj/merge_conflict_marker{
+	name = "---Merge Conflict Marker---";
+	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete."
+	},
+/obj/effect/decal/siding,
 /turf/open/floor/prison/floor_plate,
 /area/liberty/hangar_deck/cargo)
 "cMv" = (
@@ -5714,6 +5825,19 @@
 	name = "hydraulic cable";
 	pixel_x = 16
 	},
+/obj/merge_conflict_marker{
+	name = "---Merge Conflict Marker---";
+	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete."
+	},
+/obj/structure/prop/hybrisa/misc/buildinggreebliessmall{
+	pixel_y = 20;
+	name = "hydraulic cable"
+	},
+/obj/structure/prop/hybrisa/misc/buildinggreebliessmall{
+	pixel_y = 20;
+	name = "hydraulic cable";
+	pixel_x = 16
+	},
 /turf/open/floor/almayer_hull,
 /area/space)
 "faK" = (
@@ -5996,6 +6120,12 @@
 /obj/item/ammo_box/magazine/mk1/rubber,
 /obj/item/ammo_box/magazine/mk1/rubber,
 /obj/structure/closet/crate/ammo,
+/obj/merge_conflict_marker{
+	name = "---Merge Conflict Marker---";
+	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete."
+	},
+/obj/effect/decal/siding,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/prison/floor_plate,
 /area/liberty/hangar_deck/cargo)
 "foq" = (
@@ -7722,6 +7852,10 @@
 /obj/structure/platform_decoration{
 	dir = 8
 	},
+/obj/merge_conflict_marker{
+	name = "---Merge Conflict Marker---";
+	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete."
+	},
 /turf/open/floor/almayer,
 /area/liberty/hangar_deck/west_hall)
 "gST" = (
@@ -8653,6 +8787,17 @@
 	},
 /obj/structure/platform/stair_cut/alt,
 /obj/structure/platform,
+/obj/merge_conflict_marker{
+	name = "---Merge Conflict Marker---";
+	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete."
+	},
+/obj/structure/machinery/light/double/blue/golden_arrow{
+	dir = 1
+	},
+/obj/structure/stairs/perspective{
+	dir = 8
+	},
+/obj/structure/machinery/power/apc/almayer/hardened/north,
 /turf/open/floor/almayer/edge/smooth/east{
 	dir = 1
 	},
@@ -13364,6 +13509,14 @@
 	dir = 8
 	},
 /obj/structure/platform/stair_cut/alt,
+/obj/merge_conflict_marker{
+	name = "---Merge Conflict Marker---";
+	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete."
+	},
+/obj/structure/machinery/light/double/blue/golden_arrow,
+/obj/structure/stairs/perspective{
+	dir = 8
+	},
 /turf/open/floor/almayer/edge/smooth/east{
 	dir = 2
 	},
@@ -14065,6 +14218,14 @@
 /obj/structure/platform_decoration,
 /obj/structure/platform_decoration{
 	dir = 8
+	},
+/obj/merge_conflict_marker{
+	name = "---Merge Conflict Marker---";
+	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete."
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "cargo_arrow";
+	dir = 1
 	},
 /turf/open/floor/almayer/edge/smooth/east{
 	dir = 1
@@ -18137,6 +18298,11 @@
 /obj/effect/decal/siding,
 /obj/structure/closet/crate/explosives,
 /obj/item/ammo_box/magazine/nade_box/flare,
+/obj/merge_conflict_marker{
+	name = "---Merge Conflict Marker---";
+	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete."
+	},
+/obj/effect/decal/siding,
 /turf/open/floor/prison/floor_plate,
 /area/liberty/hangar_deck/cargo)
 "pxk" = (
@@ -21986,6 +22152,21 @@
 /obj/structure/largecrate/supply/ammo/m56d{
 	pixel_y = 12
 	},
+/obj/merge_conflict_marker{
+	name = "---Merge Conflict Marker---";
+	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete."
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "S";
+	layer = 3.3
+	},
+/obj/structure/largecrate/supply,
+/obj/structure/largecrate/supply/ammo/m56d{
+	pixel_y = 12
+	},
+/obj/structure/supply_drop/echo{
+	mouse_opacity = 0
+	},
 /turf/open/floor/prison/floor_plate,
 /area/liberty/hangar_deck/cargo)
 "sHB" = (
@@ -22863,6 +23044,11 @@
 "tlF" = (
 /obj/effect/decal/siding,
 /obj/structure/largecrate/supply/weapons/m56d,
+/obj/merge_conflict_marker{
+	name = "---Merge Conflict Marker---";
+	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete."
+	},
+/obj/effect/decal/siding,
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/liberty/hangar_deck/cargo)
 "tmo" = (
@@ -23009,6 +23195,12 @@
 /obj/effect/decal/siding,
 /obj/structure/closet/crate/ammo,
 /obj/item/ammo_box/magazine/m56d,
+/obj/merge_conflict_marker{
+	name = "---Merge Conflict Marker---";
+	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete."
+	},
+/obj/effect/decal/siding,
+/obj/structure/closet/crate/ammo,
 /turf/open/floor/prison/floor_plate,
 /area/liberty/hangar_deck/cargo)
 "tte" = (
@@ -23156,6 +23348,11 @@
 "twX" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/barricade/handrail/type_b,
+/obj/merge_conflict_marker{
+	name = "---Merge Conflict Marker---";
+	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete."
+	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/almayer,
 /area/liberty/hangar_deck/west_hall)
 "txb" = (
@@ -24255,12 +24452,6 @@
 	},
 /turf/open/floor/hybrisa/metal/metalwhitefull,
 /area/liberty/crew_deck/medbay)
-"uob" = (
-/obj/structure/sign/safety/storage{
-	pixel_x = 13
-	},
-/turf/closed/wall/almayer/outer,
-/area/liberty/cargo_deck/maintenance)
 "uoT" = (
 /obj/structure/prop/invuln/overhead_pipe{
 	pixel_x = 4;
@@ -27003,6 +27194,14 @@
 	pixel_x = 1
 	},
 /obj/structure/largecrate/supply/weapons/m56d,
+/obj/merge_conflict_marker{
+	name = "---Merge Conflict Marker---";
+	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete."
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "E";
+	pixel_x = 1
+	},
 /turf/open/floor/prison/darkyellowcorners2/west,
 /area/liberty/hangar_deck/cargo)
 "wHm" = (
@@ -27972,6 +28171,13 @@
 /obj/structure/closet/crate/ammo,
 /obj/item/ammo_box/magazine/mk1,
 /obj/item/ammo_box/magazine/mk1,
+/obj/merge_conflict_marker{
+	name = "---Merge Conflict Marker---";
+	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete."
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "W"
+	},
 /turf/open/floor/prison/darkyellowcorners2/west{
 	dir = 2
 	},
@@ -28351,6 +28557,10 @@
 /area/liberty/command_deck/commanders_quarters)
 "xLX" = (
 /obj/structure/platform_decoration,
+/obj/merge_conflict_marker{
+	name = "---Merge Conflict Marker---";
+	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete."
+	},
 /turf/open/floor/almayer,
 /area/liberty/hangar_deck/west_hall)
 "xMA" = (
@@ -47422,11 +47632,11 @@ bSe
 hgZ
 oIl
 oIl
-uob
+eKr
 iXw
 suB
 dlS
-uob
+eKr
 oIl
 oIl
 oXf
@@ -50510,7 +50720,7 @@ iqp
 hGm
 iqp
 pfp
-kkR
+aai
 vpt
 lvf
 nNs
@@ -52280,7 +52490,7 @@ kfb
 pfp
 pfp
 pBG
-oXV
+aHV
 oXV
 lyY
 bnz
@@ -53346,9 +53556,9 @@ rAE
 dgd
 eMc
 aaf
-eMc
-xsH
-jMw
+aag
+aad
+aac
 kiX
 hzE
 rjf
@@ -54401,10 +54611,10 @@ ciy
 oXV
 oXV
 oXV
-oXV
-oXV
-oXV
-cKU
+aae
+aae
+aae
+rjf
 kiX
 hzE
 rjf
@@ -56578,7 +56788,7 @@ eKr
 xZz
 jwY
 hcD
-ofW
+eKr
 oIl
 oIl
 uln
@@ -56874,7 +57084,7 @@ oOn
 qVn
 rmH
 gJG
-fLG
+aaa
 pfp
 iqp
 hGm
@@ -57198,7 +57408,7 @@ iqp
 hGm
 iqp
 pfp
-kkR
+aaj
 pxj
 jxT
 qMT
@@ -58334,11 +58544,11 @@ twq
 tIJ
 oIl
 oIl
-rPG
+cZt
 rNE
 xWO
 wUc
-rPG
+cZt
 oIl
 oIl
 oXf
@@ -59334,7 +59544,7 @@ cAd
 pBG
 cKU
 hzE
-hzE
+aab
 cKU
 iqp
 iqp
@@ -59686,7 +59896,7 @@ cAd
 cAd
 cKU
 kXu
-hzE
+aab
 jKY
 hGm
 hGm
