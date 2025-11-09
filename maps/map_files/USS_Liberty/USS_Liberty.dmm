@@ -3653,9 +3653,7 @@
 /turf/open/floor/almayer,
 /area/liberty/crew_deck/fitness_room)
 "der" = (
-/obj/structure/machinery/power/apc/almayer/hardened/north{
-	pixel_x = -6
-	},
+/obj/structure/machinery/power/apc/almayer/hardened/north,
 /obj/structure/machinery/light/double/blue/golden_arrow{
 	dir = 1
 	},
@@ -8782,9 +8780,7 @@
 /obj/structure/stairs/perspective{
 	dir = 8
 	},
-/obj/structure/machinery/power/apc/almayer/hardened/north{
-	pixel_x = 13
-	},
+/obj/structure/machinery/power/apc/almayer/hardened/north,
 /obj/structure/platform/stair_cut/alt,
 /obj/structure/platform,
 /obj/merge_conflict_marker{
@@ -16702,7 +16698,7 @@
 "nZt" = (
 /obj/structure/machinery/power/apc/almayer/north{
 	dir = 8;
-	pixel_y = 0
+	
 	},
 /turf/open/floor/plating,
 /area/liberty/crew_deck/maintenance)
@@ -18472,9 +18468,7 @@
 /obj/structure/pipes/standard/simple/hidden/supply{
 	dir = 4
 	},
-/obj/structure/machinery/power/apc/almayer/north{
-	pixel_x = -9
-	},
+/obj/structure/machinery/power/apc/almayer/north,
 /turf/open/floor/plating/plating_catwalk,
 /area/liberty/crew_deck/auxillary_hypersleep)
 "pDw" = (
