@@ -431,7 +431,7 @@
 /obj/structure/shuttle/part/somme
 	name = "\improper Somme"
 	icon = 'icons/turf/dropship5.dmi'
-	icon_state = "1"
+	icon_state = "dropship_interior 6,11"
 	opacity = TRUE
 
 /obj/structure/shuttle/part/somme/transparent

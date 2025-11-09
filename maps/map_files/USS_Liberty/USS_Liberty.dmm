@@ -15611,7 +15611,7 @@
 "nfZ" = (
 /obj/structure/machinery/power/apc/almayer/north{
 	dir = 2;
-	pixel_y = -32
+	pixel_y = -24
 	},
 /turf/open/floor/almayer,
 /area/liberty/crew_deck/chapel)
@@ -16334,7 +16334,7 @@
 "nLy" = (
 /obj/structure/machinery/power/apc/almayer/north{
 	dir = 2;
-	pixel_y = -32
+	pixel_y = -24
 	},
 /turf/open/floor/almayer{
 	icon_state = "plate"
@@ -19729,7 +19729,7 @@
 "qze" = (
 /obj/structure/machinery/power/apc/almayer/north{
 	dir = 2;
-	pixel_y = -32
+	pixel_y = -24
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/almayer,
@@ -20092,7 +20092,7 @@
 	},
 /obj/structure/machinery/power/apc/almayer/north{
 	dir = 2;
-	pixel_y = -32
+	pixel_y = -24
 	},
 /obj/structure/prop/invuln/overhead_pipe{
 	pixel_x = -16;

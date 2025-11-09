@@ -137,6 +137,10 @@
 	is_landing_zone = TRUE
 	ceiling = CEILING_REINFORCED_METAL
 
+/area/shuttle/somme/red
+	base_lighting_color = "#eb4034";
+	light_color = "#eb4034"
+
 /area/shuttle/somme/Enter(atom/movable/O, atom/oldloc)
 	if(istype(O, /obj/structure/barricade))
 		return FALSE

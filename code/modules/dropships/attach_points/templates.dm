@@ -174,6 +174,7 @@
 	ship_tag = DROPSHIP_SOMME
 	base_category = SOMME_DROPSHIP_WEAPON
 	icon = 'icons/turf/dropship5.dmi'
+	icon_state = "dropship_interior 6,11"
 
 /obj/effect/attach_point/weapon/somme/left_wing
 	name = "port wing weapon attach point"
