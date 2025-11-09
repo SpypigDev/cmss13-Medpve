@@ -13,12 +13,12 @@
 	game_started = FALSE
 
 	role_mappings = list(
-		/datum/job/command/bridge/ai = JOB_SO,
-		/datum/job/marine/tl/ai/forecon = JOB_SQUAD_TEAM_LEADER_FORECON,
+		/datum/job/command/bridge/ai = JOB_FORECON_SO,
+		/datum/job/marine/tl/ai/forecon = JOB_SQUAD_LEADER_FORECON,
 		/datum/job/marine/specialist = JOB_SQUAD_SPECIALIST,
+		/datum/job/marine/smartgunner/ai/forecon = JOB_SQUAD_SMARTGUN_FORECON,
 		/datum/job/marine/medic/ai/forecon = JOB_SQUAD_MEDIC_FORECON,
 		/datum/job/marine/engineer/ai = JOB_SQUAD_ENGI,
-		/datum/job/marine/smartgunner/ai/forecon = JOB_SQUAD_SMARTGUN_FORECON,
 		/datum/job/marine/standard/ai/forecon = JOB_SQUAD_MARINE_FORECON,
 	)
 
@@ -31,12 +31,12 @@
 	//RegisterSignal(SSdcs, COMSIG_GLOB_XENO_SPAWN, PROC_REF(handle_xeno_spawn))
 
 	GLOB.platoon_to_jobs[/datum/squad/marine/forecon/containment] = list(
-		/datum/job/command/bridge/ai = JOB_SO,\
-		/datum/job/marine/tl/ai/forecon = JOB_SQUAD_TEAM_LEADER_FORECON,\
+		/datum/job/command/bridge/ai/forecon = JOB_FORECON_SO,\
+		/datum/job/marine/tl/ai/forecon = JOB_SQUAD_LEADER_FORECON,\
 		/datum/job/marine/specialist = JOB_SQUAD_SPECIALIST,\
+		/datum/job/marine/smartgunner/ai/forecon = JOB_SQUAD_SMARTGUN_FORECON,\
 		/datum/job/marine/medic/ai/forecon = JOB_SQUAD_MEDIC_FORECON,\
 		/datum/job/marine/engineer/ai = JOB_SQUAD_ENGI,
-		/datum/job/marine/smartgunner/ai/forecon = JOB_SQUAD_SMARTGUN_FORECON,\
 		/datum/job/marine/standard/ai/forecon = JOB_SQUAD_MARINE_FORECON)
 
 	GLOB.platoon_to_role_list[/datum/squad/marine/forecon/containment] = GLOB.ROLES_AI_CONTAINMENT

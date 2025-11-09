@@ -330,6 +330,7 @@ GLOBAL_LIST_INIT(job_command_roles, JOB_COMMAND_ROLES_LIST)
 //-------- FORECON --------//
 
 #define JOB_FORECON_CO "Reconnaissance Commander"
+#define JOB_FORECON_SO "Reconnaissance Platoon Commander"
 #define JOB_FORECON_SL "Reconnaissance Squad Leader"
 #define JOB_FORECON_SYN "Reconnaissance Synthetic"
 #define JOB_FORECON_SNIPER "Reconnaissance Sniper"
