@@ -56,30 +56,26 @@
 /obj/structure/closet/secure_closet/marine_personal/platoon_leader
 	job = JOB_SQUAD_LEADER
 
-/obj/structure/closet/secure_closet/marine_personal/platoon_leader/spawn_gear()
-	new /obj/item/clothing/under/marine(src)
-	new /obj/item/clothing/shoes/marine/knife(src)
-	new /obj/item/device/radio/headset/almayer/marine/solardevils/seclead(src)
-
 /obj/structure/closet/secure_closet/marine_personal/platoon_commander
 	job = JOB_SO
 
 /obj/structure/closet/secure_closet/marine_personal/platoon_commander/spawn_gear()
+/obj/structure/closet/secure_closet/marine_personal/squad_leader
+	job = JOB_SQUAD_TEAM_LEADER
+
+/obj/structure/closet/secure_closet/marine_personal/platoon_leader
+	job = JOB_SQUAD_LEADER
+
+/obj/structure/closet/secure_closet/marine_personal/platoon_leader/spawn_gear()
 	new /obj/item/clothing/under/marine(src)
 	new /obj/item/clothing/under/marine/officer/boiler(src)
-	new /obj/item/clothing/head/cmcap/bridge(src)
-	new /obj/item/clothing/suit/storage/jacket/marine/service(src)
 	new /obj/item/clothing/under/marine/officer/bridge(src)
-	new /obj/item/clothing/shoes/laceup(src)
-	new /obj/item/clothing/head/marine/peaked/service(src)
+	new /obj/item/clothing/suit/storage/jacket/marine/service(src)
 	new /obj/item/clothing/suit/storage/jacket/marine/dress/officer/bomber(src)
-	new /obj/item/clothing/shoes/marine/knife(src)
-	new /obj/item/device/radio/headset/almayer/marine/solardevils/pltco(src)
-
-// ==UPP== //
+	new /obj/item/clothing/shoes/marine/jungle/knife(src)
+	new /obj/item/device/radio/headset/almayer/marine/solardevils(src)
 
 /obj/structure/closet/secure_closet/marine_personal/upp/spawn_gear()
-	new /obj/item/clothing/head/uppcap/beret/naval(src)
 	new /obj/item/clothing/under/marine/veteran/UPP(src)
 	new /obj/item/clothing/shoes/marine/upp(src)
 	new /obj/item/device/radio/headset/almayer/marine/solardevils/upp(src)
@@ -103,18 +99,16 @@
 	job = JOB_SO
 
 /obj/structure/closet/secure_closet/marine_personal/upp/platoon_commander/spawn_gear()
-	new /obj/item/clothing/head/uppcap/beret/naval(src)
 	new /obj/item/clothing/under/marine/veteran/UPP/naval(src)
+	new /obj/item/clothing/suit/storage/jacket/marine/upp/naval(src)
 	new /obj/item/clothing/shoes/marine/upp(src)
 	new /obj/item/device/radio/headset/almayer/marine/solardevils/upp(src)
 	new /obj/item/clothing/suit/storage/jacket/marine/upp/naval(src)
 	new /obj/item/clothing/suit/storage/jacket/marine/upp(src)
 
-// ==USCM FORECON== //
-
 /obj/structure/closet/secure_closet/marine_personal/forecon/spawn_gear()
 	new /obj/item/clothing/under/marine/standard(src)
-	new /obj/item/clothing/shoes/marine/knife(src)
+	new /obj/item/clothing/shoes/marine/jungle/knife(src)
 	new /obj/item/device/radio/headset/almayer/marine/solardevils/forecon(src)
 
 /obj/structure/closet/secure_closet/marine_personal/forecon/rifleman
@@ -134,6 +128,7 @@
 
 /obj/structure/closet/secure_closet/marine_personal/forecon/rto
 	job = JOB_SQUAD_RTO
+
 
 // ==WY PMC== //
 
