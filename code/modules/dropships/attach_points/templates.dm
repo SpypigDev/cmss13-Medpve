@@ -436,6 +436,9 @@
 /obj/effect/attach_point/crew_weapon/midway
 	ship_tag = DROPSHIP_MIDWAY
 
+/obj/effect/attach_point/crew_weapon/somme
+	ship_tag = DROPSHIP_SOMME
+
 /obj/effect/attach_point/crew_weapon/cyclone
 	ship_tag = DROPSHIP_CYCLONE
 
@@ -465,6 +468,9 @@
 
 /obj/effect/attach_point/electronics/dropship2
 	ship_tag = DROPSHIP_NORMANDY
+
+/obj/effect/attach_point/electronics/somme
+	ship_tag = DROPSHIP_SOMME
 
 /obj/effect/attach_point/electronics/dropship3
 	ship_tag = DROPSHIP_SAIPAN
@@ -506,7 +512,6 @@
 /obj/effect/attach_point/fuel/dropship3
 	ship_tag = DROPSHIP_SAIPAN
 
-
 /obj/effect/attach_point/fuel/midway
 	ship_tag = DROPSHIP_MIDWAY
 
@@ -530,6 +535,9 @@
 
 /obj/effect/attach_point/computer/dropship2
 	ship_tag = DROPSHIP_NORMANDY
+
+/obj/effect/attach_point/computer/somme
+	ship_tag = DROPSHIP_SOMME
 
 /obj/effect/attach_point/computer/dropship3
 	ship_tag = DROPSHIP_SAIPAN
