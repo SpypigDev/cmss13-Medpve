@@ -392,7 +392,7 @@
 	name = "Hangar Bay"
 	id = GOLDEN_ARROW_LZ
 	auto_open = TRUE
-	roundstart_template = /datum/map_template/shuttle/somme
+	roundstart_template = /datum/map_template/shuttle/midway
 
 /obj/docking_port/stationary/marine_dropship/liberty_hangar_1
 	name = "Hangar Bay Aft"
@@ -475,3 +475,11 @@
 /datum/map_template/shuttle/tripoli
 	name = "Tripoli"
 	shuttle_id = DROPSHIP_TRIPOLI
+
+/datum/map_template/shuttle/somme
+	name = "Somme"
+	shuttle_id = DROPSHIP_SOMME
+
+/datum/map_template/shuttle/bastogne
+	name = "Bastogne"
+	shuttle_id = DROPSHIP_BASTOGNE
