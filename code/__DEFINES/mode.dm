@@ -294,6 +294,7 @@ DEFINE_BITFIELD(whitelist_status, list(
 #define FACTION_COLONIST "Colonist"
 #define FACTION_YAUTJA "Yautja"
 #define FACTION_ZOMBIE "Zombie"
+#define FACTION_ANOMALY "Anomaly"
 #define FACTION_MONKEY "Monkey" // Nanu
 #define FACTION_MALF_SYNTH "Malfunctioning Synthetic"
 
