@@ -129,6 +129,18 @@
 /obj/docking_port/mobile/marine_dropship/midway/get_transit_path_type()
 	return /turf/open/space/transit/dropship/midway
 
+/obj/docking_port/mobile/marine_dropship/somme
+	name = "Somme"
+	id = DROPSHIP_SOMME
+	width = 9
+	height = 18
+
+	dwidth = 4
+	dheight = 8
+
+/obj/docking_port/mobile/marine_dropship/somme/get_transit_path_type()
+	return /turf/open/space/transit/dropship/somme
+
 /obj/docking_port/mobile/marine_dropship/upp
 	name = "Akademia Nauk"
 	id = DROPSHIP_UPP
@@ -394,6 +406,18 @@
 	auto_open = TRUE
 	roundstart_template = /datum/map_template/shuttle/midway
 
+/obj/docking_port/stationary/marine_dropship/liberty_hangar_1
+	name = "Hangar Bay Aft"
+	id = LIBERTY_DROPSHIP_LZ1
+	auto_open = TRUE
+	roundstart_template = /datum/map_template/shuttle/somme
+
+/obj/docking_port/stationary/marine_dropship/liberty_hangar_2
+	name = "Hangar Bay Fore"
+	id = LIBERTY_DROPSHIP_LZ2
+	auto_open = TRUE
+	roundstart_template = /datum/map_template/shuttle/somme
+
 /obj/docking_port/stationary/marine_dropship/crash_site
 	auto_open = TRUE
 
@@ -423,6 +447,10 @@
 /datum/map_template/shuttle/midway
 	name = "Midway"
 	shuttle_id = DROPSHIP_MIDWAY
+
+/datum/map_template/shuttle/somme
+	name = "Somme"
+	shuttle_id = DROPSHIP_SOMME
 
 /datum/map_template/shuttle/alamo
 	name = "Alamo"
@@ -463,3 +491,11 @@
 /datum/map_template/shuttle/tripoli
 	name = "Tripoli"
 	shuttle_id = DROPSHIP_TRIPOLI
+
+/datum/map_template/shuttle/somme
+	name = "Somme"
+	shuttle_id = DROPSHIP_SOMME
+
+/datum/map_template/shuttle/bastogne
+	name = "Bastogne"
+	shuttle_id = DROPSHIP_BASTOGNE

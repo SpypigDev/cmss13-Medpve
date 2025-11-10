@@ -1,0 +1,211 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "E";
+	pixel_x = 1
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	pixel_y = 1
+	},
+/turf/open/floor/almayer/plate,
+/area/liberty/vehicle_shuttle/n)
+"b" = (
+/obj/structure/barricade/handrail{
+	dir = 1;
+	pixel_y = 16;
+	indestructible = 1
+	},
+/turf/open/floor/plating/plating_catwalk,
+/area/liberty/vehicle_shuttle/n)
+"c" = (
+/obj/structure/barricade/handrail{
+	dir = 8;
+	indestructible = 1
+	},
+/turf/open/floor/plating/plating_catwalk,
+/area/liberty/vehicle_shuttle/n)
+"f" = (
+/turf/open/floor/almayer/plate,
+/area/liberty/vehicle_shuttle/n)
+"i" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "E";
+	pixel_x = 1
+	},
+/turf/open/floor/almayer/plate,
+/area/liberty/vehicle_shuttle/n)
+"o" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/docking_port/mobile/trijent_elevator/shipmap_elevator/liberty/n,
+/obj/structure/barricade/handrail{
+	dir = 8;
+	indestructible = 1
+	},
+/turf/open/floor/plating/plating_catwalk,
+/area/liberty/vehicle_shuttle/n)
+"p" = (
+/obj/structure/barricade/handrail{
+	dir = 1;
+	pixel_y = 16;
+	indestructible = 1
+	},
+/obj/structure/barricade/handrail{
+	dir = 4;
+	indestructible = 1
+	},
+/turf/open/floor/plating/plating_catwalk,
+/area/liberty/vehicle_shuttle/n)
+"s" = (
+/turf/open/floor/plating/plating_catwalk,
+/area/liberty/vehicle_shuttle/n)
+"t" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "W";
+	dir = 1
+	},
+/turf/open/floor/almayer/plate,
+/area/liberty/vehicle_shuttle/n)
+"u" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/warning_stripes{
+	icon_state = "E";
+	pixel_x = 1
+	},
+/turf/open/floor/almayer/plate,
+/area/liberty/vehicle_shuttle/n)
+"v" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	pixel_y = 1
+	},
+/turf/open/floor/almayer/plate,
+/area/liberty/vehicle_shuttle/n)
+"z" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/warning_stripes{
+	icon_state = "W";
+	dir = 1
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	pixel_y = 1
+	},
+/turf/open/floor/almayer/plate,
+/area/liberty/vehicle_shuttle/n)
+"A" = (
+/obj/structure/barricade/handrail{
+	dir = 4;
+	indestructible = 1
+	},
+/obj/structure/barricade/handrail{
+	dir = 4;
+	indestructible = 1
+	},
+/turf/open/floor/plating/plating_catwalk,
+/area/liberty/vehicle_shuttle/n)
+"C" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/barricade/handrail{
+	dir = 1;
+	pixel_y = 16;
+	indestructible = 1
+	},
+/obj/structure/barricade/handrail{
+	dir = 8;
+	indestructible = 1
+	},
+/turf/open/floor/plating/plating_catwalk,
+/area/liberty/vehicle_shuttle/n)
+"E" = (
+/obj/structure/machinery/elevator_strut/top{
+	pixel_y = 30;
+	layer = 2;
+	indestructible = 1
+	},
+/obj/structure/barricade/handrail{
+	dir = 1;
+	pixel_y = 16;
+	pixel_x = 16;
+	indestructible = 1
+	},
+/turf/open/floor/plating/plating_catwalk,
+/area/liberty/vehicle_shuttle/n)
+"O" = (
+/obj/structure/machinery/floodlight/landing/floor{
+	color = "#dae2ff";
+	light_color = "#dae2ff"
+	},
+/turf/open/floor/plating/plating_catwalk,
+/area/liberty/vehicle_shuttle/n)
+"P" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating/plating_catwalk,
+/area/liberty/vehicle_shuttle/n)
+"R" = (
+/obj/structure/machinery/computer/shuttle/elevator_controller/railing{
+	shuttleId = "LibertyElevatorN";
+	can_block_movement = 0;
+	pixel_y = -4;
+	indestructible = 1
+	},
+/obj/structure/barricade/handrail{
+	indestructible = 1
+	},
+/obj/structure/barricade/handrail{
+	dir = 4;
+	indestructible = 1
+	},
+/turf/open/floor/plating/plating_catwalk,
+/area/liberty/vehicle_shuttle/n)
+"T" = (
+/obj/effect/decal/cleanable/blood/oil,
+/obj/effect/decal/warning_stripes{
+	icon_state = "W";
+	dir = 1
+	},
+/turf/open/floor/almayer/plate,
+/area/liberty/vehicle_shuttle/n)
+"Y" = (
+/obj/structure/barricade/handrail{
+	dir = 4;
+	indestructible = 1
+	},
+/turf/open/floor/plating/plating_catwalk,
+/area/liberty/vehicle_shuttle/n)
+
+(1,1,1) = {"
+C
+c
+c
+c
+o
+"}
+(2,1,1) = {"
+E
+z
+t
+t
+T
+"}
+(3,1,1) = {"
+s
+v
+O
+P
+f
+"}
+(4,1,1) = {"
+b
+a
+u
+u
+i
+"}
+(5,1,1) = {"
+p
+Y
+A
+Y
+R
+"}

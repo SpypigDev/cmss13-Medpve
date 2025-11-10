@@ -1344,7 +1344,97 @@
 /turf/open/shuttle/dropship/can_surgery/medium_grey_single_wide_up_to_down
 	icon_state = "rasputin15"
 
+// fuck whoever designed this
+/turf/open/shuttle/dropship/can_surgery/somme
+	icon = 'icons/turf/dropship5.dmi'
+	icon_state = "dropship_interior 4,9"
 
+/turf/open/shuttle/dropship/can_surgery/somme/floor_5_17
+	icon_state = "dropship_interior 5,17"
+
+/turf/open/shuttle/dropship/can_surgery/somme/floor_3_16
+	icon_state = "dropship_interior 3,16"
+
+/turf/open/shuttle/dropship/can_surgery/somme/floor_4_16
+	icon_state = "dropship_interior 4,16"
+
+/turf/open/shuttle/dropship/can_surgery/somme/floor_5_16
+	icon_state = "dropship_interior 5,16"
+
+/turf/open/shuttle/dropship/can_surgery/somme/floor_6_16
+	icon_state = "dropship_interior 6,16"
+
+/turf/open/shuttle/dropship/can_surgery/somme/floor_7_16
+	icon_state = "dropship_interior 7,16"
+
+/turf/open/shuttle/dropship/can_surgery/somme/floor_3_15
+	icon_state = "dropship_interior 3,15"
+
+/turf/open/shuttle/dropship/can_surgery/somme/floor_4_15
+	icon_state = "dropship_interior 4,15"
+
+/turf/open/shuttle/dropship/can_surgery/somme/floor_5_15
+	icon_state = "dropship_interior 5,15"
+
+/turf/open/shuttle/dropship/can_surgery/somme/floor_6_15
+	icon_state = "dropship_interior 6,15"
+
+/turf/open/shuttle/dropship/can_surgery/somme/floor_7_15
+	icon_state = "dropship_interior 7,15"
+
+/turf/open/shuttle/dropship/can_surgery/somme/floor_4_14
+	icon_state = "dropship_interior 4,14"
+
+/turf/open/shuttle/dropship/can_surgery/somme/floor_5_14
+	icon_state = "dropship_interior 5,14"
+
+/turf/open/shuttle/dropship/can_surgery/somme/floor_6_14
+	icon_state = "dropship_interior 6,14"
+
+/turf/open/shuttle/dropship/can_surgery/somme/floor_4_13
+	icon_state = "dropship_interior 4,13"
+
+/turf/open/shuttle/dropship/can_surgery/somme/floor_5_13
+	icon_state = "dropship_interior 5,13"
+
+/turf/open/shuttle/dropship/can_surgery/somme/floor_6_13
+	icon_state = "dropship_interior 6,13"
+
+/turf/open/shuttle/dropship/can_surgery/somme/floor_4_12
+	icon_state = "dropship_interior 4,12"
+
+/turf/open/shuttle/dropship/can_surgery/somme/floor_5_12
+	icon_state = "dropship_interior 5,12"
+
+/turf/open/shuttle/dropship/can_surgery/somme/floor_6_12
+	icon_state = "dropship_interior 6,12"
+
+/turf/open/shuttle/dropship/can_surgery/somme/floor_4_11
+	icon_state = "dropship_interior 4,11"
+
+/turf/open/shuttle/dropship/can_surgery/somme/floor_5_11
+	icon_state = "dropship_interior 5,11"
+
+/turf/open/shuttle/dropship/can_surgery/somme/floor_6_11
+	icon_state = "dropship_interior 6,11"
+
+/turf/open/shuttle/dropship/can_surgery/somme/floor_4_10
+	icon_state = "dropship_interior 4,10"
+
+/turf/open/shuttle/dropship/can_surgery/somme/floor_5_10
+	icon_state = "dropship_interior 5,10"
+
+/turf/open/shuttle/dropship/can_surgery/somme/floor_6_10
+	icon_state = "dropship_interior 6,10"
+
+/turf/open/shuttle/dropship/can_surgery/somme/floor_4_9
+	icon_state = "dropship_interior 4,9"
+
+/turf/open/shuttle/dropship/can_surgery/somme/floor_5_9
+	icon_state = "dropship_interior 5,9"
+
+/turf/open/shuttle/dropship/can_surgery/somme/floor_6_9
+	icon_state = "dropship_interior 6,9"
 
 /turf/open/shuttle/predship
 	name = "ship floor"
