@@ -34,10 +34,7 @@
 /obj/structure/bed/chair/dropship/passenger{
 	dir = 4
 	},
-/turf/open/shuttle/dropship/can_surgery{
-	icon = 'icons/turf/dropship5.dmi';
-	icon_state = "dropship_interior 3,16"
-	},
+/turf/open/shuttle/dropship/can_surgery/somme/floor_3_16,
 /area/shuttle/somme)
 "eL" = (
 /obj/structure/shuttle/part/somme{
@@ -46,16 +43,10 @@
 /turf/template_noop,
 /area/shuttle/somme)
 "hh" = (
-/turf/open/shuttle/dropship/can_surgery{
-	icon = 'icons/turf/dropship5.dmi';
-	icon_state = "dropship_interior 6,15"
-	},
+/turf/open/shuttle/dropship/can_surgery/somme/floor_6_15,
 /area/shuttle/somme)
 "hq" = (
-/turf/open/shuttle/dropship/can_surgery{
-	icon = 'icons/turf/dropship5.dmi';
-	icon_state = "dropship_interior 4,13"
-	},
+/turf/open/shuttle/dropship/can_surgery/somme/floor_4_13,
 /area/shuttle/somme)
 "hM" = (
 /obj/structure/shuttle/part/somme{
@@ -77,10 +68,7 @@
 /turf/template_noop,
 /area/shuttle/somme)
 "jQ" = (
-/turf/open/shuttle/dropship/can_surgery{
-	icon = 'icons/turf/dropship5.dmi';
-	icon_state = "dropship_interior 6,14"
-	},
+/turf/open/shuttle/dropship/can_surgery/somme/floor_6_14,
 /area/shuttle/somme)
 "ko" = (
 /turf/closed/shuttle/dropship1{
@@ -123,10 +111,7 @@
 /obj/structure/bed/chair/dropship/passenger{
 	dir = 4
 	},
-/turf/open/shuttle/dropship/can_surgery{
-	icon = 'icons/turf/dropship5.dmi';
-	icon_state = "dropship_interior 4,12"
-	},
+/turf/open/shuttle/dropship/can_surgery/somme/floor_4_12,
 /area/shuttle/somme)
 "nK" = (
 /obj/structure/shuttle/part/somme{
@@ -145,25 +130,16 @@
 	icon_state = "dropship_tail_fade";
 	plane = -5
 	},
-/turf/open/shuttle/dropship/can_surgery{
-	icon = 'icons/turf/dropship5.dmi';
-	icon_state = "dropship_interior 4,9"
-	},
+/turf/open/shuttle/dropship/can_surgery/somme/floor_5_9,
 /area/shuttle/somme)
 "pg" = (
 /obj/structure/bed/chair/dropship/passenger,
-/turf/open/shuttle/dropship/can_surgery{
-	icon = 'icons/turf/dropship5.dmi';
-	icon_state = "dropship_interior 5,15"
-	},
+/turf/open/shuttle/dropship/can_surgery/somme/floor_5_15,
 /area/shuttle/somme)
 "pv" = (
 /obj/effect/attach_point/crew_weapon/somme,
 /obj/docking_port/mobile/marine_dropship/somme,
-/turf/open/shuttle/dropship/can_surgery{
-	icon = 'icons/turf/dropship5.dmi';
-	icon_state = "dropship_interior 5,14"
-	},
+/turf/open/shuttle/dropship/can_surgery/somme/floor_5_14,
 /area/shuttle/somme)
 "pF" = (
 /obj/structure/shuttle/part/somme{
@@ -183,10 +159,7 @@
 /area/shuttle/somme)
 "qp" = (
 /obj/docking_port/mobile/marine_dropship/somme,
-/turf/open/shuttle/dropship/can_surgery{
-	icon = 'icons/turf/dropship5.dmi';
-	icon_state = "dropship_interior 5,12"
-	},
+/turf/open/shuttle/dropship/can_surgery/somme/floor_5_12,
 /area/shuttle/somme)
 "re" = (
 /obj/structure/shuttle/part/somme/transparent{
@@ -195,10 +168,7 @@
 /turf/template_noop,
 /area/shuttle/somme)
 "rz" = (
-/turf/open/shuttle/dropship/can_surgery{
-	icon = 'icons/turf/dropship5.dmi';
-	icon_state = "dropship_interior 4,14"
-	},
+/turf/open/shuttle/dropship/can_surgery/somme/floor_4_14,
 /area/shuttle/somme)
 "so" = (
 /turf/closed/shuttle/dropship1{
@@ -218,10 +188,7 @@
 /obj/structure/machinery/door/poddoor/railing{
 	dir = 2
 	},
-/turf/open/shuttle/dropship/can_surgery{
-	icon = 'icons/turf/dropship5.dmi';
-	icon_state = "dropship_interior 5,16"
-	},
+/turf/open/shuttle/dropship/can_surgery/somme/floor_5_16,
 /area/shuttle/somme)
 "uY" = (
 /obj/structure/shuttle/part/somme{
@@ -233,10 +200,7 @@
 /obj/structure/bed/chair/dropship/passenger{
 	dir = 8
 	},
-/turf/open/shuttle/dropship/can_surgery{
-	icon = 'icons/turf/dropship5.dmi';
-	icon_state = "dropship_interior 6,11"
-	},
+/turf/open/shuttle/dropship/can_surgery/somme/floor_6_11,
 /area/shuttle/somme)
 "vE" = (
 /obj/structure/shuttle/part/somme{
@@ -266,16 +230,10 @@
 /obj/structure/bed/chair/dropship/passenger{
 	dir = 8
 	},
-/turf/open/shuttle/dropship/can_surgery{
-	icon = 'icons/turf/dropship5.dmi';
-	icon_state = "dropship_interior 6,12"
-	},
+/turf/open/shuttle/dropship/can_surgery/somme/floor_6_12,
 /area/shuttle/somme)
 "BD" = (
-/turf/open/shuttle/dropship/can_surgery{
-	icon = 'icons/turf/dropship5.dmi';
-	icon_state = "dropship_interior 5,11"
-	},
+/turf/open/shuttle/dropship/can_surgery/somme/floor_5_11,
 /area/shuttle/somme)
 "BZ" = (
 /turf/closed/shuttle/dropship1{
@@ -305,10 +263,7 @@
 	pixel_y = 20;
 	layer = 2.9
 	},
-/turf/open/shuttle/dropship/can_surgery{
-	icon = 'icons/turf/dropship5.dmi';
-	icon_state = "dropship_interior 4,16"
-	},
+/turf/open/shuttle/dropship/can_surgery/somme/floor_4_16,
 /area/shuttle/somme)
 "FN" = (
 /turf/closed/shuttle/dropship1{
@@ -325,32 +280,20 @@
 	dir = 4;
 	light_color = "#a2c4fc"
 	},
-/turf/open/shuttle/dropship/can_surgery{
-	icon = 'icons/turf/dropship5.dmi';
-	icon_state = "dropship_interior 7,15"
-	},
+/turf/open/shuttle/dropship/can_surgery/somme/floor_7_15,
 /area/shuttle/somme)
 "Hl" = (
 /obj/structure/machinery/light/double/blue/golden_arrow{
 	dir = 8;
 	light_color = "#a2c4fc"
 	},
-/turf/open/shuttle/dropship/can_surgery{
-	icon = 'icons/turf/dropship5.dmi';
-	icon_state = "dropship_interior 4,10"
-	},
+/turf/open/shuttle/dropship/can_surgery/somme/floor_4_10,
 /area/shuttle/somme)
 "HN" = (
-/turf/open/shuttle/dropship/can_surgery{
-	icon = 'icons/turf/dropship5.dmi';
-	icon_state = "dropship_interior 4,15"
-	},
+/turf/open/shuttle/dropship/can_surgery/somme/floor_4_15,
 /area/shuttle/somme)
 "Kg" = (
-/turf/open/shuttle/dropship/can_surgery{
-	icon = 'icons/turf/dropship5.dmi';
-	icon_state = "dropship_interior 5,13"
-	},
+/turf/open/shuttle/dropship/can_surgery/somme/floor_5_13,
 /area/shuttle/somme)
 "KF" = (
 /obj/structure/shuttle/part/somme{
@@ -369,20 +312,14 @@
 /obj/structure/machinery/camera/autoname/golden_arrow/somme{
 	dir = 8
 	},
-/turf/open/shuttle/dropship/can_surgery{
-	icon = 'icons/turf/dropship5.dmi';
-	icon_state = "dropship_interior 7,16"
-	},
+/turf/open/shuttle/dropship/can_surgery/somme/floor_7_16,
 /area/shuttle/somme)
 "Ln" = (
 /obj/structure/machinery/door/airlock/multi_tile/almayer/dropshiprear/ds4{
 	id = "aft_door";
 	name = "\improper Somme cargo door"
 	},
-/turf/open/shuttle/dropship/can_surgery{
-	icon = 'icons/turf/dropship5.dmi';
-	icon_state = "dropship_interior 4,9"
-	},
+/turf/open/shuttle/dropship/can_surgery/somme/floor_4_9,
 /area/shuttle/somme)
 "LQ" = (
 /turf/closed/shuttle/dropship1{
@@ -392,25 +329,16 @@
 	},
 /area/shuttle/somme)
 "MA" = (
-/turf/open/shuttle/dropship/can_surgery{
-	icon = 'icons/turf/dropship5.dmi';
-	icon_state = "dropship_interior 4,9"
-	},
+/turf/open/shuttle/dropship/can_surgery/somme/floor_6_9,
 /area/shuttle/somme)
 "MJ" = (
-/turf/open/shuttle/dropship/can_surgery{
-	icon = 'icons/turf/dropship5.dmi';
-	icon_state = "dropship_interior 6,13"
-	},
+/turf/open/shuttle/dropship/can_surgery/somme/floor_6_13,
 /area/shuttle/somme)
 "MO" = (
 /obj/structure/bed/chair/dropship/passenger{
 	dir = 4
 	},
-/turf/open/shuttle/dropship/can_surgery{
-	icon = 'icons/turf/dropship5.dmi';
-	icon_state = "dropship_interior 4,11"
-	},
+/turf/open/shuttle/dropship/can_surgery/somme/floor_4_11,
 /area/shuttle/somme)
 "NA" = (
 /obj/structure/shuttle/part/somme/transparent{
@@ -445,10 +373,7 @@
 	dir = 4;
 	light_color = "#a2c4fc"
 	},
-/turf/open/shuttle/dropship/can_surgery{
-	icon = 'icons/turf/dropship5.dmi';
-	icon_state = "dropship_interior 6,10"
-	},
+/turf/open/shuttle/dropship/can_surgery/somme/floor_6_10,
 /area/shuttle/somme)
 "RH" = (
 /turf/closed/shuttle/dropship1{
@@ -465,10 +390,7 @@
 	dir = 8;
 	light_color = "#a2c4fc"
 	},
-/turf/open/shuttle/dropship/can_surgery{
-	icon = 'icons/turf/dropship5.dmi';
-	icon_state = "dropship_interior 3,15"
-	},
+/turf/open/shuttle/dropship/can_surgery/somme/floor_3_15,
 /area/shuttle/somme)
 "SK" = (
 /obj/structure/shuttle/part/somme/transparent{
@@ -530,10 +452,7 @@
 	icon_state = "canopyglass";
 	plane = -4
 	},
-/turf/open/shuttle/dropship/can_surgery{
-	icon = 'icons/turf/dropship5.dmi';
-	icon_state = "dropship_interior 5,17"
-	},
+/turf/open/shuttle/dropship/can_surgery/somme/floor_5_17,
 /area/shuttle/somme)
 "XU" = (
 /obj/structure/shuttle/part/somme/transparent{
@@ -555,10 +474,7 @@
 	pixel_y = 20;
 	layer = 2.9
 	},
-/turf/open/shuttle/dropship/can_surgery{
-	icon = 'icons/turf/dropship5.dmi';
-	icon_state = "dropship_interior 6,16"
-	},
+/turf/open/shuttle/dropship/can_surgery/somme/floor_6_16,
 /area/shuttle/somme)
 "ZB" = (
 /obj/structure/shuttle/part/somme/transparent{
@@ -567,10 +483,7 @@
 /turf/template_noop,
 /area/shuttle/somme)
 "ZY" = (
-/turf/open/shuttle/dropship/can_surgery{
-	icon = 'icons/turf/dropship5.dmi';
-	icon_state = "dropship_interior 5,10"
-	},
+/turf/open/shuttle/dropship/can_surgery/somme/floor_5_10,
 /area/shuttle/somme)
 
 (1,1,1) = {"
