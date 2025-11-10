@@ -23,6 +23,7 @@
 #define SQUAD_RMC "Gamma Troop"
 #define SQUAD_LRRP "Snake Eaters"
 #define SQUAD_LRRP_2 "Ocelot Grapplers"
+#define SQUAD_CONTAINMENT "Songbirds"
 
 // Job name defines
 #define JOB_SQUAD_MARINE "Rifleman"
@@ -341,6 +342,7 @@ GLOBAL_LIST_INIT(job_command_roles, JOB_COMMAND_ROLES_LIST)
 //-------- FORECON --------//
 
 #define JOB_FORECON_CO "Reconnaissance Commander"
+#define JOB_FORECON_SO "Reconnaissance Platoon Commander"
 #define JOB_FORECON_SL "Reconnaissance Squad Leader"
 #define JOB_FORECON_SYN "Reconnaissance Synthetic"
 #define JOB_FORECON_SNIPER "Reconnaissance Sniper"
