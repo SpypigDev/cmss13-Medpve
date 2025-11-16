@@ -34,13 +34,8 @@
 
 	flags = 0    // Various specific features.
 
-	list/abilities = list() // For species-derived or admin-given powers
-
 	blood_color = BLOOD_COLOR_ZOMBIE
 	flesh_color = "#110e0b"
-
-	// Species-specific abilities.
-	list/inherent_verbs
 
 	/// Factor of reduction of  KnockDown duration.
 	knock_down_reduction = 1
@@ -54,15 +49,9 @@
 
 	acid_blood_dodge_chance = 0
 
-	list/slot_equipment_priority = DEFAULT_SLOT_PRIORITY
-	list/equip_adjust = list()
-	list/equip_overlays = list()
-
 	blood_mask = 'icons/effects/blood.dmi'
 
 	mob_flags = NO_FLAGS // The mob flags to give their mob
-	/// Status traits to give to the mob.
-	list/mob_inherent_traits
 
 	ignores_stripdrag_flag = FALSE
 
