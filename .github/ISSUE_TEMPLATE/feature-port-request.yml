@@ -1,6 +1,5 @@
 name: Feature port request
 description: Request a feature be ported from another codebase
-title: []
 labels: ["feature request"]
 assignees:
   - SpypigDev
@@ -9,7 +8,7 @@ body:
     id: port-req-origin
     attributes:
       label: Name of its origin codebase or specific PR
-      placeholder: "Just its name, dont link it"
+      placeholder: Just its name, dont link it
     validations:
       required: true
   - type: textarea
@@ -23,4 +22,4 @@ body:
     id: port-req-prereq
     attributes:
       label: Is this a pre-req of your PR?
-      placeholder: "If yes, link your PR here"
+      placeholder: If yes, link your PR here

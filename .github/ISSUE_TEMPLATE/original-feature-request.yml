@@ -1,6 +1,5 @@
 name: Original feature request
 description: Request a new feature be added to the codebase
-title: []
 labels: ["feature request"]
 assignees:
   - SpypigDev
@@ -9,7 +8,7 @@ body:
     id: req-desc
     attributes:
       label: Description of requested feature
-      placeholder: "Tell me everything"
+      placeholder: Tell me everything
     validations:
       required: true
   - type: checkboxes
