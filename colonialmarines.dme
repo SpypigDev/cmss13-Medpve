@@ -2142,6 +2142,7 @@
 #include "code\modules\mob\living\carbon\human\species\synthetic.dm"
 #include "code\modules\mob\living\carbon\human\species\zombie.dm"
 #include "code\modules\mob\living\carbon\human\species\anomaly\_species.dm"
+#include "code\modules\mob\living\carbon\human\species\anomaly\anomaly_management_menu.dm"
 #include "code\modules\mob\living\carbon\human\species\anomaly\duplicate\ai_brain_duplicate.dm"
 #include "code\modules\mob\living\carbon\human\species\anomaly\duplicate\duplicate.dm"
 #include "code\modules\mob\living\carbon\human\species\working_joe\_emote.dm"

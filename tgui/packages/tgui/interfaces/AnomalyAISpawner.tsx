@@ -1,3 +1,4 @@
+import { classes } from 'common/react';
 import { useState } from 'react';
 
 import { useBackend } from '../backend';
@@ -11,22 +12,25 @@ import {
 } from '../components';
 import { Window } from '../layouts';
 
-type AIEquipmentPreset = {
+type AnomalyAIPreset = {
   name: string;
   path: string;
   description: string;
+  type: string;
+  requires_spawn_config: boolean;
+  icon: string;
 };
 
 type BackendContext = {
-  presets: { [key: string]: AIEquipmentPreset[] };
+  presets: { [key: string]: AnomalyAIPreset[] };
 };
 
-export const HumanAISpawner = (props) => {
+export const AnomalyAISpawner = (props) => {
   const { data, act } = useBackend<BackendContext>();
-  const [chosenPreset, setPreset] = useState<AIEquipmentPreset | null>(null);
+  const [chosenPreset, setPreset] = useState<AnomalyAIPreset | null>(null);
   const { presets } = data;
   return (
-    <Window title="Human AI Spawner" width={800} height={900}>
+    <Window title="Anomaly Spawner Panel" width={600} height={350}>
       <Window.Content>
         <Stack fill vertical>
           <Stack fill>
@@ -57,6 +61,16 @@ export const HumanAISpawner = (props) => {
               <Section title="Selected Preset">
                 {chosenPreset !== null ? (
                   <Stack vertical>
+                    <Stack.Item>
+                      <Box>
+                        <span
+                          className={classes([
+                            'anomaly128x128',
+                            `${chosenPreset.icon}`,
+                          ])}
+                        />
+                      </Box>
+                    </Stack.Item>
                     <Stack.Item>{chosenPreset.description}</Stack.Item>
                     <Stack.Item>
                       <Button
@@ -71,6 +85,23 @@ export const HumanAISpawner = (props) => {
                         Spawn
                       </Button>
                     </Stack.Item>
+                    {chosenPreset.requires_spawn_config ? (
+                      <Stack.Item>
+                        <Button
+                          textAlign="center"
+                          width="100%"
+                          onClick={() =>
+                            act('create_ai', {
+                              path: chosenPreset.path,
+                            })
+                          }
+                        >
+                          Configure
+                        </Button>
+                      </Stack.Item>
+                    ) : (
+                      <div />
+                    )}
                   </Stack>
                 ) : (
                   <div />

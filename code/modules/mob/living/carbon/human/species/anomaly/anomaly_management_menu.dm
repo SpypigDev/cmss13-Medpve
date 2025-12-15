@@ -1,31 +1,44 @@
-GLOBAL_LIST_EMPTY(human_ai_equipment_presets)
+GLOBAL_LIST_EMPTY(anomaly_ai_spawn_presets)
+
+#define ANOMALY_CLASS_KETER "Keter"
+
+// TO DO
+//
+// menu icons
+// spritesheet config
+// spawn config panel
+// scss design stuff
+// custom spawn framework
+
 
 /datum/anomaly_ai_spawner_menu
 	var/static/list/lazy_ui_data = list()
 
 /datum/anomaly_ai_spawner_menu/New()
-	if(!length(GLOB.human_ai_equipment_presets))
-		for(var/datum/human_ai_equipment_preset/preset_type as anything in subtypesof(/datum/human_ai_equipment_preset))
-			if(!preset_type::name || !preset_type::path)
+	if(!length(GLOB.anomaly_ai_spawn_presets))
+		for(var/datum/anomaly_ai_spawn_preset/preset_type as anything in subtypesof(/datum/anomaly_ai_spawn_preset))
+			if(!preset_type::name || !preset_type::anomaly_type_ref)
 				continue
 
-			if(!lazy_ui_data[preset_type::faction])
-				lazy_ui_data[preset_type::faction] = list()
+			if(!lazy_ui_data[preset_type::anomaly_class])
+				lazy_ui_data[preset_type::anomaly_class] = list()
 
-			var/datum/human_ai_equipment_preset/preset_obj = new preset_type()
-			GLOB.human_ai_equipment_presets["[preset_type]"] = preset_obj
+			var/datum/anomaly_ai_spawn_preset/preset_obj = new preset_type()
+			GLOB.anomaly_ai_spawn_presets["[preset_type]"] = preset_obj
 
-			lazy_ui_data[preset_type::faction] += list(list(
+			lazy_ui_data[preset_type::anomaly_class] += list(list(
 				"name" = preset_obj.name,
 				"description" = preset_obj.desc,
 				"path" = preset_type,
+				"anomaly_type" = preset_obj.anomaly_type_ref,
+				"requires_spawn_config" = preset_obj.requires_spawn_config,
 			))
 
 
 /datum/anomaly_ai_spawner_menu/tgui_interact(mob/user, datum/tgui/ui)
 	ui = SStgui.try_update_ui(user, src, ui)
 	if(!ui)
-		ui = new(user, src, "HumanAISpawner")
+		ui = new(user, src, "AnomalyAISpawner")
 		ui.open()
 
 /datum/anomaly_ai_spawner_menu/ui_state(mob/user)
@@ -53,14 +66,14 @@ GLOBAL_LIST_EMPTY(human_ai_equipment_presets)
 			if(!params["path"])
 				return
 
-			var/datum/human_ai_equipment_preset/gotten_path = text2path(params["path"])
+			var/datum/anomaly_ai_spawn_preset/gotten_path = text2path(params["path"])
 			if(!gotten_path)
 				return
 
 			var/mob/living/carbon/human/ai_human = new()
 			ai_human.AddComponent(/datum/component/human_ai)
 
-			arm_equipment(ai_human, gotten_path::path, TRUE)
+			//arm_equipment(ai_human, gotten_path::path, TRUE)
 
 			ai_human.face_dir(ui.user.dir)
 			ai_human.forceMove(get_turf(ui.user))
@@ -68,8 +81,8 @@ GLOBAL_LIST_EMPTY(human_ai_equipment_presets)
 			ai_human.get_ai_brain().appraise_inventory(armor = TRUE)
 			return TRUE
 
-/client/proc/open_human_ai_spawner_panel()
-	set name = "Create Human AI"
+/client/proc/open_anomaly_ai_spawner_panel()
+	set name = "Manage Anomaly AI"
 	set category = "Game Master.HumanAI"
 
 	if(!check_rights(R_DEBUG))
@@ -79,20 +92,33 @@ GLOBAL_LIST_EMPTY(human_ai_equipment_presets)
 		to_chat(src, SPAN_WARNING("The round hasn't started yet!"))
 		return
 
-	if(human_spawn_menu)
-		human_spawn_menu.tgui_interact(mob)
+	if(anomaly_spawn_menu)
+		anomaly_spawn_menu.tgui_interact(mob)
 		return
 
-	human_spawn_menu = new /datum/anomaly_ai_spawner_menu(src)
-	human_spawn_menu.tgui_interact(mob)
+	anomaly_spawn_menu = new /datum/anomaly_ai_spawner_menu(src)
+	anomaly_spawn_menu.tgui_interact(mob)
 
 
-/datum/human_ai_equipment_preset
+/datum/anomaly_ai_spawn_preset
 	/// The GM-visible name of the equipment preset
 	var/name = ""
+	var/icon_state
+	var/anomaly_class = ANOMALY_CLASS_KETER
 	/// A short description of what the preset does. Including important equipment or usecases is a good idea
 	var/desc = ""
 	/// What faction the preset is related to
-	var/faction = FACTION_NEUTRAL
-	/// The /datum/equipment_preset that this preset should create
-	var/path
+	var/faction = FACTION_ANOMALY
+	var/anomaly_type_ref
+	var/requires_spawn_config = FALSE
+
+/datum/anomaly_ai_spawn_preset/keter
+	anomaly_class = ANOMALY_CLASS_KETER
+
+/datum/anomaly_ai_spawn_preset/keter/duplicate
+	name = "Duplicate"
+	icon_state = "duplicate"
+	desc = "Standard Royal Marine armed with a rifle."
+	anomaly_type_ref = /datum/species/anomaly/duplicate
+	var/mob/living/carbon/human/alter
+	requires_spawn_config = TRUE
