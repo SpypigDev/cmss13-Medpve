@@ -1,0 +1,21 @@
+---
+name: Original feature request
+description: Request a new feature be added to the codebase
+title: []
+labels: ["feature request"]
+assignees:
+  - SpypigDev
+body:
+  - type: textarea
+    id: req-desc
+    attributes:
+      label: Description of requested feature
+      placeholder: "Tell me everything"
+    validations:
+      required: true
+  - type: checkboxes
+    id: req-icon
+    attributes:
+      label: Extra stuff
+      options:
+        - label: Does your feature require new sprites
