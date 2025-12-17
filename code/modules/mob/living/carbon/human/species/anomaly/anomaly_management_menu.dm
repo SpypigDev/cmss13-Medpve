@@ -66,13 +66,13 @@ GLOBAL_LIST_EMPTY(anomaly_ai_spawn_presets)
 			if(!params["path"])
 				return
 
-			var/datum/anomaly_ai_spawn_preset/gotten_path = text2path(params["path"])
+			var/datum/anomaly_ai_spawn_preset/gotten_path = text2path(params["anomaly_type_ref"])
 			if(!gotten_path)
 				return
 
 			var/mob/living/carbon/human/ai_human = new()
+			ai_human.set_species(gotten_path::anomaly_type_ref)
 			ai_human.AddComponent(/datum/component/human_ai)
-
 			//arm_equipment(ai_human, gotten_path::path, TRUE)
 
 			ai_human.face_dir(ui.user.dir)
@@ -80,6 +80,7 @@ GLOBAL_LIST_EMPTY(anomaly_ai_spawn_presets)
 
 			ai_human.get_ai_brain().appraise_inventory(armor = TRUE)
 			return TRUE
+		if("configure_spawn")
 
 /client/proc/open_anomaly_ai_spawner_panel()
 	set name = "Manage Anomaly AI"
@@ -99,7 +100,6 @@ GLOBAL_LIST_EMPTY(anomaly_ai_spawn_presets)
 	anomaly_spawn_menu = new /datum/anomaly_ai_spawner_menu(src)
 	anomaly_spawn_menu.tgui_interact(mob)
 
-
 /datum/anomaly_ai_spawn_preset
 	/// The GM-visible name of the equipment preset
 	var/name = ""
@@ -111,6 +111,7 @@ GLOBAL_LIST_EMPTY(anomaly_ai_spawn_presets)
 	var/faction = FACTION_ANOMALY
 	var/anomaly_type_ref
 	var/requires_spawn_config = FALSE
+	var/mob_type = /mob/living/carbon/human
 
 /datum/anomaly_ai_spawn_preset/keter
 	anomaly_class = ANOMALY_CLASS_KETER

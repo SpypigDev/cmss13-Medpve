@@ -15,6 +15,8 @@
 	pain_type = /datum/pain/human
 	stamina_type = null
 
+	default_ai_brain_type = /datum/human_ai_brain/duplicate
+
 	insulated = TRUE
 
 	gibbed_anim = "gibbed-h"
