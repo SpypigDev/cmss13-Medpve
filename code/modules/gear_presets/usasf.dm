@@ -293,15 +293,19 @@
 
 /datum/equipment_preset/usasf/helljumper
 	name = "USASF Para-Rescue Support Technician"
+	name = "USASF Para-Rescue Support Technician"
 	assignment = JOB_NAVY_PARA_TECH
 	rank = JOB_NAVY_PARA_TECH
 	paygrades = list(PAY_SHORT_NE8 = JOB_PLAYTIME_TIER_0)
+	role_comm_title = "PJ"
+	flags = null
 	role_comm_title = "PJ"
 	flags = null
 	skills = /datum/skills/para_tech
 	idtype = /obj/item/card/id/dogtag
 
 /datum/equipment_preset/usasf/helljumper/load_gear(mob/living/carbon/human/new_human)
+//Head
 //Head
 	new_human.equip_to_slot_or_del(new /obj/item/device/radio/headset/distress/USASF/command/attache(new_human), WEAR_L_EAR)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/head/helmet/marine/tech/tanker/para(new_human), WEAR_HEAD)
@@ -339,6 +343,8 @@
 	name = "USASF Para-Rescue Support Technician (Engineering)"
 	role_comm_title = "PJ-ENGR"
 	flags = EQUIPMENT_PRESET_EXTRA
+	role_comm_title = "PJ-ENGR"
+	flags = EQUIPMENT_PRESET_EXTRA
 
 /datum/equipment_preset/usasf/helljumper/technical/load_gear(mob/living/carbon/human/new_human)
 
@@ -352,6 +358,7 @@
 	new_human.equip_to_slot_or_del(new /obj/item/weapon/gun/rifle/m41aMK1/navy/tactical(new_human), WEAR_J_STORE)
 //Role specific
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/accessory/armband/engine(new_human), WEAR_ACCESSORY)
+	new_human.equip_to_slot_or_del(new /obj/item/clothing/accessory/storage/tool_webbing/tactical(new_human), WEAR_ACCESSORY)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/accessory/storage/tool_webbing/tactical(new_human), WEAR_ACCESSORY)
 	new_human.equip_to_slot_or_del(new /obj/item/storage/belt/utility/construction/full(new_human), WEAR_WAIST)
 	new_human.equip_to_slot_or_del(new /obj/item/storage/pouch/construction/full_barbed_wire(new_human), WEAR_L_STORE)

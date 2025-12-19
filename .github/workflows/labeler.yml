@@ -16,6 +16,7 @@ jobs:
           echo "ACTIONS_ENABLED=$SECRET_EXISTS" >> $GITHUB_OUTPUT
 
       - name: Generate App Token
+        if: steps.value_holder.outputs.ACTIONS_ENABLED
         id: app-token-generation
         uses: actions/create-github-app-token@v1
         with:

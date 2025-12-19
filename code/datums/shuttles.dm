@@ -140,3 +140,4 @@
 	elevator_network = "garrow_cargo"
 	shuttle_id = MOBILE_SHUTTLE_SHIPMAP_ELEVATOR_CARGO
 	elevator_network = "ArrowCargo"
+

@@ -387,9 +387,6 @@
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
-/obj/structure/cargo_container/hd/mid{
-	opacity = 0
-	},
 /turf/open/floor/almayer/mono,
 /area/golden_arrow/hangar)
 "aaM" = (
@@ -714,6 +711,13 @@
 	},
 /turf/open/floor/almayer,
 /area/golden_arrow/motor_pool)
+"abv" = (
+/obj/item/tool/dumbbell/alt{
+	pixel_x = -7;
+	pixel_y = -11
+	},
+/turf/open/floor/almayer/edge/smooth/north,
+/area/golden_arrow/hangar)
 "abw" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "E";
@@ -755,6 +759,17 @@
 	},
 /turf/open/floor/almayer,
 /area/golden_arrow/hangar)
+"abB" = (
+/obj/structure/sign/poster{
+	pixel_x = 3;
+	icon_state = "poster32";
+	pixel_y = -1;
+	desc = "This poster depicts Lance McDonell, the winner of Mr. Universe 2170-74. Don't ask how you know that. He bears a striking resemblance to the 42nd President of the United States, Arnold Schwarzenegger.";
+	name = "Mr. Universe 2170-74";
+	serial_number = 32
+	},
+/turf/closed/wall/almayer/outer,
+/area/golden_arrow/hangar)
 "abC" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "N";
@@ -769,6 +784,36 @@
 	},
 /turf/open/floor/plating/plating_catwalk,
 /area/golden_arrow/motor_pool)
+"abE" = (
+/obj/item/trash/cigbutt,
+/turf/open/floor/almayer,
+/area/golden_arrow/hangar)
+"abF" = (
+/obj/structure/machinery/camera/autoname/golden_arrow{
+	dir = 8
+	},
+/obj/structure/surface/rack,
+/obj/item/tool/dumbbell{
+	pixel_y = 5;
+	pixel_x = -2
+	},
+/obj/item/tool/dumbbell{
+	pixel_y = -1;
+	pixel_x = 1
+	},
+/obj/item/tool/dumbbell{
+	pixel_y = -8;
+	pixel_x = 4
+	},
+/turf/open/floor/almayer/plate,
+/area/golden_arrow/hangar)
+"abG" = (
+/obj/item/reagent_container/food/drinks/cans/thirteenloko{
+	pixel_x = -12;
+	pixel_y = 20
+	},
+/turf/open/floor/almayer,
+/area/golden_arrow/hangar)
 "abH" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "S";
@@ -778,6 +823,10 @@
 	icon_state = "1-2"
 	},
 /turf/open/floor/almayer/cargo_arrow/north,
+/area/golden_arrow/hangar)
+"abI" = (
+/obj/structure/punching_bag,
+/turf/open/floor/almayer/plate,
 /area/golden_arrow/hangar)
 "abJ" = (
 /turf/open/floor/almayer/edge/smooth/corner/east,
@@ -809,6 +858,16 @@
 	},
 /turf/open/floor/almayer/test_floor4,
 /area/golden_arrow/hangar)
+"abN" = (
+/obj/structure/sign/poster{
+	pixel_x = -5;
+	icon_state = "poster3";
+	serial_number = 3;
+	desc = "This poster depicts a long-gone 20th century rocker. Rock may be dead, but it had a good run.";
+	name = "Lita"
+	},
+/turf/closed/wall/almayer/outer,
+/area/golden_arrow/hangar)
 "abO" = (
 /obj/effect/decal/cleanable/dirt{
 	layer = 2.52
@@ -821,6 +880,19 @@
 	},
 /turf/open/floor/almayer,
 /area/golden_arrow/motor_pool)
+"abP" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/structure/prop{
+	name = "\improper uncomfy case";
+	desc = "A regular case you'd sit on. The label says it's full of steel sheets. Probably empty now.";
+	icon_state = "case";
+	icon = 'icons/obj/structures/crates.dmi';
+	can_buckle = 1
+	},
+/turf/open/floor/almayer,
+/area/golden_arrow/hangar)
 "abQ" = (
 /obj/effect/decal/cleanable/blood/oil,
 /turf/open/floor/almayer/cargo,
@@ -846,6 +918,10 @@
 "abT" = (
 /obj/structure/machinery/landinglight/ds1/delaytwo,
 /turf/open/floor/almayer/plate,
+/area/golden_arrow/hangar)
+"abU" = (
+/obj/structure/weightmachine/weightlifter,
+/turf/open/floor/almayer/edge/smooth,
 /area/golden_arrow/hangar)
 "abV" = (
 /turf/open/floor/almayer/uscm/directional/up_down/northwest,
@@ -874,16 +950,14 @@
 /obj/effect/decal/cleanable/dirt{
 	layer = 2.52
 	},
-/obj/structure/bed/bedroll{
-	pixel_x = -2;
-	color = "#333333";
-	name = "gym mat";
-	buckle_lying = null;
-	can_buckle = 0;
-	foldabletype = null;
-	desc = "A black gym mat, useful if you don't want to use the cold hard floor for exercise."
-	},
 /turf/open/floor/almayer/cargo_arrow/east,
+/area/golden_arrow/hangar)
+"abZ" = (
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/obj/structure/weightmachine/stacklifter,
+/turf/open/floor/almayer/plate,
 /area/golden_arrow/hangar)
 "aca" = (
 /obj/structure/pipes/standard/simple/hidden/supply{
@@ -904,6 +978,25 @@
 	},
 /turf/open/floor/almayer/plate,
 /area/golden_arrow/cryo_cells)
+"acc" = (
+/obj/structure/sign/poster{
+	pixel_x = 5;
+	pixel_y = 5;
+	icon_state = "poster12";
+	desc = "This poster features Roxanne Straski. She was the January 2180 centerfold in Playboy Magazine. Don't ask how you know that.";
+	name = "'Miss January' pinup";
+	serial_number = 12
+	},
+/turf/closed/wall/almayer/outer,
+/area/golden_arrow/hangar)
+"acd" = (
+/obj/item/trash/cigbutt,
+/obj/item/trash/cigbutt,
+/obj/item/trash/cigbutt,
+/obj/item/trash/cigbutt,
+/obj/item/trash/cigbutt,
+/turf/open/floor/almayer,
+/area/golden_arrow/hangar)
 "ace" = (
 /obj/structure/surface/table/almayer,
 /obj/item/clothing/mask/cigarette/cigar{
@@ -939,6 +1032,39 @@
 	},
 /turf/open/floor/almayer,
 /area/golden_arrow/platoonprep)
+"acf" = (
+/obj/structure/sign/poster{
+	pixel_x = -6;
+	icon_state = "poster33";
+	pixel_y = -1;
+	desc = "This poster depicts Rockwell Jordan, the winner of Mr. Universe 2174-76. Don't ask how you know that.";
+	name = "Mr. Universe 2174-76";
+	serial_number = 33
+	},
+/obj/structure/sign/poster{
+	pixel_x = 5;
+	pixel_y = 3;
+	icon_state = "poster34";
+	name = "Mr. Universe 2176-present";
+	serial_number = 34;
+	desc = "This poster depicts Wilson Winslow, the current Mr. Universe reigning champion. Don't ask how you know that."
+	},
+/turf/closed/wall/almayer/outer,
+/area/golden_arrow/hangar)
+"acg" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "S";
+	pixel_y = 1
+	},
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/obj/item/reagent_container/food/drinks/cans/waterbottle{
+	pixel_x = 13;
+	pixel_y = -5
+	},
+/turf/open/floor/almayer/cargo_arrow/north,
+/area/golden_arrow/hangar)
 "ach" = (
 /obj/effect/decal/cleanable/dirt{
 	layer = 2.52
@@ -972,11 +1098,6 @@
 "aco" = (
 /obj/effect/decal/cleanable/blood/oil,
 /turf/open/floor/almayer/plate,
-/area/golden_arrow/hangar)
-"acq" = (
-/obj/structure/surface/table/almayer,
-/obj/item/toy/deck,
-/turf/open/floor/almayer/mono,
 /area/golden_arrow/hangar)
 "acr" = (
 /obj/structure/pipes/vents/scrubber{
@@ -1573,8 +1694,25 @@
 /area/golden_arrow/hangar)
 "aez" = (
 /obj/effect/decal/strata_decals/grime/grime2,
-/obj/structure/machinery/firealarm{
-	pixel_y = 28
+/obj/item/clothing/under/shorts/blue,
+/obj/item/clothing/under/shorts/blue,
+/obj/item/clothing/under/shorts/red,
+/obj/item/clothing/under/shorts/red,
+/obj/item/clothing/under/shorts/green,
+/obj/item/clothing/under/shorts/green,
+/obj/item/clothing/under/shorts/black,
+/obj/item/clothing/under/shorts/black,
+/obj/item/clothing/under/shorts/grey,
+/obj/item/clothing/under/shorts/grey,
+/obj/structure/closet{
+	name = "atheletic attire";
+	pixel_x = 7;
+	pixel_y = 15;
+	storage_capacity = 60
+	},
+/obj/structure/machinery/light/double/blue/golden_arrow{
+	dir = 1;
+	light_power = 0.7
 	},
 /turf/open/floor/almayer,
 /area/golden_arrow/hangar)
@@ -2032,10 +2170,13 @@
 "afQ" = (
 /obj/structure/machinery/light/double/blue/golden_arrow{
 	dir = 1;
-	light_power = 0.7
+	light_power = 1.3
 	},
 /obj/structure/pipes/standard/simple/hidden/supply{
 	dir = 8
+	},
+/obj/structure/machinery/firealarm{
+	pixel_y = 20
 	},
 /turf/open/floor/almayer,
 /area/golden_arrow/hangar)
@@ -2628,6 +2769,10 @@
 	icon_state = "0-8";
 	layer = 2.36
 	},
+/obj/structure/machinery/light/double/blue/golden_arrow{
+	dir = 4;
+	light_power = 0.7
+	},
 /turf/open/floor/almayer/plate,
 /area/golden_arrow/hangar)
 "ahV" = (
@@ -3002,15 +3147,6 @@
 	},
 /turf/open/floor/plating/plating_catwalk,
 /area/golden_arrow/hangar)
-"ajc" = (
-/obj/effect/decal/cleanable/dirt{
-	layer = 2.52
-	},
-/obj/structure/bed/chair{
-	dir = 1
-	},
-/turf/open/floor/almayer/edge/smooth/north,
-/area/golden_arrow/hangar)
 "ajd" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "NW-out";
@@ -3313,11 +3449,6 @@
 	},
 /turf/open/floor/almayer/edge/smooth/west,
 /area/golden_arrow/hangar)
-"akp" = (
-/obj/structure/surface/table/almayer,
-/obj/item/toy/deck/uno,
-/turf/open/floor/plating/plating_catwalk,
-/area/golden_arrow/hangar)
 "aks" = (
 /obj/structure/cable/heavyduty{
 	icon_state = "4-8"
@@ -3535,6 +3666,14 @@
 "alb" = (
 /obj/structure/cable{
 	icon_state = "4-8"
+	},
+/obj/item/tool/dumbbell{
+	pixel_y = -13;
+	pixel_x = -7
+	},
+/obj/item/tool/dumbbell{
+	pixel_y = 4;
+	pixel_x = 1
 	},
 /turf/open/floor/almayer/edge/smooth/east,
 /area/golden_arrow/hangar)
@@ -4718,9 +4857,6 @@
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
-/obj/structure/cargo_container/hd/right{
-	opacity = 0
-	},
 /turf/open/floor/plating/plating_catwalk,
 /area/golden_arrow/hangar)
 "api" = (
@@ -5556,8 +5692,7 @@
 /area/golden_arrow/hangar)
 "arM" = (
 /obj/structure/machinery/light/double/blue/golden_arrow{
-	dir = 1;
-	light_power = 0.7
+	dir = 1
 	},
 /obj/structure/pipes/standard/simple/hidden/supply{
 	dir = 8
@@ -6605,10 +6740,6 @@
 	icon_state = "siding8"
 	},
 /turf/open/floor/plating,
-/area/golden_arrow/hangar)
-"awc" = (
-/obj/structure/surface/table/almayer,
-/turf/open/floor/plating/plating_catwalk,
 /area/golden_arrow/hangar)
 "awf" = (
 /obj/structure/prop/invuln/lattice_prop{
@@ -9897,13 +10028,6 @@
 	},
 /turf/open/floor/almayer/plate,
 /area/golden_arrow/hangar)
-"aGc" = (
-/obj/effect/decal/cleanable/dirt{
-	layer = 2.52
-	},
-/obj/structure/surface/table/almayer,
-/turf/open/floor/almayer/mono,
-/area/golden_arrow/hangar)
 "aGf" = (
 /obj/effect/decal/cleanable/dirt{
 	layer = 2.52
@@ -10796,11 +10920,11 @@
 /obj/effect/decal/cleanable/dirt{
 	layer = 2.52
 	},
-/obj/structure/reagent_dispensers/water_cooler/stacks{
-	pixel_y = 18;
-	layer = 3.6;
-	density = 0
-	},
+/obj/structure/closet/coffin/woodencrate,
+/obj/item/clothing/gloves/boxing,
+/obj/item/clothing/gloves/boxing/blue,
+/obj/item/clothing/gloves/boxing/green,
+/obj/item/clothing/gloves/boxing/yellow,
 /turf/open/floor/almayer/cargo_arrow/west,
 /area/golden_arrow/hangar)
 "aJg" = (
@@ -11342,8 +11466,17 @@
 /turf/open/floor/almayer/edge/smooth/west,
 /area/golden_arrow/cryo_cells)
 "aLd" = (
-/obj/structure/bed/chair{
-	dir = 1
+/obj/structure/bed/bedroll{
+	pixel_y = -4;
+	color = "#333333";
+	name = "gym mat";
+	buckle_lying = null;
+	can_buckle = 0;
+	foldabletype = null;
+	desc = "A black gym mat, useful if you don't want to use the cold hard floor for exercise."
+	},
+/obj/item/reagent_container/food/snacks/protein_pack{
+	pixel_x = 6
 	},
 /turf/open/floor/almayer/edge/smooth/north,
 /area/golden_arrow/hangar)
@@ -11433,10 +11566,7 @@
 /turf/open/floor/almayer,
 /area/golden_arrow/cryo_cells)
 "aLy" = (
-/obj/structure/bed/chair{
-	dir = 8;
-	pixel_y = 3
-	},
+/obj/structure/punching_bag,
 /turf/open/floor/plating/plating_catwalk,
 /area/golden_arrow/hangar)
 "aLz" = (
@@ -11770,9 +11900,16 @@
 /turf/open/floor/almayer/edge/smooth/east,
 /area/golden_arrow/hangar)
 "aMP" = (
-/obj/structure/machinery/light/double/blue/golden_arrow{
-	dir = 1;
-	light_power = 0.7
+/obj/structure/reagent_dispensers/water_cooler/stacks{
+	pixel_y = 16;
+	layer = 3.6;
+	density = 0;
+	pixel_x = -8
+	},
+/obj/structure/mirror{
+	pixel_y = 27;
+	pixel_x = 5;
+	desc = "A large gym mirror, to check out your GAINS!"
 	},
 /turf/open/floor/almayer,
 /area/golden_arrow/hangar)
@@ -13028,12 +13165,6 @@
 	},
 /turf/open/floor/plating/plating_catwalk,
 /area/golden_arrow/hangar)
-"aRx" = (
-/obj/structure/bed/chair{
-	dir = 4
-	},
-/turf/open/floor/almayer/edge/smooth/east,
-/area/golden_arrow/hangar)
 "aRy" = (
 /obj/docking_port/stationary/trijent_elevator/shipmap_elevator/two{
 	id = "garrow_vehicle_elevator_two";
@@ -13646,15 +13777,6 @@
 /obj/structure/pipes/vents/pump{
 	dir = 8
 	},
-/obj/structure/bed/bedroll{
-	pixel_x = 1;
-	color = "#333333";
-	name = "gym mat";
-	buckle_lying = null;
-	can_buckle = 0;
-	foldabletype = null;
-	desc = "A black gym mat, useful if you don't want to use the cold hard floor for exercise."
-	},
 /turf/open/floor/almayer/edge/smooth/corner,
 /area/golden_arrow/hangar)
 "aTD" = (
@@ -14074,9 +14196,6 @@
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
-/obj/structure/cargo_container/hd/left{
-	opacity = 0
-	},
 /turf/open/floor/plating/plating_catwalk,
 /area/golden_arrow/hangar)
 "aVf" = (
@@ -14248,6 +14367,10 @@
 	icon_state = "0-4";
 	layer = 2.36
 	},
+/obj/item/tool/dumbbell{
+	pixel_x = -7;
+	pixel_y = 13
+	},
 /turf/open/floor/almayer/edge/southwest,
 /area/golden_arrow/dorms)
 "aVL" = (
@@ -14276,8 +14399,18 @@
 /obj/effect/decal/cleanable/dirt{
 	layer = 2.52
 	},
-/obj/structure/bed/chair{
-	dir = 4
+/obj/structure/bed/bedroll{
+	pixel_y = -4;
+	color = "#333333";
+	name = "gym mat";
+	buckle_lying = null;
+	can_buckle = 0;
+	foldabletype = null;
+	desc = "A black gym mat, useful if you don't want to use the cold hard floor for exercise."
+	},
+/obj/item/tool/dumbbell{
+	pixel_x = 6;
+	pixel_y = -11
 	},
 /turf/open/floor/almayer/edge/smooth/east,
 /area/golden_arrow/hangar)
@@ -14873,24 +15006,6 @@
 	},
 /turf/open/floor/almayer/edge/smooth/east,
 /area/golden_arrow/motor_pool)
-"aXW" = (
-/obj/effect/decal/warning_stripes{
-	icon_state = "E"
-	},
-/obj/effect/decal/cleanable/dirt{
-	layer = 2.52
-	},
-/obj/structure/bed/bedroll{
-	pixel_y = -4;
-	color = "#333333";
-	name = "gym mat";
-	buckle_lying = null;
-	can_buckle = 0;
-	foldabletype = null;
-	desc = "A black gym mat, useful if you don't want to use the cold hard floor for exercise."
-	},
-/turf/open/floor/almayer/plate,
-/area/golden_arrow/hangar)
 "aYb" = (
 /obj/effect/decal/cleanable/dirt{
 	layer = 2.52
@@ -15347,6 +15462,7 @@
 /obj/effect/decal/cleanable/dirt{
 	layer = 2.52
 	},
+/obj/structure/weightmachine/weightlifter,
 /turf/open/floor/almayer/edge/smooth,
 /area/golden_arrow/hangar)
 "aZH" = (
@@ -16181,27 +16297,22 @@
 	},
 /obj/structure/machinery/light/double/blue/golden_arrow{
 	dir = 4;
-	light_power = 0.7
+	light_power = 0.7;
+	pixel_x = 3
 	},
-/obj/structure/closet/coffin/woodencrate{
-	name = "gym equipment"
+/obj/structure/surface/rack,
+/obj/item/tool/dumbbell/alt{
+	pixel_x = -4;
+	pixel_y = 5
 	},
-/obj/item/clothing/gloves/boxing/yellow,
-/obj/item/clothing/gloves/boxing/green,
-/obj/item/clothing/gloves/boxing/blue,
-/obj/item/clothing/gloves/boxing,
-/obj/item/clothing/under/shorts/black,
-/obj/item/clothing/under/shorts/black,
-/obj/item/clothing/under/shorts/black,
-/obj/item/clothing/under/shorts/black,
-/obj/item/clothing/under/shorts/black,
-/obj/item/clothing/under/shorts/black,
-/obj/item/clothing/under/shorts/black,
-/obj/item/clothing/under/shorts/black,
-/obj/item/clothing/under/shorts/black,
-/obj/item/clothing/under/shorts/black,
-/obj/item/clothing/under/shorts/black,
-/obj/item/clothing/under/shorts/black,
+/obj/item/tool/dumbbell/alt{
+	pixel_x = -1;
+	pixel_y = -1
+	},
+/obj/item/tool/dumbbell/alt{
+	pixel_x = 3;
+	pixel_y = -8
+	},
 /turf/open/floor/almayer/plate,
 /area/golden_arrow/hangar)
 "dLD" = (
@@ -20345,29 +20456,6 @@
 	},
 /turf/open/floor/almayer/cargo_arrow,
 /area/golden_arrow/supply)
-"sCf" = (
-/obj/effect/decal/cleanable/dirt{
-	layer = 2.52
-	},
-/obj/structure/sign/safety/bulkhead_door{
-	pixel_y = -29
-	},
-/obj/structure/sign/safety/hazard{
-	pixel_x = 14;
-	pixel_y = -29
-	},
-/obj/structure/bed/bedroll{
-	pixel_x = -2;
-	color = "#333333";
-	name = "gym mat";
-	buckle_lying = null;
-	can_buckle = 0;
-	foldabletype = null;
-	pixel_y = -3;
-	desc = "A black gym mat, useful if you don't want to use the cold hard floor for exercise."
-	},
-/turf/open/floor/almayer/cargo_arrow/east,
-/area/golden_arrow/hangar)
 "sCG" = (
 /obj/structure/bed/chair{
 	dir = 8
@@ -36485,9 +36573,9 @@ aVr
 azS
 amf
 aSw
-aWa
-arJ
-aWa
+abE
+abP
+abG
 aMz
 aWa
 aFf
@@ -36664,7 +36752,7 @@ aGO
 aWL
 abJ
 alb
-aRx
+aUD
 aVP
 aTA
 aFf
@@ -36841,9 +36929,9 @@ amf
 aWa
 aZG
 aVc
-akp
-awc
-ajc
+aVD
+aVD
+aYz
 aFf
 aOQ
 aJN
@@ -37018,8 +37106,8 @@ aPk
 aWa
 aEC
 aaL
-aGc
-acq
+aRm
+aMz
 aLd
 aFf
 akd
@@ -37191,13 +37279,13 @@ axH
 aHu
 aVr
 aEF
-aPk
-aWa
-aEC
+acg
+acd
+abU
 aph
+aVD
 aLy
-aLy
-ajZ
+abv
 aFf
 avh
 azF
@@ -37550,7 +37638,7 @@ aez
 aWa
 arJ
 aWa
-aWa
+abE
 aWa
 aKa
 aKX
@@ -37723,15 +37811,15 @@ aHI
 adz
 aEG
 adz
-adz
-aKa
+acf
+abZ
 ahT
-rTS
-aEH
+abI
+abF
 dJo
 fuL
 aZQ
-aXW
+aIo
 aIl
 aLL
 aIo
@@ -37901,17 +37989,17 @@ aEG
 aEG
 aEG
 adz
+acc
 adz
+abN
 adz
-adz
-adz
-adz
+abB
 adz
 aJf
 aok
 abY
 aok
-sCf
+aKF
 adz
 adz
 adz

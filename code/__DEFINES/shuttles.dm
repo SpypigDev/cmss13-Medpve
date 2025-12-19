@@ -115,9 +115,11 @@
 #define DROPSHIP_MIDWAY "dropship_midway"
 #define DROPSHIP_ALAMO "dropship_alamo"
 #define DROPSHIP_NORMANDY "dropship_normandy"
+#define DROPSHIP_SOMME "dropship_somme"
 #define DROPSHIP_SAIPAN "dropship_saipan"
 #define DROPSHIP_UPP "dropship_upp"
 #define DROPSHIP_CYCLONE "dropship_cyclone"
+#define DROPSHIP_BASTOGNE "dropship_bastogne"
 #define DROPSHIP_PMC "dropship_pmc"
 #define DROPSHIP_TORNADO "dropship_tornado"
 #define DROPSHIP_TYPHOON "dropship_typhoon"
@@ -158,3 +160,4 @@
 #define MOBILE_SHUTTLE_SHIPMAP_ELEVATOR_ONE "garrow_vehicle_elevator_one"
 #define MOBILE_SHUTTLE_SHIPMAP_ELEVATOR_TWO "garrow_vehicle_elevator_two"
 #define MOBILE_SHUTTLE_SHIPMAP_ELEVATOR_CARGO "garrow_cargo_elevator"
+
