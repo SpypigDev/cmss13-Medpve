@@ -9923,7 +9923,6 @@
 /area/liberty/hangar_deck/section_2_armory)
 "iJM" = (
 /obj/structure/surface/table/almayer,
-/obj/structure/surface/table/almayer,
 /obj/structure/machinery/prop/almayer/CICmap{
 	pixel_y = 32
 	},
@@ -21991,8 +21990,7 @@
 /obj/structure/closet/secure_closet/marine_personal{
 	pixel_x = -7;
 	x_to_linked_spawn_turf = -13;
-	y_to_linked_spawn_turf = -4;
-	
+	y_to_linked_spawn_turf = -4
 	},
 /obj/structure/closet/secure_closet/marine_personal{
 	pixel_x = 8;
@@ -22119,6 +22117,7 @@
 /area/liberty/hangar_deck/hangar_bay)
 "sRN" = (
 /obj/structure/surface/table/reinforced,
+pixel_y = 7},
 /obj/item/prop/helmetgarb/prescription_bottle{
 	pixel_x = 9
 	},
@@ -22761,6 +22760,7 @@
 	climb_delay = 1;
 	layer = 2.99
 	},
+layer = 3},
 /obj/structure/machinery/computer/station_alert{
 	pixel_x = 8;
 	layer = 3.1

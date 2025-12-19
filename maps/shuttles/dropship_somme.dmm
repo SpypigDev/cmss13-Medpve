@@ -91,9 +91,7 @@
 /obj/structure/machinery/light/small/blue/golden_arrow{
 	light_color = "#a2c4fc"
 	},
-/turf/open/floor/almayer_hull{
-	mouse_opacity = 0
-	},
+/turf/open/floor/almayer_hull,
 /area/shuttle/somme)
 "md" = (
 /obj/structure/shuttle/part/somme{
