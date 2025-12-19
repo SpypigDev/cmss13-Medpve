@@ -24239,8 +24239,7 @@
 /area/liberty/crew_deck/section_1_lockers)
 "usS" = (
 /obj/structure/bed/chair{
-	pixel_y = -4;
-	layer = 2/9
+	pixel_y = -4
 	},
 /turf/open/floor/plating/plating_catwalk,
 /area/liberty/command_deck/officer_mess)
@@ -28518,8 +28517,7 @@
 /area/liberty/command_deck/bridge)
 "yeK" = (
 /obj/structure/machinery/door/airlock/multi_tile/almayer/generic{
-	dir = 1;
-	name = Section2Hypersleep
+	dir = 1
 	},
 /turf/open/floor/almayer,
 /area/liberty/crew_deck/section_2_lockers)
