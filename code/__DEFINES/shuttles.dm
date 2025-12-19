@@ -130,8 +130,6 @@
 #define ALMAYER_DROPSHIP_LZ2 "almayer-hangar-lz2"
 
 #define GOLDEN_ARROW_LZ "golden arrow lz"
-#define LIBERTY_DROPSHIP_LZ1 "liberty-hangar-lz1"
-#define LIBERTY_DROPSHIP_LZ2 "liberty-hangar-lz2"
 
 #define DROPSHIP_FLYBY_ID "special_flight"
 #define DROPSHIP_LZ1 "dropship-lz1"
@@ -163,5 +161,3 @@
 #define MOBILE_SHUTTLE_SHIPMAP_ELEVATOR_TWO "garrow_vehicle_elevator_two"
 #define MOBILE_SHUTTLE_SHIPMAP_ELEVATOR_CARGO "garrow_cargo_elevator"
 
-#define MOBILE_SHUTTLE_SHIPMAP_ELEVATOR_SOUTH "LibertyElevatorS"
-#define MOBILE_SHUTTLE_SHIPMAP_ELEVATOR_NORTH "LibertyElevatorN"

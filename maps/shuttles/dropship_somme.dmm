@@ -4,7 +4,6 @@
 	icon_state = "dropship_interior 3,18"
 	},
 /obj/effect/attach_point/weapon/somme/left_fore{
-	plane = -4;
 	layer = 5
 	},
 /turf/template_noop,
@@ -80,8 +79,7 @@
 "kJ" = (
 /obj/structure/shuttle/part/somme/transparent{
 	icon_state = "dropship_interior 5,18";
-	density = 0;
-	plane = -7
+	density = 0
 	},
 /obj/structure/bed/chair/vehicle/dropship_cockpit/pilot{
 	dir = 1;
@@ -91,12 +89,9 @@
 	},
 /obj/structure/machinery/computer/shuttle/dropship/flight/small/somme,
 /obj/structure/machinery/light/small/blue/golden_arrow{
-	plane = -8;
 	light_color = "#a2c4fc"
 	},
-/turf/open/floor/almayer_hull{
-	mouse_opacity = 0
-	},
+/turf/open/floor/almayer_hull,
 /area/shuttle/somme)
 "md" = (
 /obj/structure/shuttle/part/somme{
@@ -127,8 +122,7 @@
 	pixel_x = -160;
 	pixel_y = -288;
 	mouse_opacity = 0;
-	icon_state = "dropship_tail_fade";
-	plane = -5
+	icon_state = "dropship_tail_fade"
 	},
 /turf/open/shuttle/dropship/can_surgery/somme/floor_5_9,
 /area/shuttle/somme)
@@ -158,7 +152,6 @@
 /turf/template_noop,
 /area/shuttle/somme)
 "qp" = (
-/obj/docking_port/mobile/marine_dropship/somme,
 /turf/open/shuttle/dropship/can_surgery/somme/floor_5_12,
 /area/shuttle/somme)
 "re" = (
@@ -247,7 +240,6 @@
 	icon_state = "dropship_interior 7,18"
 	},
 /obj/effect/attach_point/weapon/somme/right_fore{
-	plane = -4;
 	layer = 5
 	},
 /turf/template_noop,
@@ -356,7 +348,6 @@
 	},
 /obj/effect/attach_point/weapon/somme/left_wing{
 	icon_state = "dropship_interior 2,16";
-	plane = -4;
 	layer = 5
 	},
 /turf/template_noop,
@@ -425,7 +416,6 @@
 	},
 /obj/effect/attach_point/weapon/somme/right_wing{
 	icon_state = "dropship_interior 8,16";
-	plane = -4;
 	layer = 5
 	},
 /turf/template_noop,
@@ -444,13 +434,11 @@
 	pixel_x = -1
 	},
 /obj/structure/dropship_canopy{
-	pixel_x = -32;
-	plane = -5
+	pixel_x = -32
 	},
 /obj/structure/dropship_canopy{
 	pixel_x = -32;
-	icon_state = "canopyglass";
-	plane = -4
+	icon_state = "canopyglass"
 	},
 /turf/open/shuttle/dropship/can_surgery/somme/floor_5_17,
 /area/shuttle/somme)

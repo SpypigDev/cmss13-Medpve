@@ -24,9 +24,6 @@ map golden_arrow
 	default
 endmap
 
-map liberty
-endmap
-
 map chapaev
 endmap
 
