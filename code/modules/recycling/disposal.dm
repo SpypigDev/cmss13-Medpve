@@ -531,6 +531,7 @@
 			active = 0
 			//Find the fat guys
 			for(var/mob/living/carbon/human/H in src)
+				H.take_overall_damage(20, 0, "Blunt Trauma") //Horribly maim any living creature jumping down disposals.  c'est la vie
 
 			break
 		sleep(1) //Was 1

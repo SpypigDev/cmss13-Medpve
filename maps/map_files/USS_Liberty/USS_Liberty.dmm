@@ -241,16 +241,6 @@
 /obj/structure/machinery/power/port_gen/pacman,
 /turf/open/floor/prison/floor_marked,
 /area/liberty/crew_deck/engineering)
-"alw" = (
-/obj/docking_port/stationary/trijent_elevator/shipmap_elevator/two{
-	id = "LibertyElevatorN3";
-	elevator_network = "LibertyElevatorN";
-	name = "Crew Deck";
-	airlock_area = /area/liberty/vehicle_shuttle/n/three;
-	roundstart_template = /datum/map_template/shuttle/trijent_elevator/liberty/north
-	},
-/turf/open/floor/almayer/empty/golden_arrow/vehicle_two,
-/area/liberty/vehicle_shuttle/n/three)
 "alx" = (
 /obj/structure/surface/table/almayer,
 /obj/structure/machinery/computer/emails{
@@ -452,16 +442,6 @@
 /obj/item/storage/belt/gun/smartgunner,
 /turf/open/floor/almayer/plate,
 /area/liberty/hangar_deck/section_2_armory)
-"asL" = (
-/obj/docking_port/stationary/trijent_elevator/shipmap_elevator/one{
-	airlock_area = /area/liberty/vehicle_shuttle/s/three;
-	name = "Crew Deck";
-	id = "LibertyElevatorS3";
-	elevator_network = "LibertyElevatorS";
-	roundstart_template = /datum/map_template/shuttle/trijent_elevator/liberty/south
-	},
-/turf/open/floor/almayer/empty/golden_arrow/vehicle_one,
-/area/liberty/vehicle_shuttle/s/three)
 "asS" = (
 /obj/structure/closet/secure_closet/marine_personal{
 	pixel_x = -7;
@@ -3630,15 +3610,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/plating_catwalk,
 /area/liberty/crew_deck/auxillary_storage)
-"dir" = (
-/obj/docking_port/stationary/trijent_elevator/shipmap_elevator/two{
-	id = "LibertyElevatorN2";
-	elevator_network = "LibertyElevatorN";
-	name = "Hangar Deck";
-	airlock_area = /area/liberty/vehicle_shuttle/n/two
-	},
-/turf/open/floor/almayer/empty/golden_arrow/vehicle_two,
-/area/liberty/vehicle_shuttle/n/two)
 "diz" = (
 /obj/structure/machinery/light/small/blue/golden_arrow{
 	dir = 1
@@ -5826,15 +5797,6 @@
 "ffk" = (
 /turf/open/floor/almayer,
 /area/liberty/hangar_deck/center_hall)
-"ffo" = (
-/obj/docking_port/stationary/trijent_elevator/shipmap_elevator/two{
-	id = "LibertyElevatorN4";
-	elevator_network = "LibertyElevatorN";
-	name = "Command Deck";
-	airlock_area = /area/liberty/vehicle_shuttle/n/four
-	},
-/turf/open/floor/almayer/empty/golden_arrow/vehicle_two,
-/area/liberty/vehicle_shuttle/n/four)
 "ffq" = (
 /turf/closed/wall/almayer,
 /area/liberty/crew_deck/section_1_lockers)
@@ -6943,15 +6905,6 @@
 	},
 /turf/open/floor/almayer,
 /area/liberty/hangar_deck/pilot_weapons)
-"ghN" = (
-/obj/docking_port/stationary/trijent_elevator/shipmap_elevator/two{
-	id = "LibertyElevatorN1";
-	elevator_network = "LibertyElevatorN";
-	name = "Storage Deck";
-	airlock_area = /area/liberty/vehicle_shuttle/n/one
-	},
-/turf/open/floor/plating,
-/area/liberty/vehicle_shuttle/n/one)
 "ghZ" = (
 /obj/structure/machinery/prop/almayer/CICmap/table/horizontal,
 /obj/structure/platform,
@@ -12533,15 +12486,6 @@
 /obj/structure/closet/secure_closet,
 /turf/open/floor/almayer/edge/north,
 /area/liberty/crew_deck/platoon_bunks)
-"kIK" = (
-/obj/docking_port/stationary/trijent_elevator/shipmap_elevator/one{
-	airlock_area = /area/liberty/vehicle_shuttle/s/four;
-	name = "Command Deck";
-	id = "LibertyElevatorS4";
-	elevator_network = "LibertyElevatorS"
-	},
-/turf/open/floor/almayer/empty/golden_arrow/vehicle_one,
-/area/liberty/vehicle_shuttle/s/four)
 "kIN" = (
 /turf/open/floor/almayer{
 	dir = 1;
@@ -14186,15 +14130,6 @@
 	},
 /turf/open/floor/plating/plating_catwalk,
 /area/liberty/crew_deck/section_1_lockers)
-"meW" = (
-/obj/docking_port/stationary/trijent_elevator/shipmap_elevator/one{
-	airlock_area = /area/liberty/vehicle_shuttle/s/two;
-	name = "Hangar Deck";
-	id = "LibertyElevatorS2";
-	elevator_network = "LibertyElevatorS"
-	},
-/turf/open/floor/almayer/empty/golden_arrow/vehicle_one,
-/area/liberty/vehicle_shuttle/s/two)
 "mfi" = (
 /obj/structure/platform{
 	dir = 4
@@ -17216,8 +17151,7 @@
 /obj/structure/closet/secure_closet/marine_personal{
 	pixel_x = -7;
 	x_to_linked_spawn_turf = -8;
-	y_to_linked_spawn_turf = 0;
-	wall_mounted = s
+	y_to_linked_spawn_turf = 0
 	},
 /obj/structure/closet/secure_closet/marine_personal{
 	pixel_x = 8;
@@ -18663,15 +18597,6 @@
 	},
 /turf/open/floor/almayer/test_floor4,
 /area/liberty/cargo_deck/cargo)
-"pRU" = (
-/obj/docking_port/stationary/trijent_elevator/shipmap_elevator/one{
-	airlock_area = /area/liberty/vehicle_shuttle/s/one;
-	name = "Storage Deck";
-	id = "LibertyElevatorS1";
-	elevator_network = "LibertyElevatorS"
-	},
-/turf/open/floor/plating,
-/area/liberty/vehicle_shuttle/s/one)
 "pSF" = (
 /obj/structure/stairs{
 	dir = 8
@@ -22859,9 +22784,6 @@
 	dir = 8;
 	climb_delay = 1;
 	layer = 2.99
-	},
-/obj/structure/surface/table/almayer{
-	layer = 3
 	},
 /obj/structure/machinery/computer/station_alert{
 	pixel_x = 8;
@@ -60509,7 +60431,7 @@ hLV
 hLV
 hLV
 hLV
-ffo
+hLV
 qXb
 bTC
 epv
@@ -60521,7 +60443,7 @@ dql
 dql
 dql
 dql
-kIK
+dql
 cTS
 kAE
 iTL
@@ -60577,7 +60499,7 @@ mFy
 mFy
 mFy
 mFy
-alw
+mFy
 oTg
 sOz
 jwo
@@ -60589,7 +60511,7 @@ wDl
 wDl
 wDl
 wDl
-asL
+wDl
 qJF
 fdq
 xup
@@ -60645,7 +60567,7 @@ agw
 agw
 agw
 agw
-dir
+agw
 mCu
 fCV
 ffk
@@ -60657,7 +60579,7 @@ rbJ
 rbJ
 rbJ
 rbJ
-meW
+rbJ
 npT
 kiX
 jKY
@@ -60713,7 +60635,7 @@ wXL
 wXL
 wXL
 wXL
-ghN
+wXL
 cas
 wPo
 osl
@@ -60725,7 +60647,7 @@ xJU
 xJU
 xJU
 xJU
-pRU
+xJU
 vIr
 lOt
 sKL

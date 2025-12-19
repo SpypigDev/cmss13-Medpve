@@ -91,7 +91,6 @@
 /obj/structure/machinery/light/small/blue/golden_arrow{
 	light_color = "#a2c4fc"
 	},
-/turf/open/floor/almayer_hull,
 /area/shuttle/somme)
 "md" = (
 /obj/structure/shuttle/part/somme{
@@ -152,7 +151,6 @@
 /turf/template_noop,
 /area/shuttle/somme)
 "qp" = (
-/obj/docking_port/mobile/marine_dropship/somme,
 /turf/open/shuttle/dropship/can_surgery/somme/floor_5_12,
 /area/shuttle/somme)
 "re" = (
