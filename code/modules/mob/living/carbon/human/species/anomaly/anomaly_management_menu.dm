@@ -77,10 +77,8 @@ GLOBAL_LIST_EMPTY(anomaly_ai_spawn_presets)
 
 			ai_human.face_dir(ui.user.dir)
 			ai_human.forceMove(get_turf(ui.user))
-
-			ai_human.get_ai_brain().appraise_inventory(armor = TRUE)
+			ai_human.get_ai_brain().configure_custom_spawn(ai_human)
 			return TRUE
-		if("configure_spawn")
 
 /client/proc/open_anomaly_ai_spawner_panel()
 	set name = "Manage Anomaly AI"
