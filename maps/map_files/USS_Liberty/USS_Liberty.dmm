@@ -2466,18 +2466,6 @@
 /area/liberty/crew_deck/mess)
 "cfS" = (
 /obj/structure/surface/table/reinforced,
-/obj/item/reagent_container/hypospray/autoinjector/empty/skillless/extralarge{
-	name = "CryoEase Injector";
-	chemname = "inaprovaline";
-	desc = "A compact, single-use autoinjector designed to rapidly counteract the neurochemical shock and muscular atrophy associated with extended hypersleep. The CryoEase Injector, nicknamed the "WakeyStick", delivers a fast-acting blend of stimulants, anti-nausea agents, and muscle reactivation compounds directly into the bloodstream. Do not administer more than one dose per 24-hour cycle without medical oversight."
-	},
-/obj/item/reagent_container/hypospray/autoinjector/empty/skillless/extralarge{
-	name = "CryoEase Injector";
-	chemname = "inaprovaline";
-	desc = "A compact, single-use autoinjector designed to rapidly counteract the neurochemical shock and muscular atrophy associated with extended hypersleep. The CryoEase Injector, nicknamed the "WakeyStick", delivers a fast-acting blend of stimulants, anti-nausea agents, and muscle reactivation compounds directly into the bloodstream. Do not administer more than one dose per 24-hour cycle without medical oversight.";
-	pixel_x = 6;
-	pixel_y = 7
-	},
 /turf/open/floor/white,
 /area/liberty/crew_deck/section_2_hypersleep)
 "cfT" = (
