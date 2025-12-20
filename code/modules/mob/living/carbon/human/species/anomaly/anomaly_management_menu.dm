@@ -5,10 +5,7 @@ GLOBAL_LIST_EMPTY(anomaly_ai_spawn_presets)
 // TO DO
 //
 // menu icons
-// spritesheet config
-// spawn config panel
 // scss design stuff
-// custom spawn framework
 
 
 /datum/anomaly_ai_spawner_menu
@@ -31,7 +28,6 @@ GLOBAL_LIST_EMPTY(anomaly_ai_spawn_presets)
 				"description" = preset_obj.desc,
 				"path" = preset_type,
 				"anomaly_type" = preset_obj.anomaly_type_ref,
-				"requires_spawn_config" = preset_obj.requires_spawn_config,
 				"icon" = preset_obj.icon_state,
 			))
 
@@ -105,17 +101,12 @@ GLOBAL_LIST_EMPTY(anomaly_ai_spawn_presets)
 	anomaly_spawn_menu.tgui_interact(mob)
 
 /datum/anomaly_ai_spawn_preset
-	/// The GM-visible name of the equipment preset
 	var/name = ""
-	var/icon_state
+	var/icon_state = "ss13"
 	var/anomaly_class = ANOMALY_CLASS_KETER
-	/// A short description of what the preset does. Including important equipment or usecases is a good idea
 	var/desc = ""
-	/// What faction the preset is related to
 	var/faction = FACTION_ANOMALY
 	var/anomaly_type_ref
-	var/requires_spawn_config = FALSE
-	var/mob_type = /mob/living/carbon/human
 
 /datum/anomaly_ai_spawn_preset/keter
 	anomaly_class = ANOMALY_CLASS_KETER
@@ -123,7 +114,5 @@ GLOBAL_LIST_EMPTY(anomaly_ai_spawn_presets)
 /datum/anomaly_ai_spawn_preset/keter/duplicate
 	name = "Duplicate"
 	icon_state = "duplicate"
-	desc = "Standard Royal Marine armed with a rifle."
+	desc = "Dangerous entity that mimics players before attacking"
 	anomaly_type_ref = /datum/species/anomaly/duplicate
-	var/mob/living/carbon/human/alter
-	requires_spawn_config = TRUE
