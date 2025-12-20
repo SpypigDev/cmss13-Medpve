@@ -1,33 +1,32 @@
-.FlightComputer__Background {
+.AnomalySpawner__Background {
   width: 100%;
   height: 100%;
   position: absolute;
-  background-color: black;
+  background-color: #0a0a0a;
 }
 
-.FlightComputer__Casing {
+.AnomalySpawner__Casing {
   height: 100%;
-  border-radius: 5px;
-  border: 2px outset rgba(0, 0, 0, 0.685);
-  background-color: #111111;
-  padding: 6px;
+  border-radius: 2px;
+  border: 0px outset rgba(0, 0, 0, 0.685);
+  background-color: #0a0a0a;
+  padding: 8px;
   max-width: 700px;
   max-height: 410px;
 }
 
-.FlightComputer__Gradient {
+.AnomalySpawner__Gradient {
   background: radial-gradient(#042208, #000b02);
 }
 
-.FlightComputer__Static {
+.AnomalySpawner__Static {
   width: 100%;
   height: 100%;
   outline: 3px inset #111111;
   outline-offset: 2px;
   border-radius: 5px;
   border: 2px ridge #00e94e;
-  background:
-    linear-gradient(hsla(0, 6%, 7%, 0) 50%, hsla(0, 0%, 0%, 0.25) 50%),
+  background: linear-gradient(hsla(0, 6%, 7%, 0) 50%, hsla(0, 0%, 0%, 0.25) 50%),
     linear-gradient(
       90deg,
       hsla(0, 100%, 50%, 0.06),
@@ -37,7 +36,7 @@
   background-size:
     100% 2px,
     3px 100%;
-  .FlightComputer__Screen {
+  .AnomalySpawner__Screen {
     mix-blend-mode: color-dodge;
     background: radial-gradient(#05a11ab7, #00250786);
     width: 100%;
@@ -49,48 +48,71 @@
   }
 }
 
-.FlightComputer__TextConfirm {
+.AnomalySpawner__TextConfirm {
   color: #000b02;
   background-color: #00e94e;
 }
 
-.FlightComputer__FuelButton {
+.AnomalySpawner__FuelButton {
   border: 1px solid #00e94e;
   color: #00e94e;
   background-color: transparent;
 }
 
-.FlightComputer__Readout {
+.AnomalySpawner__Readout {
   filter: brightness(1.5);
 }
 
-.FlightComputer__MainDivider {
+.AnomalySpawner__MainDivider {
   border-right: 2px solid #00e94ed3;
   margin-right: 6px;
 }
 
-.FlightComputer__HorizontalDivider {
+.AnomalySpawner__HorizontalDivider {
   width: 100%;
   border-bottom: 2px solid #00e94ee3;
 }
 
-.FlightComputer__Fuel {
-  .FlightComputer__Divider {
+.AnomalySpawner__Fuel {
+  .AnomalySpawner__Divider {
     border-right: 2px solid #00e94ed3;
     padding-right: 6px;
     margin-right: 6px;
   }
-  .FlightComputer__Subdivider {
+  .AnomalySpawner__Subdivider {
     border-right: 2px solid #00e94ed3;
     padding-right: 6px;
     margin-right: 6px;
   }
-  .FlightComputer__Fuelnotch {
+  .AnomalySpawner__Fuelnotch {
     width: 30px;
     margin-bottom: 14px;
   }
-  .FlightComputer__Energynotch {
+  .AnomalySpawner__Energynotch {
     width: 40px;
     margin-bottom: 17px;
+  }
+}
+
+.AnomalySpawner__Main {
+  width: 100%;
+  height: 100%;
+  filter: brightness(2);
+  .AnomalyClass {
+    background-color: #02b83e42;
+    border-left: 1.5px #00e94ed3 solid;
+    padding-bottom: 1px;
+    font-weight: bold;
+    border-radius: 0px;
+  }
+  .AnomalyType {
+    background-color: transparent;
+    margin-left: 4%;
+    width: 92%;
+    margin-right: 4%;
+    border-radius: 0px;
+    border-bottom: 1px #00e94ed3 solid;
+    border-top: 1px #00e94ed3 solid;
+    text-align: center;
   }
 }

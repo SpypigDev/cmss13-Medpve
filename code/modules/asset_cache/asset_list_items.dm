@@ -381,6 +381,16 @@
 
 	return ..()
 
+/datum/asset/spritesheet/anomaly_menu
+	name = "anomaly_menu"
+
+/datum/asset/spritesheet/anomaly_menu/register()
+	for(var/icon_state in icon_states('icons/misc/anomaly_menu.dmi'))
+		var/icon/icon_sprite = icon('icons/misc/anomaly_menu.dmi', icon_state)
+		icon_sprite.Scale(128, 128)
+		Insert(icon_state, icon_sprite)
+
+	return ..()
 
 /datum/asset/spritesheet/gun_lineart
 	name = "gunlineart"

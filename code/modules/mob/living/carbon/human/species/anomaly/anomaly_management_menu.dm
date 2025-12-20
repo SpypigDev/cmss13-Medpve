@@ -32,6 +32,7 @@ GLOBAL_LIST_EMPTY(anomaly_ai_spawn_presets)
 				"path" = preset_type,
 				"anomaly_type" = preset_obj.anomaly_type_ref,
 				"requires_spawn_config" = preset_obj.requires_spawn_config,
+				"icon" = preset_obj.icon_state,
 			))
 
 
@@ -40,6 +41,11 @@ GLOBAL_LIST_EMPTY(anomaly_ai_spawn_presets)
 	if(!ui)
 		ui = new(user, src, "AnomalyAISpawner")
 		ui.open()
+
+/datum/anomaly_ai_spawner_menu/ui_assets(mob/user)
+	return list(
+		get_asset_datum(/datum/asset/spritesheet/anomaly_menu),
+	)
 
 /datum/anomaly_ai_spawner_menu/ui_state(mob/user)
 	return GLOB.admin_state
@@ -66,7 +72,7 @@ GLOBAL_LIST_EMPTY(anomaly_ai_spawn_presets)
 			if(!params["path"])
 				return
 
-			var/datum/anomaly_ai_spawn_preset/gotten_path = text2path(params["anomaly_type_ref"])
+			var/datum/anomaly_ai_spawn_preset/gotten_path = text2path(params["path"])
 			if(!gotten_path)
 				return
 
