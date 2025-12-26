@@ -30,15 +30,12 @@
 		return FALSE
 
 	for(var/mob/living/carbon/human/marine_human as anything in alter_target_squad.marines_list)
-		var/mob_name = "unknown"
 		if(!marine_human.client)
 			continue
-		mob_name = marine_human.real_name
-		alters_list |= list(list("name" = mob_name,"ref" = REF(marine_human)))
-
+		alters_list |= marine_human
 	var/target_alter = tgui_input_list(usr, "Select a player for [tied_human] to imitate", "Select a player for [tied_human] to imitate", alters_list)
 
-	if (!target_alter)
+	if(!target_alter)
 		return
 	if(QDELETED(tied_human))
 		return

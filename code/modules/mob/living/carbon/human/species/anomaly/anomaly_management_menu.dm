@@ -73,7 +73,7 @@ GLOBAL_LIST_EMPTY(anomaly_ai_spawn_presets)
 				return
 
 			var/mob/living/carbon/human/ai_human = new()
-			ai_human.set_species(gotten_path::anomaly_type_ref)
+			ai_human.set_species(gotten_path.anomaly_type_ref)
 			ai_human.AddComponent(/datum/component/human_ai)
 			//arm_equipment(ai_human, gotten_path::path, TRUE)
 
@@ -115,4 +115,4 @@ GLOBAL_LIST_EMPTY(anomaly_ai_spawn_presets)
 	name = "Duplicate"
 	icon_state = "duplicate"
 	desc = "Dangerous entity that mimics players before attacking"
-	anomaly_type_ref = /datum/species/anomaly/duplicate
+	anomaly_type_ref = "Duplicate"
