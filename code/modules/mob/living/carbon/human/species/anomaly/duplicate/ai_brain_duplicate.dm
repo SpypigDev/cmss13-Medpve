@@ -30,8 +30,6 @@
 		return FALSE
 
 	for(var/mob/living/carbon/human/marine_human as anything in alter_target_squad.marines_list)
-		if(!marine_human.client)
-			continue
 		alters_list |= marine_human
 	var/target_alter = tgui_input_list(usr, "Select a player for [tied_human] to imitate", "Select a player for [tied_human] to imitate", alters_list)
 
@@ -41,6 +39,7 @@
 		return
 	alter = target_alter
 	neutral_factions |= alter.faction
+	replicate_alter(alter)
 
 /datum/human_ai_brain/duplicate/process(delta_time)
 	if(hold_position)
@@ -72,6 +71,17 @@
 	RegisterSignal(alter, COMSIG_HUMAN_SAY, PROC_REF(replicate_speech))
 	pretending_to_be_human = FALSE
 	hold_position = TRUE
+
+/datum/human_ai_brain/duplicate/proc/replicate_alter(mob/living/carbon/human/alter)
+	var/list/alter_equipment_list = list()
+	alter_equipment_list |= alter.get_equipped_items()
+	tied_human.create_hud()
+	for(var/obj/item/item in alter_equipment_list)
+		var/obj/item/new_item = new item.type()
+		tied_human.equip_to_appropriate_slot(new_item)
+	tied_human.name = alter.name
+	tied_human.real_name = alter.real_name
+	tied_human.gender = alter.gender
 
 /datum/human_ai_brain/duplicate/proc/replicate_speech(message)
 	if(!COOLDOWN_FINISHED(src, replicate_speech))
