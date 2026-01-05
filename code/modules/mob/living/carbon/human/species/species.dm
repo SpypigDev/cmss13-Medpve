@@ -119,6 +119,8 @@
 
 	var/has_species_tab_items = FALSE
 
+	var/default_ai_brain_type
+
 /datum/species/New()
 	if(unarmed_type)
 		unarmed = new unarmed_type()
