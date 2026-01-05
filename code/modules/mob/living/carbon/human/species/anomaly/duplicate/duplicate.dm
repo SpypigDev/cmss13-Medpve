@@ -3,16 +3,17 @@
 	group = SPECIES_ANOMALY
 	name = "Duplicate"
 	name_plural = "Duplicates"
-
+	uses_skin_color = TRUE
+	special_body_types = TRUE
 	unarmed_type = /datum/unarmed_attack/claws
 	secondary_unarmed_type = /datum/unarmed_attack/bite
-	pain_type = /datum/pain/human
-
+	pain_type = /datum/pain/anomaly
+	flags = NO_CLONE_LOSS|NO_POISON|NO_NEURO|HAS_UNDERWEAR
 	default_ai_brain_type = /datum/human_ai_brain/duplicate
-
 	gibbed_anim = "gibbed-h"
 	dusted_anim = "dust-h"
-
+	flesh_color = BLOOD_COLOR_ZOMBIE
+	blood_color = BLOOD_COLOR_ZOMBIE
 	bloodsplatter_type = /obj/effect/temp_visual/dir_setting/bloodsplatter/anomaly
 	death_sound = 'sound/voice/scream_horror1.ogg'
 	death_message = "falls still, one last inhuman screech escaping their stolen lungs..."
