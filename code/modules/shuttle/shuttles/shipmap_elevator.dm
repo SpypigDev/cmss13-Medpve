@@ -74,3 +74,4 @@
 	name = "Cargo Elevator"
 	height = 6
 	width = 8
+
