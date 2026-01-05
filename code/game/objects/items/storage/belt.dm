@@ -1354,7 +1354,7 @@
 
 /obj/item/storage/belt/gun/m4a3/vp78/dark
 	has_gamemode_skin = FALSE
-	icon_state = "s_m4a3_holster_g"
+	icon_state = "s_m4a3_holster"
 	item_state = "s_m4a3_holster"
 	base_icon = "s_m4a3_holster"
 
