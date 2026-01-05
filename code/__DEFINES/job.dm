@@ -456,7 +456,6 @@ GLOBAL_LIST_INIT(job_command_roles, JOB_COMMAND_ROLES_LIST)
 //-------- UNNC --------//
 #define JOB_UNNC_OIS "UNNC Internal Security Officer"
 
-
 #define TIS_JOB_LIST list(JOB_TIS_SA, JOB_TIS_IO)
 
 //-------- UACG -------//

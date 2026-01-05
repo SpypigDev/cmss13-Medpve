@@ -151,6 +151,11 @@
 	worn_state = "io"
 	specialty = "marine intelligence officer"
 
+/obj/item/clothing/under/marine/officer/intel/dark
+	icon_state = "s_io"
+	worn_state = "s_io"
+	suit_restricted = null
+
 /obj/item/clothing/under/marine/officer/warrant
 	name = "\improper USCM MP chief uniform"
 	desc = "USCMC Military Police Chief's uniform. Alongside the standard armor panels, it has an uncomfortable energy dispersive polymer lining, and is also rated for low MOPP conditions."
