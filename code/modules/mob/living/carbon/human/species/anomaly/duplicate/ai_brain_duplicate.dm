@@ -18,12 +18,12 @@
 	grenading_allowed = FALSE
 	/// If TRUE, we care about the target being in view after shooting at them. If not, then we only do a line check instead
 	requires_vision = TRUE
-
+	ignore_looting = TRUE
 	COOLDOWN_DECLARE(replicate_speech)
 
 	enter_combat_lines = list(
-		"*scream",
-		"*warcry",
+		"*roar",
+		"*roar",
 	)
 
 	in_combat_line_chance = 100
@@ -99,6 +99,11 @@
 		return
 	if(mimic_timer)
 		return
+	// no using guns allowed
+	if(primary_weapon)
+		qdel(primary_weapon)
+	for(var/obj/item/weapon as anything in secondary_weapons)
+		qdel(weapon)
 	mimic_timer = addtimer(CALLBACK(src, PROC_REF(engage_alter)), 6 SECONDS, TIMER_STOPPABLE)
 	addtimer(CALLBACK(src, PROC_REF(turn_off_armor_lights)), 4 SECONDS)
 	RegisterSignal(alter, COMSIG_HUMAN_SAY, PROC_REF(replicate_speech))
@@ -106,6 +111,7 @@
 	hold_position = TRUE
 
 /datum/human_ai_brain/duplicate/proc/turn_off_armor_lights()
+	playsound(tied_human, pick('sound/voice/pred_laugh3.ogg', 'sound/voice/pred_over_there.ogg', 'sound/voice/pred_itsatrap.ogg', 'sound/voice/pred_helpme.ogg'), 25)
 	var/obj/item/clothing/suit/storage/marine/armor = tied_human.get_item_by_slot(WEAR_JACKET)
 	if(armor)
 		armor.turn_light(tied_human, FALSE)
@@ -147,10 +153,12 @@
 
 /datum/human_ai_brain/duplicate/proc/engage_alter()
 	UnregisterSignal(alter, COMSIG_HUMAN_SAY)
-	//emote
+	tied_human.emote("roar")
+	tied_human.speed = -1
+	playsound(tied_human, 'sound/weapons/wristblades_on.ogg', 25)
+	tied_human.add_filter("empower_rage", 1, list("type" = "outline", "color" = "#440202", "size" = 1))
 	mimic_timer = null
-	holster_primary()
-	holster_melee()
+
 	//tied_human.has_fine_manipulation = FALSE
 	tied_human.a_intent_change(INTENT_HARM)
 	hold_position = FALSE
