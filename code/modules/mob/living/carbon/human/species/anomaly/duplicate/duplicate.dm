@@ -5,7 +5,7 @@
 	name_plural = "Duplicates"
 	uses_skin_color = TRUE
 	special_body_types = TRUE
-	unarmed_type = /datum/unarmed_attack/claws/strong
+	unarmed_type = /datum/unarmed_attack/claws/shredding
 	secondary_unarmed_type = /datum/unarmed_attack/bite/strong
 	pain_type = /datum/pain/anomaly
 	flags = NO_CLONE_LOSS|NO_POISON|NO_NEURO|HAS_UNDERWEAR
@@ -21,6 +21,10 @@
 	speech_chance = 100
 	brute_mod = 0.5
 	burn_mod = 2
+
+//datum/species/anomaly/duplicate/handle_on_fire(humanoidmob)
+//	. = ..()
+//	INVOKE_ASYNC(humanoidmob, TYPE_PROC_REF(/mob, emote), pick("pain", "scream"))
 
 /datum/emote/living/carbon/human/anomaly/duplicate/roar
 	key = "roar"
