@@ -6,6 +6,7 @@
 #define ACTION_USING_HANDS (1<<0)
 #define ACTION_USING_LEGS (1<<1)
 #define ACTION_USING_MOUTH (1<<2)
+#define ACTION_UNIQUE (1<<4)
 
 /// Action is completed, delete this and move onto the next ongoing action
 #define ONGOING_ACTION_COMPLETED "completed"

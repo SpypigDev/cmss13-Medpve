@@ -272,6 +272,9 @@
 			if(prob(5))
 				broken(1)
 
+	var/area/area = get_area(src)
+	area?.all_lights |= src
+
 	active_power_usage = (brightness * 10)
 	addtimer(CALLBACK(src, PROC_REF(update), 0), 1)
 
@@ -299,9 +302,11 @@
 					pixel_x = -10
 
 /obj/structure/machinery/light/Destroy()
-	var/area/A = get_area(src)
-	if(A)
+	var/area/area = get_area(src)
+	if(area)
 		on = 0
+	if(locate(src) in area?.all_lights)
+		area.all_lights -= src
 // A.update_lights()
 	. = ..()
 
@@ -569,17 +574,17 @@
 
 // break the light and make sparks if was on
 
-/obj/structure/machinery/light/proc/broken(skip_sound_and_sparks = 0)
+/obj/structure/machinery/light/proc/broken(skip_sound = FALSE, skip_sparks = TRUE)
 	if(status == LIGHT_EMPTY)
 		return
 
-	if(!skip_sound_and_sparks)
+	if(!skip_sound)
 		if(status == LIGHT_OK || status == LIGHT_BURNED)
 			playsound(src.loc, 'sound/effects/Glasshit.ogg', 25, 1)
-// if(on)
-// var/datum/effect_system/spark_spread/s = new /datum/effect_system/spark_spread
-// s.set_up(3, 1, src)
-// s.start()
+	if(!skip_sparks && on)
+		var/datum/effect_system/spark_spread/spark = new /datum/effect_system/spark_spread
+		spark.set_up(3, 1, src)
+		spark.start()
 	status = LIGHT_BROKEN
 	update()
 
