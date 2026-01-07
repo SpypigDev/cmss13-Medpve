@@ -28,6 +28,14 @@
 /datum/human_ai_brain/shadow_men/say_need_healing_line()
 	return
 
+/datum/human_ai_brain/shadow_men/enter_combat()
+	if(!ishuman(current_target))
+		return ..()
+	var/mob/target_mob = current_target
+	if(target_mob.client && !in_combat)
+		playsound_client(target_mob.client, 'sound/ambience/weymart.ogg', target_mob, 20)
+	..()
+
 /datum/human_ai_brain/shadow_men/configure_custom_spawn(mob/living/carbon/human/target)
 	RegisterSignal(tied_human, COMSIG_MOB_MOVE_OR_LOOK, PROC_REF(calculate_mob_slowdown))
 

@@ -51,7 +51,13 @@
 
 /datum/ai_action/anomaly/short_lighting
 	name = "Short Nearby Lighting"
-	var/ability_range = 4
+	var/ability_range = 9
+	var/static/list/sound_effect_list = list(
+		'sound/machines/resource_node/node_marine_die.ogg',
+		'sound/machines/resource_node/node_marine_die_2.ogg',
+		'sound/machines/resource_node/node_marine_harvest.ogg',
+		'sound/machines/resource_node/node_turn_off.ogg'
+	)
 
 	COOLDOWN_DECLARE(action_cooldown)
 
@@ -68,23 +74,32 @@
 	. = ..()
 	if(!COOLDOWN_FINISHED(src, action_cooldown))
 		return
-	COOLDOWN_START(src, action_cooldown, 5 SECONDS)
+	if(brain.in_combat)
+		COOLDOWN_START(src, action_cooldown, 2 SECONDS)
+	else
+		COOLDOWN_START(src, action_cooldown, 5 SECONDS)
 	var/mob/tied_mob = brain.tied_human
 	var/area/mob_area = get_area(tied_mob)
 	if(!mob_area)
 		return
 	var/list/nearby_lights = list()
-	for(var/obj/structure/machinery/light/light as anything in mob_area.all_lights)
-		if(!light.on || get_dist(light, tied_mob) > ability_range)
-			continue
-		nearby_lights |= light
+	var/list/areas_to_check = list(mob_area)
+	if(brain.current_target && get_area(brain.current_target) != mob_area)
+		areas_to_check |= get_area(brain.current_target)
+	for(var/area/lighting_area as anything in areas_to_check)
+		for(var/obj/structure/machinery/light/light as anything in lighting_area.all_lights)
+			if(!light.on || get_dist(light, tied_mob) > ability_range)
+				continue
+			nearby_lights |= light
 	// breaks more lights if used in combat, but always at least 1
 	for(var/i in 1 to rand(1, (brain.in_combat * 4 + 1)))
 		if(!length(nearby_lights))
 			break
 		var/obj/structure/machinery/light/target_light = pick(nearby_lights)
-		if(prob(50))
-			addtimer(CALLBACK(target_light, TYPE_PROC_REF(/obj/structure/machinery/light, flicker)), rand(1, 3) SECONDS)
+		if(prob(60) && brain.in_combat)
+			target_light.flicker(rand(2, 10), 1, 3)
+			playsound(target_light, pick(sound_effect_list), 20)
+			addtimer(CALLBACK(target_light, TYPE_PROC_REF(/obj/structure/machinery/light, broken), FALSE, FALSE), rand(2, 4) SECONDS)
 		else
-			addtimer(CALLBACK(target_light, TYPE_PROC_REF(/obj/structure/machinery/light, broken), FALSE, FALSE), rand(1, 3) SECONDS)
+			addtimer(CALLBACK(target_light, TYPE_PROC_REF(/obj/structure/machinery/light, flicker)), rand(1, 3) SECONDS)
 		nearby_lights -= target_light

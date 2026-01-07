@@ -478,7 +478,7 @@
 		return A.lightswitch
 	return A.lightswitch && A.power_light
 
-/obj/structure/machinery/light/proc/flicker(amount = rand(10, 20))
+/obj/structure/machinery/light/proc/flicker(amount = rand(10, 20), min_delay = 5, max_delay = 15)
 	if(flickering) return
 	flickering = 1
 	spawn(0)
@@ -487,7 +487,7 @@
 				if(status != LIGHT_OK) break
 				on = !on
 				update(0)
-				sleep(rand(5, 15))
+				sleep(rand(min_delay, max_delay))
 			on = (status == LIGHT_OK)
 			update(0)
 		flickering = 0
