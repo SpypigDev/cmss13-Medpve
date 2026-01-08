@@ -3,8 +3,8 @@
 	group = SPECIES_ANOMALY
 	name = "Shadow Man"
 	name_plural = "Shadow Men"
-	uses_skin_color = TRUE
-	special_body_types = TRUE
+	icobase = 'icons/mob/humans/species/r_anomaly.dmi' // Normal icon set.
+	deform = 'icons/mob/humans/species/r_anomaly.dmi' // Mutated icon set.
 	unarmed_type = /datum/unarmed_attack/claws
 	secondary_unarmed_type = /datum/unarmed_attack/bite
 	pain_type = /datum/pain/anomaly
@@ -18,7 +18,6 @@
 	blood_mask = null
 	base_color = COLOR_BLACK
 	hair_color = COLOR_BLACK
-
 	death_sound = 'sound/voice/4_xeno_roars.ogg'
 	death_message = "falls still, one last inhuman screech escaping their stolen lungs..."
 	has_fine_manipulation = FALSE

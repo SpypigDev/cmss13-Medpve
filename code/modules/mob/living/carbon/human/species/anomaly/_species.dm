@@ -52,6 +52,16 @@
 /datum/ai_action/anomaly/short_lighting
 	name = "Short Nearby Lighting"
 	var/ability_range = 9
+	var/static/list/action_sound_effect_list = list(
+		'sound/ambience/ambimalf.ogg',
+		'sound/ambience/ambigen10.ogg',
+		'sound/ambience/ambigen9.ogg',
+		'sound/ambience/ambigen5.ogg',
+		'sound/ambience/ambigen2.ogg',
+		'sound/ambience/ambimo2.ogg',
+		'sound/ambience/ambisin2.ogg'
+	)
+
 	var/static/list/sound_effect_list = list(
 		'sound/machines/resource_node/node_marine_die.ogg',
 		'sound/machines/resource_node/node_marine_die_2.ogg',
@@ -60,10 +70,12 @@
 	)
 
 	COOLDOWN_DECLARE(action_cooldown)
+	COOLDOWN_DECLARE(action_sound_effect_cooldown)
 
 /datum/ai_action/anomaly/short_lighting/Added()
 	. = ..()
 	COOLDOWN_START(src, action_cooldown, 5 SECONDS)
+	COOLDOWN_START(src, action_sound_effect_cooldown, 5 SECONDS)
 
 /datum/ai_action/anomaly/short_lighting/get_weight(datum/human_ai_brain/brain)
 	if(!is_type_in_list(src, brain.unique_actions))
@@ -103,3 +115,12 @@
 		else
 			addtimer(CALLBACK(target_light, TYPE_PROC_REF(/obj/structure/machinery/light, flicker)), rand(1, 3) SECONDS)
 		nearby_lights -= target_light
+	if(brain.current_target && ishuman_strict(brain.current_target) && brain.in_combat)
+		var/mob/living/carbon/human/target = brain.current_target
+		if(COOLDOWN_FINISHED(src, action_sound_effect_cooldown))
+			playsound_client(target.client, pick(action_sound_effect_list), target, 40, TRUE)
+			COOLDOWN_START(src, action_sound_effect_cooldown, 10 SECONDS)
+		if(prob(20))	// 20% chance to turn off their targets armor light every 2 seconds
+			var/obj/item/clothing/suit/storage/marine/target_armor = target.get_item_by_slot(WEAR_JACKET)
+			target_armor?.turn_light(target, FALSE)
+

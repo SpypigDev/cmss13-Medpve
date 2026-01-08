@@ -33,11 +33,12 @@
 		return ..()
 	var/mob/target_mob = current_target
 	if(target_mob.client && !in_combat)
-		playsound_client(target_mob.client, 'sound/ambience/weymart.ogg', target_mob, 20)
+		playsound_client(target_mob.client, 'sound/ambience/weymart.ogg', target_mob, 70)
 	..()
 
 /datum/human_ai_brain/shadow_men/configure_custom_spawn(mob/living/carbon/human/target)
 	RegisterSignal(tied_human, COMSIG_MOB_MOVE_OR_LOOK, PROC_REF(calculate_mob_slowdown))
+	tied_human.add_filter("motion_blur", 1, list("type" = "motion_blur", "x" = 1))
 
 /datum/human_ai_brain/shadow_men/proc/calculate_mob_slowdown()
 	if(tied_human.stat)
