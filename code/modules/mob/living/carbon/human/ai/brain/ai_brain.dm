@@ -362,3 +362,8 @@ GLOBAL_LIST_EMPTY(human_ai_brains)
 		try_cover(bullet.angle, bullet.firer)
 	else if(in_cover)
 		on_shot_inside_cover(bullet.angle, bullet.firer)
+
+/// used when conditional AI spawns are required
+/datum/human_ai_brain/proc/configure_custom_spawn(mob/living/carbon/human/parent)
+	return
+
