@@ -42,10 +42,13 @@
 	return
 
 ///Checks if the needle atom is any type in the type_list
-/proc/is_type_in_list(atom/needle, list/type_list)
+/proc/is_type_in_list(atom/needle, list/type_list, return_atom = FALSE)
 	for(var/type in type_list)
-		if(istype(needle, type))
-			return TRUE
+		if(!istype(needle, type))
+			continue
+		if(return_atom)
+			return type
+		return TRUE
 	return FALSE
 
 ///Checks if the needle path derives from any in the path_list

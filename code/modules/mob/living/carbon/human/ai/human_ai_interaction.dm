@@ -18,7 +18,7 @@
 /////////////////////////////
 //         OBJECTS         //
 /////////////////////////////
-/obj/structure/human_ai_obstacle(mob/living/carbon/human/ai_human, datum/human_ai_brain/brain, direction, turf/target)
+/obj/structure/human_ai_obstacle(mob/living/carbon/human/ai_human, datum/human_ai_brain/brain, direction, turf/target)	// marked for inspection
 	. = ..()
 	if(!.)
 		return
