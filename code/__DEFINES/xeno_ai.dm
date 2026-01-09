@@ -89,7 +89,7 @@ PROBABILITY CALCULATIONS ARE HERE
 #define PRAETORIAN_SPIT 80
 #define PRAETORIAN_SPRAY 80
 
-
+// i know this seems pointless, but we need to minimize typechecks wherever possible
 /// Special blockers for pathfinding or obstacle handling (DISCLUDING turfs)
 #define AI_SPECIAL_BLOCKERS list(/obj/flamer_fire, /mob/living, /obj/vehicle/multitile)
 /// Special blockers for pathfinding or obstacle handling (INCLUDING turfs)

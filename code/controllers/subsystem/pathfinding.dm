@@ -7,7 +7,8 @@ SUBSYSTEM_DEF(pathfinding)
 	var/list/datum/xeno_pathinfo/current_processing = list()
 	/// A list of paths to calculate
 	var/list/datum/xeno_pathinfo/paths_to_calculate = list()
-
+	/// Tracks how many times pathfinding has been overtick aborted
+	var/tick_overtime_count = 0	// as well as how many shots you need to take
 	var/list/hash_path = list()
 	var/current_position = 1
 
@@ -15,7 +16,7 @@ SUBSYSTEM_DEF(pathfinding)
 	msg = "P:[length(paths_to_calculate)]"
 	return ..()
 
-/datum/controller/subsystem/pathfinding/fire(resumed = FALSE)	// marked for refactoring to A* pathfinding
+/datum/controller/subsystem/pathfinding/fire(resumed = FALSE)
 	if(!resumed)
 		current_processing = paths_to_calculate.Copy()
 
@@ -30,24 +31,17 @@ SUBSYSTEM_DEF(pathfinding)
 
 		var/turf/target = current_run.finish
 
-		//var/list/visited_nodess = current_run.visited_nodes
-		// Distance from agent to node
-		//var/list/distancess = current_run.distances
-		// Combined distance from agent to node, and node to target, including special factors
-		//var/list/f_distancess = current_run.f_distances
-		//var/list/prevv = current_run.prev
-
-		/// list of tiles already part of the path
+		/// list of tiles already processed by pathfinding indexed by [tile] = distance
 		var/list/visited_nodes = current_run.visited_nodes
-		/// stores the precursor node for all tiles added to the path
+		/// stores the precursor node for all tiles added to the path, indexed by [tile] = precursor
 		var/list/previous_node_link = current_run.previous_node_link
-		/// list of tiles being considered for path routing
+		/// list of tiles to be processed by pathfinding to be added to the route. Stored as index = list("node", "f_distance")
 		var/list/expansion_nodes = current_run.expansion_nodes
 
 		while(length(expansion_nodes))
 			var/list/unpacked_node = expansion_nodes[1]
 			current_run.current_node = unpacked_node["node"]
-			expansion_nodes -= unpacked_node
+			expansion_nodes.Cut(1)
 			if(!current_run.current_node)
 				current_run.to_return.Invoke()
 				log_debug("PATHFINDING FAULT! Unable to identify current node in expansion list ([length(expansion_nodes)] contained nodes) for [current_run.agent].")
@@ -58,6 +52,10 @@ SUBSYSTEM_DEF(pathfinding)
 				var/turf/neighbor = get_step(current_run.current_node, direction)
 				if(neighbor == listgetindex(previous_node_link, current_run.current_node))
 					continue
+				if(neighbor == target)	// bingo!
+					previous_node_link[neighbor] = current_run.current_node
+					expansion_nodes = list()
+					break
 				if(listgetindex(visited_nodes, neighbor))
 					continue
 				if(get_dist(neighbor, current_run.agent) > current_run.path_range)
@@ -85,17 +83,18 @@ SUBSYSTEM_DEF(pathfinding)
 						for(var/atom/A as anything in blockers)
 							distance_between += A.human_ai_obstacle(current_run.agent, brain, direction, target)
 				var/f_distance = distance_between + ASTAR_COST_FUNCTION(neighbor)
-				for(var/index in 1 to length(expansion_nodes))
+				for(var/index in 1 to length(expansion_nodes) + 1)
 					var/list/indexed_node = listgetindex(expansion_nodes, index)
-					var/list/subindexed_node = listgetindex(indexed_node, 1)
-					if(!subindexed_node || subindexed_node["f_distance"] >= f_distance)
-						expansion_nodes[index] |= list(list("node" = neighbor, "f_distance" = f_distance))
+					var/indexed_f_distance = indexed_node ? indexed_node["f_distance"] : 100	// protects against null references
+					//neighbor.maptext = "<h3>[f_distance]</h3>"
+					if(indexed_f_distance > f_distance)
+						expansion_nodes.Insert(index, list(list("node" = neighbor, "f_distance" = f_distance)))
 						visited_nodes[neighbor] = distance_between
 						previous_node_link[neighbor] = current_run.current_node
-						current_run.current_node.maptext = "<h2>[f_distance]</h2>"
 						break
 
 			if(MC_TICK_CHECK)	// take a shot for every time this returns true
+				tick_overtime_count++
 				return
 
 		if(!previous_node_link[target])	// we never made it
@@ -176,11 +175,11 @@ SUBSYSTEM_DEF(pathfinding)
 
 	var/turf/current_node
 	var/list/ignore
-	/// list of tiles already part of the path
+	/// list of tiles already processed by pathfinding indexed by [tile] = distance
 	var/list/visited_nodes = list()
-	/// stores the precursor node for all tiles added to the path
+	/// stores the precursor node for all tiles added to the path, indexed by [tile] = precursor
 	var/list/previous_node_link = list()
-	/// list of tiles being considered for path routing
+	/// list of tiles to be processed by pathfinding to be added to the route. Stored as index = list("node", "f_distance")
 	var/list/expansion_nodes = list()
 
 /datum/xeno_pathinfo/proc/qdel_wrapper()
@@ -198,10 +197,6 @@ SUBSYSTEM_DEF(pathfinding)
 	SSpathfinding.paths_to_calculate -= src
 	SSpathfinding.current_processing -= src
 
-	#ifdef TESTING
-	addtimer(CALLBACK(src, PROC_REF(clear_colors), distances), 5 SECONDS)
-	#endif
-
 	start = null
 	finish = null
 	agent = null
@@ -211,12 +206,3 @@ SUBSYSTEM_DEF(pathfinding)
 	previous_node_link = null
 	return ..()
 
-#ifdef TESTING
-/datum/xeno_pathinfo/proc/clear_colors(list/L)
-	for(var/i in L)
-		var/turf/T = i
-		for(var/l in T)
-			var/atom/A = l
-			A.color = null
-		T.color = null
-#endif
