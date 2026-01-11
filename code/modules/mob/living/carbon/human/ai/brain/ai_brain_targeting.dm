@@ -17,7 +17,7 @@
 	COOLDOWN_DECLARE(fire_offscreen)
 
 /// Locates a viable target within vision
-/datum/human_ai_brain/proc/get_target()	// marked for inspection
+/datum/human_ai_brain/proc/get_target()
 	var/list/viable_targets = list()
 	var/atom/movable/closest_target
 	var/smallest_distance = INFINITY

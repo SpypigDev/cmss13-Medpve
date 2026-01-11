@@ -66,7 +66,7 @@
 		brain.cover_processing(turf_dict, TRUE)
 
 /// Recursively searches each tile nearby (up to 198 tiles, nearly BYOND's recursion limit) and determines how suitable it is as cover, giving it a numerical score and adding it to turf_dict
-/datum/human_ai_brain/proc/recursive_turf_cover_scan(turf/scan_turf, list/turf_dict, cover_dir, first_iteration = TRUE)
+/datum/human_ai_brain/proc/recursive_turf_cover_scan(turf/scan_turf, list/turf_dict, cover_dir, first_iteration = TRUE)	// inspection
 	if(length(turf_dict) > 198) // Slightly lower than byond recursion limit (200)
 		return FALSE // abort if the room is too large
 
@@ -105,15 +105,11 @@
 		if(!nearby_turf)
 			continue
 
-		if(istype(nearby_turf, /turf/closed))
+		if(isclosedturf(nearby_turf))
 			turf_dict[scan_turf] += 2 // Near a wall is a bit safer
 			if(cardinal in get_related_directions(cover_dir))
 				turf_dict[scan_turf] += 8
 			continue
-
-		var/obj/structure/reagent_dispensers/fueltank/tank = locate() in nearby_turf.contents
-		if(tank)
-			turf_dict[scan_turf] -= 10 // ideally not near any highly explosive fuel tanks if we can help it
 
 #ifdef TESTING
 		scan_turf.maptext = "<h2>[turf_dict[scan_turf]]</h2>"

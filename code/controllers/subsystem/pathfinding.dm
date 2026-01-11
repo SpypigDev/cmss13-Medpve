@@ -71,7 +71,8 @@ SUBSYSTEM_DEF(pathfinding)
 					distance_between += DIRECTION_CHANGE_PENALTY
 				if(isxeno(current_run.agent) && !neighbor.weeds)
 					distance_between += NO_WEED_PENALTY
-				var/list/blockers = LinkBlocked(current_run.agent, current_run.current_node, neighbor, current_run.ignore, TRUE)
+				var/list/blockers = list()
+				//var/list/blockers = LinkBlocked(current_run.agent, current_run.current_node, neighbor, current_run.ignore, TRUE)
 				blockers |= check_special_blockers(current_run.agent, neighbor)
 				if(length(blockers))
 					if(isxeno(current_run.agent))
@@ -86,7 +87,7 @@ SUBSYSTEM_DEF(pathfinding)
 				for(var/index in 1 to length(expansion_nodes) + 1)
 					var/list/indexed_node = listgetindex(expansion_nodes, index)
 					var/indexed_f_distance = indexed_node ? indexed_node["f_distance"] : 100	// protects against null references
-					//neighbor.maptext = "<h3>[f_distance]</h3>"
+					neighbor.maptext = "<h3>[f_distance]</h3>"
 					if(indexed_f_distance > f_distance)
 						expansion_nodes.Insert(index, list(list("node" = neighbor, "f_distance" = f_distance)))
 						visited_nodes[neighbor] = distance_between
@@ -121,14 +122,13 @@ SUBSYSTEM_DEF(pathfinding)
 /datum/controller/subsystem/pathfinding/proc/check_special_blockers(mob/agent, turf/checking_turf)
 	var/list/pass_back = list()
 
-	if(is_type_in_list(checking_turf, AI_SPECIAL_BLOCKER_TURFS))
+	if(checking_turf.check_ai_special_blockers())
 		pass_back |= checking_turf
 		return pass_back	// if you cant even enter the turf, the rest doesnt really matter
 
-	for(var/atom/blocker as anything in AI_SPECIAL_BLOCKERS)
-		var/blocker_atom = is_type_in_list(blocker, checking_turf.contents, TRUE)
-		if(blocker_atom)
-			pass_back |= blocker_atom
+	for(var/atom/blocker as anything in checking_turf.contents)
+		if(blocker.check_ai_special_blockers())
+			pass_back |= blocker
 			continue
 
 	return pass_back

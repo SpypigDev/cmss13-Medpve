@@ -112,7 +112,7 @@ GLOBAL_LIST_EMPTY(human_ai_brains)
 	to_pickup.Cut()
 	lose_injured_ally()
 
-/datum/human_ai_brain/process(delta_time)
+/datum/human_ai_brain/process(delta_time)	// marked for inspection
 	if(tied_human.is_mob_incapacitated())
 		for(var/action in ongoing_actions)
 			qdel(action)
