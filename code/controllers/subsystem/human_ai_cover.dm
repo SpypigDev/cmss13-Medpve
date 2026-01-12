@@ -7,7 +7,7 @@ SUBSYSTEM_DEF(human_ai_cover)
 	priority = SS_PRIORITY_HUMAN_AI_COVER
 	flags = SS_NO_INIT|SS_TICKER|SS_BACKGROUND|SS_POST_FIRE_TIMING
 	wait = 10
-	var/chunk_data_array = list()
+	var/chunk_data_array[5][20][20]
 	var/list/chunk_generation_requests = list()
 	var/list/datum/ai_cover_data_request/cover_data_requests = list()
 	var/list/datum/ai_cover_data_request/indexed_data_requests = list()
@@ -121,20 +121,20 @@ SUBSYSTEM_DEF(human_ai_cover)
 
 	MC_SPLIT_TICK
 
-	for(var/list/chunk_processing_request in chunk_generation_requests)
-		var/list/unpacked_chunk_data = chunk_processing_request.Copy()
+	for(var/chunk_processing_request in chunk_generation_requests)
+		var/list/unpacked_chunk_data = chunk_processing_request
 		var/datum/ai_cover_data_chunk/chunk = unpacked_chunk_data["chunk"]
 		var/chunk_x = unpacked_chunk_data["x"]
 		var/chunk_y = unpacked_chunk_data["y"]
 		var/chunk_z = unpacked_chunk_data["z"]
 
-		var/turf/middle_turf = locate(chunk_x + 6, chunk_y + 6, chunk_z)
+		var/turf/middle_turf = locate(chunk_x * 13 + 7, chunk_y * 13 + 7, chunk_z)
 		//ifcheck
 		var/list/scannable_turfs = list(middle_turf)
 		var/first_iteration = TRUE
 
 		// i know how clunky this looks, but believe me, its easier
-		chunk_data_array[chunk_x][chunk_y][chunk_z] = chunk
+		chunk_data_array[chunk_z][chunk_x][chunk_y] = chunk
 		//chunk_array_input(chunk) - RIP
 
 		for(var/turf/scan_turf as anything in scannable_turfs)
@@ -187,6 +187,7 @@ SUBSYSTEM_DEF(human_ai_cover)
 	data_request.requester_brain = target_brain
 	data_request.requester_mob = target_brain.tied_human
 	data_request.target_faction = target_brain.tied_human.faction
+	data_request.to_return = callback
 	if(target_brain.squad_id)
 		data_request.target_squad = target_brain.squad_id
 	data_request.requesting_turf = get_turf(target_brain.tied_human)
@@ -239,8 +240,8 @@ SUBSYSTEM_DEF(human_ai_cover)
 	var/x_array_index = ceil(requesting_turf.x / 13)
 	var/y_array_index = ceil(requesting_turf.y / 13)
 	var/datum/ai_cover_data_chunk/chunk_data_index
-	if(chunk_data_array[x_array_index][y_array_index][requesting_turf.z])
-		chunk_data_index = chunk_data_array[x_array_index][y_array_index][requesting_turf.z]
+	if(chunk_data_array[requesting_turf.z][x_array_index][y_array_index])
+		chunk_data_index = chunk_data_array[requesting_turf.z][x_array_index][y_array_index]
 	//var/chunk_data_index = chunk_array_fetch(x_array_index, y_array_index, requesting_turf.z)
 
 	if(chunk_data_index)
@@ -264,43 +265,6 @@ SUBSYSTEM_DEF(human_ai_cover)
 					)
 				)
 	return FALSE
-
-/datum/controller/subsystem/human_ai_cover/proc/chunk_array_fetch(x, y, z)
-	if(!(x && y && z))	// provided coords are invalid
-		return FALSE
-	var/list/array_coordinates = list(z, x, y)
-	var/list/array_level = chunk_data_array.Copy()
-	for(var/array_index in 1 to 3)
-		var/list/next_array_level = listgetindex(array_level, array_coordinates[array_index])
-		if(!next_array_level)
-			return FALSE
-		array_level = list()
-		array_level = next_array_level.Copy()
-	var/datum/ai_cover_data_chunk/chunk_lookup = locate() in array_level
-	if(!chunk_lookup)
-		return FALSE
-	return chunk_lookup
-
-/datum/controller/subsystem/human_ai_cover/proc/chunk_array_input(datum/ai_cover_data_chunk/chunk)
-	if(!chunk)
-		return FALSE
-	var/list/array_level = chunk_data_array
-	var/list/array_level_z = listgetindex(array_level, chunk.index_z)
-	if(!array_level_z)
-		var/list/new_array_x_index = list()
-		var/list/new_array_y_index = list()
-		new_array_y_index.Insert(chunk.index_y, chunk)
-		new_array_x_index.Insert(chunk.index_x, list(new_array_y_index))
-		array_level.Insert(chunk.index_z,list(new_array_x_index) )
-	var/list/array_level_x = listgetindex(array_level_z, chunk.index_x)
-	if(!array_level_x)
-		var/list/new_array_y_index = list()
-		new_array_y_index.Insert(chunk.index_y, chunk)
-		array_level_z.Insert(chunk.index_x, list(new_array_y_index))
-	var/list/array_level_y = listgetindex(array_level_x, chunk.index_y)
-	if(!array_level_y)
-		array_level_x.Insert(chunk.index_y, chunk)
-		return TRUE
 
 /datum/ai_cover_data_request
 	var/datum/human_ai_brain/requester_brain
