@@ -127,27 +127,24 @@ SUBSYSTEM_DEF(human_ai_cover)
 		var/chunk_x = unpacked_chunk_data["x"]
 		var/chunk_y = unpacked_chunk_data["y"]
 		var/chunk_z = unpacked_chunk_data["z"]
-
+		var/turf/requester_turf = unpacked_chunk_data["requester_turf"]
 		var/turf/middle_turf = locate(chunk_x * 13 + 7, chunk_y * 13 + 7, chunk_z)
-		//ifcheck
 		var/list/scannable_turfs = list(middle_turf)
-		var/first_iteration = TRUE
 
 		// i know how clunky this looks, but believe me, its easier
 		chunk_data_array[chunk_z][chunk_x][chunk_y] = chunk
-		//chunk_array_input(chunk) - RIP
 
-		for(var/turf/scan_turf as anything in scannable_turfs)
-			scannable_turfs -= scan_turf
+		if(isclosedturf(middle_turf) && requester_turf)
+			scannable_turfs = list(requester_turf)	// the middle of the chunk is a wall. start at the original request
 
-			if(sqrt((middle_turf.x - scan_turf.x)^2) >= 6 || sqrt((middle_turf.y - scan_turf.y)^2) >= 6)
-				continue
+		var/first_iteration = TRUE
+		var/list/scanned_turfs = list()
 
-			if(scan_turf in chunk.turf_dict)
-				continue
-
+		while(length(scannable_turfs))
+			var/turf/scan_turf = scannable_turfs[1]
+			scannable_turfs.Cut(scan_turf)
 			chunk.turf_dict[scan_turf] = 0
-
+			scanned_turfs |= scan_turf
 			var/list/turf_contents = scan_turf.contents.Copy()
 			var/list/soft_cover_list = list()
 			for(var/atom/movable/atom as anything in turf_contents)
@@ -168,11 +165,19 @@ SUBSYSTEM_DEF(human_ai_cover)
 				if(!nearby_turf)
 					continue
 
+				if(nearby_turf in scanned_turfs)
+					continue
+
 				if(isclosedturf(nearby_turf))
 					chunk.turf_dict[scan_turf] += 2 // Near a wall is a bit safer
 					continue
 
+				if(abs(middle_turf.x - nearby_turf.x) > 6 || abs(middle_turf.y - nearby_turf.y) > 6)
+					continue
+
 				scannable_turfs |= nearby_turf
+
+		chunk_generation_requests -= chunk_processing_request
 
 		if(MC_TICK_CHECK)
 			break
@@ -237,8 +242,8 @@ SUBSYSTEM_DEF(human_ai_cover)
 /datum/controller/subsystem/human_ai_cover/proc/request_chunk_data(datum/ai_cover_data_request/request, data_generation_allowed = FALSE)
 	var/turf/requesting_turf = request.requesting_turf
 
-	var/x_array_index = ceil(requesting_turf.x / 13)
-	var/y_array_index = ceil(requesting_turf.y / 13)
+	var/x_array_index = floor(requesting_turf.x / 13)
+	var/y_array_index = floor(requesting_turf.y / 13)
 	var/datum/ai_cover_data_chunk/chunk_data_index
 	if(chunk_data_array[requesting_turf.z][x_array_index][y_array_index])
 		chunk_data_index = chunk_data_array[requesting_turf.z][x_array_index][y_array_index]
@@ -261,7 +266,8 @@ SUBSYSTEM_DEF(human_ai_cover)
 					"x" = x_array_index,
 					"y" = y_array_index,
 					"z" = requesting_turf.z,
-					"chunk" = chunk_template
+					"chunk" = chunk_template,
+					"requester_turf" = request.requesting_turf
 					)
 				)
 	return FALSE
