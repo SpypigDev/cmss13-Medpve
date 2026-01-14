@@ -63,38 +63,16 @@ SUBSYSTEM_DEF(human_ai_cover)
 	var/kill_request_processor = FALSE
 
 	for(var/datum/ai_cover_data_request/data_request in cover_data_requests)
-		var/list/raw_chunk_data = list()
-		var/list/processed_cover_locations = list()
-
 		if(kill_request_processor)
 			data_request.to_return.Invoke()
 			cover_data_requests -= data_request
 			QDEL_NULL(data_request)
 			continue
 
-		for(var/datum/ai_cover_data_chunk/chunk as anything in data_request.data_chunks)
-			raw_chunk_data |= chunk.turf_dict
-
-		var/most_weight = -INFINITY
-		var/turf/best_cover
-		for(var/turf/cover_turf as anything in raw_chunk_data)
-			var/weight = raw_chunk_data[cover_turf]
-			var/turf_distance = get_dist(cover_turf, data_request.requester_mob)
-			if(turf_distance >= 9)
-				raw_chunk_data -= cover_turf
-				continue
-			weight -= turf_distance
-			if(weight <= 0)
-				raw_chunk_data -= cover_turf
-				continue
-			if(data_request.direction_preference in get_related_directions(get_dir(data_request.requester_mob, cover_turf)))
-				weight |= 5
-			if(weight > most_weight)
-				most_weight = weight
-				best_cover = cover_turf
-
-		if(best_cover && best_cover != data_request.requesting_turf)
-			data_request.final_cover_location = best_cover
+		if(!process_cover_locations(data_request))
+			data_request.to_return.Invoke()
+			cover_data_requests -= data_request
+			QDEL_NULL(data_request)
 
 		if(MC_TICK_CHECK)
 			kill_request_processor = TRUE
@@ -122,65 +100,100 @@ SUBSYSTEM_DEF(human_ai_cover)
 	MC_SPLIT_TICK
 
 	for(var/chunk_processing_request in chunk_generation_requests)
-		var/list/unpacked_chunk_data = chunk_processing_request
-		var/datum/ai_cover_data_chunk/chunk = unpacked_chunk_data["chunk"]
-		var/chunk_x = unpacked_chunk_data["x"]
-		var/chunk_y = unpacked_chunk_data["y"]
-		var/chunk_z = unpacked_chunk_data["z"]
-		var/turf/requester_turf = unpacked_chunk_data["requester_turf"]
-		var/turf/middle_turf = locate(chunk_x * 13 + 7, chunk_y * 13 + 7, chunk_z)
-		var/list/scannable_turfs = list(middle_turf)
 
-		// i know how clunky this looks, but believe me, its easier
-		chunk_data_array[chunk_z][chunk_x][chunk_y] = chunk
-
-		if(isclosedturf(middle_turf) && requester_turf)
-			scannable_turfs = list(requester_turf)	// the middle of the chunk is a wall. start at the original request
-
-		var/first_iteration = TRUE
-		var/list/scanned_turfs = list()
-
-		while(length(scannable_turfs))
-			var/turf/scan_turf = scannable_turfs[1]
-			scannable_turfs.Cut(scan_turf)
-			chunk.turf_dict[scan_turf] = 0
-			scanned_turfs |= scan_turf
-			var/list/turf_contents = scan_turf.contents.Copy()
-			var/list/soft_cover_list = list()
-			for(var/atom/movable/atom as anything in turf_contents)
-				if(atom.density)
-					if(istype(atom, /obj/structure))
-						soft_cover_list |= atom
-						continue
-					if(first_iteration)
-						break // We don't wanna end our cover search on self
-					turf_contents -= atom
-				else
-					if(istype(atom, /obj/item/explosive/mine))
-						turf_contents -= atom
-						continue
-
-			for(var/cardinal in GLOB.cardinals)
-				var/turf/nearby_turf = get_step(scan_turf, cardinal)
-				if(!nearby_turf)
-					continue
-
-				if(nearby_turf in scanned_turfs)
-					continue
-
-				if(isclosedturf(nearby_turf))
-					chunk.turf_dict[scan_turf] += 2 // Near a wall is a bit safer
-					continue
-
-				if(abs(middle_turf.x - nearby_turf.x) > 6 || abs(middle_turf.y - nearby_turf.y) > 6)
-					continue
-
-				scannable_turfs |= nearby_turf
-
-		chunk_generation_requests -= chunk_processing_request
+		if(generate_chunk_data(chunk_processing_request))
+			chunk_generation_requests -= chunk_processing_request
 
 		if(MC_TICK_CHECK)
 			break
+
+/datum/controller/subsystem/human_ai_cover/proc/process_cover_locations(datum/ai_cover_data_request/data_request)
+	var/list/raw_chunk_data = list()
+
+	for(var/datum/ai_cover_data_chunk/chunk as anything in data_request.data_chunks)
+		raw_chunk_data |= chunk.turf_dict
+
+	var/most_weight = -INFINITY
+	var/turf/best_cover
+	for(var/turf/cover_turf as anything in raw_chunk_data)
+		var/weight = raw_chunk_data[cover_turf]
+		var/turf_distance = get_dist(cover_turf, data_request.requester_mob)
+		if(turf_distance >= 9)
+			raw_chunk_data -= cover_turf
+			continue
+		weight -= turf_distance
+		if(weight <= 0)
+			raw_chunk_data -= cover_turf
+			continue
+		if(data_request.direction_preference in get_related_directions(get_dir(data_request.requester_mob, cover_turf)))
+			weight |= 5
+		if(weight > most_weight)
+			most_weight = weight
+			best_cover = cover_turf
+
+	if(best_cover && best_cover != data_request.requesting_turf)
+		data_request.final_cover_location = best_cover
+		return TRUE
+
+	return FALSE
+
+/datum/controller/subsystem/human_ai_cover/proc/generate_chunk_data(chunk_processing_request)
+	var/list/unpacked_chunk_data = chunk_processing_request
+	var/datum/ai_cover_data_chunk/chunk = unpacked_chunk_data["chunk"]
+	var/chunk_x = unpacked_chunk_data["x"]
+	var/chunk_y = unpacked_chunk_data["y"]
+	var/chunk_z = unpacked_chunk_data["z"]
+	var/turf/requester_turf = unpacked_chunk_data["requester_turf"]
+	var/turf/middle_turf = locate(chunk_x * 13 + 7, chunk_y * 13 + 7, chunk_z)
+	var/list/scannable_turfs = list(middle_turf)
+
+	// i know how clunky this looks, but believe me, its easier
+	chunk_data_array[chunk_z][chunk_x][chunk_y] = chunk
+
+	if(isclosedturf(middle_turf) && requester_turf)
+		scannable_turfs = list(requester_turf)	// the middle of the chunk is a wall. start at the original request
+
+	var/first_iteration = TRUE
+	var/list/scanned_turfs = list()
+
+	while(length(scannable_turfs))
+		var/turf/scan_turf = scannable_turfs[1]
+		scannable_turfs.Cut(scan_turf)
+		chunk.turf_dict[scan_turf] = 0
+		scanned_turfs |= scan_turf
+		var/list/turf_contents = scan_turf.contents.Copy()
+		var/list/soft_cover_list = list()
+		for(var/atom/movable/atom as anything in turf_contents)
+			if(atom.density)
+				if(istype(atom, /obj/structure))
+					soft_cover_list |= atom
+					continue
+				if(first_iteration)
+					break // We don't wanna end our cover search on self
+				turf_contents -= atom
+			else
+				if(istype(atom, /obj/item/explosive/mine))
+					turf_contents -= atom
+					continue
+
+		for(var/cardinal in GLOB.cardinals)
+			var/turf/nearby_turf = get_step(scan_turf, cardinal)
+			if(!nearby_turf)
+				continue
+
+			if(nearby_turf in scanned_turfs)
+				continue
+
+			if(isclosedturf(nearby_turf))
+				chunk.turf_dict[scan_turf] += 2 // Near a wall is a bit safer
+				continue
+
+			if(abs(middle_turf.x - nearby_turf.x) > 6 || abs(middle_turf.y - nearby_turf.y) > 6)
+				continue
+
+			scannable_turfs |= nearby_turf
+
+	return TRUE
 
 /**
  * Human AI cover subsystem receptionist. Called by AI brains when they want to take cover.
