@@ -42,12 +42,10 @@
 #endif
 
 	//cover_processing(turf_dict)
-	squad_cover_processing(turf_dict)
+	//squad_cover_processing(turf_dict)
 
 /// If an AI decides to go into cover, any squadmates in their view range will process on the same view dictionary so as to help with performance
 /datum/human_ai_brain/proc/squad_cover_processing(list/turf_dict)
-	return
-
 	if(!squad_id)
 		return
 
@@ -76,18 +74,3 @@
 /datum/human_ai_brain/proc/cover_processing(turf/best_cover, list/turf_dict, from_squad = FALSE)
 	current_cover = best_cover
 	return
-
-	var/most_weight = -INFINITY
-	//var/turf/best_cover
-	for(var/turf/T as anything in turf_dict)
-		var/weight = turf_dict[T]
-		if(weight > most_weight)
-			most_weight = weight
-			best_cover = T
-
-	if(best_cover && best_cover != get_turf(tied_human))
-		turf_dict -= best_cover
-		// insert cover atom deletion/move comsigs here
-		current_cover = best_cover
-		if(!from_squad)
-			squad_cover_processing(FALSE, turf_dict)
