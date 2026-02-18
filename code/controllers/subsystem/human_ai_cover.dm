@@ -1,6 +1,7 @@
 #define COVER_DATA_REQUEST_DENIED 0
 #define COVER_DATA_GENERATION_DENIED 1
 #define COVER_DATA_REQUEST_ALLOWED 2
+#define PROCESSING_CHUNK_RADIUS 6
 
 SUBSYSTEM_DEF(human_ai_cover)
 	name = "Human AI Cover Processing"
@@ -11,6 +12,13 @@ SUBSYSTEM_DEF(human_ai_cover)
 	var/list/chunk_generation_requests = list()
 	var/list/datum/ai_cover_data_request/cover_data_requests = list()
 	var/list/datum/ai_cover_data_request/indexed_data_requests = list()
+
+// TO DO LIST
+// multi chunk data request
+// chunk data generation callbacks
+// chunk data verification
+// chunk data regeneration framework
+// dynamic chunk sizes
 
 /datum/controller/subsystem/human_ai_cover/fire(resumed = FALSE)
 
@@ -175,9 +183,16 @@ SUBSYSTEM_DEF(human_ai_cover)
 				if(istype(atom, /obj/item/explosive/mine))
 					turf_contents -= atom
 					continue
-
+#ifdef TESTING
+		scan_turf.color = COLOR_RED
+#endif
 		for(var/cardinal in GLOB.cardinals)
 			var/turf/nearby_turf = get_step(scan_turf, cardinal)
+
+#ifdef TESTING
+			nearby_turf.color = COLOR_RED
+#endif
+
 			if(!nearby_turf)
 				continue
 
@@ -255,6 +270,23 @@ SUBSYSTEM_DEF(human_ai_cover)
 /datum/controller/subsystem/human_ai_cover/proc/request_chunk_data(datum/ai_cover_data_request/request, data_generation_allowed = FALSE)
 	var/turf/requesting_turf = request.requesting_turf
 
+	var/nearby_chunk_range = 5
+	var/chunk_size = PROCESSING_CHUNK_RADIUS * 2 + 1
+	for(var/index in 1 to 4)
+	var/x_array_index = floor(requesting_turf.x / chunk_size)
+	var/y_array_index = floor(requesting_turf.y / chunk_size)
+
+	if(floor((requesting_turf.x + nearby_chunk_range) / chunk_size) != x_array_index)
+
+
+
+
+
+
+
+
+
+
 	var/x_array_index = floor(requesting_turf.x / 13)
 	var/y_array_index = floor(requesting_turf.y / 13)
 	var/datum/ai_cover_data_chunk/chunk_data_index
@@ -318,3 +350,5 @@ SUBSYSTEM_DEF(human_ai_cover)
 /datum/ai_cover_data_chunk/Destroy(force)
 	turf_dict = null
 	return ..()
+
+#undef PROCESSING_CHUNK_RADIUS
