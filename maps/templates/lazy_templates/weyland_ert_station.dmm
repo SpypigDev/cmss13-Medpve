@@ -2665,15 +2665,6 @@
 	},
 /turf/open/floor/corsat/plate,
 /area/adminlevel/ert_station/weyland_station)
-"SF" = (
-/obj/structure/pipes/standard/simple/hidden/green{
-	dir = 4
-	},
-/obj/structure/pipes/standard/simple/hidden/green{
-	dir = 4
-	},
-/turf/open/floor/corsat/squares,
-/area/adminlevel/ert_station/weyland_station)
 "SG" = (
 /obj/structure/surface/table/reinforced/black,
 /obj/item/device/taperecorder,
@@ -4323,7 +4314,7 @@ Xb
 IM
 fX
 vs
-SF
+QE
 xS
 fX
 fX

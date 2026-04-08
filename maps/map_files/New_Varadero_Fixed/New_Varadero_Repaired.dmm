@@ -16785,21 +16785,6 @@
 	},
 /turf/open/floor/shiva/wredfull,
 /area/varadero/interior/medical)
-"odM" = (
-/obj/structure/barricade/handrail{
-	desc = "Your platforms look pretty heavy king, let me support them for you.";
-	dir = 1;
-	icon_state = "hr_kutjevo";
-	name = "support struts"
-	},
-/obj/structure/barricade/handrail{
-	desc = "Your platforms look pretty heavy king, let me support them for you.";
-	dir = 1;
-	icon_state = "hr_kutjevo";
-	name = "support struts"
-	},
-/turf/open/gm/river/shallow_ocean_shallow_ocean,
-/area/varadero/exterior/pontoon_beach)
 "oea" = (
 /obj/structure/pipes/standard/simple/hidden/green{
 	dir = 4
@@ -44426,7 +44411,7 @@ dgH
 dgH
 jTE
 iAP
-odM
+wZU
 dXg
 dXg
 scL

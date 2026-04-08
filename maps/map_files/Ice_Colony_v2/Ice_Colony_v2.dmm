@@ -16372,10 +16372,6 @@
 	},
 /turf/open/floor/darkgreen2/west,
 /area/ice_colony/surface/hydroponics/lobby)
-"kRw" = (
-/obj/structure/pipes/standard/simple/hidden/green,
-/turf/closed/wall,
-/area/ice_colony/surface/research)
 "kRI" = (
 /turf/open/floor/darkpurple2/southeast,
 /area/ice_colony/underground/research)
@@ -20387,9 +20383,6 @@
 "pTn" = (
 /obj/item/clipboard,
 /obj/item/tool/pen/blue,
-/obj/structure/pipes/standard/simple/hidden/green{
-	dir = 4
-	},
 /obj/structure/pipes/standard/simple/hidden/green{
 	dir = 4
 	},
@@ -46756,7 +46749,7 @@ aLN
 aME
 aNk
 aNU
-kRw
+aOo
 syb
 qNT
 xFT

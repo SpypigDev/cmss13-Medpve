@@ -1958,13 +1958,6 @@
 	},
 /turf/open/floor/corsat/red,
 /area/corsat/theta/airlock/east/id)
-"aAo" = (
-/obj/structure/pipes/unary/outlet_injector{
-	dir = 8;
-	name = "Harmful Gas Ejector"
-	},
-/turf/open/space,
-/area/space)
 "aBd" = (
 /obj/structure/machinery/power/apc/upgraded/no_power/east,
 /obj/effect/landmark/yautja_teleport,
@@ -2461,12 +2454,6 @@
 /obj/effect/landmark/structure_spawner/setup/distress/xeno_wall,
 /turf/open/floor/corsat,
 /area/corsat/sigma/biodome)
-"aOQ" = (
-/obj/structure/pipes/standard/simple/visible{
-	dir = 4
-	},
-/turf/closed/wall/r_wall/biodome/biodome_unmeltable,
-/area/corsat/inaccessible)
 "aOT" = (
 /turf/closed/wall/biodome,
 /area/corsat/emergency_access)
@@ -34576,11 +34563,6 @@
 	},
 /turf/open/floor/corsat/retrosquares,
 /area/corsat/sigma/north)
-"rJo" = (
-/obj/structure/pipes/standard/simple/hidden/green,
-/obj/structure/pipes/standard/simple/hidden/green,
-/turf/open/gm/grass/grass1/weedable,
-/area/corsat/theta/biodome)
 "rJA" = (
 /turf/open/floor/corsat/purplewhite,
 /area/corsat/sigma/south/complex)
@@ -37721,11 +37703,6 @@
 /obj/item/folder/red,
 /turf/open/floor/wood,
 /area/corsat/gamma/residential/east)
-"tuC" = (
-/obj/structure/pipes/standard/simple/hidden/green,
-/obj/structure/pipes/standard/simple/hidden/green,
-/turf/open/floor/corsat/retrosquareslight,
-/area/corsat/sigma/south/complex)
 "tuE" = (
 /obj/structure/machinery/juicer,
 /obj/structure/surface/table/woodentable,
@@ -72344,7 +72321,7 @@ aKk
 prI
 rwo
 dOo
-rJo
+jqz
 pnQ
 osY
 geN
@@ -80583,7 +80560,7 @@ ylo
 ylo
 ylo
 qIU
-aOQ
+qIU
 qIU
 ylo
 ylo
@@ -80828,7 +80805,7 @@ ylo
 ylo
 ylo
 ylo
-aAo
+ylo
 ylo
 ylo
 ylo
@@ -92945,7 +92922,7 @@ fNV
 fNV
 fNV
 fNV
-tuC
+fNV
 fNV
 fNV
 fNV

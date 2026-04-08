@@ -2,7 +2,7 @@
     "map_name": "Bosenmori Basho",
     "short_name": "Bosenmori",
     "map_path": "map_files/Bosenmori_Basho",
-    "map_file": "Bosenmori Basho.dmm",
+    "map_file": "Bosenmori_Basho.dmm",
     "webmap_url": "LV624",
 
     "weather_holder": "/datum/weather_ss_map_holder/bosenmori_basho",

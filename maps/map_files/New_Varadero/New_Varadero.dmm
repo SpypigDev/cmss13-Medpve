@@ -19189,21 +19189,6 @@
 /obj/item/circuitboard/apc,
 /turf/open/floor/shiva,
 /area/varadero/interior/technical_storage)
-"pkh" = (
-/obj/structure/barricade/handrail{
-	desc = "Your platforms look pretty heavy king, let me support them for you.";
-	dir = 1;
-	icon_state = "hr_kutjevo";
-	name = "support struts"
-	},
-/obj/structure/barricade/handrail{
-	desc = "Your platforms look pretty heavy king, let me support them for you.";
-	dir = 1;
-	icon_state = "hr_kutjevo";
-	name = "support struts"
-	},
-/turf/open/gm/river/shallow_ocean_shallow_ocean,
-/area/varadero/exterior/pontoon_beach)
 "pkj" = (
 /obj/item/tool/weldingtool,
 /turf/open/gm/dirt,
@@ -46291,7 +46276,7 @@ cOZ
 cOZ
 xcl
 iAP
-pkh
+mKe
 dXg
 dXg
 scL

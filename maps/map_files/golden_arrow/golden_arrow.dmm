@@ -5938,9 +5938,6 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
 /turf/open/floor/almayer/edge/smooth/north,
 /area/golden_arrow/cryo_cells)
 "asP" = (
@@ -12919,18 +12916,6 @@
 	},
 /turf/open/floor/almayer/plate,
 /area/golden_arrow/medical)
-"aQJ" = (
-/obj/structure/pipes/standard/simple/hidden/supply{
-	dir = 8
-	},
-/obj/structure/cable/heavyduty{
-	icon_state = "4-8"
-	},
-/obj/structure/pipes/standard/simple/hidden/supply{
-	dir = 8
-	},
-/turf/open/floor/plating/plating_catwalk,
-/area/golden_arrow/platoonarmory)
 "aQL" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "SE-out";
@@ -21592,9 +21577,6 @@
 	},
 /obj/structure/cable/heavyduty{
 	icon_state = "1-2"
-	},
-/obj/structure/pipes/standard/simple/hidden/supply{
-	dir = 6
 	},
 /turf/open/floor/plating/plating_catwalk,
 /area/golden_arrow/engineering)
@@ -32685,7 +32667,7 @@ nOf
 aHZ
 aJY
 aKj
-aQJ
+aoI
 aDg
 aga
 arh

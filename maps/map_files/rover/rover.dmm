@@ -4291,9 +4291,6 @@
 	id = "synthbay";
 	dir = 4
 	},
-/obj/structure/pipes/standard/simple/hidden/supply{
-	dir = 4
-	},
 /turf/open/floor/almayer/test_floor4,
 /area/golden_arrow/synthcloset)
 "Cp" = (
