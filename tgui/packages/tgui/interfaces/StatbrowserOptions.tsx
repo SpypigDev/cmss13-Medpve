@@ -4,10 +4,13 @@ import { useBackend } from '../backend';
 import { Flex, NumberInput, Section } from '../components';
 import { Window } from '../layouts';
 
+type Data = {
+  current_fontsize: number;
+}
+
 export const StatbrowserOptions = (props) => {
-  const { act, data } = useBackend();
-  const { current_fontsize } = data;
-  const [fontsize, setFontsize] = useState(current_fontsize);
+  const { act, data } = useBackend<Data>();
+  const [fontsize, setFontsize] = useState(data.current_fontsize);
 
   return (
     <Window title="Statbrowser Options" width={300} height={120}>
