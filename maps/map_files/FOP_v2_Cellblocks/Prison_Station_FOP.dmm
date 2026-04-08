@@ -15469,12 +15469,6 @@
 /obj/structure/pipes/standard/simple/hidden/supply,
 /turf/open/floor/plating,
 /area/prison/monorail/west)
-"ftG" = (
-/obj/structure/pipes/standard/simple/hidden/supply{
-	dir = 4
-	},
-/turf/closed/wall/prison,
-/area/prison/cellblock/protective)
 "ftP" = (
 /obj/structure/pipes/vents/pump{
 	dir = 1
@@ -25225,12 +25219,6 @@
 /obj/effect/decal/cleanable/blood/splatter,
 /turf/open/floor/prison/whitepurple/north,
 /area/prison/research/secret/testing)
-"nLC" = (
-/obj/structure/pipes/standard/simple/hidden/supply{
-	dir = 4
-	},
-/turf/closed/wall/prison,
-/area/prison/library)
 "nLD" = (
 /obj/structure/window/framed/prison/reinforced/hull,
 /turf/open/floor/plating,
@@ -35324,12 +35312,6 @@
 	},
 /turf/open/floor/prison/bright_clean/southwest,
 /area/prison/canteen)
-"wty" = (
-/obj/structure/pipes/standard/simple/hidden/supply{
-	dir = 4
-	},
-/turf/closed/wall/r_wall/prison,
-/area/prison/security/monitoring/medsec/central)
 "wtP" = (
 /obj/structure/pipes/standard/simple/hidden/supply,
 /turf/open/floor/prison/bright_clean/southwest,
@@ -43007,7 +42989,7 @@ aWr
 aWr
 aWr
 aWr
-gSg
+aWr
 aWr
 aWr
 aWr
@@ -61735,7 +61717,7 @@ csF
 csF
 csF
 cub
-wty
+cub
 ueB
 csF
 csF
@@ -69772,7 +69754,7 @@ aFA
 nTE
 wrc
 aFA
-ftG
+cht
 vix
 vix
 vix
@@ -70817,7 +70799,7 @@ acL
 acL
 bOD
 bNU
-nLC
+bPZ
 bPZ
 bPZ
 bPZ
