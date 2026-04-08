@@ -73953,15 +73953,6 @@
 	icon_state = "N";
 	pixel_y = 3
 	},
-/obj/structure/barricade/handrail/kutjevo{
-	dir = 8
-	},
-/obj/structure/barricade/handrail/kutjevo{
-	dir = 1;
-	layer = 5;
-	level = 5;
-	pixel_y = 8
-	},
 /turf/open/floor/corsat/sigma,
 /area/lv759/indoors/wy_research_complex/xenobiology)
 "mLa" = (
@@ -96842,10 +96833,6 @@
 /obj/effect/decal/hybrisa/road/road_edge,
 /obj/effect/decal/hybrisa/road/lines4,
 /obj/effect/decal/hybrisa/road/lines1,
-/obj/structure/barricade/handrail{
-	dir = 8;
-	layer = 4
-	},
 /obj/effect/decal/hybrisa/road/road_edge,
 /obj/effect/decal/hybrisa/road/lines4,
 /obj/effect/decal/hybrisa/road/lines1,

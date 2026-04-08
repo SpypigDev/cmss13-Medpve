@@ -27763,12 +27763,6 @@
 	},
 /turf/open/floor/plating/plating_catwalk/shiva,
 /area/kleschers/int_reg/dorms)
-"oEf" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/pipes/standard/simple/visible,
-/obj/structure/pipes/standard/simple/visible,
-/turf/open/floor/shiva/multi_tiles,
-/area/kleschers/int_heavy/lambda_virology)
 "oEg" = (
 /obj/item/device/flashlight/lamp/tripod/grey{
 	light_power = 0.4;
@@ -39884,15 +39878,6 @@
 /obj/structure/bed/chair/comfy,
 /turf/open/floor/strata/fake_wood,
 /area/kleschers/int_reg/library)
-"uWX" = (
-/obj/structure/pipes/standard/simple/hidden/supply{
-	dir = 4
-	},
-/obj/structure/pipes/standard/simple/hidden/supply{
-	dir = 4
-	},
-/turf/open/floor/plating/plating_catwalk/shiva,
-/area/kleschers/int_reg/marshals)
 "uXc" = (
 /obj/structure/machinery/medical_pod/autodoc{
 	dir = 4
@@ -66260,7 +66245,7 @@ fNQ
 rBT
 wnp
 wnp
-uWX
+kay
 sDp
 wnp
 pBy
@@ -89626,7 +89611,7 @@ emR
 jyL
 lfG
 emR
-oEf
+jyL
 jyK
 eVw
 eVw

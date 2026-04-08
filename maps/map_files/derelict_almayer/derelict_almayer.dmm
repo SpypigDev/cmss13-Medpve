@@ -3019,9 +3019,6 @@
 /obj/structure/pipes/standard/simple/hidden/supply{
 	dir = 4
 	},
-/obj/structure/pipes/standard/simple/hidden/supply{
-	dir = 4
-	},
 /obj/structure/machinery/door/firedoor/border_only/almayer,
 /turf/open/floor/almayer/plate,
 /area/almayer/squads/req)
@@ -39974,11 +39971,6 @@
 /obj/effect/spawner/random/tool,
 /turf/open/floor/almayer/mono,
 /area/almayer/lifeboat_pumps/south2)
-"oTh" = (
-/obj/structure/disposalpipe/segment,
-/obj/structure/disposalpipe/segment,
-/turf/open/floor/plating/plating_catwalk,
-/area/almayer/hallways/upper/aft_hallway)
 "oTt" = (
 /obj/structure/machinery/light/small,
 /turf/open/floor/almayer/plate,
@@ -94471,7 +94463,7 @@ nMp
 gYd
 ioP
 nqW
-oTh
+ioP
 ioP
 ioP
 gYd
