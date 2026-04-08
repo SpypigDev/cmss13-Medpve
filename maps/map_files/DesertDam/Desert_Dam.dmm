@@ -2425,7 +2425,6 @@
 "aBP" = (
 /obj/structure/machinery/disposal,
 /obj/structure/disposalpipe/trunk,
-/obj/structure/disposalpipe/trunk,
 /turf/open/floor/dark2,
 /area/desert_dam/building/administration/hallway)
 "aBQ" = (
@@ -25133,12 +25132,6 @@
 "jiy" = (
 /turf/open/floor/filtrationside/southwest,
 /area/desert_dam/exterior/valley/valley_medical)
-"jiF" = (
-/obj/structure/disposalpipe/segment,
-/obj/structure/pipes/standard/simple/hidden/green,
-/obj/structure/pipes/standard/simple/hidden/green,
-/turf/open/floor/prison/bright_clean2,
-/area/desert_dam/building/administration/hallway)
 "jiK" = (
 /obj/effect/blocker/toxic_water/Group_1,
 /turf/open/asphalt/cement_sunbleached/cement_sunbleached1,
@@ -25338,7 +25331,6 @@
 	dir = 8;
 	icon_state = "pipe-c"
 	},
-/obj/structure/pipes/standard/simple/hidden/green,
 /obj/structure/pipes/standard/simple/hidden/green,
 /turf/open/floor/prison/bright_clean2,
 /area/desert_dam/building/administration/hallway)
@@ -38492,13 +38484,6 @@
 /obj/structure/flora/grass/desert/heavygrass_3,
 /turf/open/desert/dirt,
 /area/desert_dam/exterior/landing_pad_one)
-"rnL" = (
-/obj/structure/disposalpipe/segment,
-/obj/structure/pipes/standard/simple/hidden/green,
-/obj/structure/pipes/standard/simple/hidden/green,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/prison/bright_clean2,
-/area/desert_dam/building/administration/hallway)
 "rnP" = (
 /obj/effect/landmark/structure_spawner/setup/distress/xeno_weed_node,
 /turf/open/floor/prison/whitepurple/east,
@@ -39261,7 +39246,6 @@
 /area/desert_dam/interior/dam_interior/hanger)
 "rMK" = (
 /obj/structure/disposalpipe/segment,
-/obj/structure/pipes/standard/simple/hidden/green,
 /obj/structure/pipes/standard/simple/hidden/green,
 /turf/open/floor/dark2,
 /area/desert_dam/building/administration/archives)
@@ -67083,7 +67067,7 @@ gtA
 gtA
 gtA
 vwC
-rnL
+gtA
 joL
 mFy
 gtA
@@ -68254,7 +68238,7 @@ mfh
 gqu
 rMK
 txA
-jiF
+rTb
 rQO
 kFO
 vad
