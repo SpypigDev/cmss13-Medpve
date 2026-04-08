@@ -371,7 +371,6 @@
 /area/golden_arrow/engineering)
 "aK" = (
 /obj/structure/pipes/standard/simple/hidden/supply,
-/obj/structure/pipes/standard/simple/hidden/supply,
 /obj/structure/prop/invuln/lattice_prop{
 	dir = 8;
 	icon_state = "lattice12";
