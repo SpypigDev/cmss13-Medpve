@@ -1089,24 +1089,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/closed/mineral,
 /area/taipei/underground)
-"aYp" = (
-/obj/structure/prop/invuln/lattice_prop{
-	icon_state = "lattice2";
-	pixel_x = 6;
-	pixel_y = 19
-	},
-/obj/structure/cable/heavyduty{
-	icon_state = "4-8"
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/pipes/standard/simple/hidden/supply/no_boom{
-	dir = 4
-	},
-/obj/structure/pipes/standard/simple/hidden/supply/no_boom{
-	dir = 4
-	},
-/turf/open/floor/prison,
-/area/taipei/maints/south)
 "aYq" = (
 /obj/structure/machinery/door/poddoor/railing{
 	id = "supply_elevator_railing"
@@ -3005,7 +2987,6 @@
 /turf/open/floor/strata/faux_wood,
 /area/taipei/atrium/bookstore)
 "cxO" = (
-/obj/structure/barricade/handrail/kutjevo,
 /obj/structure/barricade/handrail/kutjevo,
 /obj/item/trash/popcorn{
 	dir = 1;
@@ -10590,12 +10571,6 @@
 	},
 /turf/open/floor/kutjevo/colors/cyan/inner_corner/north,
 /area/taipei/atrium/medbay)
-"jAd" = (
-/obj/structure/barricade/handrail/kutjevo,
-/obj/structure/barricade/handrail/kutjevo,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/prison/chapel_carpet/doubleside/north,
-/area/taipei/theatre)
 "jAx" = (
 /obj/structure/platform{
 	dir = 1
@@ -19876,15 +19851,6 @@
 "rEP" = (
 /turf/closed/wall/almayer/outer,
 /area/space)
-"rFg" = (
-/obj/structure/cable/heavyduty{
-	icon_state = "1-2"
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/pipes/standard/simple/hidden/supply/no_boom,
-/obj/structure/pipes/standard/simple/hidden/supply/no_boom,
-/turf/open/floor/plating/plating_catwalk/prison,
-/area/taipei/maints/south)
 "rFY" = (
 /obj/structure/desertdam/decals/road_edge{
 	pixel_x = 16
@@ -20767,22 +20733,6 @@
 /obj/structure/largecrate/random/case,
 /turf/open/floor/plating/asteroidfloor/north,
 /area/taipei/hangar)
-"spC" = (
-/obj/structure/stairs/perspective{
-	color = "#b29082";
-	icon_state = "p_stair_full"
-	},
-/obj/structure/barricade/handrail/kutjevo{
-	dir = 8
-	},
-/obj/structure/barricade/handrail/kutjevo{
-	dir = 4
-	},
-/obj/structure/barricade/handrail/kutjevo{
-	dir = 8
-	},
-/turf/open/floor/asteroid,
-/area/taipei/theatre)
 "sqd" = (
 /obj/structure/bed/chair/comfy/black{
 	dir = 4
@@ -32258,7 +32208,7 @@ vqo
 tuY
 tuY
 bzQ
-aYp
+frY
 bzQ
 iQr
 iQr
@@ -42572,7 +42522,7 @@ sjQ
 aTY
 rkX
 aTY
-jAd
+sad
 aTY
 hlR
 aTY
@@ -44187,7 +44137,7 @@ ixH
 sUP
 pqL
 wWR
-spC
+mgb
 wWR
 qTC
 wWR
@@ -46611,7 +46561,7 @@ rUR
 sUP
 bHx
 wWR
-spC
+mgb
 vIZ
 mgb
 vIZ
@@ -47420,7 +47370,7 @@ ylO
 iUr
 grj
 dbA
-rFg
+iUr
 grj
 ylO
 iUr
