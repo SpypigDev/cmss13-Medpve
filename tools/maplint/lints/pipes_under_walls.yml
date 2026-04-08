@@ -1,3 +1,0 @@
-/obj/structure/pipes:
-  banned_neighbors:
-    CONSTRUCT_WALLS: { pattern: "^/turf/closed/wall(?!(/resin($|/)))(/.*)?$" }
