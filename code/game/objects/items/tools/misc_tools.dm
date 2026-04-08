@@ -307,7 +307,7 @@
 	if(on)
 		current_color_index = (current_color_index % length(color_list)) + 1
 		pen_color = color_list[current_color_index]
-		balloon_alert(user,"you twist the pen and change the ink color to [pen_color].")
+		balloon_alert(user,"you twist the pen and change the ink color to [pen_color]")
 		if(clicky)
 			playsound(user.loc, 'sound/items/pen_click_on.ogg', 100, 1, 5)
 		update_pen_state()
