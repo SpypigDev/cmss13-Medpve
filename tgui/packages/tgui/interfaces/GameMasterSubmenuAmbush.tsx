@@ -1,6 +1,16 @@
+import { BooleanLike } from 'common/react';
 import { useBackend } from '../backend';
 import { Button, Dropdown, Section, Stack } from '../components';
 import { Window } from '../layouts';
+
+type Data = {
+  xeno_spawn_count: string;
+  spawnable_hives: string[];
+  spawnable_xenos: string[];
+  selected_xeno: string;
+  selected_hive: string;
+  ambush_info: string;
+}
 
 export const GameMasterSubmenuAmbush = (props, context) => {
   const { data, act } = useBackend();
@@ -21,7 +31,7 @@ export const GameMasterSubmenuAmbush = (props, context) => {
 };
 
 export const GameMasterSubmenuAmbushSpawningPanel = (props, context) => {
-  const { data, act } = useBackend();
+  const { data, act } = useBackend<Data>();
 
   return (
     <Section title="Spawning">
@@ -64,7 +74,7 @@ export const GameMasterSubmenuAmbushSpawningPanel = (props, context) => {
         </Stack.Item>
         <Stack.Item>
           <Button
-            middle
+            align="center"
             onClick={() => {
               act('spawn');
             }}
@@ -78,14 +88,14 @@ export const GameMasterSubmenuAmbushSpawningPanel = (props, context) => {
 };
 
 export const GameMasterSubmenuAmbushAmbushPanel = (props, context) => {
-  const { data, act } = useBackend();
+  const { data, act } = useBackend<Data>();
 
   return (
     <Section title="Ambush">
       <Stack direction="column" vertical>
         <Stack.Item>
           <Button
-            middle
+            align="center"
             onClick={() => {
               act('ambush');
             }}
@@ -95,7 +105,7 @@ export const GameMasterSubmenuAmbushAmbushPanel = (props, context) => {
         </Stack.Item>
         <Stack.Item>
           <Button
-            middle
+            align="center"
             onClick={() => {
               act('clear_ambush');
             }}
@@ -117,7 +127,7 @@ export const GameMasterSubmenuAmbushMiscPanel = (props, context) => {
       <Stack direction="column" vertical>
         <Stack.Item>
           <Button
-            middle
+            align="center"
             onClick={() => {
               act('shake_spawner');
             }}

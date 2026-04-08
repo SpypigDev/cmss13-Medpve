@@ -2,6 +2,12 @@ import { useBackend } from '../backend';
 import { Button, Dropdown, Section, Slider, Stack } from '../components';
 import { Window } from '../layouts';
 
+type Data = {
+  selectable_hives: string[];
+  selected_hive: string;
+  embryo_stage: number;
+}
+
 export const GameMasterSubmenuInfest = (props, context) => {
   const { data, act } = useBackend();
 
@@ -17,7 +23,7 @@ export const GameMasterSubmenuInfest = (props, context) => {
 };
 
 export const GameMasterSubmenuInfestInfestingPanel = (props, context) => {
-  const { data, act } = useBackend();
+  const { data, act } = useBackend<Data>();
 
   return (
     <Section title="Infesting">
@@ -52,7 +58,7 @@ export const GameMasterSubmenuInfestInfestingPanel = (props, context) => {
           <Stack>
             <Stack.Item>
               <Button
-                middle
+                align="center"
                 onClick={() => {
                   act('infest');
                 }}
@@ -62,7 +68,7 @@ export const GameMasterSubmenuInfestInfestingPanel = (props, context) => {
             </Stack.Item>
             <Stack.Item>
               <Button
-                middle
+                align="center"
                 onClick={() => {
                   act('clear_infest');
                 }}
@@ -74,7 +80,7 @@ export const GameMasterSubmenuInfestInfestingPanel = (props, context) => {
         </Stack.Item>
         <Stack.Item>
           <Button
-            middle
+            align="center"
             onClick={() => {
               act('burst');
             }}

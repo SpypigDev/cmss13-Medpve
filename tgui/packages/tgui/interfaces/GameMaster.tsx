@@ -1,3 +1,4 @@
+import { BooleanLike } from 'common/react';
 import { useBackend } from '../backend';
 import {
   Box,
@@ -11,13 +12,36 @@ import {
 } from '../components';
 import { Window } from '../layouts';
 
+type Data = {
+  xeno_spawn_count: string;
+  spawnable_hives: string[];
+  spawnable_xenos: string[];
+  selectable_behaviors: string[];
+  selected_behavior: string;
+  selected_xeno: string;
+  selected_hive: string;
+  spawn_ai: BooleanLike;
+  spawn_click_intercept: BooleanLike;
+  behavior_click_intercept: BooleanLike;
+  objective_click_intercept: BooleanLike;
+  record_create_click_intercept: BooleanLike;
+  game_master_objectives: Array<GameMasterInfo>;
+  radio_clarity: number;
+  radio_clarity_example: string;
+}
+
+type GameMasterInfo = {
+  object_name: string;
+  objective_info: string;
+}
+
 export const GameMaster = (props, context) => {
   const { data, act } = useBackend();
 
   return (
     <Window width={400} height={500}>
       <Window.Content scrollable>
-        <Stack direction="column" grow>
+        <Stack direction="column">
           <GameMasterSpawningPanel />
 
           <GameMasterBehaviorPanel />
@@ -34,7 +58,7 @@ export const GameMaster = (props, context) => {
 };
 
 export const GameMasterSpawningPanel = (props, context) => {
-  const { data, act } = useBackend();
+  const { data, act } = useBackend<Data>();
 
   return (
     <Section title="Spawning">
@@ -128,7 +152,7 @@ export const GameMasterSpawningPanel = (props, context) => {
 };
 
 export const GameMasterBehaviorPanel = (props, context) => {
-  const { data, act } = useBackend();
+  const { data, act } = useBackend<Data>();
 
   return (
     <Section title="Special Behaviors">
@@ -159,7 +183,7 @@ export const GameMasterBehaviorPanel = (props, context) => {
 };
 
 export const GameMasterObjectivePanel = (props, context) => {
-  const { data, act } = useBackend();
+  const { data, act } = useBackend<Data>();
 
   return (
     <Section title="Objective" mb={1}>
@@ -223,7 +247,7 @@ export const GameMasterObjectivePanel = (props, context) => {
 };
 
 export const GameMasterCommunicationPanel = (props, context) => {
-  const { data, act } = useBackend();
+  const { data, act } = useBackend<Data>();
 
   return (
     <Section title="Communication">
@@ -245,7 +269,7 @@ export const GameMasterCommunicationPanel = (props, context) => {
             minValue={0}
             value={data.radio_clarity}
             stepPixelSize={3}
-            suppressFlicker={2500}
+            suppressFlicker={true}
             onChange={(e, clarity) => {
               act('set_radio_clarity', { clarity });
             }}
@@ -260,7 +284,7 @@ export const GameMasterCommunicationPanel = (props, context) => {
 };
 
 export const GameMasterRecordPanel = (props, context) => {
-  const { data, act } = useBackend();
+  const { data, act } = useBackend<Data>();
 
   return (
     <Section title="Records">

@@ -1,6 +1,16 @@
+import { BooleanLike } from 'common/react';
 import { useBackend } from '../backend';
 import { Button, Collapsible, Divider, Section, Stack } from '../components';
 import { Window } from '../layouts';
+
+type Data = {
+  rappel_click_intercept: BooleanLike;
+  game_master_rappels: Array<RappelInfo>;
+}
+
+type RappelInfo = {
+  rappel_name: string;
+}
 
 export const GameMasterRappelMenu = (props, context) => {
   const { data, act } = useBackend();
@@ -8,7 +18,7 @@ export const GameMasterRappelMenu = (props, context) => {
   return (
     <Window width={400} height={250}>
       <Window.Content scrollable>
-        <Stack direction="column" grow>
+        <Stack direction="column" fill>
           <GameMasterRappelPanel />
         </Stack>
       </Window.Content>
@@ -17,7 +27,7 @@ export const GameMasterRappelMenu = (props, context) => {
 };
 
 export const GameMasterRappelPanel = (props, context) => {
-  const { data, act } = useBackend();
+  const { data, act } = useBackend<Data>();
 
   return (
     <Section title="Rappel" mb={1}>
