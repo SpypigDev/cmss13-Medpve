@@ -27664,7 +27664,6 @@
 /area/bosenmori/interior_glass/corporate)
 "oCE" = (
 /obj/structure/disposalpipe/segment,
-/obj/structure/disposalpipe/segment,
 /obj/structure/pipes/standard/manifold/hidden/supply{
 	dir = 8
 	},
