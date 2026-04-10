@@ -86,7 +86,7 @@
 		light_source.recalc_corner(src)
 
 // God that was a mess, now to do the rest of the corner code! Hooray!
-/datum/static_lighting_corner/proc/update_lumcount(delta_r, delta_g, delta_b)
+/datum/static_lighting_corner/proc/update_lumcount(delta_r, delta_g, delta_b)	// optimize me!!
 
 	if(!(delta_r || delta_g || delta_b)) // 0 is falsey ok
 		return
