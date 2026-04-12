@@ -404,7 +404,7 @@
 	name = "Hangar Bay"
 	id = GOLDEN_ARROW_LZ
 	auto_open = TRUE
-	roundstart_template = /datum/map_template/shuttle/midway
+	roundstart_template = /datum/map_template/shuttle/somme
 
 /obj/docking_port/stationary/marine_dropship/crash_site
 	auto_open = TRUE
