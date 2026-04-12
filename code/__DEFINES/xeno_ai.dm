@@ -1,6 +1,6 @@
 #define CALCULATING_PATH(X) (X in SSpathfinding.hash_path)
 
-#define DIRECTION_CHANGE_PENALTY 2
+#define DIRECTION_CHANGE_PENALTY 1
 #define NO_WEED_PENALTY 2
 #define DISTANCE_PENALTY 1
 #define ASTAR_COST_FUNCTION(n) (abs(n.x - target.x)+abs(n.y - target.y))
@@ -88,10 +88,6 @@ PROBABILITY CALCULATIONS ARE HERE
 #define PRAETORIAN_DASH 100
 #define PRAETORIAN_SPIT 80
 #define PRAETORIAN_SPRAY 80
-
-
-/// Special blockers for pathfinding or obstacle handling
-#define AI_SPECIAL_BLOCKERS list(/obj/flamer_fire, /mob/living, /obj/vehicle/multitile, /turf/open/space, /turf/open/gm/river)
 
 // Friend-or-foe universal check
 #define IS_SAME_HIVENUMBER(A,B) (A.hivenumber == B.hivenumber)

@@ -32,7 +32,7 @@
 		return "[output][and_text][input[index]]"
 
 //Returns list element or null. Should prevent "index out of bounds" error.
-/proc/listgetindex(list/list,index)
+/proc/listgetindex(list/list,index)	// marked for inspection
 	if(istype(list) && length(list))
 		if(isnum(index))
 			if(ISINRANGE(index,1,length(list)))
@@ -42,10 +42,13 @@
 	return
 
 ///Checks if the needle atom is any type in the type_list
-/proc/is_type_in_list(atom/needle, list/type_list)
+/proc/is_type_in_list(atom/needle, list/type_list, return_atom = FALSE)	// marked for inspection
 	for(var/type in type_list)
-		if(istype(needle, type))
-			return TRUE
+		if(!istype(needle, type))
+			continue
+		if(return_atom)
+			return type
+		return TRUE
 	return FALSE
 
 ///Checks if the needle path derives from any in the path_list
