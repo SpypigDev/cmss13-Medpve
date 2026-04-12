@@ -4904,10 +4904,6 @@
 /obj/structure/machinery/autolathe,
 /turf/open/floor/prison/floor_plate,
 /area/calliope/bunker/engineering)
-"ewr" = (
-/obj/structure/pipes/standard/simple/hidden/supply,
-/turf/closed/wall/r_wall/unmeltable,
-/area/calliope/bunker/engineering)
 "ewD" = (
 /obj/structure/roof/cargocrane_tracks/horizontal/endcap2{
 	pixel_y = 14
@@ -20620,10 +20616,6 @@
 	},
 /turf/open/floor/asteroidfloor/north,
 /area/calliope/highway/checkpoint)
-"sLn" = (
-/obj/structure/pipes/standard/simple/hidden/supply,
-/turf/closed/wall/rock,
-/area/calliope/oob/mountain)
 "sLP" = (
 /obj/structure/pipes/standard/simple/hidden/supply,
 /turf/open/floor/prison/floor_plate,
@@ -22278,7 +22270,6 @@
 /turf/open/floor/plating,
 /area/calliope/bunker/north_section)
 "uqh" = (
-/obj/structure/pipes/standard/simple/hidden/supply,
 /turf/closed/wall/rock/brown,
 /area/calliope/bunker/north_section)
 "uqV" = (
@@ -30274,11 +30265,11 @@ jFK
 jFK
 hUj
 fAv
-sLn
-sLn
-sLn
-sLn
-ewr
+jFK
+jFK
+jFK
+jFK
+eKB
 hmq
 tDk
 mFj

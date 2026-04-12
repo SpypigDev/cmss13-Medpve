@@ -23,6 +23,7 @@ GLOBAL_LIST_EMPTY(human_ai_brains)
 	/// List of whitelisted/blacklisted action datums
 	var/list/action_whitelist = null
 	var/list/action_blacklist = null
+	var/list/unique_actions = list()
 
 	/// List of current action datums
 	var/list/ongoing_actions = list()

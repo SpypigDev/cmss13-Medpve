@@ -219,10 +219,6 @@
 	},
 /turf/open/gm/grass/grass2,
 /area/adminlevel/ert_station/clf_station)
-"fk" = (
-/obj/structure/pipes/vents/pump,
-/turf/closed/wall/wood,
-/area/adminlevel/ert_station/clf_station)
 "fo" = (
 /obj/structure/platform_decoration/kutjevo{
 	dir = 1
@@ -3529,7 +3525,7 @@ ZI
 eh
 Ch
 ZI
-fk
+ZI
 vL
 do
 ZI

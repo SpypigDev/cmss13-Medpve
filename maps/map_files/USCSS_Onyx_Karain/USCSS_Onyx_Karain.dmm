@@ -11469,16 +11469,6 @@
 	},
 /turf/open/floor/corsat/browncorner/east,
 /area/firefly/hangar)
-"dlu" = (
-/obj/structure/machinery/camera/autoname/golden_arrow,
-/obj/structure/pipes/standard/simple/hidden/supply{
-	dir = 4
-	},
-/obj/structure/pipes/standard/simple/hidden/supply{
-	dir = 4
-	},
-/turf/open/floor/corsat/white/north,
-/area/firefly/cafeteria)
 "dnB" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "SE-out";
@@ -15913,9 +15903,6 @@
 /turf/open/floor/wood/ship,
 /area/firefly/co)
 "hUt" = (
-/obj/structure/pipes/standard/simple/hidden/supply{
-	dir = 9
-	},
 /obj/structure/pipes/standard/simple/hidden/supply{
 	dir = 9
 	},
@@ -28987,16 +28974,6 @@
 /obj/structure/barricade/handrail,
 /turf/open/floor/corsat/yellow,
 /area/firefly/supply)
-"wOF" = (
-/obj/structure/pipes/standard/simple/hidden/supply{
-	dir = 4
-	},
-/obj/structure/pipes/standard/simple/hidden/supply{
-	dir = 4
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/corsat/white/north,
-/area/firefly/briefing)
 "wPe" = (
 /obj/structure/platform{
 	dir = 8
@@ -39487,7 +39464,7 @@ bfi
 adQ
 aeE
 aeE
-dlu
+eQC
 aqG
 gwc
 acQ
@@ -42714,7 +42691,7 @@ aei
 xBe
 juX
 agb
-wOF
+aqX
 aqg
 afz
 afd

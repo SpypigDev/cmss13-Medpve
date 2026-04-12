@@ -1,6 +1,7 @@
 GLOBAL_LIST_EMPTY(anomaly_ai_spawn_presets)
 
 #define ANOMALY_CLASS_KETER "Keter"
+#define ANOMALY_CLASS_EUCLID "Euclid"
 
 // TO DO
 //
@@ -116,3 +117,12 @@ GLOBAL_LIST_EMPTY(anomaly_ai_spawn_presets)
 	icon_state = "duplicate"
 	desc = "Dangerous entity that mimics players before attacking"
 	anomaly_type_ref = "Duplicate"
+
+/datum/anomaly_ai_spawn_preset/euclid
+	anomaly_class = ANOMALY_CLASS_EUCLID
+
+/datum/anomaly_ai_spawn_preset/euclid/shadow_men
+	name = "Shadow Man"
+	icon_state = "shadow"
+	desc = "very dark"
+	anomaly_type_ref = "Shadow Man"

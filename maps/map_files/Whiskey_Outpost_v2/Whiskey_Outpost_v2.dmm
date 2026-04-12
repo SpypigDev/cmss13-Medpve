@@ -7309,10 +7309,6 @@
 	dir = 8;
 	icon_state = "sandbag_0"
 	},
-/obj/structure/barricade/sandbags/wired{
-	dir = 8;
-	icon_state = "sandbag_0"
-	},
 /obj/structure/machinery/defenses/sentry/premade,
 /turf/open/floor/plating/asteroidwarning/southwest,
 /area/whiskey_outpost/outside/north/platform)

@@ -11270,12 +11270,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/corsat/plate,
 /area/binhai/other/Engineeringlower)
-"jwK" = (
-/obj/structure/pipes/standard/simple/hidden/supply{
-	dir = 4
-	},
-/turf/closed/wall/almayer/aicore/reinforced,
-/area/binhai/basemil/airoom)
 "jyk" = (
 /obj/structure/pipes/standard/simple/hidden/supply,
 /turf/open/floor/prison/bright_clean,
@@ -40577,7 +40571,7 @@ xKN
 aqx
 aqx
 aqx
-jwK
+aqx
 aqx
 aqx
 aqx

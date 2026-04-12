@@ -39,7 +39,7 @@
 	affected_turf = null
 	return ..()
 
-/datum/static_lighting_object/proc/update()
+/datum/static_lighting_object/proc/update()	// optimize me!
 
 	// To the future coder who sees this and thinks
 	// "Why didn't he just use a loop?"

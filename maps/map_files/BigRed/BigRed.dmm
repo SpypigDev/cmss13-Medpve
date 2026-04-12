@@ -647,12 +647,6 @@
 /obj/structure/window_frame/solaris,
 /turf/open/floor/plating,
 /area/bigredv2/outside/marshal_office)
-"amh" = (
-/obj/structure/pipes/standard/simple/hidden/green{
-	dir = 4
-	},
-/turf/closed/wall/solaris,
-/area/bigredv2/outside/general_offices)
 "ami" = (
 /obj/structure/pipes/standard/manifold/fourway/hidden/green,
 /obj/effect/landmark/crap_item,
@@ -756,10 +750,6 @@
 	},
 /turf/open/floor/plating,
 /area/bigredv2/caves/lambda/breakroom)
-"amZ" = (
-/obj/structure/pipes/standard/simple/hidden/green,
-/turf/closed/wall/solaris,
-/area/bigredv2/outside/general_offices)
 "anf" = (
 /obj/structure/bed/chair{
 	dir = 4
@@ -3562,12 +3552,6 @@
 /area/bigredv2/outside/marshal_office)
 "bjA" = (
 /turf/open/mars,
-/area/bigredv2/outside/s)
-"bjC" = (
-/obj/structure/pipes/standard/simple/hidden/green{
-	dir = 5
-	},
-/turf/closed/wall/solaris/reinforced,
 /area/bigredv2/outside/s)
 "bjM" = (
 /obj/structure/pipes/standard/simple/hidden/green{
@@ -13714,11 +13698,6 @@
 "jHV" = (
 /turf/open/floor/darkyellow2/west,
 /area/bigredv2/outside/engineering)
-"jHY" = (
-/obj/structure/barricade/wooden,
-/obj/structure/barricade/wooden,
-/turf/open/floor/asteroidwarning/east,
-/area/bigredv2/outside/n)
 "jIq" = (
 /obj/structure/cable{
 	icon_state = "1-6"
@@ -19104,9 +19083,6 @@
 /turf/open/floor/whitebluefull/northeast,
 /area/bigredv2/outside/medical)
 "ofX" = (
-/obj/structure/pipes/standard/simple/hidden/green{
-	dir = 4
-	},
 /turf/closed/wall/solaris/reinforced,
 /area/bigredv2/outside/s)
 "ogv" = (
@@ -47793,7 +47769,7 @@ eaj
 ukV
 biV
 aGM
-bjC
+ofX
 gqX
 bkq
 mrt
@@ -50344,7 +50320,7 @@ ixz
 ixz
 ixz
 ixz
-jHY
+xCo
 xCo
 ixz
 fsV
@@ -59013,7 +58989,7 @@ aao
 ako
 ako
 ako
-amh
+ako
 ako
 ako
 ako
@@ -59454,7 +59430,7 @@ hWw
 apd
 atH
 aud
-amZ
+ako
 avH
 awv
 axj

@@ -2,9 +2,11 @@ GLOBAL_LIST_INIT_TYPED(AI_actions, /datum/ai_action, setup_ai_actions())
 
 /proc/setup_ai_actions()
 	var/list/action_list = list()
-	for(var/action in subtypesof(/datum/ai_action))
-		var/datum/ai_action/A = new action
-		action_list[A.type] = A
+	for(var/datum/ai_action/action as anything in subtypesof(/datum/ai_action))
+		//if(action.action_flags & ACTION_UNIQUE)	// AI action is applied in unique_actions on human_ai_brain
+		//	continue
+		var/datum/ai_action/new_action = new action
+		action_list[new_action.type] = new_action
 	return action_list
 
 

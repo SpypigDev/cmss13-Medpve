@@ -9014,10 +9014,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/strata/white_cyan3,
 /area/lv522/indoors/a_block/medical)
-"eFP" = (
-/obj/structure/pipes/standard/simple/hidden/green,
-/turf/closed/wall/strata_outpost,
-/area/lv522/atmos/east_reactor)
 "eFT" = (
 /obj/item/stack/tile/plasteel{
 	name = "ceiling tile";
@@ -13500,12 +13496,6 @@
 	},
 /turf/open/floor/corsat/marked,
 /area/lv522/atmos/east_reactor)
-"gYM" = (
-/obj/structure/pipes/standard/simple/hidden/green{
-	dir = 4
-	},
-/turf/closed/wall/strata_outpost/reinforced,
-/area/lv522/atmos/cargo_intake)
 "gYR" = (
 /obj/item/prop/colony/canister{
 	pixel_y = 7
@@ -14893,12 +14883,6 @@
 /obj/structure/machinery/squeezer,
 /turf/open/floor/wood,
 /area/lv522/indoors/b_block/bar)
-"hMb" = (
-/obj/structure/pipes/standard/simple/hidden/green{
-	dir = 1
-	},
-/turf/closed/wall/strata_outpost,
-/area/lv522/indoors/a_block/admin)
 "hMr" = (
 /turf/open/floor/corsat/brown,
 /area/lv522/atmos/east_reactor/east)
@@ -24867,9 +24851,6 @@
 /obj/structure/pipes/standard/simple/hidden/green{
 	dir = 4
 	},
-/obj/structure/pipes/standard/simple/hidden/green{
-	dir = 4
-	},
 /obj/structure/machinery/door/poddoor/shutters/almayer/open{
 	dir = 4;
 	id = "Sec-Kitchen-Lockdown";
@@ -28225,10 +28206,6 @@
 	},
 /turf/open/floor/prison/greenfull/east,
 /area/lv522/landing_zone_1/ceiling)
-"ooe" = (
-/obj/structure/pipes/standard/simple/hidden/green,
-/turf/closed/wall/strata_ice/dirty,
-/area/lv522/oob)
 "oow" = (
 /obj/effect/spawner/gibspawner/human,
 /turf/open/auto_turf/sand_white/layer0,
@@ -37126,10 +37103,6 @@
 	},
 /turf/open/floor/prison/floor_plate,
 /area/lv522/atmos/sewer)
-"sGF" = (
-/obj/structure/pipes/standard/simple/hidden/green,
-/turf/closed/wall/mineral/bone_resin,
-/area/lv522/oob)
 "sGJ" = (
 /obj/structure/machinery/door/airlock/multi_tile/almayer/generic{
 	dir = 1;
@@ -44686,10 +44659,6 @@
 /obj/structure/surface/rack,
 /turf/open/floor/prison/darkyellowfull2/east,
 /area/lv522/indoors/lone_buildings/engineering)
-"wov" = (
-/obj/structure/pipes/standard/simple/hidden/green,
-/turf/closed/wall/solaris/reinforced/hull/lv522,
-/area/lv522/oob)
 "wow" = (
 /obj/structure/filingcabinet{
 	density = 0;
@@ -51358,8 +51327,8 @@ uWO
 uWO
 gEB
 uWO
-ooe
-ooe
+cpy
+cpy
 lPY
 hIZ
 hIZ
@@ -53172,7 +53141,7 @@ lqb
 lqb
 lqb
 lqb
-gYM
+lqb
 lqb
 lqb
 xpg
@@ -55495,9 +55464,9 @@ sRA
 rtr
 goY
 wbt
-wov
-wov
-wov
+ien
+ien
+ien
 yhK
 yhK
 qKq
@@ -69084,7 +69053,7 @@ opR
 pco
 vGU
 pcH
-sGF
+saC
 pcH
 opR
 nMX
@@ -74708,7 +74677,7 @@ iZI
 cHj
 azz
 azz
-eFP
+svW
 weP
 hhv
 gGv
@@ -79786,7 +79755,7 @@ tDS
 vge
 dGq
 lbA
-hMb
+tDS
 vWx
 xSP
 leV
