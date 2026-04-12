@@ -1059,7 +1059,6 @@
 				if(!stat && pain.feels_pain)
 					emote("scream")
 					to_chat(src, SPAN_HIGHDANGER("You scream in pain as the impact sends <B>shrapnel</b> into the wound!"))
-	SEND_SIGNAL(P, COMSIG_POST_BULLET_ACT_HUMAN, src, damage, damage_result)
 
 //Deal with xeno bullets.
 /mob/living/carbon/xenomorph/bullet_act(obj/projectile/P)
