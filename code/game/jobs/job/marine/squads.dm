@@ -206,6 +206,13 @@
 	usable = TRUE
 	squad_type = "Squad"
 
+/datum/squad/marine/forecon/containment
+	name = SQUAD_CONTAINMENT
+	equipment_color = "#400000"
+	chat_color = "#400000"
+	minimap_color = MINIMAP_SQUAD_SOF
+	squad_type = "Team"
+
 /datum/squad/marine/bravo
 	name = SQUAD_MARINE_2
 	equipment_color = "#ffc32d"

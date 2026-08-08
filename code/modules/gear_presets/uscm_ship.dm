@@ -685,6 +685,11 @@
 	change_dropship_camo(new_human.client.prefs.dropship_camo)
 	change_dropship_name(new_human.client.prefs.dropship_name)
 
+/datum/equipment_preset/uscm_ship/so/forecon
+	name = "Recon Platoon Commander (PltCo)"
+	paygrades = list(PAY_SHORT_MO3 = JOB_PLAYTIME_TIER_0)
+	skills = /datum/skills/XO
+
 /datum/equipment_preset/uscm_ship/so/upp
 	name = "UPP Platoon Commander (PltCo)"
 	idtype = /obj/item/card/id/dogtag
