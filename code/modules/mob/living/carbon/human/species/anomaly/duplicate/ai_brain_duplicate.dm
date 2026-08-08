@@ -1,3 +1,6 @@
+// TO DO LIST
+//
+
 /datum/human_ai_brain/duplicate
 	/// The original mob the duplicant has copied
 	var/mob/living/carbon/human/alter
@@ -18,12 +21,20 @@
 	grenading_allowed = FALSE
 	/// If TRUE, we care about the target being in view after shooting at them. If not, then we only do a line check instead
 	requires_vision = TRUE
-
+	ignore_looting = TRUE
 	COOLDOWN_DECLARE(replicate_speech)
+	COOLDOWN_DECLARE(pain_scream)
+
+	var/static/list/pain_sounds = list(
+		'sound/voice/pred_pain5.ogg',
+		'sound/voice/pred_pain4.ogg',
+		'sound/voice/pred_pain3.ogg',
+		'sound/voice/pred_pain2.ogg'
+	)
 
 	enter_combat_lines = list(
-		"*scream",
-		"*warcry",
+		"*roar",
+		"*roar",
 	)
 
 	in_combat_line_chance = 100
@@ -67,8 +78,9 @@
 	alter = target_alter
 	neutral_factions |= alter.faction
 	replicate_alter(alter)
-
+	RegisterSignal(tied_human, COMSIG_MOB_DEATH, PROC_REF(post_death), TRUE)
 	COOLDOWN_START(src, replicate_speech, 1 SECONDS)
+	COOLDOWN_START(src, pain_scream, 2 SECONDS)
 
 /datum/human_ai_brain/duplicate/process(delta_time)
 	if(hold_position)
@@ -99,6 +111,14 @@
 		return
 	if(mimic_timer)
 		return
+	if(!pretending_to_be_human)
+		return
+	// no using guns allowed
+	if(primary_weapon)
+		qdel(primary_weapon)
+	for(var/obj/item/weapon as anything in secondary_weapons)
+		qdel(weapon)
+
 	mimic_timer = addtimer(CALLBACK(src, PROC_REF(engage_alter)), 6 SECONDS, TIMER_STOPPABLE)
 	addtimer(CALLBACK(src, PROC_REF(turn_off_armor_lights)), 4 SECONDS)
 	RegisterSignal(alter, COMSIG_HUMAN_SAY, PROC_REF(replicate_speech))
@@ -106,9 +126,20 @@
 	hold_position = TRUE
 
 /datum/human_ai_brain/duplicate/proc/turn_off_armor_lights()
+	playsound(tied_human, pick('sound/voice/pred_laugh3.ogg', 'sound/voice/pred_over_there.ogg', 'sound/voice/pred_itsatrap.ogg', 'sound/voice/pred_helpme.ogg'), 25)
 	var/obj/item/clothing/suit/storage/marine/armor = tied_human.get_item_by_slot(WEAR_JACKET)
 	if(armor)
 		armor.turn_light(tied_human, FALSE)
+
+/datum/human_ai_brain/duplicate/proc/post_death()
+	tied_human.clear_filters()
+	addtimer(CALLBACK(src, PROC_REF(transform_corpse)), 3 SECONDS)
+
+/datum/human_ai_brain/duplicate/proc/transform_corpse()
+	playsound(tied_human, 'sound/weapons/vehicles/flamethrower.ogg', 35)
+	tied_human.fire_stacks = 25	// avert your gaze
+	tied_human.IgniteMob(TRUE)
+	tied_human.name = "\improper mangled corpse"
 
 /datum/human_ai_brain/duplicate/proc/replicate_alter(mob/living/carbon/human/alter)
 	var/list/alter_equipment_list = list()
@@ -138,6 +169,20 @@
 
 	tied_human.regenerate_icons()
 
+/datum/human_ai_brain/duplicate/unholster_melee()
+	if(pretending_to_be_human)
+		return ..()
+
+/datum/human_ai_brain/duplicate/proc/scream_in_pain()
+	if(!COOLDOWN_FINISHED(src, pain_scream))
+		return
+	// shh, we're trying to sleep
+	if(tied_human.stat)
+		return
+	COOLDOWN_START(src, replicate_speech, 2 SECONDS)
+
+	playsound(tied_human, pick(pain_sounds), 50)
+
 /datum/human_ai_brain/duplicate/proc/replicate_speech(source, message)
 	if(!COOLDOWN_FINISHED(src, replicate_speech))
 		return
@@ -146,11 +191,15 @@
 	tied_human.say(message)
 
 /datum/human_ai_brain/duplicate/proc/engage_alter()
+	if(pretending_to_be_human)
+		return
 	UnregisterSignal(alter, COMSIG_HUMAN_SAY)
-	//emote
+	tied_human.emote("roar")
+	tied_human.speed = -1.5
+	playsound(tied_human, 'sound/weapons/wristblades_on.ogg', 25)
+	tied_human.add_filter("empower_rage", 1, list("type" = "outline", "color" = "#440202", "size" = 1))
 	mimic_timer = null
-	holster_primary()
-	holster_melee()
+
 	//tied_human.has_fine_manipulation = FALSE
 	tied_human.a_intent_change(INTENT_HARM)
 	hold_position = FALSE
@@ -162,4 +211,7 @@
 	tied_human.g_eyes = 0
 	tied_human.b_eyes = 0
 	tied_human.update_body()
+
+	RegisterSignal(tied_human, COMSIG_HUMAN_BULLET_ACT, PROC_REF(scream_in_pain), TRUE)
+
 	enter_combat()

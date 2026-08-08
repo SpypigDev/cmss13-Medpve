@@ -366,7 +366,7 @@
 	SIGNAL_HANDLER
 
 	if(dropped == primary_weapon)
-		if(!(gun_data.disposable && !primary_weapon.ai_can_use(tied_human, src)))
+		if(!(gun_data?.disposable && !primary_weapon.ai_can_use(tied_human, src)))
 			to_pickup |= dropped
 		set_primary_weapon(null)
 

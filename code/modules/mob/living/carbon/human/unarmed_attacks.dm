@@ -57,6 +57,11 @@
 	damage = 10
 	shredding = TRUE
 
+/datum/unarmed_attack/claws/shredding
+	attack_verb = list("slash")
+	damage = 25
+	shredding = TRUE
+
 /datum/unarmed_attack/bite/strong
 	attack_verb = list("maul")
 	damage = 15

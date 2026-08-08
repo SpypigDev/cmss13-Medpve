@@ -15,6 +15,10 @@
 /datum/species/anomaly/open_emote_panel()
 	return
 
+/datum/emote/living/carbon/human/anomaly
+	species_type_allowed_typecache = list(/datum/species/anomaly)
+	emote_type = EMOTE_AUDIBLE
+
 /datum/species/anomaly/handle_npc(mob/living/carbon/human/H)
 	return
 
